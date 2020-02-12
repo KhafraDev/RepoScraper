@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "See larger Screenshots below.."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/safaridownloaderplus1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/safaridownloaderplus2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/safaridownloaderplus2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/safaridownloaderplus3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 26, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 2.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Added compatibility with iOS 10.3.3 Jailbreak\n\n\n- Fixed YouTube videos downloading following their API change\n\nVersion: 4.2.5<br>\n<br>\nChanges:<br>\n\t• Fixed YouTube Vevo videos downloads<br>\n\nUpdated for iOS 10 compatibility\n\n- Fixed DailyMotion video downloads<br>\n<br>\n- Fixed YouTube video downloads following API change\n\n- Fixed YouTube downloads following API change\n\n-Fix missing AppList dependency<br>\n<Br>\n- Detached the embedded Media Importer as a stand-alone app called Audicy available in Cydia with audio trimming capabilities and enhanced features.<br>\n- The previous Media Importer is still available as a basic version of Audicy which includes the old options.<br>\n- Fixed Vimeo videos no longer downloading<br>\n\nVersion: 4.0.8-2<br>\nFixed YouTube videos no longer downloading following API change.<br>\nFixed VEVO videos no longer downloading following API change.<br>\n<p>\nVersion: 4.0.8-1<br>\nFixed YouTube videos no longer downloading following API change<br>\n\nVersion: 4.0.7-3<Br>\n- Fixed Safari crashing when loading YouTube for users of iOS prior to 9.xB<br>\n<p>\nVersion: 4.0.7-2<br>\n- Fixed Vimeo videos no longer downloading following Vimeo site API change.<br>\n<p>\nVersion: 4.0.7-1<br>\n- Added support for downloading videos from the Chinese video website “Youku.com”.<Br>\n- Youku support includes downloading multi parts videos in one go.<br>\n- Fixed Youtube videos no longer downloading following Youtube API change.<br>\n- Fixed the issue which causes searching for album artwork to yield only low resolution images.<br>\n\nVersion: 4.0.6-1<Br>\n<br>\n- Fixed DailyMotion videos not downloading<br>\n\nVersion: 4.0.5-1<br>\n- Fixed Safari crashing upon launch following last update<br>\n<p>\n<p>\nVersion: 4.0.4-1<br>\n- Fixed iOS9 denial of prefs files access from sandbox.<br>\n<p>\n<p>\nVersion: 4.0.3-1<br>\n- iOS9 compatibility update<br>\n\nVersion: 4.0.12-1<br>\n<br>\nChanges in this version:<br>\n- Fixed Youtube videos stopped downloading.<br>\n\nVersion: 4.0.1-1<br>\n<br>\nChanges in this version:<br>\n- Fixed DailyMotion video downloads.<br>\n- Fixed Images downloads when pressing and holding on them (Google images).<br>\n- Added a switch to prevent YouTube app from taking over video links.<br>\n- Added Media Import support for users who purchased SoundCloud+.<br>\n\nVersion: 3.9-4<Br>\n- Fixed SD+ Youtube videos downloading.<br>\n\nVersion: 3.9-3<Br>\n- Fixed the issue where SD+ stopped working for iOS7 users.<Br>\n- Media Importer is now properly populating the year tag when available.<Br>\n<p>\n- Fixed an issue where deleting a downloaded file causes Safari to crash\n<p>\n- SD+ no longer relies on symlink for saving downloaded files. You can now save files directly into any destination of your choice and easily access them. You may experience difficulty playing existing files from within SD+ list but new downloads post this update should work just fine. If you do have issues, just \"Reset All Settings\" in SD+ preferences.<br>\n- Moved majority of Safari Downloader+ \"Preferences\" from inside the \"Settings\" app to Safari App itself for quick and convenient access.<br>\n\n- more translations<br>\n<br>\n- New quick and very efficient way to handle saving and retrieving data about your downloads. Please note that for this to take effect, it will be necessary to clear SD+ existing data and preferences. However all of your downloaded files will still remain where they are saved.<br>\n<br>\n- Fixed an issue where downloaded files are being randomly deleted.<br>\n- Added Arabic and French languages support.<br>\n- Added option to view a downloaded file's target link with ability to open its enclosing folder<br>\n<br>\n- New improvements to the media importer:<br>\n- Fixed SD+ failing to import videos.<br>\n- Artwork images are now displayed for all kinds (song, music-video, movie, TV-episode and podcast)<br>\n- Added option to enter Series/Episode details when importing as a TV show.<br>\n- Added extra icons for each available import destination for convenience.<br>\n\n\n- SD+ and all of its components are now fully migrated to ARC.<br>\n- Upgraded SD+ to using AFNetworking 2.<br>\n- SD+ is now using symlink to overcome file access deny error in iOS8. Therefore I strongly recommend that files you download via SD+ are also deleted through SD+ so you don't end up with empty links and unwanted files.<br>\n- Improved performance and stability.<br>\n<br>\n- Added the much awaited download resuming.<br>\n- You can now cancel, pause and resume any download.<br>\n- Even when a download fails or you turn off your device, you can go back and resume any unfinished downloads.<br>\n<br>\n- Fixed SD+ failing to download some Youtube Videos especially Vevo ones.<br>\n- Added an option to only download Audio.<br>\n- YouTube has removed 1080p mp4 videos. However I've added an option to only download the video when available.<br>\n<br>\n- Added option to import multiple files to the same destination.<br>\n- Fixed SD+ sending to safe mode when importing certain mp3 files.<br>\n- Fixed the failure with google search for artwork.<br>\n- Revisited the design of the Importer with a sleek face-lift, larger artwork preview…<br>\n<br>\n- Add support for German language and corrected some typos in Spanish<br>\n\n- Resolved issue where some legitimate users are getting anti-piracy message.<Br>\n- New, fast and improved algorithm for detecting downloadable files with dynamic URLs.<Br>\n- Fixed SD+ sending to safe mode when importing certain mp3 files.<Br>\n- Fixed SD+ crashing when navigating certain Russian websites.<br>\n<p>\n- New, fast and improved algorithm for detecting downloadable files with dynamic URLs.<br>\n- Fixed SD+ sending to safe mode when importing certain mp3 files.<br>\n- Fixed SD+ crashing when navigating certain Russian websites.<br>\n<!--\n- Fixed SD+ conflicting with Kik Messenger causing app crashes.<br>\n- New \"Downloads\" icon which adds a convenient and easy way to enable and disable downloading, simply by holding and swiping away.<br>\n- Also added a switch to completely disable SD+ inside the settings app.<br>\n- Further improvements to the Media Importer for back compatibility and disk space saving.<br>\n- Added walkthrough screens for first time users.<br>\n<p>\n- Fixed Media Importer to support iOS 7 and iOS 8.<Br>\n- Media Importer now works in WiFi, mobile data and even offline.<Br>\n- Fixed Media Importer causing entry duplicates.<Br>\n- Added extracting of embedded media metadata for your convenience.<Br>\n- Few additional minor bug fixes.<Br>\n\n&bull; Fixed SD+ not working properly for iOS7\n<p>\n&bull; Added support for iOS 8 (Please note that the “Media Import” feature is currently very temperamental and buggy in iOS 8. I’m working on a clean fix, so please bear with me guys).<Br>\n&bull; New crisp and beautiful Retina and Retina HD icons for the new iPhone 6 Plus.<br>\n&bull; Added an option in the “Preferences” to empty the “Downloads” folder from failed downloads.<Br>\n&bull; Fixed Dailymotion videos downloader.<Br>\n\n- Fixed issue with Youtube video downloads no longer working.\n\n- Resolved Safari crashing upon launch for some users.<br>\n- Fixed device orientation freezing after previewing/playing a downloaded media file.<br>\n<p>\n<p>\n- Added compatibility with “Chrome Downloader” & “Chrome Downloader+” so they can simultaneously coexist.<br>\n- Fixed a bug where users who paid for the package were getting piracy warning message. <br>\n\n- Added support for iOS7.1 and iOS7.1.2<Br>\n- Added a Reset button inside Safari Downloader+ settings.<Br>\n- Fixed issue where users are getting failure message creating Default Directory<Br>\n\n- Fixed issue where a link opening new tab wasn't working.<br>\n- Fixed a bug causing safari to crash.<br>\n- Added discreet Status Bar Notification for finished downloads with optional vibration.<br>\n<p>\n<p>\n- Added support for downloading videos from Vevo and Dailymotion websites besides YouTube and Vimeo.<br>\n<br>\n- Downloading from Vevo supports 1080p and adds additional info like genre and release year to the Metadata (highly recommended).<br>\n<br>\n- Revisited the video extraction method for improved performance and speed.<br>\n<br>\n- Extended the functionality of the Media Importer with lots of improvements and additions. It's now a standalone app which allows you to view and import supported media from anywhere in your device into various built-in apps: Music App, Videos App, Podcasts, Photos App...<br>\n<br>\n- Added UIDocument import/export support.<br>\n<br>\n- Fixed the issue with google search for artwork.<br>\n<br>\n- Solved the issue some users were having with Instagram.<br>\n<br>\n- Solved random crash some users were experiencing.<br>\n<br>\n- Added resuming download from where it failed/cancelled.<br>\n<br>\n- Changed the download finished notification to show on the status bar.<br>\n\n- Added Localization for supporting the following languages: English, French, Italian, Japanese, Simplified Chinese and German. The list is growing so please contact me if you wish to help localize to your native language.<br>\n- Added support for downloading videos from Vimeo website including Vimeo Pro.<br>\n- Added option to switch between \"Videos\" and \"Files\" views by clicking on the navigation's title.<br>\n- Added choice in the Preferences to switch tabs by swiping with one or two fingers.<br>\n- Fixed bug where changes to media's metadata are registered incorrectly or not saved at all.<br>\n- Fixed issue with toolbar icons when using \"Find on page\" mode.<br>\n- Added option to change file's name before you start downloading it by clicking on its label.<br>\n- Fixed issue where file names with special characters are not being saved when download is finished.<br>\n- Fixed crash when picking artwork image from Photos library.<br>\n- Added option to \"Clear All\" or \"Delete All\" downloads in one go.<br>\n- Also added option to clear/delete each file by swiping across from the the left.<br>\n- Fixed \"Downloads\" icon in private mode.<br>\n- Various design and interface tweaks and improvements.<br>\n- Temporarily fix for iOS6 toolbar icons.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

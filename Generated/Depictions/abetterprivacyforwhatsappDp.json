@@ -1,0 +1,85 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8 to 13\n\nABetterPrivacyforWhatsApp gives you Various Enhancement options useful for your Privacy and Aesthetic on WhatsApp.\n\nSee Screenshots below.\n\nNo Respring Needed for enabling and disabling the Tweak.\n\nConfigure options from Settings.\n\nCredits in Preferences Panel.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/abetterprivacyforwhatsapp1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/abetterprivacyforwhatsapp2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/abetterprivacyforwhatsapp3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/abetterprivacyforwhatsapp4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/abetterprivacyforwhatsapp5.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/abetterprivacyforwhatsapp6.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 9, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.4.7\n- Added the option to Bypass the Touch/Face ID Lock on Launch (Featured ByeWALockToOpen Available on My Repo).\n- Added the option to Hide/Disable All the Contacts View.\n\n\nVersion 1.4.6<br>\n- Added Support for the Latest WhatsApp Version 2.19.92.<br>\n\nVersion 1.4.5<br>\n- Added Support for Last WhatsApp Version 2.19.70.<br>\n- Added the option to Disable the Send Message Button.<br>\n- Added the option to Remove the Dates Chat Bubbles<br>\n\nVersion 1.4.3<br>\n- Added the option to Custom Choose the Colors for the Input Chat Buttons.<br>\n<br>\n<br>\nVersion 1.4.2<br>\n- Added support for arm64e/A12.<br>\n\nVersion 1.4.1<br>\n- Added the Possibility to Show which Message got Deleted with an Indicator when the Read Delete/Revoke Messages option is Enabled.<br>\n<br>\n<br>\nVersion 1.4.0<br>\n- New and Better Dark Mode For WA option (Code Improved).<br>\n- Added the Label inside Preferences Panel to Launch WhatsApp on your Device with Ease.<br>\n\nVersion 1.3.9<br>\n- Added the option to Always Read the Received Deleted/Revoked Messages for All on Your Device (included iCanReadYOU on My Repository).<br>\n- Added the option to Save Download the Status Media (Photo, Video, Gif) into Your Device Photo Albums (included iCanSaveYOU on My Repository).<br>\n- Added the option to Hide Your Typing inside the Chats.<br>\n- Added the option to Remove the Dates Bubbles Blur (thanks patch by @albyvar25).<br>\n- Fixed the Hide on Line Status/Typing option not Fully Working on the Last Update.<br>\n\nVersion 1.3.8-1<br>\n- Fixed the issue with Enable Square Pictures/Thumbnails option occurred on the Last Update.<br>\n<br>\n<br>\nVersion 1.3.8<Br>\n- Compatible with Last WhatsApp Version 2.19.50 and iOS 12 (Not arm64e yet).<br>\n- Improvements.<br>\n\nVersion 1.3.7<br>\n- Added the option to Remove the Times Limit when Stories Viewing (as Requested via Twitter/Mail). <br>\n- Fixed the option to Hide the Chat List Header Cell View.<br>\n<br>\n<br>\nVersion 1.3.6<br>\n- Added some Colors :-) (libcolorpicker Dependency). <br>\n<br>\n(More Colors WA UI Customization to Come Next soon! )<br>\n<br>\n- Now you can Custom Select the Colors for the Background of your Text Messages in Chats (Idea ported from my Tweak WAMessageYellowBG available on My Repository.<br>\n- Now you can Custom Select the Colors for the Background of your Text Input View in Chats.<br>\n- Now you can Custom Select the Colors for the Background of your Chat List Header.<br>\n- Added the option to Hide the Chat List Header Cell View (as Requested via Twitter/Mail). <br>\n- Code Changes/Improvements for iOS 11.<br>\n\nVersion 1.3.5<br>\n- Added the option to Hide the Hide Microphone Tooltip (thanks patch by A_H_Rabie).<br>\n- Added the option to Stop the Continuous Vocals Playback in Row.<br>\n<br>\n<br>\nVersion 1.3.4<br>\n- Added the option to Hide the GIF/Other app Search Pickers in the Media Gallery View.<br>\n- Fixed the Media Gallery View Crash when Enabled the Dark Mode Feature for WhatsApp.<br>\n\n<br>\n<br>\nVersion 1.3.3<br>\n- Added the option to Enable the Dark Mode for WhatsApp (As Requested, the Feature is kind of Beta at this moment).<br>\n<br>\n<br>\nVersion 1.3.2<br>\n- Added the option to Enable the Unlimited Media/Photos Sending in Chats.<br>\n- Added the option to Enable the Call Confirmation in Chats.<br>\n- Added the option to Enable the Video Call Conformation in Chats.<br>\nVersion 1.3.1<br>\n- Added the option to Hide the Stickers Contents in Chats.<br>\n- Added the option to Hide the Caret in Chats while Typing.<br>\n- Fix Code.<br>\nVersion 1.3<br>\n- Fixes for Latest Versions of WhatsApp.<br>\n- General Enhancements.<br>\n\nVersion 1.2.9<br>\n- Added the option to Remove the Forwarded Icon in the Conversations (thanks cHAuHaN).<br>\n<br>\n- WhatsApp made major changes to their code base in latest update 2.18.90. It’s going to take some time to fix everything. DO NOT UPDATE (quote @FouadRaheb).<br>\n\nVersion 1.2.8-1<br>\n- Fixed the Hide Archived Chats Feature not working on iOS 11.3.1 reported by Mail.<br>\n<br>\n<br>\nVersion 1.2.8<br>\n- Added the option to Disable the Top Buttons Bar (iOS 11).<br>\n- Issue Fixes.<br>\n<!--\nVersion 1.2.7<br>\n- Hopefully Fixed the Crashes on iOS 9 for some Users (thanks so much my Friend @karimouni24 for testing Stuff).<br>\n<br>\nVersion 1.2.6<br>\n- Added the option to Hide All Texts in Chat.<br>\n- Added the option to Hide All Images in Chat.<br>\nVersion 1.2.5<Br>\n- Added the option to Hide the Status Inside Images!<br>\nVersion 1.2.4<br>\n- Added the option to Disable the All Messages User Interaction.<br>\n\nVersion 1.2.3<br>\n- Added the option to Hide the Blocked Contacts Count in Account/Privacy (Requested by my Bro @lorenzo_noide). <br>\n- Added the iOS 11 Compatibility to the Hide StatusBar option.<br>\n<br>\n<br>\nVersion 1.2.2<br>\n- Tested and Working Fine also on iOS 11.1.2.<br>\n- Changes in Prefs Labels.<br>\n- Code Cleanup.<br>\n<br>\n<br>\nVersion 1.2.1<br>\n- Added the option to Hide All the Status View and in Reply.<br>\n- Added the option to Disable All the Status Reply.<br>\n- Added the option to Disable All the Status Gestures.<br>\n\nVersion 1.2.0<br>\n- Added the option to Disable the Connection to the Network.<br>\n- Now you can Email Me with the New Label in Preferences Panel.<br>\n- Change in Settings Panel Label.<br>\nVersion 1.1.9<br>\n- Added the option to Hide the Recording Camera Hint.<br>\n- Added the option to Disable the Camera Dismiss Gesture.<br>\n- Added the option to Disable the Gesture to Switch the Camera.<br>\n- Added the option to Disable the Auto-creation of Albums (Twitter Request).<br>\n- Added the option to Show the StatusBar on the Landscape Mode\n(Updates options tips by iknotum).<br>\n- Fixes in the Preferences Labels Panel.<br>\n<br>\n<br>\nVersion 1.1.8<br>\n- Added the option to Hide the Message Info Receipts.<br>\n- Added the option to Hide My Status Viewers.<br>\n\nVersion 1.1.7<br>\n- Added the option to Enable the Blue Tints.<br>\n- Added the option to Disable the Vocal Messages New Lock Feature (tip by iknotum).<br>\n- Added the option to Fade the StatusBar when opening WhatsApp.<br>\n- Added the option to Make WhatsApp bouncing.<br>\n\nVersion 1.1.6<br>\n- Added the option to Hide Chats Times Views.<br>\n- Added the option to Hide Messages Forwarding Popup.<br>\n<br>\n<br>\nVersion 1.1.5<br>\n- Added the option to Disable Vocals Playing.<br>\n- Added the option to Hide Vocals Playing.<br>\n- Added the Label to Check Other Tweaks by Me on BigBoss Repo.<br>\n\nVersion 1.1.4<Br>\n- Added the option to Hide the Image Preview in Chats.<Br>\nVersion 1.1.3<br>\n- Added the option to Hide the Top Navigation Labels (Status, Chat and Settings).<br>\n<br>\n<br>\nVersion 1.1.2<br>\n- Added the option to Enable Transparent Background when scrolling.<br>\n- Added the option to Hide the Tab Bar Labels.<br>\n- Added the option to Hide the Tab Bar Selected Indicators.<br>\n\nVersion 1.1.1<br>\n- Added the option to Hide StatusBar on WhatsApp.<br>\n\nVersion 1.1<br>\n- Added the option to Hide Status Outside Image.<br>\n<br>\n<br>\nVersion 1.0.9<br>\n- Added the option to Hide Calls History Views.<br>\n- Added Twitter, My Repo and Donations Icons Labels.<br>\n<br>\n<br>\nVersion 1.0.8<Br>\n- Added the option to Hide Chats Views.<Br>\n- Added the option to Hide Chats Left/Right Swipe Buttons Icons.<Br>\n- Added the option to Hide Chats Left/Right Swipe Buttons Titles.<Br>\n- Added the option to Hide Tab Bar Highlights.<Br>\n- Added the option to Hide Tab Bar Icons (Status, Calls, Chat and Settings).<Br>\nVersion 1.0.7<br>\n- Added the option to Disable Links Highlights in Chats.<br>\n<br>\n<br>\nVersion 1.0.6<Br>\n- Added the option to Hide Video Call Button in Chats.<Br>\n<Br>\n<Br>\nVersion 1.0.5<br>\n- Added the option to Hide Emojis Sent View.<br>\n<br>\n<br>\nVersion 1.0.4<br>\n- Added the option to Delete/Revoke Messages for All (thanks iknotum for the tip).<br>\n<br>\n<br>\nVersion 1.0.3<br>\n- Added the option to Empty Archived Chats.<br>\n- Added the option to Disable Archived Chats.<br>\n- Added the option to Hide Chats Searching.<br>\n- Added the option to Show Messages Preview in Notifications (Experimental for iOS 7, requested by User Mail).<br>\n<br>\n<br>\nVersion 1.0.2<br>\n- Added the option to Enable FullScreen Mode.<br>\n- Added Compatibility to Hide Archived Chats Feature on WhatsApp Version 2.17.60. <br>\n- Now you can Donate Me (thanks so much) with the New Label in Preferences Panel.<br>\n- Changes in Label Description in Prefs.<br>\n\nVersion 1.0.1<br>\n- Added the option to Disable the Played Receipts (Privacy Feature).<br>\n- Added the option to Hide the Unread Dividers in Chats (Aesthetic Feature). <br>\n- Added the option to Enable the Square Pictures/Thumbnails (Aesthetic Feature). <br>\n- Added the option to Disable the App Rotation (Experimental Feature).<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

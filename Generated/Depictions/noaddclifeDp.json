@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "DCLife AD remover\n\ncompatible with ios7, iPhone5, 5s and SE\n\nknown problems :\n\n- not works on article view\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/noaddclife1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/noaddclife2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/noaddclife3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "November 10, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "voice reply hotfix\n\nchange logs :<br>\n- added preferences in Settings<br>\n- added Privacy Mode<br>\n<br>\n<br>\nchange log :<br>\n<br>\n- fixed list height.<br>\n- not works properly on article view but still works blocking ads.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

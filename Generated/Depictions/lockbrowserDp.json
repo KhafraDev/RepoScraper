@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now Free.\n\nCompatible with iPhones and iPods from iOS 7.x.x to 9.x.x\nPartially compatible with iPads (only works in landscape)\n\nYou always wanted to browse the Internet from your lockscreen? Are you tired to unlock your device just to do a quick Google search?\n\nIf yes, LockBrowser was made for you!\n\nLockBrowser allows you to browse the Internet from your lockscreen without having to enter your password. Just swipe left on your lockscreen and start browsing!\n\nThe browser comes with 4 buttons:\n- A back and a forward button\n- A reload button\n- A homepage button (you can configure the link of your homepage in the preferences)\n\nA clever address bar is also included. It will know if you want to do a Google search or directly access to a website.\n\nLockBrowser has 2 beautiful modes: A light mode and a dark mode.\n\nConfigure options from the Settings app"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/lockbrowser1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/lockbrowser2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/lockbrowser3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/lockbrowser4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 16, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now Free."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

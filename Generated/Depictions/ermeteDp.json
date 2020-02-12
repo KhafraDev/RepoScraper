@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11 to 13\n\nErmete Brings the Opportunity to Custom Choose Slow or Fast Speed Effects Animations when opening, closing the Applications and the Switcher!\n\nYou can Switch from an Effect to a Different one without the Needing of Respringing!\n\nRespring required for the Switcher Effects.\n\nWith the Slow options Enabled You can use the inside Application while opening it!\n\nMore to Come in the Next Updates!\n\nConfigure options from Settings.\n\nSee Video and Screenshot below.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ermete1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 8, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.0.1\n- Updated to be Compatible till iOS 13.\n- Added support for arm64e/A12 Devices."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

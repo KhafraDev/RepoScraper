@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11 to 12.4\n\nCCLessStatusBAR Hides the Status Bar on the Control Center of the iPhone X and the Chevron of other Devices on System Wide!\n\nThe Tweak is now out from the Beta Stage of My Repository.\n\nNo options to Configure.\n\nSee Screenshot below.\n\nThanks to my Brother @lorenzo_noide for testing the Final Release.\n\nRequested by iSHQ!P on Twitter.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/cclessstatusbar1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "October 2, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.0.2\n- Added Support Compatibility till iOS 12.4 and arm64e/A12 Devices."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

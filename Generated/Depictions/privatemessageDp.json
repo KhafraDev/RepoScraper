@@ -1,0 +1,55 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Supports iOS 10. Requires Touch ID.\n\nA tweak for the messages app to deter others from looking over your shoulder at private messages. Lock individual message bubbles with a double tap to obscure them. Double tap again to unlock the message with Touch ID. Works for both text and photo messages.\n\nNo options to configure."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/privatemessage1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/privatemessage2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 14, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

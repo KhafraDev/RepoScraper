@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11 to 12\n\n- Settings -\n\nHide Keyboard Settings:\nHide \"Keyboard Settings\" from the globe button switcher\n\nHide One-Handed Keyboard:\nHide \"One-Handed Keyboard\" option from the globe button switcher.\n\nOne Handed Keyboard mode can still be manually activated from \"Settings->General->Keyboard->One Handed Keyboard\"\n\nThis Tweaks are open source, Please refer to the settings.\nOpen Source\nConfigure options from Settings app."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/hidekbsettings1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/hidekbsettings2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/hidekbsettings3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/hidekbsettings4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 14, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Support for A12(X) arm64e\n\n1.0.3\n\nWith code optimization, changing the \"Hide Keyboard Settings\" setting no longer requires the use of Respring."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

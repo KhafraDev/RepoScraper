@@ -1,0 +1,56 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 6.0 - 10.2\n\nNomoji is a convenient tweak that filters out emojis you don't want to see. Your friends keeps sending emojis that you don't like? Tired of seeing same annoying emojis on your news feed or timeline? Nomoji is the tweak for you.\n\nThe development of this tweak is active.\n\nConfigure from Settings app."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nomoji1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 24, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 0.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

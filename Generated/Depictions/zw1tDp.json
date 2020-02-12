@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "See larger Screenshots below.."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/zw1t1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/zw1t2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/zw1t3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/zw1t4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 2, 2016",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "1.2.0: May 2, 2016\nNEW \"Adjust Text Size (Web)\"\nNEW Detect image size in BookWalker, ComicWalker, LINE Manga, & Tong Li eBook\nNEW ZW1T works in more places\nFIX LINE Manga crash when showing manga\nFIX myMail crash on launch\nFIX News crash when opening web links\nFIX \"Drag to Zoom\", mini map, & scrolling issues in Photos on iOS 9\nFIX \"Zoom Below Min Size\" & mini map issues in Chrome on iPhone (>= v48.0.2564.87)\nAvoid compatibility issues between BookWalker & ZW1T\n\n1.2.0: 2016年5月2日\n全新「調整網頁文字大小」\n全新自動偵測BookWalker、ComicWalker、LINE Manga和Tong Li eBook的圖片大小\n全新ZW1T單指縮放可在更多地方使用\n修正LINE Manga開啟漫畫時當掉的問題\n修正myMail啟動時當掉的問題\n修正News打開網頁連結時當掉的問題\n修正在iOS 9 Photos內「單指拖曳縮放」、小地圖和捲動功能的問題\n修正在iPhone上Chrome內(>= v48.0.2564.87)「縮放低於最小限度」和小地圖的問題\n避免BookWalker和ZW1T相容性差的問題\n\n\n1.1.2: October 23, 2015<br>\nAvoid crash in Opera Coast<br>\n<p>\n1.1.1: October 16, 2015<br>\niOS 9 Compatible<br>\nNEW \"Quick Start Video\" in ZW1T Settings<br>\nAvoid \"Show Function Menu\" crashing some apps on iPad on iOS 8<br>\n<br>\n1.1.1: 2015年10月16日<br>\n能在iOS 9上使用<br>\n全新「快速上手教學影片」在ZW1T的設定頁面<br>\n避免特定App在iPad和iOS 8上「顯示功能選單」時會當掉的問題<br>\n\n1.1.0: September 18, 2015<br>\nNEW \"Hide Floating Web Items\" & \"Show Floating Web Items\"<br>\nNEW \"Erase Tapped Web Item\"<br>\nNEW \"Redo Last Zoom\"<br>\nNEW \"Auto Lock Scroll Direction\"<br>\nNEW \"Scroll to Top\" & \"Scroll to Bottom\"<br>\nNEW \"Show Function Menu\"<br>\nNEW \"Show Item to Fit\"<br>\nNEW \"Show Triggered Function\"<br>\nFIX \"Tap to Zoom\" may freeze Safari on iOS < 8 (e.g. when loading toucharcade.com)<br>\nFIX \"Tap to Zoom\" may move image to unexpected place in apps like Photos on iOS 8<br>\nFIX \"Page Down\" & \"Page Up\" go to wrong place in special case<br>\nAvoid web page sometimes resetting size by itself on iOS 8<br>\n<br>\n1.1.0: 2015年9月18日<br>\n全新「隱藏在漂浮的網頁物品」和「顯示在漂浮的網頁物品」<br>\n全新「消除點到的網頁物品」<br>\n全新「取消上一次復原」<br>\n全新「開關捲動方向的輔助」<br>\n全新「到最上面」和「到最下面」<br>\n全新「顯示功能選單」<br>\n全新「標記要符合的物品」<br>\n全新「顯示剛觸發的功能」<br>\n修正在iOS < 8的Safari裡用「單指點擊縮放」可能會當掉(例：正載入toucharcade.com時)<br>\n修正在iOS 8上，在像「照片」等App裡用「單指點擊縮放」，圖片可能移動到意料外的地方<br>\n修正「上面一頁」和「下面一頁」在特殊情況下會移到錯的地方<br>\n避免在iOS 8上，網頁有時候會自己重置大小的問題<br>\n\n\n1.0.1: June 26, 2015<Br>\nWork around holding down 2nd tap of double tap may show context menu in Chrome and iCab Mobile (>= v8.0)<Br>\nWork around Chrome stopping drag to zoom<Br>\n<Br>\n1.0.1: 2015年6月26日<Br>\n避免在Chrome和iCab Mobile (>= 8.0版)裡，按住連點兩下的第二下後有可能出現長按選單<Br>\n避免Chrome會中止單指拖曳縮放的問題<Br>\n<p>\n<p>\nChanges Made<br>\n1.0.0: June 14, 2015<br>\nNEW \"Mini Map\": help see beyond visible region<br>\nBetter \"Help Align Edges\": now useful on web page<br>\nBetter \"Resumable Drag 2 Zoom\": customize time and size<br>\nNEW \"Double Tap (Non-Web)\" in \"App Specific Settings\"<br>\nNEW Index scrolling list of installed apps<br>\nNEW \"Page Down\" & \"Page Up\" functions for double tap gestures<br>\nNEW \"Reset ZW1T settings\"<br>\nBetter ZW1T settings page: completely revamped<br>\n<br>\n更新內容<br>\n1.0.0: 2015年6月14日<br>\n全新「小地圖」：協助看到可見區域外的內容<br>\n更好的「輔助對齊邊緣」：現在對網頁也實用<br>\n更好的「拖曳縮放中斷後可再繼續」：調整時間和大小<br>\n全新「連點兩下(非網頁)」在「每個App自己的設定」內<br>\n全新觸碰右邊的索引來捲動已安裝的App列表<br>\n全新「下面一頁」和「上面一頁」功能給各種連點兩下手勢使用<br>\n全新「重置ZW1T設定」<br>\n更好的ZW1T設定頁面：全面翻新<br>\n\n0.9.3: February 17, 2015<br>\nAdd \"App Specific Settings\" to disable ZW1T in individual App (i.e. blacklist function).<br>\nPlease install AppList to see installed Apps.<br>\n<br>\n0.9.3: 2015年2月17日<br>\n新增「每個App自己的設定」，可以在個別App內停用ZW1T，也就是黑名單的功能。<br>\n請安裝AppList，才能列出已安裝的App。<br>\n\n0.9.2: January 30, 2015<br>\nFix Hangouts and Twitterrific crash when closing image viewer.<br>\n<br>\n0.9.2: 2015年1月30日<br>\n修正Hangouts和Twitterrific在結束看圖模式時會當掉的問題。<br>\n\n0.9.1: January 23, 2015<Br>\nWork around App crashes as WKWebView closes (e.g. Tweetbot).<Br>\nFix image may flash madly when dragging to zoom in image viewer of some Apps (e.g. LINE, Tweetbot).<Br>\n<Br>\n0.9.1: 2015年1月23日<Br>\n避免App在關閉WKWebView時會當掉的問題(例：Tweetbot)。<Br>\n修正在一些App的看圖模式下拖曳放大時，圖片有時會狂閃的問題(例：LINE、Tweetbot)。<Br>\n<p>\n0.9.0: January 20, 2015<br>\nFull iOS 8 support.<br>\nAdded new action \"Toggle Web Touch Events\".<br>\nMinor bug fixes.<br>\n<br>\n0.9.0: 2015年1月20日<br>\n完整支援iOS 8。<br>\n新增功能「開關網頁觸控事件」。<br>\n修正一些錯誤。<br>\n\n0.8.3: November 7, 2014<br>\nAdded Settings option to keep original function of double tap drag unaffected in top 1/3 part of view.<br>\n<br>\n0.8.3: 2014年11月7日<br>\n新增設定選項，能在顯示區域頂部1/3的範圍內，保留連點兩下並拖曳的原本功能。<br>\n\n0.8.2: October 31, 2014<Br>\nWork around Facebook crash when viewing an image in full screen.<Br>\nWork around TeamViewer crash when showing remote desktop.<Br>\n<Br>\n更新內容<Br>\n0.8.2: 2014年10月31日<Br>\n避免Facebook全螢幕顯示圖片時當機。<Br>\n避免TeamViewer顯示遠端桌面時當機。<Br>\n0.8.1: October 26, 2014<Br>\nAdded Settings options to disable each visual indicator.<Br>\n<Br>\n0.8.1: 2014年10月26日<Br>\n新增設定選項，可停用 畫面上各個標記。<Br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

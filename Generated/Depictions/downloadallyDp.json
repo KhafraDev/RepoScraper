@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Downloadally adds a download button to the app \"TikTok\", it allows you to save any video to camera roll. If the video was sucessfully saved, the button color will change to green, as an indicator.\n\nShould work on any iOS Version >=8.0, but only tested on iOS 10.2.\n\nOpen source"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/downloadally1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/downloadally2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 11, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "* Now supports TikTok 9.0 and above, thanks to a bounty from /u/dmoo3aj on Reddit\n\n- Fix for musical.ly 6.4+\nFix button position on recent versions of musical.ly\n\n- Full rewrite (No more dirty solutions)<br>\n- Now supports musical.ly 6.0 and newer<br>\n- Can now also save non-cached videos by downloading them<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

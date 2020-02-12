@@ -1,0 +1,78 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 12 and 13\n\n\n\n\n\n\n\n\n\nLooking for iOS 11 compatibility? Check out.\n\nNextUp is a nice little enhancement that allows you to glimpse ahead of the current track and even change it if you don't like the what the future had in store for you.\n\nDon’t like a song? Skip it before it has even started playing.\n\nIt’s especially useful for those of you using free accounts with limited number of skips.\n\nSupported apps:\n\n\n\n\n\nNot working? See thefor known culprits.\n\nHaving an issue? Please report it at the public.\n\n\nSee larger Screenshots below.."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nextup2-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nextup2-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nextup2-3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 17, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package +&nbsp;Free&nbsp;Trial",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 2.75",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "– iOS 13 support.\n– Fixed metadata containing special characters from JioSaavn looking weird.\n– Got rid of one hook and instead relies on notifications.\n– Better ColorFlow detection.\n– Minor improvements."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

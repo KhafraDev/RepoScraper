@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8 to 12.4\n\nFastDeleteKey Gives the Opportunity to Custom Change the Fast Deletion Speed on the System Wide Keyboards to your Characters and in Addition to Disable the Auto Deletion!\n\nThe Tweak (Dubbed FlashEraser) is now out from the Beta Stage of My Repository with also the Addition of the Preferences Panel and Custom Options.\n\nConfigure options from Settings.\n\nNo Respring Needed for enabling and disabling the Tweak and its options.\n\nSee Screenshot below.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/fastdeletekey1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 23, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.0.2\n- Added Support Compatibility till iOS 12.4 and arm64e/A12 Devices."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

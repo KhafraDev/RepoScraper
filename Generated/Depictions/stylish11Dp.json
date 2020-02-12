@@ -1,0 +1,81 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11, 12 and 13\n\nA colorfully random way to customize the look and feel of your device, and add extra functionality. Color pickers for dock, open and closed folders plus many more new features. Tweak has over 40 buttons, sliders and colorpickers each for different options.\n\nCompatible all devices on iOS 11.0-13.x\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stylish11-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stylish11-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stylish11-3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stylish11-4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stylish11-5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 30, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Now compatible with iOS 11-13.3\nBug fixes for all iOS versions\nImprovements to label hiding (now instant and universally applied)\n\n\nFixed “skip screenshot preview” not working on iOS 12. All options now working on iOS 11-12.1.2<br>\n<br>\n<br>\nChanged all settings to user defaults, added arc for automated memory counting (retain/release etc). Less resprings, more instant changes....<br>\n<br>\nAdded some support for coloring FloatyDock tweak, and devices that natively use them. Added color pickers for Dock, Folder icons, Open Folder color, Icon text, Icon text highlights, Lockscreen date/time, picking a color for Spotlight, Control center, Passcode entry, timers, alerts, and all over parts of SB. <br>\n<br>\nOver 40+ options now. Folder coloring supports themes with and without masks. Random text and highlight options are still there but improved by being able to combine with a single color and opacity level. <br>\n<br>\nWorks on all devices from iOS 11.0-11.4b<br>\n\nFixed small appearance bug with CC options on iOS versions above 11.2, also changed “Square CC” and “Rounded / Circular CC” to “Round UI” and “Square UI” including notifications, today view/ widgets, as well as Control Center. <br>\n<br>\nFixed typo in settings and one in share text as well. 😎<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

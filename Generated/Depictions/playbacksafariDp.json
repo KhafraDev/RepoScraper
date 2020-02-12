@@ -1,0 +1,37 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9 and till 12.4 (Including arm64e/A12 Devices).\n\nplaybackSafari is a Tiny Tweak that Allows the Videos Background Playback on Safari!\n\nThe Tweak Gives the Opportunity to Start Playing a Video in the Safari iOS App without Experiencing Any Interruptions to the Sound Playback even after the Closing of the App or Locking the Device!\n\nplaybackSafari is now out from the Beta Stage of My Repository.\nIf you Have got My Repo Version, Just Uninstall it and Install this New One.\n\nNo options to Configure.\n\nNo Screenshots for this Item.\n\nThanks @_024ka for testing.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 16, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

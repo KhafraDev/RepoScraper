@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "GPS Master can fake your iOS device's GPS location like you are driving between two places. \nIt also simulates moving between two points on the map.\nOf cause, GPS Master can change your APPs(Facebook、Twitter、Line、YouTube、Instagram、Uber、Lyft、Waze、Google Maps、Snapchat、TikTok、Messenger、etc...)' geolocation to anywhere you like.\nSpecially, GPS joystick can control your role's location on the map in your AR/VR game like Pokemon GO、AirCoins.\n\nGPS定位大师，通过修改苹果手机的GPS定位，实现虚拟定位和模拟驾驶功能。\n\nSee larger Screenshots below.."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/gpsmaster1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/gpsmaster2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/gpsmaster3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/gpsmaster4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 11, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Optimization for navigation.\n\n- Optimation for joystick.\n- Fixed a sweep bug on iOS11&12.\n- Supports pause function on Navigation and Path-Sweep.\n- Fixed the bugs on navigation&sweep.<br>\n<br>\n- Fixed bugs on A12 devices including iPhone Xs, Xs Max, XR.\n\n- Supporting configuration of the tabs order.\n\n- Fixed the speed issue when faking GPS.\n\n- Fixed a crash issue in favorite location list.<br>\n- Improvement for location selection.<br>\n- Fixed bugs on sweep and navigation.<br>\n<br>\n- Fixed a fatal crash problem on fake navigation & GPS."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

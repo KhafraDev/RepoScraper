@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 26, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "• Adds support for iOS 11.\n• Changes to integrating with App Links on iOS 9 and newer. This allows you to easily override your Opener handlers and view the page in Safari by tapping the breadcrumb button in the right of the status bar.\n\n\n• Fixes an issue causing lsd to occasionally crash.<br>\n• Fixes an issue causing Discord to crash when opening links.<br>\n• Fixes some crashes on iOS 5 and 6.<br>\n\n• Adds support for iOS 10.<br>\n• Fixes an issue causing UIKit to be loaded into daemons.<br>\n\n• Stashes the /Library/Opener directory, freeing up more space on the system partition on iOS 9.2/9.3.\n• Adds a setting to enable debug logging.<br>\n• Various code improvements (such as converting it to ARC).<Br>\n• Adds and updates various translations.<br>\n\n• Fixes an issue causing some links (including Messages notifications) to not open.<br>\n• Fixes an issue causing some handlers to not get loaded if one fails to load.<br>\n• Adds some translations and updates existing ones.<br>\n\n• Removes support for very old Opener handlers (circa 2013).<br>\n• Fixes an issue causing links to automatically open while typing into the Google Chrome address bar.<br>\n• Fixes an issue causing the iOS 9 “Back to” button to be lost when opening an overridden link.<br>\n• Improves how URLs are overridden so there’s less chance of a future iOS update breaking things.<br>\n• A long press on a link in Safari now properly displays an “Open In …” button if appropriate.<br>\n<p>\n• Fixes an issue that causes a crash when injecting a tweak into a 32-bit app (such as Cydia) on iPhone 6s.<br>\n\n- Fixes an issue which would sometimes cause link redirects to not occur.<Br>\n- Adds improved support for apps that open links with Google Chrome.<br>\n\nAdds support for iOS 8.\n\n- Adds full support for iOS 7.1.<br>\n- Fixes some issues on iOS 6.<br>\n\n- Fixes Settings failing to load or incorrectly saying there are no handlers installed.<br>\n- Fixes an issue that could potentially cause an infinite link opening loop.<br>\n\n- Support for iOS 7.<br>\n- Provides a new API for developers. See <a href=\"http://hbang.ws/2014/04/opener-2/\" target=\"_new\">this blog post</a> for details.<br>\n\n Fixed an issue causing apps to not have a list of installed tweaks - this broke MapsOpener's ability to override \"Open in Maps\" buttons.<br>\n- Added a detailed message to the Settings page when no handlers are installed.<br>\n- Added an icon for the Settings page<br>\n\n- Users can now enable and disable URL handlers easily from the \"Opener\" page in Settings."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

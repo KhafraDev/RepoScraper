@@ -1,0 +1,78 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9 and 10\n\nCallPlus is the ultimate tweak to enhance your phone app it has several features I'm gonna list them for you.\n\nDialLocker : this creates a new page on the lockscreen with a dialer that allows you to easily dial contacts directly from there.\n\nDialocker has a speed dial option you can program which numbers to call when you hold the numbers.\n\nSwitcher Call allows you to add favorite contacts in the switcher just like iOS 8 beta days which apple removed for no reason you import a photo from your gallery , you crop and choose which number to call when that photo is tapped.\nColored Logs this colors your recent tab logs into three colors :\n\n- Blue color means outgoing calls.\n- Red color means missed calls.\n- Green color mean connected incoming calls.\n\nCall Protection allows you to protect the phone button when you press call you need to input your fingerprint in order to be allowed to call that user.\n\nCall Options when you press a contact in the recent tab it asks whether you want to text or call that user if you press text it will automatically open the message app to that person's conversation without leaving the phone app and if you press call you need to input your fingerprint in order to call.\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/callplus1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/callplus2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/callplus3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "October 21, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.50",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "CallPlus users facing issues with contacts not dismissing and staying on screen when you dismiss the switcher i'm pushing an update with force dismiss contacts option enable then respring to fix that issue!\n\nFixed the preferences icon size.\n\n\nAdded basic support for iOS 9<Br>\nDepends on LockPages for ios 9 devices<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

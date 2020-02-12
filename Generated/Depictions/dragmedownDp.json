@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10\nCompatible with iPhones and iPads\n\nMultitasking app cards: \"Nobody can drag me down!\". Tired of that restriction?.. :)\n\nDragMeDown for iOS 10 is an awesome configurable multitasking tweak. It will make your life easier to live! Along with the ability to swipe down to kill all applications in the multitasking switcher, it brings even more useful functions. Is your device running out of space? Simply use the 'Delete App Cache' function to clear the app's cache, leaving more free space on your device for fun!\n\nDragMeDown has 11 options: 'Close Application', 'Relaunch App', 'Relaunch All Apps', 'Clear App Badge', 'Delete App Cache', 'Delete All User Data', 'Dismiss Switcher', 'Respring', 'Safe Mode', 'Reboot' and 'Power Off'.\n\nThere are a bunch of other options to enjoy and explore!\n\nDragMeDown is also the first tweak of my tweaks to bring localizations back to life, in a modern way! This tweak will surely be translated in most languages. With a modern online system, you don't even have to update the tweak to receive the latest update! On EVERY respring or when changing settings, DragMeDown will check for updates and tell you if your favorite language is ready to download!\n\nScreenshots are available and I am assured you'll love this tweak!\n\n\n\nSee larger Screenshots below.."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/dragmedown1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/dragmedown2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/dragmedown3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/dragmedown4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 22, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Fixes a security related issue.\n\n\nVersion 1.2.1:\n- Fixes a small issue.\n\nVersion 1.1.1:\n- Minor bug fix.\n\n\nVersion 1.1:\n- Animations are improved and more smooth.\n- Fixes most of the bugs in previous versions.\n- The iPad header in the preferences is correctly aligned.\n- Moving back to Cydia Store.\n\n\n\n\n- The 'Relaunch App' and 'Relaunch All Apps' options should work properly now, and not cause crashes.<br>\n<br>\n- The Online Language Pack Controller has been temporarily removed due to a permission issue with the iOS 10.2 Jailbreak. Until I make a proper fix or workaround, this feature will be disabled by default. Worth to mention is that the updated language packs will be included anyways in this package.<br>\n\nVersion 1.0.3:<br>\n- Properly added compatibility for iOS 10.2 (Alert Handler), which also resolves the respring loop for some devices on iOS 10.2.<br>\n- Improves the preference handler!"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

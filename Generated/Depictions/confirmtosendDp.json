@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10, 11 and 12\n\nConfirmToSend Gives the Opportunity to Show the Confirmation Popup Before Calling and Sending Texts on the System Applications!\n\nMore to Come in the Next Updates!\n\nConfigure options from Settings.\n\nNo Respring Needed for enabling and disabling the Tweak and its options.\n\nSee Screenshots below.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/confirmtosend1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/confirmtosend2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/confirmtosend3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/confirmtosend5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "November 3, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.0.7\n- Added the option to Enable the WeChat Emoticons Send Confirmation (Included WeEmoticonSendConfirm Available on My Repo).\n\n\nVersion 1.0.5<br>\n- Added the option to Enable the WhatsApp Send Message Confirmation (thanks @_024ka for testing).<br>\n\nVersion 1.0.4<Br>\n- Added support for iOS 12 and arm64e/A12.<br>\nVersion 1.0.3<br>\n- Added the WhatsApp application Confirmation on Calling Contacts in Chats.<br>\n- Added the WhatsApp application Confirmation on Video Calling Contacts in Chats.<br>\nVersion 1.0.2<br>\n- Added the LINE application Confirmation on Sending Texts (included My Tweak confirmToLINE on My Repo).<br>\n- Neat the UIAlertController Messages (as Requested).<br>\nVersion 1.0.1<br>\n- Should Now be Fixed the Double Check Issue on Send Confirmation when sending Texts on Messages for some Users.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

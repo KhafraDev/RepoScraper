@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 18, 2016",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- iOS 9 Support\n- Added Preference pane\n\n\nThis update blocks the device from scanning for software updates, making PrefSafety even safer.\n\nAttempts to fix the No Settings Badge feature (please let me know if it works or not.)\n<p>\nWhat's new: Now completely blocks the second warning for \"Reset All Settings\" and \"Erase Settings and Content,\" making it look nicer."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

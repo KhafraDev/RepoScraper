@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wormhole1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 7, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "2.1.0 update\n\n-general fixes / improvements\n\n\n0.2.2 -> 2.0<br>\n<br>\n-quieter<br>\n-preference overhaul<br>\n-compatibility with springplus option<br>\n-support for custom toggle theme<br>\n\n0.2.2 fixes issues with icon on + model device Settings page<br>\n<br>\nadds option to use random colours for your toggle background, enable in settings<br>\n<br>\n<br>\n0.2.1 enable/disable which toggles this tweak enables + adds compatibility with other internal toggle enablers<br>\n<br>\n-you can choose which toggles you'd like enabled by this tweak<br>\n-if you leave them disabled, it will not show up unless you're using a different tweak to enable the toggle like CCLowPower or CCRecord<br>\n--Low Power mode now has a red enabled colour to help make it stand out"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

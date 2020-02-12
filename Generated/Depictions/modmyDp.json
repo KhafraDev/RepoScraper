@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "The official app for news, apps, tips & tricks from the No. 1 community that writes about technology— ModMy.com! This is your home for the latest enthusiast-oriented news, tips, reviews, opinions, editorials, podcasts, guides — everything you need from the most trusted source for all things technology. Plus we’ve got full access to our ModMyForums. Here’s the deal:\n\n* The latest from the blog. That means news, reviews, editorials - everything you can get from ModMy, we’ve got it here as well.\n* Search for the latest news stories, forum threads and individual posts on anything and everything we’ve ever published.\n* iOS Block/Curago block for your home screen.\n* Comment on stories. We know you have an opinion. We know you like to point out typos. Now you can do it easily from our app.\n* Full access to the ModMyForums. This is the best place to get fast and friendly help with your electronics modifications, or to discuss the latest news and rumors.\n* Videos: Watch every video we’ve ever uploaded to YouTube. In fact, watch them twice.\n* Podcasts: Listen to every episode of the Jailcast right in our app!\n* ModMyAccount: You can sign in with your ModMyAccount to leave comments or to post in the forums.\n* Save articles from the app in order to not forget them.\n* Notifications for the latest news and stories of note.\n\nDid you really read this far? Good for you. You rock. Thanks for downloading this app. And stay tuned for the next version, which will be even better than this one."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/modmy1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/modmy2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/modmy3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/modmy4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "March 1, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Thanks for using ModMy! We've made some improvements to make your app experience even better. Here's exactly what's new:\n  • iOS 11 support\n  • A new look for video articles\n  • Various bug fixes and improvements\n\n\nWe’ve been working hard to make the ModMy app even better for you! Here’s a bit of what’s new:\n  • Articles now have a new look<br>\n  • Swipe left and right to move from article to article quickly<br>\n  • You can now forum topic posts by oldest first and newest first<br>\n  • Tap on an author’s name to view other articles written by them<br>\n  • View other articles by the same author or in the same category straight from the article context menu (accessible by 3D Touching or long pressing an article)<br>\n  • We now more accurately keep track of what articles you have read<br>\n  • Articles should now load faster most of the time<br>\n  • Fixes a crash related to notifications some users experienced on opening<br>\n  • Tons of behind the scenes changes and bug fixes<br>\n  \n- We now keep track of read articles and mark them so you can differentiate between new content and old<br>\n- You can now long press on articles and forums to see quick actions (and 3D Touch on capable devices)<br>\n- Saved articles will now show that they are saved from the news screen with a bookmark icon<br>\n- Use Spotlight to search for ModMy articles you’ve viewed<br>\n- Tap an image in an article to view it in full screen<br>\n- 3D Touch in articles now works in more places<br>\n- You can now 3D Touch videos in the media tab<br>\n- Cydia links will now open in, if installed<br>\n- Videos in articles will now allow screen rotation on iPhones and iPod touch devices<br>\n- We now show a bit of the article in notifications, so you can decide if you want to continue reading<br>\n- We now ask you if you want to enable article notifications when you first launch the app<br>\n- You can now save articles from the notification by choosing \"Save for Later\"<br>\n- Now supports rich notifications on iOS 10 and up<br>\n- Various bug fixes and code improvements<br>\nFixed an issue where the app would crash for some users on iOS 10.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

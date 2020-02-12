@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10\n\nA simple tweak to prevent your iPhone from shutting down or rebooting at an undesirable moment.\nEspecially convenient while using phone in cold weather\n\nCompatibility: iOS 10.x, tested on 10.3.3 with h3lix JB\n\nWARNING: Do not overuse. The tweak may damage your battery, use it at your own risk.\nSoftware developer declines the responsibility for any damage, caused by using this tweak\n\nStandard usage scenario is like: you charge your iPhone to 75%, go outside (-10 deg. Celsius) and after 5-15 minutes the phone shows 1% and shuts off. Then you go into a warm room and your phone is like: Oh i'm okay there is still 70%. So that's the reason to have an option to block such behavior\n\nNo options to configure."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/lastdrops1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 3, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

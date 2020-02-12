@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ikeymonitor1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ikeymonitor2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ikeymonitor3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "March 21, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Improved the support for ios 12\n\n\n1. Added iOS 11 Support<br>\n2. Fixed some bugs<br>\n1. Fixed the logging issues<br>\n2. Added an iKeyMonitor icon on the home screen which can be removed without removing the app<br>\n3. Added logging of WeChat text messages<br>\n4. Voice recording can be turned off remotely now<br>\n1. Fixed some bugs<br>\n2. Added surrounding recording<br>\nAdded support for iOS 10\n\n1. Improved Snapchat screenshots capturing<br>\n2. Added Clipboard logging<br>\n3. Fixed Facebook logging and QQ crashing issue<br>\n4. Added surround recording<br>\n\n1. Temporarily disabled the monitoring of voice/video calls to eliminate effects on normal voice/video calls.<br>\n2. Fixed the bug of repeated Skype text records.<br>\n\n1. Improved log uploading<br>\n<br>\n<br>\n1. Fixed chat logging issue<br>\n2. Supported Voice Message Logging<br>\n\n1. New App blocker to block unwanted Apps or Games.<br>\n2. Time Limit for children to block Apps in bedtime, homework time.<br>\n\n1. Fixed some bugs.<br>\n2. Supported logging of Contacts/Notes/Calendars/Reminders/Voice Memos.<br>\n\n1. Added \"Capture Screenshots on Touch Actions\" option in iKeyMonitor Settings - Advance Settings<br>\n2. Fixed the failure of reading history in Kik, Line, Hangouts latest version. (kik version:9.2.1, hangouts version 7.0.0, Line version 5.9.5) <br>\n3. Fixed the repeated screenshots issue on iOS 5<br>\n4. Supported monitoring of Notes, Reminders and Contacts(Send by Email).<br>\n\n1. Capture screenshots for specific App by alert words on touch actions\n<p>\n<p>\n1. Capture screenshots for Mail, Snapchat, Instagram, QQ, Wechat<br>\n2. Capture screenshots on touch actions<br>\n\nImproved iOS 9 support\n\n1. Improved iOS 9 support<br>\n2. Improved screenshots capturing by app name<br>\n\nMinor bug fix\n<p>\n1. Fixed a bug of FTP failure when password contains @ # % ^. <br>\n2. Improved keystrokes log, removed some duplicate entries. <br>\n3. Fixed a crash when unlocking the device.<br>\n\nAdded logging of sent and received messages of Kik, Skype, Line.\n\n<p>\n1. Logs can be uploaded to online account<br>\n2. Remote license upgrade/renew<br>\n3. Remote configuration<br>\n\n1. Fixed call history issue\n\n1. Fixed a call history issue<br>\n2. Fixed test email crash<br>\n\n1. Fixed: test email no message issue\n\n1. WhatsApp logging fix.<br>\n2. Minor issue fix.<br>\n<p>\n1. Fixed Whastapp new version logging issue\n\n1. Fixed a bug of logs not updating\n<p>\n1. GPS Tracking Improvement<br>\n2. Fix some small issues<br>\n\n<p>\n1. Improved FTP<br>\n2. Fixed some crash<br>\n<p>\n1. Added GPS Logging Feature<br>\n2. Fixed a crash issue when sending email<br>\n\n1. Fixed multi-language support for keystroke logging in Safari\n<p>\n1. Fixed keystroke logging issue in Safari\n\n1. Fixed logging issue of WhatsApp v2.11.14 on ios 8\n<p>\n1. Fixed crash issue when unlock device with iOS 8.x<br>\n2. Fixed WhatsApp logging issue on iOS 8.x<br>\n3. Added the feature of hiding Pangu along with Cydia<br>\n<p>\n1. Improved support for iOS 8 - Fixed issues of keystroke logging, call logging and web history logging.<br>\n2. WhatsApp logging will be fixed in next version ASAP.<Br>\n\nFixed some minor issues\n\nImproved Call logging. Added Contact name\n\n1. Added call history logging.<br>\n2. Fixed safe mode issue.<br>\n<p>\n1. Fixed Chrome crash issue<br>\n2. Hide Cydia from Cellular Settings<br>\n3. Fixed some safe mode crash issue<br>\n4. Fixed some other bugs<br>\n\n- Fixed keystroke logging support for Viber, Kik, Kakao Talk, QQ, VK etc.\n<p>\n1. Fixed bug of \"upload logs only by wifi\"\n<p>\n1. Fixed some crash/safe mode/auto restart bugs caused by FTP<br>\n2. Improved ftp delivery<br>\n\n1. Fixed some safe mode bugs.<br>\n2. Improved FTP delivery<br>\n3. Added option to upload logs by FTP only on WI-FI<br>\n\n1. Fixed minor bugs<br>\n2. Supported all devices with iOS from 3.x to 7.x<br>\n<p>\n1. Improved support for iOS 7<br>\n2. Added support for 64bit iOS, iPhone 5S, iPad Air etc<br>\n3. iPhone 3GS or below with armv6 iOS 4.2.x, do not update to this version.<br>\n\n1. Improved support for IOS 7 32bit<br>\nNot support iOS 7 64bit, iPhone 5s etc<br>\nWe're working on it.<br>\n<p>\nSupported iOS 7\n\nFixed some bugs\n<p>\nFixed SMS and Whatsapp logging issue\n\n1. Improved UI<br>\n2, Port 8888 can be changed<Br>\n\n1. Added Customized Port Support<br>\n2. Improved interface<br>\n\n1. Fixed an issue with keystroke log<Br>\n2. Improved logging engine<br>\n\n1. Fixed crash issue on iOS 6.x<br>\n<p>\n1. Fixed SMS date issue<br>\n2. Fixed SMS delivery issue<br>\n<p>\n1. Users can know whether the SMS is outgoing or incoming now.<br>\n2. Improved speed, Fixed freezing issue.<br>\n3. Improved support for iOS 6.0 6.1.<br>\n4. Improved email/ftp settings<br>\n1. Improved FTP delivery<br>\n2. Fixed minor bugs<br>\n<p>\n- Supported iOS 6.x<br>\n- Log WhatsApp messages sent and received<br>\n- Fixed a license issue<br>\n- Fixed some bugs<br>\n\n1. Reduced battery usage<br>\n2. Fixed license lost issue<br>\n3. Improved security<br>\n1. Fixed a connection error issue<br>\n2. Fixed a license issue<br>\n<p>\nOption to Hide Jailbreak Info(Cydia)<br>\nOption to Test FTP/Email settings<br>\nImproved FTP upload<br>\nAdded Arabic translation<br>\nFixed some bugs<br>\nImproved loading speed of SMS logs\n<p>\n1. Improved the algorithm of log update to enhance user experience<br>\n2. Fixed the bugs that may cause iOS device freeze<br>\n3. Fixed some other small bugs<br>\n\n1. Added SMS(Text messages) Logging<br>\n2. Fixed bugs on iPhone 2G, iOS 3.x system<br>\n\n1. Added the multi-language support in iKeyMonitor interface, including English, French, German, Italian, Spanish, Japanese, Korean, Russian, Hindi, Simplified Chinese and Traditional Chinese.<br>\n2. Added Web Portal support for remote monitoring turn-on and turn-off.<Br>\n3. Changed the format of the Web History logs received in emails to attachments<br>\nRecord Passwords! All kinds of passwords will be logged in any app\nAdded options to send only the new logs by Email/FTP\n<p>\nAdded the support of keystroke recording from SMS and Email\n<p>\n1. Improved email options.Screenshots won't stop emails any more.<br>\n2. Fixed some bugs"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

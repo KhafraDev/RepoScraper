@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/flipswitchspotlight1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 21, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 0.0.3: iOS 5 support\n\nVersion: 0.0.2<br>\n- Recompiled with latest SDK<br>\n\n- Glyph optimization\n\n\nVersion: 0.0.1-4<Br>\n- (iOS 4 - 6) Return to SpringBoard page first if Spotlight is revealed and toggle state is disabled.<Br>\n<p>\n<p>\nVersion: 0.0.1-3<br>\n- Some bugs fixed.<br>\n- Auto dismiss spotlight when toggling to disable state and spotlight is showing.<br>\n<br>\nNote: This tweak may not work with \"AnySpot\".\n<p>\n<p>\nVersion: 0.0.1-2<br>\n- Fixed inverted toggle value bug.<br>\n- Better injection for togglng Spotlight in iOS 7<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

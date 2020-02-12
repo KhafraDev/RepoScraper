@@ -1,0 +1,81 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now Free.\n\nCompatible with iOS 8, 9 and 10.\n\nMicroPlayer is a sleek new systemwide music player working with Spotify, Apple Music, soundcloud plus many many more\n\nLooks great & shows off the current songs album art!\nUse Swipes to control your music!\nSwipe up for additional song information!\nPlace anywhere on your homescreen!\n\nControls:\n2 finger touch to move player\nHold to open your default or now playing music app\nSwipe up for detailed view.\nSwipe down to hide detailed view\nDrag right for previous song\nDrag left for next song\nTap to play/pause\nTap forward button for next song\nHold forward button to fast forward\nTap back button for previous song\nHold back button to rewind\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/microplayer1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/microplayer2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/microplayer3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/microplayer4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/microplayer5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 11, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now Free.\n\n\nPreferences neatened and styled better. <br>\nNew options. <br>\nUpdated for 10.3 devices<br>\nBug fixes. <br>\nRemoved old files.<br>\n\nCleaned up files. <br>\nMinor improvements.<br>\n<br>\nBug fixes and improvements. <br>\nNow systemwide. <br>\nAdded grabber. <br>\nImproved settings and instructions page added. <br>\nAdded support ready for iOS 10.3.x jailbreak release<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "An awesome theming engine for iOS 7 through iOS 11!\n\nTheme more than just icons! Anemone is designed for the new UI elements introduced in iOS 7 and higher to allow themes to change more of the look of the device!\n\nAnemone is backwards compatible with existing Bundles, Folders, IconBundles, ClassicDock, ClassicBadges, and CustomClock themes.\n\nAnemone also supports theming folder icons, applying masks, overlays and shadows to icons, changing interface colors across iOS, customizing icon labels, and applying custom blurs. Documentation for themers is available on the wiki.\n\nAnemone categorizes themes by packages and shows live previews of icons in a theme inline. Furthermore, before applying, Anemone shows a preview of the theme applied with your current wallpaper.\n\nBy default on iOS 7 and higher, a dock mask is not enabled in Anemone. To get your dock back, enable \"Default Dock\" in Anemone.\n\nDevelopers: We are open sourcing components of Anemone\n\nWe recommend checking it out and contributing!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/anemone1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/anemone2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/anemone3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/anemone4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "October 6, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "1. Remove support for HTML wallpapers in preparation for Anemone 3.x\n\n1. Add iPhone X support to App<br>\n2. Add iPhone X support to Preview<br>\n3. Add iPhone X support to dock<br>\n4. Remove AnemoneFonts as it causes problems on iOS 11 and isn't used often<br>\n5. Remove AnemoneColors as it causes problems with certain apps and isn't used often<br>\n1. Fix Alt Icon Selector on iOS 11<Br>\n<Br>\n<Br>\n1. Fix dock sizing on iOS 11<br>\n2. Fix Snapchat DRM being triggered (not tested with any themes enabled that theme snapchat itself)<br>\n3. Remove April Fools' joke from last version<br>\nFix package installation on iOS 11 (Requires RocketBootstrap 1.0.6 and Electra RC 2.0 or newer for iOS 11)\n\n1. Add full support for iOS 10.3 devices using h3lix jailbreak<Br>\n2. Add support for certain iOS 10.3 devices using g0blin jailbreak<br>\n3. Add preliminary support for iOS 11.0 - 11.1.2<br>\nDisable debug log<Br>\n<br>\nFix crash in Settings app with no theme enabled.<Br>\n<br>\n<br>\nRe-enable Optitheme memory cache to improve performance on older devices with slower storage (e.g. A4, A5 and A6 devices)<br>\n<br>\n<br>\n1. Add support for Battery Icon theming on iOS 10 (allow it to be customized like iOS 9)<br>\n<br>\n2. Revert UIGraphics -> CoreGraphics workaround. Although this somewhat worked around yalu102 bugs, the UIGraphics wrappers are far more stable on iOS versions where the jailbreak is not buggy. Revert since we'd rather be 100% stable where we can be (iOS 7 - 9.3.x on all devices, A9 and A10 devices on iOS 10).<br>\n1. Fix regression with glyph or translucent icons from 2.1.2<br>\n2. Add support for theming iOS 10 Widget Icons<br>\n3. Add support for theming icons in share sheets' \"more\" list<br>\n4. Fix video playback in Safari View Controller<br>\n<br>\n<br>\n1. Fix regression causing blank icons in Share Sheets on 2.1.2-2<br>\n<br>\n2. Fix crash while Applying themes if Harbor is installed/enabled<br>\n<br>\n3. Apply yalu102 workaround to Custom Folder Icons and Share Sheet icons to hopefully further avoid triggering the UIGraphics-related kernel panic issue with yalu102 on pre-A9 devices<br>\n\n<br>\n<br>\nOptimize AnemoneIcons and AnemoneIconEffects to attempt to work around stability issues with the yalu102 jailbreak on pre-A9 devices:<br>\n<br>\n1. Switch from UIGraphics wrappers to using CoreGraphics functions directly to reduce overhead and image render processes<br>\n<br>\n2. Don't have AnemoneIconEffects hook directly to reduce usage of Mobile Substrate. Instead have AnemoneIcons call AnemoneIconEffects so that the themed icons + icon effects can be rendered using 1 graphics context instead of 4 in the same function hook (note: as a result of this, having working Icon Effects requires both AnemoneIcons and AnemoneIconEffects dylibs be enabled)<br>\n\n1. Optitheme 2.0<br>\n- Significantly reduced memory usage<br>\n- Up to 30% faster performance compared to Optitheme 1.0<br>\n- 60% faster at changing themes<br>\n2. Code cleanup and further improvements to fully support iOS 10<br>\n\n1. Add Selector for switching between alt icons [iOS 9 and 10 only for now] (tap an icon in edit mode to pull up all available icons from enabled themes)<br>\n2. Fix a bug that resulted in AnemoneColors not being able to tint certain areas of iOS<br>\n<br>\n<br>\n1. Don't load RocketBootstrap into LaunchServices to avoid potential issues<br>\n2. Fix harmless installation warnings<br>\n3. Update Preview to be more accurate with home screen icons<br>\n4. Fix a regression with modern dock theme overlays in 2.1.1-2<br>\n5. Detect themes that haven't been updated at all and have stopped working in Anemone on the last few revisions.<br>\n<br>\n<br>\nDevelopers: We are open sourcing components of Anemone <a href=\"https://github.com/AnemoneTeam/Anemone-OSS\" target=\"_new\">on github!</a><br>\n<br>\nWe recommend checking it out and contributing!<br>\n\n<br>\n<br>\n1. Fix harmless warning messages from AnemoneIcons/AnemoneIconEffects on iOS 10<br>\n2. Add support internally for individual alt icons (Settings UI for this feature coming in future update)<br>\n<br>\n<br>\n1. Fix a regression in 2.1.1-2 that would cause icon shadows to randomly disappear<br>\n2. Fix a regression in 2.1.1-2 that would cause badge shapes to be distorted<br>\n3. Slightly reorganize and clean up the code for the Anemone Open Source component releases<br>\n<br>\nDevelopers: We are open sourcing components of Anemone <a href=\"https://github.com/AnemoneTeam/Anemone-OSS\" target=\"_new\">on github!</a><br>\n<br>\nWe recommend checking it out and contributing!<br>\n\n<br>\n<br>\n<br>\n1. Fix a regression with Icon Overlays and Icon Shadows in 2.1.1-2<br>\n<br>\n<br>\n1. Allow changing themes without respringing (<a href=\"https://www.youtube.com/watch?v=Also6zJ8ES4\" target=\"_new\">Demo Video</a>)<br>\n2. Bug Fixes for some themes under iOS 9<br>\n3. Optimizations for older devices<br>\n<br>\n<br>\nNote: Anemone does not support iOS 10 yet. We are waiting for Yalu to support our test devices here. We will not provide assistance for any iOS 10 issues. Anemone is only supported on iOS 7.0 - 9.3.4<br>\n\n\n\n1. Improved support for iOS 9.2-9.3.3<Br>\n2. Add support for custom folder backgrounds<Br>\n3. Add support for custom fonts in themes<Br>\n4. Add support for custom SpringBoard page dots<Br>\n5. Extend IconBundles support to icons in share sheet<Br>\n6. Use IconBundles for theming home screen icons, converting older Bundles-only themes as necessary<Br>\n7. Make themes apply several times faster now that IconBundles is used for home screen icons<Br>\n8. Add full support for iPad Pro and upscaled iPad Air 2's<Br>\n9. No Longer Hide Dock by default<Br>\n10. Removes iOS 6 support<Br>\n11. Add support for HTML Wallpapers<Br>\n12. Add support for -29 and -40 to IconBundles<Br>\n13. Fix issues with icon previews in list of themes<Br>\n14. Make Preview more accurate<Br>\n\n1. Optimize App performance so it launches in under 2 seconds in most cases!<br>\n2. Add support for iOS 9.3.x<br>\n3. Allow themes to change opacity of folder icon grid<br>\n\n1. Fixes a race condition in Optitheme that lead to themes not applying/changing for some users<Br>\n\n1. Optitheme -- theme assets are now optimized on demand, reducing app launch and respring times, and improving performance across the device.<br>\n2. Modern Mode Docks are now compatible with Harbor<br>\n\n1. Improved Backwards Compatibility with more existing Control Center and Status Bar Themes<br>\n2. Calendar Icon and Badge text now default to San Francisco on iOS 9<br>\n3. Custom Folder Icons optimized for better performance<br>\n4. Theme Preview now shows underlays<br>\n5. Theme Preview Shadows are now more accurate<br>\n6. Theme Preview upgraded to new folder icon mask method<br>\n7. Fixes bug with page dot positioning in folders<br>\n8. Optimizes Anemone app assets<br>\n9. Fixed folder icon reassignment bug<br>\n10. Modern Dock Preview is now more accurate<br>\n11. Music Icon in Settings no longer small when no themes are applied on iOS 8.3-8.4.<br>\n12. New \"Universal IconBundles\" themes allows themers to specify 1 image to use across all devices for an icon<br>\n\n1. Fix theming of overlays on 3rd party share sheet icons<br>\n2. Fix crash on iOS 7 devices<br>\n<p>\n1. Performance Optimizations for Folder Icons<br>\n2. Fix lag when swiping on home screen pages for some users<br>\n3. Fix issues with rendering custom icon labels<br>\n4. Remove ToneEnabler functionality & conflict<br>\n5. Add Underlay Functionality<br>\n6. Support theming icons in folders in bundles<br>\n\n1. Fix Cydia Crash on iOS 9<br>\n2. Fix Icon Shadows on iOS 9<br>\n3. Fix Dock Reflections on iOS 9<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

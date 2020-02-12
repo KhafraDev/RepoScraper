@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11 and 12\nNOT compatible with iPhone X yet\n\nKaze updated for iOS 11/12\nQuick switcher and hot corners\n\nConfigure options from Settings.\n\nIssues and Source code:"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/avertas1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/avertas2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 28, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "+ fix fix fix for lock screen gesture for ios 11 ( it would help me greatly to fix this issue if you guys can provide me any crash logs )\n\n\n+ a better method to detect ios version\n\n\n+ iOS 12 support \n- removed per app enable / disable\n- removed immature feature pixel2 style switcher\n- removed Chinese locale in settings\n\n\n1. fix only two apps displayed when reduce motion enabled in quickSwitcher<br>\n2. added customisation of switcher -- a pixel 2 style attempt have a play around in preference<br>\n3. added option to use hotCorners as hotCenter -- use hot corners in centre region instead of side<br>\n4. adjusted localization slightly (the language used in preference -- Chinese)<br>\n5. should be the last update for the v9<br>\n- fix where animation speed up is global, now it only applies when quick switching, making avertes more responsive<br>\n<br>\n<br>\n- fix where icon will shift from the correct position when invoking quick switcher in an app<br>\n- fix where switcher in quickswitcher will become too small<br>\n+ added where access switcher by swiping up in quickswticher<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

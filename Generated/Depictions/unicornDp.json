@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "*Works with the Latest TikTok Version 14.2.0*\n\nFor You:\n\n✔︎ Download Videos\n✔︎ Following Page enhancements\n✔︎ Hide all buttons and text views for all videos (LP)\n✔︎ Comment more than 90 characters for all videos\n✔︎ Present the download button in For You page (LP)\n✔︎ Pinch to zoom and rotation gestures for videos\n✔︎ Perform all share actions\n\nUser:\n✔︎ Download User's Profile Image\n✔︎ Show date created for all videos\n✔︎ View Private or Under Review videos\n✔︎ Spoof Following, Fan and Hearts stats (LP)\n✔︎ Display the region for all Users\n✔︎ Display User's birthday, age and video upload count\n✔︎ Sort user's videos by Likes in descending order\n✔︎ Sort user's Liked videos in descending order\n\nOther:\n✔︎ LIVE enhancements (LP)\n✔︎ View extra user info for all members in Live streams\n✔︎ Type more than 50 characters in Live Chats\n✔︎ Display all gift prizes in Live streams\n✔︎ Disable marking profiles as seen\n✔︎ Upload videos up to 600s length\n✔︎ Removed TikTok Ads\n\n*LP = Long Press for 1 second\n\nOpen sourced:"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/unicorn1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/unicorn2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/unicorn3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 15, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Updated for TikTok version 14.2.0\n\n\n- Fixed Live streams <br>\n- Fixed spoofing stats<br>\n- Supports the latest TikTok v12.1.0<br>\n- Display Following Count for \"Who Viewed Your Profile\" page<br>\n- Auto scroll videos feature<br>\n\n2.2: <br>\n--------------------------------------------------------------<br>\n- Fixed crash when tapping your own profile<br>\n- Fixed issue where Draft videos prevented sorting<br>\n- View videos marked as \"Friends Only\"<br>\n- Fixed crash when tapping your own profile in LIVE Streams<Br>\n- Download User's default image<br>\n- Added timestamp for LIVE streams<br>\n- Filter videos by double tapping anywhere in the Profile View<br>\n- Fixed issue where videos were paused due to Ads<br>\n- Works with the latest TikTok version<br>\nNOTE: Works with TikTok v10.0.0<br>\n- Complete redesign for Unicorn settings<br>\n- Upload videos up to 10 min. length<br>\n- Removed Ads<br>\n- Disable marking profiles as seen<br>\n- View extra user Info for all members in LIVE streams<br>\n- Pinch to zoom and rotation gestures for videos<br>\n\n\n- [x] View \"private\" or \"under review\" videos in LIKED feed<br>\n- [x] Comment more than 90 characters for all videos<br>\n- [x] Spoof user's \"Following\", \"Fan\" and \"Hearts\" numbers (long press each label for 1 second)<br>\n- [x] Show date created to each video in USER feed<br>\n- [x] Sort user's videos by \"likes\" in descending order <br>\n- [x] Present the download button when long pressing the \"For You\" page.<br>\n- [x] Perform all share actions<br>\n- Ad banners were obscuring the views and were not working properly, therefore, were removed.<br>\n<br>\n<br>\n***Now works with the latest TikTok version 9.9.6***<br>\n<br>\n- Fixed issue where the download button was missing for the latest TikTok Version<br>\n<br>\n- Updated the download button image and animation<br>\n<br>\n- Fixed issue where images/videos weren't downloading properly. <br>\n<br>\n- Fixed small bugs<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

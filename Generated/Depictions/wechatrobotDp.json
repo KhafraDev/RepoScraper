@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "微信自动陪聊机器人，个人号秒变机器人。支持「私聊」「群聊」中自动聊天，查询天气，笑话，星座，算命等功能\n\nWeChat automatically accompany the robot, personal WeChatID change to robot. Support auto chat, weather, jokes, constellations, fortune tellers, etc."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechatrobot1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechatrobot2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechatrobot3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "November 20, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "领养一个机器人\n微信自动陪聊机器人,个人号秒变自动回复机器人，支持「私聊」「群聊」\n\n\n领养一个陪聊机器人，拉进微信群调戏小伙伴。<br>\n<br>\nGet A Cute WeChat Robot.<br>\n\n最近更新：<br>\n新增延时功能，可选择延时自动回复。<br>\n<br>\n微信自动陪聊机器人,个人号秒变机器人，支持「私聊」「群聊」中自动聊天，查询天气、笑话、星座、算命等功能<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

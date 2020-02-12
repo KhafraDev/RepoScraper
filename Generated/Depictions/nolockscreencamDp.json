@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 7 - 12\n\nOptions to disable access to camera and photos from the lockscreen. Tested and working iOS 7-11.x\n\nDon't want accidental pictures taken in your pocket? Want to protect your camera roll from kids or malicious friends so they can't take hundreds of pictures on your locked device? Try this tweak for added security. It disables the slide-to-open camera/photos app. Protect your Roll!\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nolockscreencam1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nolockscreencam2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 8, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Updated for A12 devices. Kept minimum target of 7.0, and older ARCH type of armv7, but only tested on 10-12. Older devices may want to hold off on updating. There’s no new features for iOS 7-10.\n\n\nUpdate for iOS 11.x, also changed settings to user defaults so no resprings necessary to turn on/ off. Added a respring button for convenience though if by chance a particular jailbreak doesn’t update immediately. Also made a fix for iOS 7. Tweak is fully compatible and tested on every firmware from 7-11.4\nAdded compatibility for iOS 7, 8 and 11. Added option to remove from CC. Updated preference bundle a little as well.\n\nAdded iOS 9 compatibility, and preference bundle to turn on and off in Settings. Now compatible with iOS 9.0-10.x"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

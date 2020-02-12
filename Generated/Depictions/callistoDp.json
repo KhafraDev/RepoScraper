@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/callisto1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/callisto2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/callisto3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/callisto4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 17, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.49",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.4.7:\n- Uses new server for DRM.\n\n\nVersion 1.4.6:<br>\n- Resolves a bug caused by a wrong compiled binary (not done by me).<br>\n- Minor Bug Fixes...<br>\n<p>\nVersion 1.4.5:<br>\n- Installs RocketBootstrap by default.<br>\n- Fixes a minor bug that occurred on a few devices during DRM Check.<br>\n\nVersion 1.4.4:<br>\n- Fixes Broken DRM Server Issue...<br>\n- Patches and Fixes Two Important Security Bugs...<br>\n- Fixes Issues with Having Multiple Secure WiFi Networks.<br>\n- Redesign the way of how Secure WiFi Networks are displayed in the settings.<br>\n<br>\nThanks @va2ron1 for helping with the WiFi Issues and the settings...<br>\n<br>\nPlease follow me on Twitter for fast Q&A and what-to-do if problems occurs, everything necessary is there :)<br>\n\n<p>\n- Fixes Broken DRM Server AGAIN!<br>\n<p>\n- Fixes Another Touch ID Bug...<br>\n- Fixes the Battery Drain Issue!<br>\n- Choose Your Own Magic Digits!<br>\n<P>\n- Major Security Improvements...<br>\n- Fixes Touch ID, a bug that disabled Touch ID when passcode was disabled using a secure WiFi Network.<br>\n- Fixes a bug that could result a lock out forever!<br>\n- Fixes Encryption Leaks...<br>\n- Fixes another bug that could lock you out!<br>\n\nVersion 1.2.1-1:<br>\n- Added Support for 9.3 - 9.3.3 in the DEB Control File.<br>\n\nVersion 1.2 - 1.2.1:<br>\n- Blank Screen Bug Fix!<br>\n- Another Blank Screen Bug Fix!<br>\n- Always Show Status Bar Time!<br>\n- More Than 1 Secure Network, which means that you can use multiple network as \"Secure Networks\" to bypass the passcode!<br>\nVersion 1.1.3:<br>\n- Fixes False Piracy Alert!<br>\n- Improved Validity Check...<br>\n- Fixes all iOS 9 issues...<br>\n- Fixes a Safe Mode issue.<br>\n\nVersion 1.1.1:<br>\n- Disable the passcode when you are connected to a secure specified WiFi Network! :)<br>\n- Validity Check Fix...<br>\n- Minor Fixes...<br>\n<p>\nVersion 1.0.5:<Br>\n- More Security Fixes...<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

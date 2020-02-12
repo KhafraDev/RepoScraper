@@ -1,0 +1,55 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Wave allows you to keep your customized control for each AirPod by utilizing the power button to control the music. If you assigned the Left and Right AirPod to Play/Pause and Next Track, you can now double and triple press the power button to activate Siri and play the Previous Track. The double and triple actions are configurable for you to decide. Wave activates when your phone connects to your AirPods and deactivates when you put it back in your charging case.\n\nTested on iOS 10 - iOS 11\n\nThe double and triple actions can be configured to\n- Activate Siri\n- Play/Pause\n- Play Next Track\n- Play Previous Track\n\nHow do I activate an action?\nDouble or triple press the power button under 0.5 seconds. Make sure to respring your device if you change any actions and reconnect to Bluetooth.\n\nConfigure options from Settings.\n\nOpen sourced:"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/airwave2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/airwave1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 9, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

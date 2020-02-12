@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9 and 10\n\nTouchBar brings the macOS style TouchBar found on the MacBook Pros. Adapted for iOS it provides a function bar at the bottom of the screen.\n\nBy default the Home bar is displayed. A back, home and multitasking button.\n\nSwiping left on the TouchBar by default displays the control bar. A series of controls for device functions such as brightness and volume.\n\nSwiping left from the is a music section you can skip, rewind and toggle pause from that section.\n\nTouchBar is highly customisable and can be modified via the preferences page.\n\nCurrently Not compatible with Harbour, Cercube, StopAlarm8+. Tweaks cause a respring loop."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/touchbar1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/touchbar3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/touchbar4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/touchbar5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 23, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 2.50",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Bug fixes and improvements\n\nAdded support for harbour by disabling TouchBar on homescreen due to Dock interactions.<br>\n<br>\nFixed Dock and App grids getting close.<br>\n<br>\nFixed back button not responding, please allow for time for the animation between switching applications to complete.<br>\n<br>\nAdded TouchBar in app switcher, why wasn't it there in the first place?<br>\n<br>\nOther small bug fixes and speed improvements.<br>\n<br>\nAdded AppList as a dependency.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

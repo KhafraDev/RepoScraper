@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "support all iOS versions(5.1.1~13.2.3), and all iOS devices(iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro)。支持所有iOS系统(5.1.1~13.2.3)版本及设备(包括iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro), iPad, iPod Touch. 完美兼容最新13.2.3越狱\n\nContact tinyapps@qq.com anytime you like. 有任何问题，均可直接联系邮件客服\nFake GPS is an app with which you can change your iPhone/iPad's current location as you wish.\n\n定位修改器(iPhone)，一款供越狱了的iPhone用户使用的地理位置伪装软件。（支持微信 5.0和易信；支持中文简体/繁体和英语）\n\nAfter setting a fake location with just a long press on a map view, all location-based apps(like Facebook, Twitter, Line, Wechat, etc) on your device immediately believe you are there.\n\nIt is really a perfectly match for Facebook, Twitter, Line and other location-based apps. By changing your location, you can:\n1. Protect your location privacy from people on SNS sites.\n2. Get around the location specific locks that some apps put in place to prevent you from viewing content in certain regions.\n3. Go where you've never been before, and meet people there, in a second.\n\n借助它，你可以轻松穿越到你想去地球上的每一条街道，配合微信、手机QQ、微博、陌陌、米聊、等各种社交软件，可以：\n\n1、保护隐私：您的真实个人地理信息不会被人看到。\n2、穿越到老友所在地：以超光速的方式定位到您另一个城市的好友所在地，给他/她一个意想不到的问候。\n3、结交远方好友：不用出门，一样结识在丽江、西藏的驴友、不用远行，也可以结识港澳台同胞，甚至还能。。。\n4、可以查看多你想看到的任何地方的相关内容或优惠信息：如使用美团时，可以修改定位，查看某个地方周边的团购情况，让你寻找优惠更加有的放矢。\n\nNote that this is a Lite version, you can just travel locally, that is within 20 kilometers. If you want to travel further, pleaseon Bigboss.\n\n注意：这个是Lite版本，只支持本地穿越(20公里范围之内），如有更大的穿越范围需要，请下载版或者Free版。\n欢迎添加微信号：tinyapps ，了解更多。"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/xgpslite1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/xgpslite2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/xgpslite3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/xgpslite4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 4, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "1. add support for iOS 13.2.3\n1. 增加对iOS13的支持\n\nsupport all iOS versions(5.1.1~13.2.3), and all iOS devices(iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro)。支持所有iOS系统(5.1.1~13.2.3)版本及设备(包括iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro), iPad, iPod Touch. 完美兼容最新13.2.3越狱\n\nContact tinyapps@qq.com anytime you like. 有任何问题，均可直接联系邮件客服\n\n\n1. support iOS 11.3.1<br>\n1. 兼容11.3.1最新越狱<br>\n<br>\nSupports all iOS system versions(5.1.1-11.3.1) and devices(iPhone, iPad, iPod Touch), including iOS 11.4 beta 1~3 支持所有iOS系统版本(5.1.1-11.3.1)及设备(iPhone, iPad, iPod Touch)，包括新出来的11.3.1越狱系统和 iOS 11.4 beta 1~3系统。<br>\n<br>\nContact tinyapps@qq.com anytime you like. 有任何问题，均可直接联系邮件客服<br>\n\n1. Some bugs fixed.<br>\n1. 修复几个bug<br>\n<br>\n\n1. bugs on points of interest fixed<br>\n1. 修复一些热点的bug<br>\n1. Fix the crash bug on address search<br>\n1. 修复地址搜索导致闪退的问题<br>\n<br>\n<br>\n1. Support iOS 10 and 11<br>\n2. bug fix<br>\n<br>\n1. 增加对iOS 10和11的支持<br>\n2. 修复一些bug<br>\n1. search function bug fixed<br>\n2. support 9.2-9.3.3 jailbreak<br>\n<br>\n1. 修复搜索bug<br>\n2. 兼容9.2-9.3.3最新越狱<br>\n1. Add Camera and Weather Board 2 into whitelist.<br>\n2. Some bugs fixed.<br>\n<br>\n1. 修复白名单中无法显示‘相机’和‘Weather Board 2’的问题。<br>\n2. 修复了一些Bug。<br>\n\n1. user experience of location setting enhanced.<br>\n2. 提升位置设置的用户体验<br>\n\n1. bug of location-shit in Taiwan fixed.<br>\n1. 修复台湾地区的偏移bug。<br>\n\n1. add 'Top' function for favorite locations.<br>\n2. add mark time for favorite locations.<br>\n<br>\n1. 增加收藏的“置顶”功能。<br>\n2. 增加显示收藏时间的功能<br>\n3. 增加热点功能。<br>\n\n1. bug fix on city list<br>\n2. compatible with iOS 5.1.1 - 8.4<br>\n<br>\n1.修复城市列表bug<br>\n2. 兼容5.x-8.x的所有iOS设备。<br>\n<br>\n<p>\nsupport iOS 8.4.<Br>\ncompatible with iOS 5.1.1-8.4<Br>\n<br>\n支持8.4完美越狱；<br>\n兼容iOS 5.1.1-8.4设备<br>\n<p>\n<p>\n1. renaming favorite locations added.<br>\n2. tha max number of favorite locations is increased to 20.<br>\n3. support iOS 5.1.1-8.3<br>\n<br>\n1. 增加收藏位置的重命名功能。<br>\n2. 扩大收藏位置的数量到20个。<br>\n3. 支持5.1.1-8.3完美越狱。<br>\n<P>\nsupport iOS 8.3<br>\n支持iOS 8.3完美越狱<br>\n\nBug fix on tableview of favorite locations interface\n\n1. bug fixes for some iPad devices<br>\n<br>\n1. 修复在iPad上面的2个Bug。<br>\n\nCompatible with iOS 8.1.2<br>\n支持8.1.2越狱<br>\n\nsupport iOS 8<br>.\n支持iOS 8.1.x<br>\n\nfix whitelist apps problem。<br>\n修复白名单在iOS8上无法显示问题。<br>\n<br>\nsupport all iOS devices from 5.1.1 to 8.1<br>\n支持所有5.1.1~8.1的iOS设备<br>\n\nCompatible with iOS 8.<br>\n兼容iOS 8.<br>\n\n1. fix location drift bug. <br>\n2. fix bugs on Weibo app. <br>\n3. optimize search function greatly. <br>\n4. fix bugs on device whose current language is neither Chinese nor English。 <br>\n<br>\n1. 修复定位修改位置存在偏移的问题(感谢Jason、小卤蛋等热心小伙伴的反馈)。<br>\n2. 大幅强化位置搜索功能，并同时支持国内/外地址搜索。<br>\n3. 修复在微博上定位修改不稳定的问题。<br>\n4. 修复在非中英文语言机器上的语言显示问题，非中文机器默认显示为英文。<br>\n\n1. fix a serious bug: crash on launch on some jailbroken device.<br>\n2. refine the favorites and district view.<br>\n\n1. Redesign side bar. <br>\n2. Provide famous cities of each continent as candidate target locations for your convenience. <br>\n3. Support all iOS devices(5.1.1~7.0.6):including iPhone 4/4S/5/5S/5C/iPad/iTouch<br>\n\nChanges in this version(1.3):<br>\n1. Add Random Jumping function<br>\n2. support all iOS devices(5.1.1~7.0.4):including iPhone 4/4S/5/5S/5C/iPad/iTouch<br>\n<br>\n新版变更(1.3版)：<br>\n1. 增加“摇一摇”随机穿越到任意一个位置的功能。 <br>\n2. 兼容iOS 5.1.1及以上所有越狱设备（包括iPhone 4, 4s, 5, 5c, 5s，及所有iPad，iPod touch）。<br>\n\n1. fix bugs on App White List;<br>\n2. fix bugs on Removing favorite target locations;<br>\n3. support all iOS devices (5.1.1-7.0.4), including iPhone 4/4S/5/5S/5C/iPad/iTouch.<br>\n<br>\n1. 修复白名单在iOS 7上失效的问题；<br>\n2. 修复删除收藏地址的时候，地图上的图钉的收藏状态无法自动刷新的问题；<br>\n3. 修复分享列表底部的“取消”按钮点击困难的问题。<br>\n\n1. add support for iPhone 5S and iPad air.<br>\n2. compatible for all iOS(5.1.1~7.0.4), including all devices(iPhone 4/4S/5/5C/5S/all iPad)<br>\n<br>\n1. 修复在5S和iPad air上的兼容性Bug。<br>\n2. 兼容所有5.1.1到7.0.4的设备，包括(iPhone 4/4S/5/5C/5S/所有iPad)<br>\n<p>\n<p>\n1. support iOS7<br>\n2. redesign icon<br>\n3. new feature: show the distance from target location to current location when a location selected.<br>\n4. new feature: make a selected location form sidebar as a target location automatically.<br>\n5. new feature: share your traveling status to your friends on Facebook, Twitter, or in your contacts.<br>\n<br>\n1. 支持iOS 7(iphone 4, 4s, 5, 5s, 5c)<br>\n2. 重新设计图标<br>\n3. 新功能：自动显示目标位置与当前位置的距离。<br>\n4. 新功能：在点击左侧栏中的位置时，自动将左侧栏的位置设为目标位置，减少您的目标位置确定的时间。<br>\n5. 新功能：增加分享到微博、微信、QQ空间等功能<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

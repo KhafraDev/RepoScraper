@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/whatsappcustomizer0.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 24, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatibility update for WhatsApp v2.17.20\n\n\nFix crashing bug on iOS 10\n\n- Fix crashing bug in group chat in WhatsApp v2.16.12 and v2.16.13\n\n- Fix settings crash<br>\n<Br>\n- Add compatibility for WhatsApp v2.16.10 and v2.16.11<br>\n- Update for WhatsApp 2.16.7<Br>\n- Fixes message bubble colors<br>\n- Fixes text message colors<br>\n<!--\n- Support for WhatsApp v2.12.12<br>\n- Added new color chooser<br>\n- Added \"Reset to Defaults\" button in Settings<br>\n- Added Launch WhatsApp button in Settings<br>\n- Improved tint color<br>\n- Fixed sender label color bug in Group Chat<br>\n- Fixed seen status bug on some devices<br>\n\n- Added app tint color option<br>\n- Added status bar color option<br>\n- Added chat toolbar color option<br>\n<p>\n- Fixed possible WhatsApp crash issue<br>\n- Fixed text color bug in Group Chat<br>\n- Fixed seen status color bug<br>\n- Fixed rounded corner image view<br>\n- Added more color options for Group Chat<br>\n- Other small improvements<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

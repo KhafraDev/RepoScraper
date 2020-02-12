@@ -1,0 +1,37 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10 and 11\n\nHaptiClock is a tweak to go with Activator that allows you to ‘feel’ the time. Haptic feedback plays for each digit of the time, and this means you can tell the time without getting your phone out or looking at it. (Useful in a meeting or in class.) Hardware actions are recommended, for example, pressing both volume buttons together. This means you can activate the tweak through your pocket.\n\nAn example of a time being played: 12:41 would be: one small pop, then a small pause, then two more pops, then a bigger pause, then 4 pops, then a pause and finally one more pop.\nConfigure Activator from Settings.\n\nNo Screenshots for this item."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 16, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

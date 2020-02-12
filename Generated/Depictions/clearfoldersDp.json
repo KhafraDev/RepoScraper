@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10 - 13, not tested yet on older versions.\n\nClearFolders gives your folders a much cleaner and beautiful look.\n\nCurrent features: settings with options to respring, enable/disable the tweak. Removes background of folder icon on homescreen and in folder background (see previews). Gestures in folders and options to change folders background color.\n\nComing soon features: Change layout inside folders.\n\nConfigure options from Settings.\n\nConsider making a"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/clearfolders1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/clearfolders2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/clearfolders3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 2, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Fix libcolorpicker dependency\n\n\nNew features:\n\nGesture added (Pinch to close folders).\n\nOption to change color of folders background :)\n\nUpdated UI in preferences with new options.\n\n\nBugs fixed:\n\nFixed the major bug where the tweak loaded enabled but not working on some devices.\n\nAdded compatibility with Bolders tweak.\n\nFixed folders background alpha not changing when Reduce Motion was enabled.\n\n\n~Added new features.<br>\n<br>\n~Updated UI in preferences.<br>\n\n~Fixed the issue where you need to respring multiple times to apply changes.<br>\n<br>\n~Updated UI in preferences.<br>\n<br>\n~Added more options to configure the tweak.<br>\n<br>\n~Confirmed compatibility with iOS 10.<br>\n$_COOKIE"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

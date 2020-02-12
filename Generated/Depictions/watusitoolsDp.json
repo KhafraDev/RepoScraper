@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Shared Library for Watusi, Stalky, OnlineNotify and other tweaks made by Fouad Raheb\n\nThis is a developer support library. No icons are installed."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 20, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Bug fixes & improvements\n\nSupports unc0ver 2.2.0<br>\n<br>\nNew Watusi account management section<br>\n\n<br>\n- Support latest WhatsApp update 2.18.90<br>\nv1.5<Br>\n- Support latest WhatsApp 2.18.80<Br>\n- Libraries update<br>\nBug fixes and improvements for iOS 11\n<br>\n- Fixed lib not loading on iOS 11\n\n\nBug fixes and improvements<br>\n<br>\n- Supported latest WhatsApp update<br>\n- Update libraries<Br>\n\n\nSupport latest WhatsApp update 2.17.70\n\n\nv1.3.25<br>\n- Support latest WhatsApp update 2.17.51<br>\n\n<Br>\nSupport latest WhatsApp update\n\nBug fixes and improvements<br>\n<br>\n\nSupport latest WhatsApp update 2.17.30\n\n- Improvements and bug fixes.\n\nSupport latest WhatsApp update 2.17.20\n\nSupport latest WhatsApp update<br>\n<br>\n- Re-added iOS 7 support<Br>\n\n- Support latest WhatsApp update 2.17.3<Br>\n- More bug fixes<Br>\n- Since license purchase is now made from my server, I removed PayPal and Twitter SDKs which redured the package size by 11mb.<Br>\n- Finally fully removed GoogleAnalytics, which should reduce the number of weird crashes.<Br>\n\nSupport latest WhatsApp update\n\nBug fixes<br>\n<Br>\nSupport latest WhatsApp update 2.16.10<br>\n\nManually stashing libWatusiTools.dylib\n\nSupport latest WhatsApp update<br>\n\n<p>\nBug fixes and improvements<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 22, 2015",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 4.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "* Fixed BTstack connection issues\n* Improved audio re-sampling accuracy\n* Added more options to control frame rate and color quality\n\n\n\n* New Prescale 2x effect, sharp edges at any zoom level with linear filter<Br>\n* Experimental support for hardware keyboards via the Apple Bluetooth stack<br>\n* iPhone 6 & 6 Plus screen size support<br>\n\n* MFi game controller support<br>\n* Improved speed & quality for hq2x shader<br>\n* New Scale2x shader<br>\n* Option to show only game content on external display<br>\n* Option to use an automatically created save path specific to each system<br>\n* Reorganized a few options and made other UI tweaks<br>\n\n* Added bundled game Motocross Challenge from developer David Doucet<br>\n* Fixed iOS 7 status bar issue<br>\n* Key repeat for bluetooth controllers<br>\n* hq2x shader (WIP)<br>\n* Other small tweaks & fixes<br>\n\n* Movable On-screen Controls<br>\n* Various UI tweaks<br>\n\n* Fix options related crashing<br>\n<br>\n* Cheat code support<br>\n* PS3 controller support<Br>\n* Other minor tweaks<br>\n\n* IPS patch support<br>\n* Unbind keys by pushing Left on a Bluetooth controller<Br>\n* Compatible with Blutrol<br>\n* Other minor changes<br>\n\n* RTC on/off option<br>\n* New audio back-end to fix issues with iOS 6.x<br>\n* Wii U Pro Controller support<br>\n* New Integer-only zoom option affecting only height<br>\n* Various other fixes/tweaks<br>\n\n* Replaced Key Configs for Wiimotes, iCade, etc. with Input Device Setup menu providing per-device settings<br>\n* iPhone 5 screen support<br>\n* Date & time listed in save state slot menu<br>\n\n* iCade fix and some minor tweaks\n<p>\n* Custom save path option<br>\n* Fixed zip file load error<br>\n\n* Fix a possible crash and display composed text (accent marks, Korean, etc.) correctly\n<p>\n* Fixed saves in Pokemon Mystery Dungeon (European version)<br>\n* 7zip (.7z) file support<br>\n* Unicode text support (Japanese, etc.)<br>\n* Other minor tweaks/fixes, including proper iOS 6 orientation handling<br>\n\n* Auto load state prompt<br>\n* Bluetooth scan fixes<br>\n* Fixed auto-frameskip lockup<br>\n* Sound buffer size option to control latency and reduced latency in general<br>\n* Option to show/hide status bar<Br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

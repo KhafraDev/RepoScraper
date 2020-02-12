@@ -1,0 +1,90 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9, 10 and 11.\n\nPlease note that this package is completey free for all Copic 2 users who bought Copic 2 on or before 'October 17, 2017'.\n\nCopic For WhatsApp brings ability to display the Contact pictures instandard views such as Recents, Contact and Chat screens. Please ensure that you have a valid license forbefore installing this tweak. Requires Copic 2 and all settings of this plugin can be configured under Copic's WhatsApp settings.\n\nPlease note that a valid license ofis required to use this little tweak. This tweak doesn't add any extra icon on your SpringBoard.\n\nThis adds settings to's settings as shown in the below screenshots.\n\n*Customisable settings under's settings.\n\n*Ability to turn on/off show contact pictures on different screens of.\n\n*Round or Square or no pictures at all.\n\n*Chat pictures inside a conversation."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/copicforwhatsapp1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/copicforwhatsapp2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/copicforwhatsapp3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/copicforwhatsapp4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/copicforwhatsapp5.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/copicforwhatsapp6.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 15, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 0.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "1. Added support for 11.3.1\n2. Added support for latest WhatsApp (2.18.70)"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

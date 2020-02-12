@@ -1,0 +1,37 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10\n\nDisables biometric(TouchID and FaceID) authentication until you enter your passcode again.\n\nIf you have apps that ask for TouchID or FaceID, they will either resort to the app's passcode or refuse to perform the action\n\nAfter you trigger this, you will no longer be able to use your touchID or FaceID for authenticating anything. The device will simply reject it and use the next authentication method. Your passcode has to be entered once to re-enable biometric authentication. Upon trying to authenticate with TouchID or FaceID multiple times, the system may kick you into lockscreen to ask for passcode.\n\nConfigure Activator from Settings\n\nNo Screenshots for this item"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 10, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

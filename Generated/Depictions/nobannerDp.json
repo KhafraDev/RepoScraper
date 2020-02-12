@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now Free."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 3, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Added Support for A12 Devices\n\nThis item is now Free.<br>\n<br>\n- add support for iOS 10.3.3<br>\n- add support for iOS 11<br>\n- add support for iOS 12<br>\n<br>\n- added iOS 10 Support\n\n-added support for iOS 9.3.3\n\n- fixed Bug for Paypal<br>\n- some improvements for Facebook<br>\n\n-added iOS 9 compatibility\n\n-fixed compatibility for Pandora Downloader\n<p>\n-bug fixed for compatibility with BatterieLife\n<p>\n- fixed isues for the Settings\n<p>\n-bug fixes and improvements for iOs 8.3\n<p>\nAdded ios 8.3 support\n\n- works now with any Application that plays an Sound/Video (including Games)<Br>\n- you can now exclude Apps<br>\n- you can now enable/disable for Background Musik<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

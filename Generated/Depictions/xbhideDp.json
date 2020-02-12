@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11 and 12\n\nXB-Hide lets you hide any icon from SpringBoard. It doesn´t use libHide dependency, and icons will be hidded without respring (by now, in order to show them up again, a respring is needed).\n\nWhen it´s enabled, you just need to enter edit mode (reorder or uninstall apps) and tap those icons you want to hide.\n\nTo unhide them just go to XB-Hide settings.\n\nYou can remove them from Settings User apps section too.\n\nwill be appreciated.\n\nVideo Demonstration:"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/xbhide1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/xbhide2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/xbhide3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "March 10, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Removed SpotLight options (Safe mode on some devices, not working on others, and I can test it only in my iPhone6).\n- Removed Hidded list in Editing Mode.\n\n- Fixed some animation bugs.\n- Fixed bug where sometimes does not hide the icon, only shows Hidded list.\n\n- Added option to remove selected User apps from Settings\n- Added Arabic localizations.\n- Added Italian localizations.\n\n\nXB-Hide 1.3<br>\n<br>\n- Added option to remove all User Apps from Settings <br>\n<br>\n- Fixed SafeMode when selecting icons to unhide quickly in red Status Bar list. <br>\n- Fixed SafeMode in some devices when trying to write in Spotlight search.<br>\n- Fixed some bugs not showing the results on Spotliht search when that option is disabled.<br>\n- Fixed some visual bugs.<br>\n<br>\n- Code cleaned.<br>\n<br>\n<br>\nXB-Hide 1.2<br>\n<br>\n- Fixed \"icons\" text position on red bar for iPhone X.<br>\n- Fixed red bar not working the first time Editing icons is invoked.<br>\n<br>\n- Added option to remove all hidden apps from Spotlight results.<br>\n- Added option to select (from hidden apps list) apps in order to hide them from Spotlight results.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

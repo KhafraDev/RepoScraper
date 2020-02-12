@@ -1,0 +1,90 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Supports iOS 11, 12 and 13\n\n\n\nOnlyfor launch week!\n\n\n\nAs seen in,,\n\n\n\n\n\n\n\n\n\n\n\nDon't call your provider any more for missed or declined calls!\n\nhandles your voicemail, bringing\n\n,,,andare just a few of the features you get!\n\nThis brand-new tweak uses all currently available technologies (and not only) to bring you theon your phone:\n\n-\n\n-of the recorded voicemails brings youof the recorded voicemail in real time! In all iOS available dictation languages!\n\n-of newly recorded voicemails upon completion.\n\n-orlike Siri to dynamically greet your callers usingfrom your contacts automatically, with spoken text that you specify! You can even skip recording any greetings!\n\n-for everyone or per contact independently! Either recorded or with System's Voice!\n\n-to what the remote party is saying while leaving voicemail without answering the call!\n\n-if you wishthey are leaving you a voicemail and talk to them, or let them continue leaving you the voicemail without knowing you are around!\n\n-while they are leaving a voicemail so you can continue what you were doing. You can still pick up the call or decline it if you wish at any time!\n\n-allow you to call your phone remotely and listen to your messages, mark them as heard or delete your messages! With localisable menu voice in your own language!\n\n-allow you to perform actions on your phone remotely! You can request it to send you its location to the number you're calling from, even if WiFi or Location Services are disabled! Life saver if you've lost it and it has no internet access!\n\n- Remote access using DTMF is\n\n-to AnsweringMachine when \"Do Not Disturb\" is enabled. Optional.\n\n-andcalls are handled!\n\n-in Settings.\n\n\n\nAlready compatible withand.\n\n\n\nLimitations:\n\n- DTMF (Touch-Tone) commands might not work over LTE Voice/4G Voice and Data, since some providers are blocking their audio signals and use RTP messages. Switch off LTE Voice or 4G Voice and Data in Cellular settings.\n- This tweak will not record voicemails when the phone is turned off or offline, obviously!\n- Supports all iOS 11/12-capable devices!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/answeringmachinex1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/answeringmachinex2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/answeringmachinex3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/answeringmachinex4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/answeringmachinex5.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/answeringmachinex6.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 12, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 2.98",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Added iOS 13 support.\n- Fixed Remote Commands not working on iOS 12.\n\n\n- Fixes a crash issue when screening a voip call.<Br>\n- Fixed an issue where greeting voice sounded wrong-pitched while on headphones<Br>\n- Fixed activation issues<br>\n- Fixed SpringBoard random freeze<br>\n<br>\n- Fixed an application issue where the playback slider could be dragged outside its boundaries.<br>\n<br>\n- Fixed an issue when being on bluetooth/airpods and a second call comes in, forcing speaker route to device.<br>\n- Added option to disable checking for updates.<Br>\n- Fixed activation issues.<Br>\n<br>\n<br>\n- Fixed an issue on iPhone X where Face ID authentication token was dropped when Power Down alert appeared.<br>\n- Added option to set specific greetings for when you are driving.<BR>\n- Added automatic updates installation option.<Br>\n\n- Fixed an issue where call audio got muted after AnsweringMachineX answered a call.<br>\n<br>\n<br>\n- Fixed an issue not recording AnsweringMachine X message when on Bluetooth/Airpods.<br>\n- Fixed an issue where screening a voicemail before starting to leave a message resulted in garbled greeting voice.<br>\n<br>\n<br>\n- Fixed Premium Voices crashing SpringBoard when AnsweringMachine X picked up the call.<br>\n- Fixed a UI issue in application showing the play button overlapping messages.<br>\n- Fixed an activation issue on devices with tweaks that alter their device UDID.<br>\n- Fixed a crash in settings when playing synthesised greetings. <br>\n- Added option for avoiding chipmunk AnsweringMachine voice when WiFi Calling is enabled.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

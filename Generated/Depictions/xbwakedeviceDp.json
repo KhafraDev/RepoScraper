@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 12\n\nWake the screen with Touch ID or device orientation!\n\nYou can tap, double tap, long press or tap and hold Touch ID to wake device.\nYou can wake the screen orienting device to portrait, you can shake it or go from portrait and leave it horizontally.\n\nThere are options to customize battery drain, such motion update interval, sensibility, delay to disable, etc...\n\nwill be appreciated."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/xbwakedevice1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/xbwakedevice2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 31, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Changes 1.3\n\n- No more Respring to activate XBWakeDevice (Fixing at least two bugs).\n- Partially fixed FingerTouch/DVirtualHome sometimes being disabled randomly.\n- Added Control Center module.\n- Added compatibility with XB-CCModules (Options in XB-CCModules will affect XBWakeDevice module too).\n- Added module long press option to fix FingerTouch/DVirtualHome (XB-CCModules tweak must be installed, but not neccessary).\n- Added module option to select color (XB-CCModules tweak must be installed, but not neccessary).\n- Battery drain optimized (less drain than before).\n- Fixed bug with Restart timer option doing weird things if Tap to wake is enabled.\n- Added \"Restart timer when screen is On\" to Tap to wake options.\n\n\nChanges 1.2<br>\n<br>\n- Added arm64e compatibility.<br>\n- Added Touch ID tap to wake mode.<br>\n- Added Vibration on Touch ID sensor when device is blocked.<br>\n- Added sliders to control vibration duration and intensity.<br>\n- Added option to fix Reachavility (This can be used for DVirtualHome or FingerTouch as well).<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

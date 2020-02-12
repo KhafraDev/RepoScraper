@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Removes Citrix Receiver Jailbreak Detection\n\nNo Options to configure. Tested on iOS 10.1.1 (iPhone 7) and 10.2 (iPhone 6, 6S and iPad Air 2) with Citrix Receiver 7.3.\n\nRemoves the annoying Jailbreak Warning and lets you connect - even with Jailbreak.\n\nNo Screenshots for this item."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "October 25, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Corrected package details\n--(repo maintainer)"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

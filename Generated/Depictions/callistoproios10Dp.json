@@ -1,0 +1,78 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10\nCompatible with iPhone and iPad\n\nCallisto Pro does not only allow you to set the time as your passcode, but also disabling the passcode when you are connected to a secure WiFi Network, Bluetooth Device or when a favorite app is marked as Now Playing in iOS. It is a super handy tweak that is recommended for everyone using an iOS device! It has been totally rewritten for iOS 10 and does not share a single line of code with its previous edition\n\nWith iOS 9, Apple introduced the 6-digit Passcode. Since the time format is detailed in only four digits, the 6-digit Passcode was impossible to use, and therefore you would have locked your device permanently if you tried using it that way. This has been solved with\n\nTheir are several customizations, both handy, but also visual too, that can be applied to your device with Callisto Pro.\n\n\nIt is super safe, super smart and a good way to impress your friends! Set the current time as your passcode. As it changes every minute, you can just give your friends your passcode when they need your device, and a minute later, the code is changed. They’ll never figure out what’s going on, and your photos are in good hands! :)\n\n\nCustomize your 6-digit passcode with several options:\n\n1. Double Zero! - Your last two digits will be \"00\". It’s easy to remember and use with other options...\nFor example, if the time is 09:41, your passcode will be 094100.\n\n2. Magic Digits! - Choose between different magic digits and these will be the last two digits of your Time Passcode.\nFor example, if the time is 09:41 and you have chosen Magic Digits \"07\", your passcode will be 094107.\n\n3. Callisto Special! - This option will calculate current (hour + minute) and that will be the last two digits.\nFor example, if the time is 09:41, your passcode will be 0941+(hour + minute) = 0941 + (09 + 41) = 094150.\n\n4. Magic Day! - This option is totally new in Callisto Pro and allows you to use the current date (day) as the last two digits of the Time Passcode.\nFor example, if the time is 09:41 and it’s December 2nd, your passcode will be 094102.\n\n5. Magic Battery Percentage! - This option is also just introduced in Callisto Pro and allows you to use the current battery percentage as the last two digits.\nFor example, if the time is 09:41 and you have 56% of your battery left, your passcode will be 094156.\n\n\nThis is a better version of my free tweak LastTimeUnlocked which allows you to customize the “Press home to unlock”. It has three modes which all can be seen in the screenshots tab.\n\n\nTired of having wet fingers and not be able to unlock your device? Then this is definitely something for you! Disable your passcode when you are connected to a safe WiFi network or a safe Bluetooth device. You can also disable the passcode when a selected application is playing music! Perfect, if you are at home and just want to use your device with no extra complications. You can use only Callisto Pro without the Time Passcode feature, as well as having both enabled simultaneously!\n\n\nOk, if you still feel insecure about using this tweak. You are maybe a really careful person who thinks that the passcode is easy to break if you know what time it is. Then I have something for you too. Set a custom Time Offset to move forward or back one minute or many hours to keep your device safe. You can also reverse the whole time passcode, and enable if you want to have your original passcode as a last escape!\n\n\nCallisto Pro is the first tweak ever to introduce iOS 11 styled passcode buttons. You can customize the buttons exactly the way you want them, even with 3D effects. See the screenshots for more information!\n\nMANY Configurable Options in Settings..."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/callistoproios10-4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/callistoproios10-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/callistoproios10-2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 22, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 2.49",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Fixes a security related issue.\nResolves an issue with preference handling.\n\n\nProper alignment when using iOS 11 styled passcode buttons."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

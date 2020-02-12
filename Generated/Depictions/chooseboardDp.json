@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/chooseboard1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/chooseboard2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/chooseboard3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/chooseboard4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "October 30, 2015",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "In Version 1.1.3-2\nAdded 9.0 compatibility\n\n\n1.1.2-1<br>\niOS 8.4 Compatible<br>\n\nIn version 1.1.1-1<Br>\nAdded an option to disable the Default Keyboard Option, just select \"Disabled\" in it's options.<Br>\n\n<p>\nIn version 1.1.0-2<Br>\n<Br>\nAdded Default Keyboard Feature<Br>\nAdded Globe Icon Feature<Br>\nAdded Activator Gesture to Switch to each keyboard!<Br>\niOS 6 initial support, contact me if you need it.<Br>\n\nIn Version 1.0.1-1:<Br>\n<Br>\nFixed Apps Crashes<Br>\nAdded credits section<Br>\nRemoved banners from Activator since it already has banners<Br>\nPreparation to New Feature<Br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

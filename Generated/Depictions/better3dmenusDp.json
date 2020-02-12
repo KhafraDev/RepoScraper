@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10, 11 and 12\n\n* Reduce the huge amount of background blur.\n* Ignore the force touch recognition (makes 3d-touch faster and smoother)\n* Remove the separators.\n* Flip all 3d-touch menu icons to the left.\n* Reverse all items order.\n* Cool effect for the SB icon when 3d-touching.\n* Disable Animations for 3d-touch menus.\n* Ignore first touch (so that you don’t hit an item by mistake)\n* Square menu option.\n* Split widgets option “buggy”\n* Configure options from settings.\n* No need to respring to apply changes."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/better3dmenus1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/better3dmenus2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 27, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- iOS 12 Support. \n- Cephei is no longer a dependency (as many people were having issues accessing the prefs)"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

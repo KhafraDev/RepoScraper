@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8, 9 and 10 (tested on iPhone 5S, 6 and 7 running iOS 8.3, 9.0.2 and 10.1.1).\n\nSwipeUpAndDown gives you the Way to Swipe Up for Closing the Current Applications, then Swipe Down to Retrieve Again All of Them and More!\n\nOn iOS 9 and 10 you have to Scroll to the Next Application for being Able to Swipe Up and Retrieve them Again.\n\nThe Applications once Closed Still Remain Visible When Scrolling Across the Switcher but will be Closed When opening It Again (The Explanation is also on the Preferences of the Tweak).\n\nFurthermore, SwipeUpAndDown has also at the moment these Additional Features:\n\n- Hide the Icons of the Switcher Cards.\n\n- Hide the Icons and the Labels of the Switcher Cards.\n\n- Enable the Switcher to Always Open the Current Application!\n\n- Make Small the Icons and the Labels of the Switcher Cards.\n\nMore Stuff to come!\n\nConfigure options from Settings.\n\nSee Screenshots and the Video about How It Works below.\n\niOS 11 is on Full Compatibility Stage in the Next Works.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/swipeupanddown1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 25, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "You can download for iOS 8"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

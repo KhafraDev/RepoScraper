@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11 - 12\n\nTabBlocker is able to block the opening of new tabs for specified websites.\n\nAllot of times when I try to watch a video, or open certain webpages that contain allot of ads. I get redirected to a new tab almost directly. TabBlocker will ask you if the webpage is allowed to open new tabs, or just block them! In the settings you will find:\n- White-listed domains\n- Black-listed domains\n- Black-listed Url's\n\n[Features]\n- Configurable in settings\n- Block any new tab by specifying source URL\n- Multiple URL can be split by ;\n- Will bypass any anti-adblocker script! (no website is able to block this method)\n- Configurable option to disable new tab animations\n\nTested on iOS 11 - 12\n\nMade for fun by Droom0ne. Feel free to contact me on reddit:\n/u/Droom0ne\n\nThis tweak is opensource!\n\nVideo:"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/tabblocker1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/tabblocker2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 15, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Fixed preference bundle issue\n\n\n- Added support for iOS 12\n- Compiled for ARM64e (A12) \n- Minor bugfixes\n\n\nRecoded from scratch <br>\nSafari Popup: <br>\n- Allow<br>\n- Block URL <br>\n- Block Domain<br>\nPopup configurable in settings<br>\nAdded whitelist <br>\nAdded domain blacklist<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

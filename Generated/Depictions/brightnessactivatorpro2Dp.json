@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/brightnessactivatorpro2-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/brightnessactivatorpro2-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/brightnessactivatorpro2-3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/brightnessactivatorpro2-4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 2, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 0.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "v1.0-9\nSupport for iOS 11 (Electra Jailbreak)\n\n\nv1.0-8<br>\nSupport for iOS 10.3.x<br>\nv1.0-7<br>\n- Support for iOS 10<br>\nv1.0-6<br>\n- Fix DRM issue<br>\n\nv1.0-5<Br>\n- Support: iOS 9<Br>\n- Improved operation in the Landscape screen.<br>\n- Remove: Adjust LockScreen Brightness<br>\n- Remove: Disable Home clicked<br>\n<br>\n\"Dismiss Brightness Change Mode\" is not working in iOS 9. Please use long press in Home screen.<br>\n\nv1.0-4<br>\nOptimized to iOS 8.2/8.3/8.4<br>\n\nv1.0-3<br>\nSupport for iOS 8.3<br>\n\nv1.0-2<br>\nAdd: Disable Home clicked<Br>\n(Brightness Change Mode)<br\nFix: Settings made to be reflected<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

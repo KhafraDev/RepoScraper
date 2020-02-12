@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 7, 8, 9 & 10\n\nBackspace+ enables single character deletion when deleting text. Solving the annoyance of deleting a group of text or a whole paragraph at once accidentally.\n\nBackspace+ comes with a custom set of text deletion speed options from snail slow to lightning fast.\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/backspaceplus1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 9, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "v1.0.3\n Added 70% more custom deletion speed\n \n \nv1.0.2\n\n- Added custom deletion speed slider and removed the presets. Now you can finely tune your deletion speed to your liking.\n\n- Added iOS 7 & 8 compatibility\n\n\nv1.0.1\n\n- iOS 9 compatibility fix"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8, 9 and 10\n\nA tweak that adds some fun and useful features for the true Tinder power user.\n\nFeatures:\n* Auto-like (long press on the bottom of the cards view area to activate)\n* Show user last active\n* Toggle to show banner style matches\n* Toggle to disable super like while swiping\n* Tap profile photo in conversation list to show user profile\n* Long press conversation/match cell to get an action sheet with options\n* Never show a confirm alert for first like or dislike\n* Only show “rate us” view once\n\nTap the unapologetically purple button added to the profile page to show settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/pyro1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/pyro2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/pyro3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/pyro4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 27, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "* Fixed crashes appearing after the latest version\n* Removed the last active on card and profile options, since Tinder no longer supports displaying this information (and hasn't for a while)\n\n\n* Fixed long press on new matches not working<br>\n* Added toggle to hide the \"Going out\" view.<br>\n\n* Fixed settings icon not appearing on the new home view<br>\n* Changed auto-like to persist while loading new cards<br>\n\n* Fixed issue with scrolling in matches list for some users.<br>\n<br>\nPlease note that the reason \"last active\" says \"2 years ago\" is because that's currently what Tinder's server is returning for all users. There's unfortunately not much I can do about it right now.<br>\n<br>\n<br>\nUpdated match cell long press and image tap to work with 7.3.0.\n\nThis version is updated for Tinder 7.2.0. If you're running a lower version of Tinder, there's no need to update. <br>\n<br>\nAlso, the reason \"last active\" is showing \"two years ago\" is because Tinder's server is currently returning that date for each user. Let's hope it's only temporary!<br>\n<br>\n* Removed features for the old style cards, which have been removed in the latest version<br>\n* Updated Auto-like to work with the latest version of Tinder<br>\n\n* Updated \"auto-like\", \"show last active\" and \"banner style matches\" to work with the new cards introduced in 7.0.1<br>\n* Added option to toggle between the new and old cards<br>\n\n* Updated show user profile from the matches list to work for version 7.0.0 of Tinder<br>\n<br>\n* Fixed an app launch issue some people were experiencing after the latest version<Br>\n* Fixed an issue where a user's distance was sometimes displayed incorrectly on their profile<br>\n<br>\n* Added option to disable super like while swiping<br>\n* Auto-like and banner matches have been disabled for group cards due to some issues found<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

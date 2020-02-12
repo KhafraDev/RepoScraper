@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechatplugin1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechatplugin2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechatplugin3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechatplugin4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 4, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version: 4.1-3\nBug fix:\n1. 修复了在新版微信中，快速返回文章失效的bug。\n2. 修复了在新版微信中，设置菜单位置不正确的bug。\n\n\nBug fix:<Br>\n1. 修复在微信6.5.6及以上版本中可能出现闪退的bug。<Br>\n\nVersion: 4.1-1<br>\nBug fix:<br>\n1. 修复删除信息时闪退的bug。<br>\n<br>\n<br>\nVersion: 4.1-0<br>\n修复插件在6.5以上版本微信里不抢红包的bug。<br>\nBug fix:<br>\n1. 修复插件在6.5以上版本微信里不抢红包的bug。<br>\nNew:<br>\n1. 增加随机延迟抢红包。<br>\n2. 在红包记录里可以看到红包的统计信息。<br>\n\nVersion: 4.0-0<br>\n修复插件在6.5以上版本微信里的多个bug。<br>\n​由于之前的公众号被封了，导致该插件不能用，现在已重新申请了一个新的公众号，更新完插件就能用了。<br>\nBug fix:<br>\n1. 修复快速转发异常。<br>\n2. 修复文章快速切换在聊天框里的按钮被覆盖的问题。<br>\n​New:<br>\n​增加对多种第三方微信的支持。<br>\n\nVersion: 3.1-0<br>\nBug fix:<Br>\n修复最新6.3.30版微信里打开链接会闪退的bug。<br>\nImprove:<Br>\n1. 文章里快速返回主界面变成一个小图标，并可以随意拖动，避免遮挡。<br>\n2. 修改朋友圈里快速转发的按钮图标，使其更像原生图标。<br>\n\nVersion: 3.0-3<br>\nBug fix:<br>\n再次修复可能造成微信卡住的bug，请尽快更新到该版本。<br>\n\nVersion: 3.0-2<br>\nBug fix:<br>\n貌似修复微信卡住的bug，没有诸多的测试，还不清楚是否彻底消除了bug，先试着修复了一处可能造成卡顿的bug，等反馈。<br>\n<p>\nVersion: 3.0-1<br>\n呼唤好久的指定群抢红包终于出现了！<br>\n重新改写了设置界面，调整了架构，期间可能会出现bug，可以在公众号或者插件留言里反馈。<br>\n现在需先关注公众号才能开启所有功能，如果关闭总开关或者没有关注公众号，则配置选项不会出现。<br>\n插件设置里，朋友圈转发改为快速转发，更符合实际使用功能。<br>\n支持最新版本微信6.3.27。<br>\nNew:<br>\n1. <br>增加指定群抢红包功能。有两种模式，白名单模式，则只有白名单里的群发的红包才会抢，黑名单模式，则只有不在黑名单里的群发的红包才会抢，没有模式则全部群都抢。<br>\n2. 在阅读文章时，没有聊天信息过来也可以快速切换到聊天界面了。<br>\nImprove:<br>\n1. 增大阅读文章时提示信息的字体，以便更好的点击。<br>\n\nVersion: 2.1-1<br>\n插件设置里，朋友圈转发名称改为一键转发。<br>\n这一版本虽然增加的功能不多，但是逐步在考虑用户体验。<br>\nNew:<br>\n1. 增加消息防删功能，开启后，从最近聊天里删除某个成员的聊天列表，聊天记录不会被删除。<br>\nImprove:<br>\n1. 切换总开关和一键转发不再返回微信主界面（原先版本回到主界面不是bug，因为要控制菜单里是否出现转发的按钮，原先只能通过刷新整个微信界面实现，这一版本通过一些技巧避免切换开关时回到主界面，体现更友好的用户体验）<br>\nBug fix:<br>\n1. 修复个人相册中一键转发图文信息会卡住的bug。<br>\n<p>\n<p>\nVersion: 2.0-2<br>\n更新插件设置里使用说明，如果有疑问的地方，先看一下使用说明再提问。<br>\nBug fix:<br>\n1. 修复6.3.23版微信里，一键转发小视频闪退的bug。<br>\n2. 修复6.3.23版微信里，打开我的公众号闪退的bug。<br>\n3. 修复无限小视频开关无法开启的bug，注意无限小视频只支持6.3.16及以下版本的微信，在6.3.16以上的微信不支持，不显示无限小视频的开关。<br>\n<p>\nVersion: 2.0-1<br>\n隔了这么久，终于更新了，嗯，就是大家期待的小视频和图片一键转发，支持最新iOS9.3.3。话说无限小视频的功能在新版微信上还是不支持，太麻烦了，懒得研究。。。。<br>\nNew:<br>\n1. 增加了小视频、图文消息、文字消息一键转发，无论在聊天框里，还是朋友圈里都可以用，需先关注我的公众号才能使用。目前不支持语音转发。<br>\nP.S.:<br>\n给自己挖个坑，下一版本实现指定群抢红包，还有删除聊天框不清楚聊天信息的功能，至于能不能填好这个坑，我也不清楚，敬请期待。<br>\n想了好久，目前决定还是免费吧，嗯，大家觉得好用时不时给我打赏下，支持我继续开发就好了。<br>\n\nVersion: 1.2-2<Br>\n最近实在是太忙了，只能更新一些bug。注意，无限小视频的功能还未修复，目前不知道如何解决，还请大神指教。<br>\nNew:<br>\n1. 增加了防微信越狱检测，现在支持指纹支付的机型，微信可以直接用指纹支付了，注意该功能无开关，装完插件就生效。<br>\n2. 在群信息里可以查看群ID。<Br>\nImprove:<br>\n自己在群里发的红包也可以自动抢了。<br>\nBug fix:<br>\n修复了新版本微信红包闪退的问题，支持最新6.3.21版本的微信。<br>\n\nVersion: 1.2-1<br>\n最近比较忙，好久没更新了。<Br>\nNew:<Br>\n增加了任意修改个人资料地区的功能<Br>\nImprove:<br>\n插件的配置界面更符合原生微信界面<br>\nBug fix:<br>\n修复了当微信处于后台时，对方撤回信息的时间点显示不正确的bug<br>\n\nVersion: 1.1-2<br>\nDescription:<Br>\n修复bug<br>\nBug fix:<br>\n1. 修复偶尔会闪退的bug<br>\n2. 修复聊天记录无法删除的bug<br>\n<p>\nVersion 1.1-1<br>\n这一版本增加了无限小视频功能。<br>\nNew:<br>\n增加无限小视频，不过该功能要关注我的公众号之后才能启用，至于为啥要这样做，因为任性。。。注意因为小视频时间过长之后，无法发朋友圈，只能发在聊天里，目前的方式是录视频时，时间进度照样流逝，但是时间到了仍旧可以继续录，算是一个大概时间的提醒吧。<br>\nImprove:<br>\n之前的信息防撤回功能，如果别人同时发了多条信息，然后撤回了其中一条，无法直观的看出到底是哪条撤回，对于这个进行了改进，大家用一下便知。<br>\nBug fix:<br>\n1. 修复「关于我的公众号」获取不到公众号的bug<br>\n\nVersion: 1.0-3<Br>\nDescription:<Br>\n这一版本主要是修复bug，闪退不能如忍，下一版本应该会出新功能<br>\nBug fix:<br>\n1. 修复「关于」页面里跳转会闪退的bug<br>\n<p>\n<p>\n1.0-2版更新，支持的微信版本：6.3.15，系统：iOS8~iOS9<br>\n修复以下BUG：<br>\n1. 适配iOS8<br>\n2. 修复与视频转发插件的冲突<br>\n增加以下功能：<br>\n1. 增加关于界面，可以查看软件的相关使用说明和介绍。<br>\n<Br>\nPS: 微信抢红包必须在微信群里面，私聊里的和自己发的红包不会自动抢，这点要注意，并不是软件功能不生效，担心被封的，平常可以在插件设置界面里把微信抢红包的功能关掉。"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

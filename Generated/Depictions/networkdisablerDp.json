@@ -1,0 +1,63 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10, 11, 12\n\nThis package is also compiled for A12 (arm64e).\n\nFor A12 iOS 12.x devices, please add the following Repo.\nhttps://rpetri.ch/repo/\n\nTurns off Wi-Fi / Cellular Data automatically when the selected application is started.\n\nIf you disable the app's network, you can still enable other network communications.\n\nYou can do this by using the \"Use Wi-Fi\" function. If you don't want to disable the entire cellular network, you can turn off individual apps from the \"Cellular\" by Settings app and the networks running in the background will work.\n\nThis prevents ads from appearing in the app.\n\nI plan to add more features, so if you need a new update, please add my repository.\nhttps://cydia.ichitaso.com\n\nThe request is from /u/legacyiOS\n\nSet it to your desired setting.\n\nConfigure options from Settings app."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/networkdisabler1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/networkdisabler2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/networkdisabler3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/networkdisabler4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 24, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

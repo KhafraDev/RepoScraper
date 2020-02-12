@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 6 - 12\n\nMusicExplorer is the best way to share or backup music from your iOS music library without touching a computer, either one song at a time, or several at once. It even can zip files for you. You can send files via the messaging app of your choice, as an email attachment, or send them to other apps on your device like Dropbox or Google Drive. You can also send music via Airdrop to another iOS device and then import them to the music library using an app like.\n\nMusicExplorer works best with non-DRM music. Music with DRM (like Apple Music) can be sent, but won't be able to be played elsewhere. The song also has to be actually on the device (i.e. not online via iCloud) to be sent. Please note that there may also be restrictions from Apple on sending certain music files via iMessage.\n\nThis app is free to try out. If you like it, please purchase a license. This will also remove the ads in the app."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/musicexplorer1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/musicexplorer2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/musicexplorer3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/musicexplorer4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 10, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package +&nbsp;Free&nbsp;Trial",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 0.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- add compatibility for iOS 11\n\n\n- no more 'App May Slow Down Your iPhone' Warning<Br>\n<br>\nbugfix for iOS 7\n\n- fixes for iPad"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

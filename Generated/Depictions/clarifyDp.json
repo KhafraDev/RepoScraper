@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now FREE\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/clarify1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/clarify2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/clarify3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "November 27, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now FREE\n\n- Hopeful fix for \"Allow Background Syncing\"<br>\n- Replaced \"New Tab Bar\" with \"Use Old Sidebar.\" Note: This feature currently has a known bug which prevents Settings and Notifications to be accessed from the sidebar. You can still get to settings from Your Library.<br>\n- Removed lyrics for now. Will probably bring back eventually when I make it use a server other than Spotify's.<br>\n<br>\n- Support for iOS 10. Update to fix broken features coming soon.\n\nFixed \"Disable Blur\" and \"New Tab Bar\" which were not working for some users on the latest Spotify update.\n- Added the ability to view lyrics (*note: not all songs will have lyrics*)<br>\n- Fix \"Disable Vote Limit\" and \"Disable Blur\"<br>\n<P>\nFixed \"Hide Recently Played History\"<br>\n<br>\n<p>\n- Fixes for the latest version of Spotify <br>\n- Removed deprecated features <br>\n- Added Prototype Now Playing Bar <br>\n- Added the ability to disable/enable new navigation UI.<br>\n\n- Fixed \"Force Private Session\" for latest Spotify update<br>\n- Cleaned up code<br>\n\n- Added \"No Search History\"<Br>\n- Added \"No Offline Song Expiration\" (Premium accounts only)<Br>\n- Added \"Unlimited Amount of Offlined Songs\" (Premium accounts only)<Br>\n- Relocated \"Allow Background Downloads\" and also renamed it to \"Allow Background Syncing\"<Br>\n- Removed Party Feature<Br>\n\nFixed background downloads feature (let me know if you find any other problems with it)\n\nAll options are now disabled by default (which should hopefully fix an issue that required users to turn the option off then back on for it to enable)"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

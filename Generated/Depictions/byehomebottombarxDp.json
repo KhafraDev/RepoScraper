@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11, 12 and 13\nCompatible with the iPhone X\n\nByeHomeBottomBarX Removes on System Wide or Fades Away the Ugly Home Bottom Bar of the iPhone X!\n\nThe Tweak is now out from the Beta Stage of My Repository with the Addition of the Preferences Panel and Other Stuff.\n\nConfigure options from Settings.\n\nNo Respring Needed for enabling and disabling the Tweak.\n\nSee Screenshot below.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/byehomebottombarx1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/byehomebottombarx2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/byehomebottombarx3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/byehomebottombarx4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 23, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.2\n- Added the option to Make Tiny and Vertical the Home Bottom Bar on System Wide.\n\n\nVersion 1.0.9<br>\n- Updated for iOS 13 Full Compatibility.<br>\n- General Improvements.<br>\n\nVersion 1.0.7<br>\n- Added support for arm64e/A12 (thanks Jonas for testing).<br>\nVersion 1.0.6<br>\n- Added the option to Hide the Reachability Home Bar on iOS 12.<br>\n<br>\n<br>\nVersion 1.0.5<br>\n- Added as a Separate option the Removing of the Home Bar in Missing Apps (read the prefs Description).<br>\n- Added as a Separate option the Removing of the Home Bar on the Control Center (read the prefs Description).<br>\n<br>\n\n<br>\nVersion 1.0.4<br>\n- Extended the option to Remove the Home Bar in Missing Apps.<br>\n- Added the option to Fit/Move the Home Bar to the Bottom of Apps Screen.<br>\n- Added the option to Disable the Home Bar Blur.<br>\n- Fixed the NC Remove Home Bar on iOS 12.<br>\nVersion 1.0.3-1<br>\n- Fixed the Glitch about the Home Bar Appearing at the Top Left Corner of the Screen when Enabled the Remove Home Bar on LS Feature.<br>\n<br>\n<br>\nVersion 1.0.3<br>\n- Fixes/Added iOS 12 Support for Remove Home Bar on LS Feature.<br>\n\nVersion 1.0.2<br>\n- Tested and Checked for Full iOS 12 Compatibility (Respring after Enabling/Disabling options to Refresh Changes. Anyway They should be immediate).<br>\n\nVersion 1.0.1<br>\n- Added the option to Enable the Edge Protect Feature (When Enabled After a Few Seconds the Home Bar Dims and Requires a Swipe Up to Reactivate the Bar's Function. Idea given to Add this Feature by smokin1337 with his Tweak XEdgeProtect).<br>\n- Code Improvement.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

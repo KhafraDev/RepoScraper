@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "See larger Screenshots below.."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/answeringmachine1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/answeringmachine2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/answeringmachine3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/answeringmachine4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 3, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 3.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Added support for Don't Stop The Party tweak.\n\t\n\n- Fixes some mach-portal related issue that randomly didn't load the tweak in all the required services.<br>\n<br>\n- Fixes an issue with language preferences not being always saved from settings<br>\n<br>\n- Added iOS 10 support<br>\n \n- Made AnsweringMachine beep more subtle<br>\n<p>\nNew Features:<br>\n- Added option to call contacts from within the application.<br>\n- Added live voicemail status indication at lockscreen. Optional.<br>\n<br>\nFixes:<br>\n- Fixed not recognising custom contacts with international number formats.<br>\n- Fixed app and settings audio not playing when mute switch is on.<br>\n- Fixed AnsweringMachine - handled calls allowing temporarily the ringtone to play while on Do Not Disturb.<br>\n- Fixed beep sound quality.<br>\n- Fixed AnsweringMachine firing during call waiting <br>\n- Fixed incoming calls not being dismissed if AnsweringMachine is disabled or in other cases.<br>\n- Fixed random issue requiring a restart or re-install for AnsweringMachine to work on 9.3.3 with semi-tethered jailbreak.<br>\n- Fixed AudioRecorder not recording call if it was first answered by AnsweringMachine and then picked-up to talk.<br>\n- Fixed issue with failure to download license in some devices.<br>\n<p>\n- Fixed crash if no First Name was assigned to a calling contact.<br>\n- Added handling for call waiting.<br>\n<p>\nNew Features:<br>\n- Added contact number info in Custom Contact Greetings cell.<br>\n- Added FirstName variable in Speech Synthesized greetings.<br>\n<br>\nFixes:<br>\n- Fixed CallBar UI errors, outgoing call errors,all call UI hangs. <br>\n- Fixed badges not showing when application icon is inside a folder.<br>\n- Fixed \"To listen to your messages press\" localization not working.<br>\n- Fixed errors when AnsweringMachine is disabled.<br>\n- Fixed calls not appearing missed when AnsweringMachine has answered them. Now all calls handled by AnsweringMachine register as missed.<br>\n- Fixed \"Record Your Own\" greeting delay for custom contacts affecting the default greeting delay.<br>\n<p>\n<p>\nNew features:<br>\n- Added Private Number greeting option.<br>\n- Added Excluded Contacts option for the default greeting.<br>\n- Added localization option for Advanced Commands spoken text. Now all speech texts are localizable.<br>\n- Added higher answer delay for all greetings.<br>\n<br>\n<br>\nFixes:<br>\n- Fixed \"Use on Declined Calls\" option not working at lockscreen or when CallBar is installed.<br>\n- Fixed Do Not Disturb mode not properly respecting allowed contacts.<br>\n- Fixed \"Record Your Own Greeting\" delay slider not appearing in iOS 8.1.x<br>\n- Fixed ringtone playing for a short time while in DoNotDisturb.<br>\n- Fixed UI blocking issues.<br>\n- Fixed Notifications settings menu causing a Settings crash randomly.<br>\n- Fixed application's settings link icon disappearing after pressing Edit.<br>\n- Fixed private number appearing as (null) in application.<br>\n- Disabled Alex voice option since it differs and causes crashes.<br>\n- Fixed dynamic \"Good Afternoon\" greeting using \"Good Evening\" variable instead.<Br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

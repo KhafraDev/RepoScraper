@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Supports iOS 11.0 to 11.4\n\nAlso available:\n\n\n\nPrice: $2.99\n\nProtect your apps with!\n\n- Add stylish protection to your applications and many other protectable items and prevent opening them unless you authenticate using your Face ID or Touch ID! (or enter a passcode, in devices that don't support Touch ID)\n\n- The most secure and yet fastest way to protect your applications, presented with a very cool UI.\n\n- Touch ID needs less than a second to verify a correctly added fingerprint!\n\n- Face ID needs even less!\n\nThe tweak listens to application launch events or other protected items events and blocks them if they are listed as protected until you enter your Touch ID (or passcode)!\n\nYou can configure it to protect access to applications, folders, settings panes, flipswitches, control center items, power down, SIM unlock and more!\n\nYou can set a passcode as an alternative protection method (or as the only method in devices without TouchID sensor). The passcode is different than your device's passcode! (or you could use the same)\n\nEnjoy the fastest and yet most secure protection!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/bioprotectx1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/bioprotectx2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/bioprotectx3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/bioprotectx4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 5, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 2.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Fixed activation issues\n- Fixed SpringBoard random freeze\n\n\n- Fixed an issue when opening protected icons with force touch.\n- Fixed an issue where dragging an icon in a protected folder would allow the folder to open.\n- Fixed activation issues.\n- Added option to disable check for updates.\n\n\n- Fixes an issue in settings where you could access BioProtect X settings page when connected to a Trusted WiFi Network.\n\n\n<Br>\n<br>\n- Fixed an issue that was preventing settings panes from being protected.<Br>\n- Fixed settings panes allowing protected access by double-tapping on the setting pane.<br>\n<br>\n<br>\n- Fixes an issue with appSwitcher being able to bypass app protection by pressing home button.<br>\n- Fixes an issue in settings where double-tapping a protected pane bypassed BioProtect protection.<br>\n- Fixes an issue on iPhone X where you could bypass protection by using bottom slide gesture.<br>\n- Fixes activation issues on devices that use tweaks that change/fake the device's UDID.<br>\n<br>\n<br>\n- Fixed an issue with the activation dialog popping up randomly. it /will/ popup if you update for the first time and you'll have to reactivate one last time, to update the new internal database.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

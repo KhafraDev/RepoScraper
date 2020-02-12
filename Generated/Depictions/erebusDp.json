@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10\n\nRecommended for use with Eclipse, however it is not required.\n\nErebus is a dark mode for the iOS 10 music app compatible out of the box with Noctis toggling and (semi) ColorFlow support.\n\nErebus is different from Eclipse because it is made specifically for the music app and supports 3rd party tweaks.\n\nErebus has a few options:\n1. Enable/Disable Switch\n2. Noctis Toggle\n3. Readable Text (For when used without Eclipse)\n4. High Contrast for Readable Text\n5. Gradient Removal Option\n6. Image Radius Setting\n7. Togglefor hiding Arlbum/Artist name\n\nPlease note that Erebus may not be compatible on versions 10.0-10.0.1 depending on your configuration.\n\nIf you have any questions, follow me on Twitter @clichewow or my Reddit /u/nathanaccidentally. Screenshots one and two and three taken with Eclipse and ColorFlow 3 installed.\n\nConfigure options in settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/erebus1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/erebus2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/erebus3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/erebus4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 23, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "A small update that reflects the change of my Twitter username in the prefs panel.\n\nThanks for using Erebus! Also, a big thanks to my beta testers for helping me with this build. This update includes:<br>\n<br>\n1. Settings toggle for removing Album/Artist name from Now Playing screen.<br>\n<br>\n2. Added white status bar if enabled (thanks to AppleBetas).<br>\n<br>\n3. Removed table separators (hopefully).<br>\n<br>\n4. Finalized ColorFlow 3 support in now playing bar. Full ColorFlow support coming very soon, however I need to manually implement it myself.<br>\n<br>\n4. Switches use of the ColorFlow API to give more accurate colors.<br>\n<br>\n5. Added Twitter button in settings.<br>\n<br>\n6. Cleaned up some of my code to make Erebus a tiny bit more efficient.<br>\n<br>\nAgain, thank you so much for using Erebus! <br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

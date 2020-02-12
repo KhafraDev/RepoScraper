@@ -1,0 +1,86 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS9 and iOS10\n\nCharge offers a completely customisable LockScreen charging view that's unapologetically clean and minimalistic.\n\nFeatures Include\n\n- Sleek highly customisable visuals\n- Configurable directly from Preview in Settings\n\n- Over 50 customisable options, including...\n- Time, including format, color, position and size\n- Date, including format, color, position and size\n- Battery indicator, including type, color, position and size\n- Battery status, including color, position and size\n- Charging Pulse, including color and size\n- Custom text, including color, position and size\n- Custom image can be set as Background or resized anywhere\n- Dynamic colors for normal, low and critical battery\n- Option to remove some or all texts and visuals\n- Customise the intensity of background blur\n- Ability to tint background blur or set as solid color\n- Modify Lock Screen timeout\n- ... and many more\n\n- Double tap to dismiss Charge (Customisable)\n\nConfigure options and preview layout from Settings"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/charge2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/charge3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/charge1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/charge4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/charge5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 15, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 0.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Added option to display only elements\nModified Custom Image save implementation\n\n\nModified Custom Wallpaper implementation\nFixed memory leak\n\n\nv1.4.3-2<Br>\nAdded Blur Intensity option<Br>\nDisable if LockScreen Apps are active (iOS10 Only)<Br>\nFixed Preferences alignment on iPad<Br>\nFixed Status Bar disappearing issue<Br>\nModified Custom Wallpaper implementation<Br>\nUpdated Preferences<Br>\nRemoved redundant code<Br>\n<Br>\n<Br>\nv1.4.2.3<br>\nFixed orientation ‘fix’<br>\nFixed notifications not showing<br>\nFixed unable to move Custom Text <br>\nDisable Charge if audio playing<br>\n<br>\n<br>\n\nv1.4.2-2<br>\nDismiss Charge when receiving a phone call<br>\nFixed orientation issue<br>\nFixed Custom Image orientation issue<br>\nFixed Custom Image size issue<br>\n<br>\n<br>\nv1.4.2-1<Br>\nImproved iOS9 compatibility<Br>\nHide LockScreen StatusBar while Charge is showing<Br>\nHide LockScreen Page Dots while Charge is showing<Br>\nHide “Press Home To Unlock” while Charge is showing<Br>\nStreamlined code<Br>\n\nv1.4.1-1<br>\nFixed minor compatibility issue<br>\n<br>\n<br>\nv1.4-1<br>\niOS9 compatibility<br>\nMinor bug fixes<br>\n\nv1.3.5-1<br>\nAdded option for custom image (overlay or background)<br>\nAdded option for custom text<br>\nGeneral bug fixes<br>\n<br>\n<br>\nv1.3.0-2<br>\nFix for Charge not showing on some devices<br>\n<Br>\n<br>\n\nv1.3.0-1<br>\nModified Charge icon<br>\nAdded ability to move items in layout check<br>\nAdded Charging Pulse animation with options (Credit Shu233)<br>\nAmended Preferences<br>\n<br>\n<br>\nv1.2.3-1<br>\nImplemented transparency for unfilled dots<br>\nIncreased the number of Dots from 7 to 10<br>\nAdded option to change the number of taps to dismiss<br>\nAdded option to color dot/bar outline<br>\nAdded option to remove am/pm<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

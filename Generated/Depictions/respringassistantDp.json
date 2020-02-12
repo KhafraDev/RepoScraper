@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "With [Respring Assistant], a basic utility tweak, you can:\n1. Restart your SpringBoard QUICKLY, making installed tweaks work as expected;\n2. Refresh App Icons EASILY, making your hidden app icons appear again;\n3. Restore hosts file NORMALLY, solving network problems caused by broken hosts file.\n\n[快速注销器] 是个越狱基础工具，帮您：\n1. 快速重启SpringBoard，注销设备，以让插件生效;\n2. 一键刷新桌面的应用图标，解决插件安装后不显示图标的问题;\n3. 一键恢复hosts到出厂状态，修复各种由于hosts文件导致的网络问题。\n\nsupport all iOS versions(5.1.1~13.2.3), and all iOS devices(iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro)。支持所有iOS系统(5.1.1~13.2.3)版本及设备(包括iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro), iPad, iPod Touch. 完美兼容最新13.2.3越狱\n\nContact tinyapps@qq.com anytime you like. 有任何问题，均可直接联系邮件客服"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/respringassistant1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/respringassistant2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 9, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "1. add support for iOS 13\n1. 适配iOS13系统\n\n\nsupport all iOS versions(5.1.1~13.2.3), and all iOS devices(iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro)。支持所有iOS系统(5.1.1~13.2.3)版本及设备(包括iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro), iPad, iPod Touch. 完美兼容最新13.2.3越狱\n\nContact tinyapps@qq.com anytime you need\n任何问题，请联系 tinyapps@qq.com \n\n\n1. bug fix.<br>\n1. 修复一些bug<br>\n<br>\n<br>\n支持所有的越狱系统(7.0-11.1.2)及设备<br>\n(iPhone4/4S/5/5c/5S/6/6P/6S/6SP/7/7SP/8/8+/X/SE, iPad Air/mini)<br>\nSupport all jailbroken devices running iOS system versions from 7.0 to 11.1.2<br>\n<br>\nContact tinyapps@qq.com anytime you like.<br>\n有任何问题，均可直接联系邮件客服 tinyapps@qq.com<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11 and 12\nCompatible with iPhone X\n\nRazer Chroma inspired HomeBar coloring tweak for iPhone X, also works with LittleX.\n\nThanks tofor testing with LittleX.\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/chromahomebarx1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/chromahomebarx2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 8, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Fix settings bundle for A12.\n\n\nAdded support for arm64e.\n\nThanks @ENMPRUP for testing on iOS 12!\n\n\nFixes:<br>\n- Updated wave animation to fix battery drain<br>\n<br>\nOther tweak support:<br>\n- Now works with HomeGesture on non-iPhone X devices<br>\n<br>\nNew Features:<br>\n- Added option to change opacity of HomeBar<br>\n- Wave Direction & Animation Interval<br>\n- Spectrum Interval<br>\n- Fade Interval<br>\n- Breathing Interval<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/swipeformore1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/swipeformore2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/swipeformore3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 5, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version: 1.1.7\n- Minor adjustment\n\n\nVersion: 1.1.6<br>\n- Suppress confirmation window when you queue packages using swipe actions<br>\n<br>\n<br>\nVersion: 1.1.5<br>\n- Bugs fixed and improvement<br>\n\nVersion: 1.1.4<br>\n- Suppress confirmation page when queueing packages, unless there is any issue when computing dependencies (cleaner and faster queue operations)<br>\n- Disable downgrade option if the current package is in \"clear\" state<br>\n- Use icon option is enabled by default<br>\n\nVersion: 1.1-3<br>\n- Preferences page updated, fix some confusion<br>\n\nVersion: 1.1-2<Br>\n- Code correction<br>\n\nVersion: 1.1-1<br>\n- Some improvement to auto install/remove<br>\n\nVersion: 1.0-7<br>\n- Fix crash in iOS < 9<br>\n<p>\nVersion: 1.0-6<br>\n- Fix some crash in iOS 9<br>\n- Queue reinstall function added<br>\n- Downgrade function added<br>\n- A refinement in settings page<br>\n\nSpecial thanks to Karen Tsai @angelXwind\nVersion: 1.0-5<Br>\n- Resolved some issue.<br>\n\nVersion: 1.0-4<Br>\n- Fixes and improvement.<br>\n\nVersion: 1.0-3<br>\n- Fix: upgrading paid package via swipe doesn't work.<br>\n- Fix: installing paid package via swipe doesn't work.<br>\n- Add: \"Use icons\" option for those want to shorten options width.<br>\n<p>\nVersion: 1.0-2<br>\n- Fix: clearing package via swipe doesn't dismiss queue sheet in some case.<br>\n- Fix: reinstalling commercial package doesn't work.<br>\n- Fix: localized \"reinstall\" string length issue in some languages.<br>\n- Note: (queue) purchasing commercial package via swipe doesn't work yet.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

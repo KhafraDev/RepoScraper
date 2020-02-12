@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10 and 11\n\nFor iOS 7/8/9, try.\n\nPasithea 2 is a tweak that lets you manage the iOS clipboard history.\n\n————————————————\nDeveloped by ichitaso & Hiraku\n————————————————\n\nPasithea 2 has two methods of usage.\n\nThe first is Pasithea Keyboard. By default, Pasithea Keyboard replaces the Tibetan keyboard and automatically adds itself to the activated keyboards list. Pasithea Keyboard can be used to quickly insert past pasteboard history just by switching to it via the iOS \"globe\" button.\n\nPlease note that if you need to use the Tibetan keyboard, you may choose to instead replace the Tamil keyboard - you may do this from Pasithea's settings.\n\nIf you do not wish to Pasithea Keyboard at all, you may completely turn its functionality off in Pasithea's settings.\n\nThe other method of usage is Pasithea's ControlCenter toggle listener - suitable for use in either Control Center (iOS 11 module) or Flipswitch (iOS 10 Control Center / Activator).\n\nPlease install CCSupport to use ControlCenter toggle.\n\nWhen Pasithea's Flipswitch or ControlCenter toggle listener is invoked, it will show the pasteboard history in a popup.\n\nTap on the desired history entry to copy it, then tap on a text field to insert it.\n\nBy default, Pasithea will store up to 40 strings of Pasteboard history. The maximum can be changed in Pasithea's settings, ranging from 5 entries all the way to 100 entries. Pasithea will not save duplicate text strings.\n\nConfigure options from Settings app."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/pasithea2-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/pasithea2-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/pasithea2-3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/pasithea2-4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 30, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Fixed keyboard error on iPad Pro iOS 11.0.x\n\nv2.1.2<br>\nFixed a bug that would occur on the iPhone X when attempting to rotate orientations<br>\nRemoved the language switch key on iPhone X while in portrait mode<br>\nv2.1.1<br>\nWe have lifted dependency of Flipswitch.<br>\nFixed the cause of the crash caused by it.<br>\n<br>\n<br>\nv2.1.0<Br>\nSupport: iOS 11.3.1 Electra Jailbreak<Br>\nAdded: ControlCneter toggle<Br>\n(Please install CCSupport)<Br>\n\nv2.0.6<br>\nHistory of copied strings can be represented in Notification Center now.<br>\nChanged notification banner to MobileNotes on 10.2<br>\n<br>\n<br>\nv2.0.5<br>\nAdd: When notification is set to ON, various actions can be executed from the banner.<br>\nRemove: libbulletin's dependency<br>\nFix: Problems that may not remain in history even after copying<br>\nFix: DRM Issue<br>\n\nv2.0.3<Br>\nFix pasteboard not work problem<Br>\n\nv2.0.2<br>\nSupport: SwipeExpander<br>\n<br>\n<br>\nv2.0.1<br>\nFix: Problem that can not be copied successfully<br>\nFix: Crash when setting and deleting history from Activator<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

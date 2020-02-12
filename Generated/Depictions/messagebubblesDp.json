@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11 and 12\n\nPrice: $1.99 USD\nPurchase from Settings panel\n\nMessageBubbles is a unique notification animation designed for messaging applications.\nDesigned to flow with iOS, MessageBubbles shows an iMessage style bubble when you receive a message and your devices screen is off.\n\nMessageBubbles detects the direction of the language the message is in and adjusts to show nicely no matter the language.\n\nYou have the ability to select the apps you want to enable MessageBubbles for and have the tweak use the color of the icon for the app receiving the message, or set a universal color for all bubbles.\n\nAny app can be enabled, however the 3 fully tested apps are Messages, Facebook Messenger and WhatsApp.\n\nTested and works with ShortLook, InteliX and Notchification. Known not to work with StackXI and always on display tweaks such as Hyperion. Support may come soon, contact me to request compatibility with certain tweaks.\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/messagebubbles1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/messagebubbles2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/messagebubbles3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/messagebubbles4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 5, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Better A12 support and improved performance.\n\n\nAdded the new sharing mode. This allows you to take screenshots and screen recordings of the tweak.<Br>\n<Br>\n<Br>\nNew settings: Randomize colors, change animation speeds, change display time, option to disable wake after displaying and a bunch of new animations!\n\n\nBug fixes, this should hopefully fix any safe mode crashes. StackXI compatibility! (and probably more compatibility for other tweaks)."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

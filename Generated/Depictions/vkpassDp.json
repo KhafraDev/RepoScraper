@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/vkpass1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/vkpass2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/vkpass3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 19, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Fixed minor bugs.\n------------\nПофикшены небольшие баги.\n\n\nFix for 1.0.\nFixed a critical bug leading to crashes settings.\nFixed main icon on iPhone 5/5s in VKPass settings.\n-------------------------\nИсправил критический баг, приводящий к вылету настроек.\nИсправил иконку VKPass в настройках для iPhone 5/5s.\n\n\nv 1.0\nRelease :)\nMany bugs fixed.\nImprove stability.\n--------------\nv 1.0\nРелиз :)\nОчень много багов пофикшено.\nУлучшена стабильность.\n\n\nAdd \"Forgot passcode?\" feature.<br>\nImproved tweak stability.<br>\nFixed minor bugs.<br>\nFull support iOS 10.<br>\n----------------<br>\nДобавлена кнопка \"Забыли пароль?\".<br>\nУлучшена работа твика.<br>\nПофикшены мелкие баги.<br>\nПолная поддержка iOS 10.<br>\n\nSupport languages: Rus, Eng.<br>\nSupport VK app versions: 2.7-2.10.1.<br>\nChanges in 0.8 version:<br>\nAdded passcode for dialogs.<br>\nSmall fix bugs :)<br>\n----------------------<br>\nПоддерживаемые языки: Rus, Eng.<br>\nПоддерживаемые версии приложения VK: 2.7-2.10.1.<br>\nИзменения в версии 0.8:<br>\nДобавлен пароль на диалоги.<br>\nМелкие фиксы багов :)<br>\n\nAdded \"Request password\" option.<br>\nChanged Touch ID request (it has been buggy:).<br>\nOptimization code & minor bugs fixes.<br>\n\nFix disappearing status bar after scan finger.<br>\nMinor bugs fixes.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,78 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/sbrotator8-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/sbrotator8-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/sbrotator8-5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "October 19, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 2.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Updated support for an upcoming tweak.\n\n\n- Fixed an issue where rotating while keeping scrolling would cause a crash.\n- Added support for an upcoming new tweak.\n\n\n- Added iOS 10.x support\n- Fixed icons appearing in random sizes after some rotations.\n- Fixed passcode UI at lockscreen \n- Fixed crash when exiting form Emergency call at lockscreen\n\n\n- Added iOS 9.2-9.3.x support\n\n- Fixes several iOS8 to iOS9 specific issues.<br>\n- Handles insecure UIKit-linked tweaks that tent to load in non-UIKit linking processes causing all other UIKit-linking tweaks to load themselves inside non-UIKit-linking processes.<br>\n<p>\n- Added iOS 9 support.<br>\n- Fixed minor issues<br>\n\n- Fixes an issue where a license popup keeps appearing\n<p>\n- Added support up to iOS 8.3"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,85 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9 and 10\n\nTranslucency Infinity takes what you thought you knew about iOS and turns it all upside-down\n\nInfinity is very much like Translucency. It takes your background and sets it as the background to apps. Need an example? Open the reminders app.\n\nTo use Translucency Infinity, open the Settings app, go to its settings, and select the apps you want. Restart those apps, and they should be translucent!\n\nHere's some cool apps to choose based on beta tester feedback:\n\nSettings, Reddit, Music, Discord, Filza, Twitter and so much more.\n\nNot convinced yet? Well, it's free. You really should try it.\n\nConfigure options from Settings.\n\n\nDonate at\n\nVisit me at"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/translucencyinfinity1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/translucencyinfinity2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/translucencyinfinity3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/translucencyinfinity4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/translucencyinfinity5.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/translucencyinfinity6.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 5, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "1.2 adds Dark Glass Mode BETA and a proper implementation of the wallpaper switcher, as well as iOS 9 support. Glass Mode shines right through to your wallpapers allowing Dynamic Wallpapers and the like to appear. It's way too vibrant right now - this'll be fixed. It works just fine with Anemone!\n\n\n1.1 adds Light Mode and a wallpaper switcher. I also remembered how I did Glass Mode, so in the next update it'll be implemented - and done well. <br>\n<br>\n<br>\nAn attempt to work with AnemoneUIKit has also been made - please send feedback!<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

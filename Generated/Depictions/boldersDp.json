@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8 - 12\nBolders: Bigger, bolder folders!\n\nBolders is a lightweight tweak designed to extend stock folders to the edge of every screen without disrupting the established aesthetics of iOS; Enjoy more apps per page, a quick count of the contents, all without friction in a smooth-as-stock interface.\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/bolders1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/bolders2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 4, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "1.2.2-2 Hotfix: Workaround for devices experiencing safe mode from 1.2.2.\n\n\n1.2.1 → 1.2.2\n\n- Fixed label issues with near-white backgrounds.\n\n\n1.2 → 1.2.1\n\n- Fixed wiggle folder icon stretch.\n- Fixed folder open animation badge clip.\n\n\n1.1.1-1 → 1.2<br>\n<br>\n- Added sliders to control label transparency.<br>\n- Clarified some settings.<br>\n- Compiled in support for arm64e!<br>\n- Fixed the folder close animation!<br>\n<br>\nPrimalFolder Compatibility Note: You may need to disable \"Display To Folder As Icon\" from that tweak after updating.<br>\n\n1.0.1 → 1.1.1<br>\n<br>\n- Much of Bolders can now be configured from Settings > Bolders, please do so after you install.<br>\n- Added an icon<br>\n\n--- 1.0.1<br>\n<br>\n- Bugfixes for iPhone SE / iPads<br>\n- Standardizes label placement<br>\n- Fixes a rounding error in the font sizing<br>\n<br>\n<br>\n--- 1.0:<br>\n<br>\n- Now with help from IconSupport, folders should preserve/restore the layout across reboots<br>\n- Fixed a crash on iOS 11 for some new installations<br>\n- Added compatibility for iOS 8<br>\n- Implemented adjustments for newer screen design<br>\n- Fixed some layout issues with iPad<br>\n- Adjust some landscape layouts<br>\n- Improved performance / squashed bugs<br>\n<br>\n--- Note:<br>\nplease forward image / video / reproducible issues along with whatever info you find pertinent to my email on the tweak page and I will certainly take note for future improvements, meanwhile your patience is always appreciated. thanks for installing & enjoy! -candoizo<br>\n\n0.0.4-1 > 0.0.4-2<br>\n<br>\nApplied new-age injector logic to Meridian users, hopefully all covered for now<br>\n<br>\n<br>\n0.0.4 > 0.0.4-1<br>\n<br>\nhotfix for crashes on some devices<br>\n<br>\n<br>\n0.0.3-1 > 0.0.4<br>\n<br>\nChanged source of calculations to accommodate new injectors\n\n-more compatibility fixes for firmwares below 9.3.3<br>\n<br>\n<br>\n0.0.2 -> 0.0.3<br>\n<br>\nAdded support for iOS 8<br>\nFixed an crash on devices below 9.3.3<br>\nYou can now tap anywhere to dismiss the folder<br>\n0.0.1 -> 0.0.2<br>\n<br>\niOS 9 support<br>\n<br>\niPad fixes<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

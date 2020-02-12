@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8, 9, 10 and 11\n\n\"TextSearchPro\" is Tweak which can search for a text easily using via Flipswitch or CCsupport and ActionMenu.\n\nYou can search for WebView (WKWebView) immediately from a home screen and on the application.\n\nSearch Engine:\n- Google\n- Bing\n- Yahoo!\n- Yahoo!Japan\n- Baidu\n- Define\n(iOS built-in dictionary)\n\nUse the \"Custom\" function also supports various search.\n- Support: Application's URL Scheme\n\nNote: Media Player (like video) link is not supported. iOS 8.2 or less can key input only Portrait.\n\nPlease use at FlipControlCenter, Activator, CCSupport and etc...\n\nSince ActionMenu is not Depends, if you want to use, please install separately.\n- ActionMenu Support browser:Safari/Chrome\n\nFor iOS 11.x user: CCSupport is not Depends, please install separately.\n\nConfigure options from Settings app."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/textsearchpro1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/textsearchpro2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/textsearchpro3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/textsearchpro4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 23, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 0.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "v1.1.3\nFixed: Issues with freeze on 3D Touch or action sheet due to long press on iOS 11 or higher\n(The operation by long press is disabled on iOS 11 or higher)\n\n\nv1.1.2<Br>\nSupport: iOS 8 to 11.3.1<br>\nAdded: ControlCneter toggle<br>\n(Please install CCSupport)<br>\nv1.1.1<br>\nSupport: iOS 10.3.x<br>\n\nv1.1.0<br>\nSupport: iOS 10<br>\n\n<br>\nv1.0.7<Br>\nSupport: iOS 9.2 - 9.3.x (already)<Br>\nFix: Minor Issue<br>\n\nv1.0.6<Br>\nAdd: Dark Keyboard<Br>\n- To use the dark keyboard at the time of the search pop-up.<Br>\n<Br>\nAdd: No dim LockScreen<Br>\n- No dim the screen when used in the LockScreen.<Br>\n<p>\n<p>\nv1.0.5<br>\nAdd: If a Passcode is on, it can't be run on Lock screen.<br>\n\nv1.0.4<br>\nThis version's main function is Action Menu support at \"WebView on the screen\".<br>\n\n<p>\nv1.0.3<Br>\nAdded: Close window by App Redirect<Br>\nSupport: AppStore Link<br>\n(In Default is disabled.)<br>\n\nv1.0.2<br>\n[WKWebView]<br>\nAdded: Scroll to Top button<br>\nAdded: Page loading progress-bar<br>\nAdded: Pull to refresh<br>\nRemove: Reload button<br>\n<br>\nWhen the Window is open, it was so as not to display the NC and CC.<br>\n<br>\nSupport: iOS 8<br>\nNote: iOS 8.2 or less can key input only Portrait.<br>\n<p>\nv1.0.1<Br>\nAdded: Custom URL 3<Br>\nSupport: Application's URL Scheme<Br>\n(Custom URL)<Br>\nAdded: Action Menu add-on for TextSearch<Br>\n(Support browser:Safari/Chrome)<Br>\nNote: Action Menu is not depends. And Action Menu is not supported for iOS 9 yet.<Br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

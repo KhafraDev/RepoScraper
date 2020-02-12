@@ -1,0 +1,63 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11.\n\nMake buttons a better experience to try with Cabello. Cabello comes with 8 different sound effects and 5 different Haptic Feedback types to choose (other sound effects can be added, check 'How to add Sound Effects' in Preferences of Cabello).\n\nFeatures:\n\nVolume Keys:\nCustom Sound Effects when pressed.\n\nCustom Haptic Feedback effects when pressed.\n\n\nLock Button:\nCustom Sound Effects when pressed.\n\nCustom Haptic Feedback effects when pressed.\n\n\nHome Button:\nCustom Sound Effects when pressed.\n\nCustom Haptic Feedback effects when pressed.\n\n\nComing Soon:\nNew Sound Effects Packs!\n\nNew types of Haptic Feedbacks\n\nDifferent types of vibrations for devices without 3D Touch.\n\n\nSee larger Screenshots below.."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/cabello1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/cabello2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/cabello3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/cabello4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 9, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

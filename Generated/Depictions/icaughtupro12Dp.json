@@ -1,0 +1,86 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11 and 12\n\nThis tweak adds a new layer of security to your device to help the user prevent a situation where his device is stolen. Alerts are sent by SMS or email when a wrong passcode is entered along with information to help finding the device like a picture or its GPS location.\n\nFeatures:\n-Send email using your own email from Mail.app\n-Take Picture with Front Camera when a thief enters a wrong passcode or tries to turn off device\n-Save pictures to Photo Library (great if you use iCloud Library).\n-Set a number of max attempts before taking picture.\n-Sends information about the device like Battery Level and Street name where the device is located\n-Send an SMS to a set number when a wrong passcode is entered\n-Show an Alert when a wrong passcode is entered o someone tries to turn off the device\n-More features coming soon\n\nConfigure options from Settings app."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/icaughtupro12-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/icaughtupro12-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/icaughtupro12-3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/icaughtupro12-4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/icaughtupro12-5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 8, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 2.5",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Improved Stability\n- Fix Emails not waiting for an active internet connection\n\n\n- Fix Power Down for some devices\n- Fix crash on the Preference Panel\n- Fix lag when sending emails\n- Rewording in the settings\n\n\n- Added iCaughtU Server option to send emails\n- Dark pictures should be gone now\n- iOS11 Support"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

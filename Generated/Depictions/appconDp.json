@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now Free.\n\nCompatible with iOS 9 to 13\n\nAppcon is a tweak that allows you to easily replace any app icon with an image from your photo library or directly from a URL.\n\nSimply tap on the icon for which you want to replace the image while in edit (wiggle) mode, choose an image from your photo library or enter an image URL and the icon image will be replaced. Before applying the image, you can also crop and rotate it so it perfectly fits your needs. You can also apply an image to all currently visible icons or to all icons in a folder, the image will be automatically sliced in smaller pieces and applied for the icon images.\n\nYou can also backup your current custom icons in the icon library and quickly restore them whenever you want. Custom icons in the icon library can be stored in multiply directories which allows you to have different setups of custom icons in an organized way.\n\nReplace the images of your app icons which you don’t like or make icon images fit your theme and personalize your device even more.\n\nAppcon does NOT require Winterboard or Anemone.\n\nWorks on all iOS devices with iOS 9.0+.\nConfigure options from Settings app"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/appcon1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/appcon2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/appcon3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 2, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Fixed an crash on iOS13 which might have occur when opening the global search\n\n- Added iOS13 support\n\n- Added iOS 12 compatibility<br>\n- Fixed some minor bugs<br>\n\n<br>\n<br>\nThis item is now Free.<br>\n<br>\n\n- Added new activation methods for icon replacing<br>\n- Improved iOS 11.3.1 compatibility<br>\n- Fixed some minor bugs<br>\n- Single icons can now be deleted in the icon library<br>\n- Replace icons system-wide now works correctly on iOS11<br>\n- Fixed app switcher issues on iOS11<br>\n- Small bug fixes and improvements<br>\n- Added full iOS11 support<br>\n- Icon images can now be saved to the icon library<br>\n- Small fix and improvements<br>\n\n- Fixed an issue that might have caused a crash when using the icon library<br>\n- Fixed some small performance issues<br>\n- Small fix in preferences<br>\n\n- Fixed a crash that might have occur on iOS9<br>\n<br>\n- Fixed some small issues and crashes\n\n- Fixed an issue with Iconizer, ColorBanners2 and ColorBadges<br>\n- Fixed some missing system-wide icon replacements under Settings -> iCloud<br>\n<br>\n Added Icon Library where users can store icon setups, quickly backup and restore custom icons, and choose single icon images to directly apply to icons <br>\n- It is now possible to disable the system-wide icon replacement<br>\n- It is now possible to choose between partial or full custom icon size for folders<br>\n- It is now possible to render the current date on a custom calendar icon with the color of your choice<br>\n- Fixed issues with Springtomize icon effects (and probably with other tweaks too)<br>\n- Fixed icon glitches for replaced apps in App Switcher and Notification Center on iOS9 <br>\n- Fixes a crash on iOS9 which occurred when a Safari bookmark icon was tapped<br>\n- Fixed some missing system-wide icon replacements under Settings -> Privacy and the Siri App Prediction widget<br>\n- Fixes some small bugs<br>\n\n- Replaced Icon images will now also be applied system wide (in the App Switcher, Notification Center, Lockscreen, Spotlight Search, Banners and Preferences)<br>\n- You can now also apply custom icon images to folders (activation methods for single needs to be set to “display button on icon”)<br>\n- Image URLs can now be loaded straight from the clipboard<br>\n- Fixed compatibility issues with Badgomizer, ColorBadges and other badge tweaks<br>\n- Fixes some small bugs<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

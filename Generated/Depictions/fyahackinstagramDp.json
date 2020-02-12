@@ -1,0 +1,63 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9 and 10\n\nTweak for Instagram that lets you save PHOTOS and VIDEO with just one click and double click for videos! They are saved in the background without slowing down!\n\nSave HD Photos and Videos in Background while App Flows Regularly! Just a click! Anyone who will open your Instagram app will find your hidden info through ANONYMOUS mode! Set a password to make sure nobody sees anything about you\n\nTweak allows you to:\n\n* Save PHOTO and VIDEO with a Click;\n* Setting ANONYMOUS MODE to make anonymous is inaccessible info info in the Instagram App;\n* * Set a Password to Block Instagram Access from Unknown! The password is encrypted at 256 bits before being saved so no one can even decipher it with more experienced eyes!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/fyahackinstagram1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/fyahackinstagram2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/fyahackinstagram3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/fyahackinstagram4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 14, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

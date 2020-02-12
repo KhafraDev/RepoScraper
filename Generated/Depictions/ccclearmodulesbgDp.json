@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11 and 12\n\nCCClearModulesBG Makes the Control Center Modules Clear giving Smoother Sight.\n\nThe Item is now out from the Stage of My Repository with also Improvements.\n\nConfigure options from Settings.\n\nSee Screenshot below.\n\nTip thanks to prouser.\n\nTesting thanks to @lorenzo_noide.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!\n\n\nSee larger Screenshots below.."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ccclearmodulesbg1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ccclearmodulesbg2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ccclearmodulesbg3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ccclearmodulesbg4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 2, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.0.8\n- Added the option to Make Yellow the Control Center Modules (Featured YellowModules Available on My Repo).\n\n\n\nVersion 1.0.5<br>\n- Added the option to Make the Control Center Modules Red.<br>\n- Added Full iOS 12 Compatibility with the Unc0ver Jailbreak.<br>\n\nVersion 1.0.4<Br>\n- Added the option to Make the Control Center Modules Cyan.<br>\n- Code Improvement.<br>\nVersion 1.0.3<br>\n- As Requested via Mail, added the option to Make the Control Center Modules Dark (Implementation of CCDarkModulesBG available on my Repository).<br>\n- Added the option to Make the Control Center Modules Light Gray.<br>\nVersion 1.0.2<br>\n- Added the option to Custom Choose the Control Center Translucent Blurred Backgrounds Values between the Modules (Thanks @prouser Patch).<br>\nVersion 1.0.1<br>\n- Added the Preferences Panel with options to Configure.<br>\n- Added the option to Make Bit Clear the Modules Background (Requested on Twitter).<br>\n- Code Improvements.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

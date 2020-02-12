@@ -1,0 +1,63 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 12\n\nAn updated version of BatteryPercent12, with a new name. It works with all devices (including A12 devices). (works on any other device that has a modern status bar enabled, see below)\n\n* iOS 12 and Arm64e/A12 device support.\n* Very light-weight tweak (uses already built-in code).\n* It enables the percentage inside the icon in springboard, lock screen and in all apps.\n* The battery's icon will turn green when charging and orange when LPM is on.\n* hides the inline charging indicator.\n* hides the stock percentage in the control center.\n* Optimized to work for white and dark backgrounds.\n\nThis is a separate package because I lost the source code for the original one and I had to build it from scratch.\n\nDonations are highly appreciated :)\n\nRequires a modern statusbar (such as the iPhone X and the iPad statusbar, for older devices use it with a tweak like StatusBarXS from my repo: https://dpkg9510.github.io/\n\n\nThere are no options to configure.\n\n\nSee larger Screenshots below.."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/arkrome1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/arkrome2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/arkrome3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/arkrome4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 15, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/calleridgreece1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/calleridgreece2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 27, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Updated for iOS 11 support\n\n\n- Minor UI improvements<br>\n- Some iOS 9-related bug fixes<br>\n<p>\n-Fixed iOS9 Recents view inside Phone.app not searching for contact info online.\n \n- Updated with iOS 8.3 support\n\n- Fixed a crash issue when pressing the + button in the phone.app dialer<br>\n- Added iOS 8 full Compatibility<br>\n- Added CallerID Recognition for outgoing calls too.<br>\n\n- Fixes an issue where numbers with prefix +30 were not correctly checked on the database during an incoming call.\n<p>\n- Fixes phone.app keypad not displaying existing contacts names when typing their number<br>\n- Fixes earlier version of CallBar crashing when activating the dialer interface.<br>\n<p>\n<p>\n- Added support for the upcoming CallBar v3<br>\n- Fixed an issue that randomly crashed inside phone applcation's dialer when typing numbers.<br>\n- Fixed an issue where the 'checking number' message disappeared from the phone.app dialer immediately.<br>\n- Memory usage fixes<br>\n\n- Added full support for iPhone 5S and iOS 7\n<p>\n- Added iOS 7 support<br>\n- Changed icons to iOS7 style<br>\n\n- Fixed an iOS6 issue where the Phone.app's dialer field didn't show results for the typed number<br>\n- Fixed an iOS6 issue where the Phone.app crashed when you pressed the Dialer's add contact button.<br>\n\n- Added option to automatically save the identified incoming call number<br>\n- Added ability to type a number on the dial keypad in Phone.app and check who it belongs to<br>\n- Added ability to check a number from Recents and see who it belongs to and/or save it as a contact.<br>\n- Minor fixes<br>\n\n- Fixed settings not displaying\n<p>\n- Fixed an issue where it would crash in some device upon receiving a call\n\n<p>\n- Fixed an issue where settings options didn't display in Settings.app"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

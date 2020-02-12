@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "March 24, 2014",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Fixes\n\nOptimized code<br>\nFixed Siri bug<Br>\nAdded Springboard Buttons<Br>\nTap To Dismiss and Volume Slider work together<br>\n<p>\nRemoved speak next song (was experimental and was not supposed to be released yet, will be included in a later update) - Should fix Siri issue\n<p>\nFixed support link in preferences\n<p>\nAdded always music plays<Br>\n<p>\nBug fixes<Br>\nAdded support in preferences<Br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

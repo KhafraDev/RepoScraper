@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This tweaks enables you to dismiss a popup everywhere. not notifications but popups. cancel button is removed\n\nIt works on ios 7,8,9 and 10\n\n- This tweak is only tested on ios 10.2\n\nNo options to configure."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 2, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "All apps are now supported\n\nImproved stability and delete bug fixed ios 9\n\n@demy076 for tweak updates\n\n\nAdded support for 2 apps<br>\n<br>\n- Settings app supports now dismissing popups example forgot network click forgot or tap anywhere to dismiss it<br>\n<br>\n- Messages app when on airplane mode try send a message you will get an alert tap anywhere on the screen to dismiss it<br>\n<br>\nContact me which app you want to add support for<br>\n<br>\n<br>\n<br>\n- Dismissanywhere was conflicting with statuspeek 2 so your phone was going to safemode<br>\n<br>\nDismissanywhere will not conflict anymore with statuspeek 2<br>\n<br>\n<br>\nAdded support for lockscreen when a uialert will popup in lockscreen you can dismiss anywhere on the lockscreen<br>\n<br>\n- Hided the statusbar in notification center<br>\n<br>\nAny ideas are welcome just contact me<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

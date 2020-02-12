@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8, 9, 10 and 11.\n\nSmoothKeyBoard is my new Tweak that gives you the visual option to make Sleek and Smoother the KeyBoard on the HomeScreen.\n\nIt simply renders the KeyBoard White and the Shift Keys Shiny.\n\nNo Respring Needed for enabling and disabling the Tweak.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, i hope you like it, thanks! :)\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/smoothkeyboard1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/smoothkeyboard2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/smoothkeyboard3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/smoothkeyboard4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 10, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.0.9\n- Added the option to Remove on System Wide the One Handed Keyboard Feature when Holding the Keyboard Globe Button (included My Tweak OneHandedKeyboardLESS on My Repo).\n- Added the option to Remove on System Wide the Keyboard Settings Button Feature from the Globe Button List (credit to A_H_Rabie).\n\n\nVersion 1.0.8<br>\n- Added the option to Enable Sleek Light Keyboard (tip by charlie666).<br>\n\nVersion 1.0.7<br>\n- Added the Full iOS 11 Compatibility. <br>\n- Added the option to Enable Blue Keyboard.<br>\n- Added the option to Enable Black Keyboard.<br>\n- Changes in Prefs Bundle.<br>\n- Bug and General Fixes.<br>\n- Code Changes and Improvements.<br>\n\n<!--\nVersion 1.0.6<br>\n- Added the option to Prevent the 123 Keyboard from automatically going Back to the Main Keyboard after tapping the Space Key (tip by sinfool).<br>\nBest holidays for you all! :-)<br>\nVersion 1.0.4<br>\n- Added the option to Disable the Single Press to the Globe Key for switching the KeyBoards (tip by sinfool).<br>\n- Codes Changes and Improvements.<br>\n- Better Preferences with Fixes.<br>\n- Changes in Settings Panel Labels.<br>\n- Now you can add My Repo on Cydia and Donate me (thanks) with the New Labels in Preferences Panel.<br>\nVersion 1.0.3<br>\n- Extended its working to many Apps (More is coming Next asap).<br>\n\n<br>\nVersion 0.0.1-2<br>\n- Added the option to Fade the Keys when taping on KeyBoard.<br>\n- Fixes in Code and some Changes in Preferences.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

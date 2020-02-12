@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/colorfont0.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 4, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- iOS 13.x\n\n\n- update info and settings<br>\n- support 11.2 - 11.4<br>\n- Update settings information<br>\n- Works with iOS 11<br>\n- Update settings information<br>\n- Works with iOS 10.2<br>\n- Update preferences\n\n- support iOS 9\n\n- Update information in settings\n\n- Fix settings iPad orientation<br>\n- New toggles - Control Center dark<br>\n\n- fix Standard Blur (fix bug with DockShift)\n<p>\n- add Style Blur\n<p>\n- add Chameleon color (color adapts to the wallpaper)\n\n- redesigned settings"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

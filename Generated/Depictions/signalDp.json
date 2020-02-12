@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10\n\nSignal allows you to fake a cellular connection on your WiFi-only iPad or iPod touch.\n\nYou can either choose to fake a plain cellular connection using a custom carrier, a static signal strength and a custom connection type, or, probably for the first time ever, simulate a cellular connection using your WiFi connection.\n\nIn static mode, Signal makes your device pretend to search for a cellular network (\"Searching...\") and \"finding\" one after a few seconds. After \"establishing\" a connection, a custom carrier name is shown, alongside a real fake strength indicator.\n\nIf you choose to show your WiFi connection, your device is still pretending to search for a network, but uses the WiFi connection (if available) to show the details in the status bar. If you're not connected, it says \"No Service\", just as you would expect.\n\nSignal also allows you to override the data connection type. Connected to a WiFi network? Make it show LTE instead. Not connected to anything? That lousy GPRS connection will do.\n\nOpen source"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/signal2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/signal3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/signal4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/signal1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 17, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "• Fixed multiple crashes related to internal iOS API changes in iOS 11 – Now fully iOS 11 compatible!"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

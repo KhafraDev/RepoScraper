@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "QQ 点赞工具，仅供娱乐。\n\n一：功能\n一键给选定的好友点赞。\n热聊群自动群发消息。\n一键回赞。\n二：用法\n长按 “联系人” 页面上方标题“联系人”三个字，弹出选择联系人页面。\n长按“消息”页面上方标题“消息”，弹出选择群、设置消息页面。\n点击“消息”页面右上方“+”，向上滑动，会新增加“开始群发”，“停止群发”，“好友点赞”三个按钮。\n在“谁赞过我”页面，点击“点赞”，进行一键回赞。右侧为已点数量。"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/qq635-1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 30, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

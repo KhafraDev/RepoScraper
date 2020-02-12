@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10.\n\nBrings 3D touch app shortcuts on homescreen to older devices.\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/force3dappshortcuts1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "March 17, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Fix memory leak on preference change\n\n- Fixed going into editing mode instead of app shortcuts menu when press duration is bigger than ~0.66\n\n- Increased range for haptic feedback intensity<Br>\n- Fixed gestures sometimes not being registered the first time homescreen is invoked<Br>\n- Improved selecting/dragging icons while in editing mode<Br>\n- Fixed app shortcuts being invoked when finger moved outside of icon<Br>\n- Added option to Auto Dismiss shortcuts menu (Enabled by default).<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

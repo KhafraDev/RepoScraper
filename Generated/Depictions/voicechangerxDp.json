@@ -1,0 +1,78 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Supports iOS 11, 12 and 13\n\nVoiceChanger XS (iOS 11/12/13)\n\n\n\n\n\nAnother innovation for the iPhone! The first LIVE voice changer ever!\n\n\n\n- Use system voices like Siri's to talk to the other party! VoiceChanger recognises your speech during a call, and speaks what it recognised using a Siri Voice instead of yours! You can also listen to what it says to the other party to ensure the recognition was correct.\nThis feature requires an internet connection for the speech recognition and just like in Dictation or Siri, the speech data is sent to Apple to be recognised.\n\n\n\nThis awesome tweak changes your voice when you talk on the phone so that the other party hears your voice sounding like a Dark Lord, a Smurf or..a Chipmunk.\n\n- The audio process is being done live while you speak!\n\n- You can switch between normal speech or effect-altered speech live while you are in a call. New in-call UI allows you to change your voice pitch live, and even a slider has been added for manual pitch setting. The UI is customisable to appear at the top or bottom of the screen for your convenience.\n\n- You can also enable/disable the tweak while in a call.\n\n- There are, but you may also\n\n- Now with Siri Voice option!\n\n- The best prank for your friends and family, they won't even recognise who they are speaking with!\n\n- Already compatible with CallBar X, AudioRecorder 2 and AnsweringMachine X.\n\n- All iOS 11/12 devices are supported.\n\nEnjoy!\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/voicechangerx1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/voicechangerx2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/voicechangerx3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 18, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 2.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Added iOS 13 support.\n\n- Fixed an echo being heard from the remote party.<br>\n- Fixed a crash issue on some devices.<br>\n- Fixed original voice being transmitted while in Siri Mode on some devices.<br>\n- Fixed incompatibilities among different devices.<br>\n- Fixed headphones, bluetooth, speaker, handset switching issues.<br>\n- Fixed Siri Mode to Pitch Mode switching issues.<br>\n<br>\n- Improved Siri Mode recognition response by 250 milliseconds.<br>\n- Made Siri Mode recognition simultaneous with speech , now it can recognise you even while system voice speaks to the other party.<br>\n- Added visual representation of the recognised and spoken text.<br>\n\n- Fixed speaker and headphones Siri Voice issue on regular phone calls.<br>\n<br>\n- Added Speech Recognition and Siri Voice option<br>\n<br>\n- Fixed an iOS 11 issue with Siri Voice Option\n\n- Fixed floating UI not appearing issue.<br>\n- Added toggle gesture that brings up VoiceChanger UI at any time. Now you can record voice memos with your voice altered, or use VoiceChanger XS on any social media or live chat service.<br>\n- Added CCSupport toggle module. If you use CCSupport, you can present the UI using that Control Center toggle. Enable it in Settings - Control Center.<br>\n- Added indication when VoiceChanger is actually actively changing your voice.<br>\n\n- Fixes activation issues<br>\n- Fixes SpringBoard random freeze<br>\n<br>\n- Fixes a crash issue when tapping Buy Button.<br>\n- Adds automatic updates installation option.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

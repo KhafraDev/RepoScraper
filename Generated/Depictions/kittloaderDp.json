@@ -1,0 +1,81 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8, 9, 10 and 11\n\nA cool animated and customisable activity indicator view !\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/kittloader1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/kittloader2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/kittloader3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/kittloader4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/kittloader5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 26, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "iOS 8-11\n\n- IPHONE X ETA NOW.\n\n- LITTLEX COMPATIBILITY (CHECK THE COMPATIBILITY SWITCH IN SETTINGS).\n\n- LITTLEX NO STATUS BAR COMPATIBILITY (if you're using littlex but without the status bar, there's a switch in settings to make it compatible. be sure to have the littlex switch also enabled).\n\n- NOTCHLESSSSS COMPATIBILITY YASSSSSS. (check the switch in settings)\n\n- FORCE SHOW (new feature. explanation: some apps hide the activity indicator and you can't see when they're using internet. now you can all of them to show it - see switch in settings - or leave it default, to the choice of the app)."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

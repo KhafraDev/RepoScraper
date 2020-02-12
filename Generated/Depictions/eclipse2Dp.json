@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now Free."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/eclipse2-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/eclipse2-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/eclipse2-3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/eclipse2-4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 6, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now Free.\n\n\n\n- Fixed issues caused by 2.4\n<p>\n- Fixed a bug where UIAlerts would not color properly in some cases<br>\n<br>\n- Updated for latest Snapchat and WhatsApp releases<br>\n\nChanges: Eclipse 2.3-5<Br>\n<Br>\n- Fix giant spinner in status bar<Br>\n<Br>\nPSA: I apologize for the lack of updates. I’ve been dealing with personal and family issues, as well as working to transfer to a new university (I was accepted!) and moving into my new apartment. Therefore, I have not had the time to correctly update Eclipse (or release any new tweaks, for that matter). I promise that I will be back to development starting September, and should have Eclipse fully updated by mid-September. As always, thank you for your continued support (or hatred). <Br>\n<Br>\nWith much love, @fr0st<Br>\n\n- Fix Cydia’s Search bar<br>\n- Fix for Kik Messenger<br>\n- Fix for Facebook Messenger<br>\n- UI Bug Fixes<br>\n<p>\n- Cydia Support<br>\n- UITableView bug fixes <br>\n- Bug fixes for 8.4<br>\n<br>\nComing Soon: Support for iOS 8.4 Music App<br>\n\n- Updated for Instagram 6.10.0<br>\n- Updated for Twitter 6.25.1<br>\n<p>\n- Improved Compatibility Mode to be more accurate,\n<p>\n- New feature: Color picker (with libcolorpicker)<br>\n- New feature: Compatibility mode<br>\n- New feature: Ability to toggle iMessage and SMS bubble tint<br>\n- New feature: Reverse Mode<br>\n- Removed auto color replacement (replaced by compatibility mode)<br>\n\n- Fix Viber crashes<br>\n- Updated for latest Whatsapp<Br>\n\n- Fixed Safari on iPad/iPhone 6+<Br>\n- Compatible with the latest Snapchat<br>\n\n- Fixed SpringBoard support\n<p>\n- Fix long respring time (Oops.)\n<p>\n- Option to disable keyboard coloring (finally.)<br>\n- Fixes snapchat front facing flash (finally.)<br>\n- Minor backend improvements<br>\n<p>\n- Winterboard checkmarks are now visible again\n<p>\n- Fixed rare issue in which some devices lagged<br>\n- Added option to tint SMS bubbles<br>\n<p>\n- Performance Improvements<br>\n- Fixed SMS / iMessage bubble colors<br>\n- Fixed issue where alerts would color when tweak was disabled<br>\n- Fixed Notification Center Widgets<br>\n- Fixed memory leak<br>\n- Support for Aria + Other music tweaks<br>\n- Improved support for Safari on 6+<br>\n- Improved support for Instagram<br>\n- Improved support for Kik Messenger<br>\n- New feature: Color Springboard Statusbar<br>\n\n- Fixed message bubbles when using white tint\n<p>\n- Partial rewrite<Br>\n- Improved stability<Br>\n- Fixed recent buttons in app switcher<Br>\n- Fixed odd-looking control center<Br>\n- Fixed strange SMS bubble animations<Br>\n- Fixed untinted search bars in various apps<Br>\n- Bug fixes for Safari and Music app (iPad)<Br>\n- Improvements for auto color replacement<Br>\n- Improvements for UIAlerts and Action Sheets<Br>\n\n- Fixed safari lag<Br>\n- Fixed rare crash on Settings app<Br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/burstmode1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 1, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version: 1.5.6\n- Removed unnecessary bits\n\n\nVersion: 1.5-4<br>\n- Fix preferences loading bug<br>\n<br>\n<br>\nVersion: 1.5-3<Br>\n- Revamped preferences page (Cephei)<Br>\n- Now doesn't always require killing Camera app after settings changed<br>\n\nVersion: 1.5-2<Br>\n- Removed some unnecessary code<br>\n\nVersion: 1.5-1<Br>\n- Refactored code.<br>\n\nVersion: 1.4-3<br>\n- Clean up and memory leaks fix.<br>\n\nVersion: 1.4-2<br>\n- Updated for latest version of PhotoTorch tweak.<Br>\n\nVersion: 1.4-1<br>\n- Bugs fixed and improvement.<br>\n\nVersion: 1.3-10<br>\n- Fix photo counter doesn't show up on iPad iOS 7.<br>\n<p>\nVersion: 1.3-9<Br>\n- Instant Burst feature is now obsoleted. (iOS 7+)<br>\n\nVersion: 1.3-8<br>\n- (iOS 8) Instant Burst option added.<br>\n- Bug fixed and improvement.<br>\n<p>\nVersion: 1.3-7<Br>\n- Fix for preferences saving bug in iOS 8.<Br>\n- Burst interval setting is now available for iOS 7 & 8 users.<Br>\n\n<p>\nVersion: 1.3-6<br>\n- Full support for iOS 8.<br>\n- (iOS 8) \"Analysis mode\" option added.<br>\n<p>\nVersion: 1.3-5<br>\n- bugs fixed and improvement<br>\n- Fixed crash bug in iOS 7+ iPad.<br>\n\nVersion: 1.3-4<br>\n- (iOS 7+) Added new option: \"Torch Burst\", use in conjuction with PhotoTorch tweak.<br>\n<p>\nVersion: 1.3-3<br>\n- Updated preferences panel in iOS 5 - 6.<br>\n- Fixed some preferences panel bug.<br>\n- Updated code for iOS 8.<br>\n\nVersion: 1.3-2<Br>\n- New option added: Single Counter.<Br>\n- Minor bugs fixed.<br>\n<p>\nVersion: 1.3-1<br>\n- Fixed localization issue in iOS 5.x - 6.x (It's recommended to uninstall first before update to this version)<br>\n- Now compatible with iPhone 5s and above.<br>\n- Initial iOS 8 support.<br>\n\nVersion: 1.2-2<Br>\n- Bugs fixed.<br>\n<p>\nVersion: 1.2-1<br>\n- Option to disable capture sound during burst is now available.<br>\n\nVersion: 1.1-16<br>\n- Updated code for iOS 7.1.x<br>\n\nVersion: 1.1-15<br>\n- Performance improved. (Tested in iPod 5G 7.0.6)<br>\n<p>\nVersion: 1.1-14<br>\n- Fixed bug with Flash Burst and HDR Burst in some situation.<Br>\n\nVersion: 1.1-13<br>\n- New options added. (Faster Code and Disable Counter Animation) (iOS 7)<br>\n- Some bugs fixed. (iOS 7)<br>\n\nVersion: 1.1-12<br>\n- Bring back the tweak settings for iOS 7, options available are<br>\n-> Toggle iPhone 5s Burst Mode feature<br>\n-> Adjust Photos Limit Count<br>\n-> Flash Burst<br>\n-> HDR Burst<br>\n-> No 999 Limit (Experimental)<br>\n- Fixed some minor issue with FrontFlash tweak.<br>\n\nVersion: 1.1-8<br>\n- Fixed crashing in iPad running iOS 7<br>\n\nVersion: 1.1-7<br>\n- Explanation for an issue with iPad running iOS 7 in Settings.<br>\n- Some bugs/UI fixed.<br>\n<p>\nVersion: 1.1-6<br>\n- Fixed a bug that causes a hook for iOS 7 not working.<br>\n- Fixed a bug for burst mode album.<br>\n- 64-bit Library included.<br>\n- Other bugs fixed.<br>\n\nVersion: 1.1-3<br>\n- Added Support for iOS 7, enable the native Burst Mode feature in Camera app.<br>\n\nVersion: 1.1-1<br>\n- Fixed bug in settings.<br>\n- Adjustment for initial properties.<br>\n<br>\nVersion: 1.0-5<br>\n- Decrease Hold Time Delay minimum to 0.1 s.<br>\n- Minor bug fixed and improvement.<br>\n\n<p>\nVersion: 1.0-4<br>\n- ADDED: Option to set burst photos count limit.<br>\n- ADDED: Button to hide keyboard that useful in iPhone/iPod when setting the option above.<br>\n- FIXED: Performance.<br>\n- FIXED: Some bugs.<br>\n<br>\n<p>\nVersion: 1.0-3<br>\n- NOTE: iOS 7 is not supported. (It will be something else called \"Burst Mode Enabler\")<br>\n- FIXED: Performance and stability.<br>\n\n<p>\nVersion: 1.0-2<br>\n- FIXED: User cannot use volume button to toggle video recording.<br>\n- FIXED: Better burst mode overriding for volume button.<br>\n- FIXED: Icon naming problem.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

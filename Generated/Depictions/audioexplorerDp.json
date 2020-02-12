@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/audioexplorer1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/audioexplorer2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/audioexplorer3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/audioexplorer4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 10, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- add compatibility for iOS 11\n\n\n- fix crashing/freezing on search<br>\n- no more 'App May Slow Down Your iPhone' Warning<br>\n\n- fix for crash/respring in iOS 9.2-9.3.3\n- partial fix for iOS 8 (can now search app bundle contents)\n\nfixed problem with popup not closing in iOS 7\n<p>\nOptimized for iOS 7\n\n- fix problem where Cydia would open after completed search<br>\n- fix iPad icon<br>\n- added reference to VideoExplorer app<br>\n\n- fix problem with action menu buttons not being touchable in last update<br>\n- fix minor file search/view problem<br>\n\nFeatures from AudioExplorer+:<br>\n- Badges on Queue Tab bar indicating the number of items in the queue<br>\n- Tab bar icons now also in retina resolution<br>\n\nUpdated texts with information about AudioExplorer+\n\n<p>\n- minor fix for iPhone 5 (startup image and app layout) and iPad (startup image)\n<p>\n- Quick update for iOS 6 (fix for About tab).\n<p>\n- added the ability to add multiple audio file to queue at once<br>\n- fixes for iOS 4<br>\n\n- id3 tag titles show up in audio lists, if available<br>\n- adds a queue (will be used in the paid version for adding audio files to ringtones/iPod library. In the free version it can be used as a kind of favorites list.)<br>\nNote: This version updates the cache file structure, so a rescan of the audio files is necessary.<br>\n\nThis version should finally fix crashes on start-up from the last few versions.<br>\nAlso added ability to delete a listing from the app list. Search process has been optimized\n\n- fix for iOS 5.1.1<br>\n- fix for crashes on other systems<br>\n<p>\n- optimized search speed to avoid iOS forcing crashes on some devices<br>\n- added a built-in file browser that filters out non-audio files and empty folders (with a lookahead of one level), to help find audio files not stored in apps<br>\n<p>\n- better app icon support (using the AppList library)<br>\n- no longer need to refresh after updating App Store apps<br>\n- improved audio file info storage (switch from plists to Core Data)<br>\n\n- bug fixes in audio file search<br>\n- layout/text and icon/launch image changes<br>\n- new menu structure<br>\n\n- bug fix in audio file search<br>\n- bug fix in sorting<br>\n- layout/text changes<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

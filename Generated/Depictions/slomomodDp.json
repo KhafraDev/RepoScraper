@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/slomomod1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/slomomod2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/slomomod3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/slomomod4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 7, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version: 1.5.4\n- Fix crash on iOS 9.3+\n\n\nVersion: 1.5-2<br>\n- Fix preferences loading bug<br>\n<br>\n<br>\nVersion: 1.5-1<br>\n- Revamped preferences page (Cephei)<br>\n- Improved FPS settings popup responsiveness in camera app<br>\n\nVersion: 1.4-11<Br>\n- Fix support for some devices in iOS 9<br>\n<p>\nVersion: 1.4-9<br>\n- iOS 9 support<br>\n\nVersion: 1.4-6<br>\n- Fix crash bug<br>\n- Update donation link<br>\n\nVersion: 1.4-5<br>\n- Updated code for iOS 8.3+<br>\n\nVersion: 1.4-3<br>\n- Fix bug with some options.<br>\n- Updated description.<br>\n\nVersion: 1.4-2<br>\n- Bug fixed.<br>\n\n<p>\nVersion: 1.4-1<Br>\n- Fix issues with 64-bit devices! (Huge thanks to @avilesandy007 for his help, helped me testing on his iPhone 6)<Br>\n- Force Slo-mo is now available in iOS 8. (with minor bug)<Br>\n<p>\nVersion: 1.3-7<br>\n- (iOS 8) Fix resolution bug in 30 fps devices.<br>\n- (iOS 8) Added \"reload assetsd\" button in settings, which you need toggling it after making changes!<br>\n\n<p>\nVersion: 1.3-6<br>\n- Workaround for video quality bug in iPhone 4s running iOS 8.<br>\n- Fix preferences saving bug in iOS 8.<br>\n\n<p>\nVersion: 1.3-5<br>\n- Fix for crash and freeze bug introduced in iOS 8.<br>\n- Double tap fps indicator to auto set fps.<br>\nNote: You may need a reboot for this update in order to fix some bugs.<br>\n\nVersion: 1.3-3<br>\n- Minor improvement.<Br>\n<p>\nVersion: 1.3-2<br>\n- Fixed changes in settings panel didn't apply.<br>\n<p>\nVersion: 1.3-1<br>\n- Put all description into a \"Guide\" page instead.<br>\n- Improvement in tweak's system.<br>\n- Added option to auto hide the fps indicator.<br>\n\nVersion: 1.2-5<br>\n- Small bug fixed.<br>\n<br>\nIf you wish me fixing the crashing bug when saving slo-mo videos (if stil existed), please install \"Crash Reporter\" from Cydia to help me debugging the cause of crashing, thanks!<br>\n\nVersion: 1.2-4<br>\n- Mogul FPS checker added.<Br>\n- Settings look tweaked.<br>\n\nVersion: 1.2-3<br>\n- Fixed Safe Mode bug, thanks Tobi for testing.<br>\n<p>\nVersion: 1.2-2<Br>\n- Fixed \"Sharing was interrupted\" error message when exporting videos using Mail app, also included new option in settings for selecting the export quality for this.<br>\n<p>\nVersion: 1.2-1<Br>\n- Now slo-mo videos saving method has been changed to using the export button. (Check screenshot)<br>\n- Settings tweaked.<br>\n- Some minor issues fixed.<Br>\nNote: saving slo-mo videos using button from lockscreen camera with passcode installed will not let you see the new video, you have to unlock your device first due to security or some reasons.<br>\n<p>\nVersion: 1.1-6<br>\n- Now you can export the **actual** slo-mo video directly in the photo album by double tapping the video view. A new video will be saved to the album automatically. (The saving method will be improved later)<Br>\n\nVersion: 1.1-5<br>\n- Code improvement and description updated.<br>\n\nVersion: 1.1-4<br>\n- Fixed some crashing in 30 fps maximum slo-mo devices. (Related with Fake Framerate option)<br>\n- The mission about making the slo-mo videos actually slow was cancelled, since iOS 7.1 Beta 5 are able to do this.<br>\n\nVersion: 1.1-2<br>\n- Fixed Slo-mo indicator doesn't show up in iPad.<br>\n- Tweaked the alerts for setting slo-mo fps.<br>\n<p>\nVersion: 1.1-1<br>\n- Added a device detection for correctly framerate setting in camera app and settings app.<br>\n- Fixed a bug in a slo-mo editor.<br>\n- Added Fake Framerate option.<br>\n- Added an ability to set the framerate directly in camera app by tapping the framerate indicator at bottom-right.<br>\n\nVersion: 1.0-6<br>\n- Fixed some issue with iPad.<br>\n<p>\nVersion: 1.0-4<Br>\n- Confustion fix, uploading slo-mo video to Facebook not working is normal because iOS won't process the slow part for your video (except for YouTube and Mail), plus the Slo-mo feature is quiet not good, it does save a slo-mo video from an original video and its slo-mo file. You have to export the video using Mail by sending it to yourself then save that video, it will be saved in the photo album.<Br>\n- Confusion fix, iPad 4 doesn't support 60 fps slo-mo recording.<Br>\n- Slo-mo UI fix for iPhone 5s users: http://pastebin.com/dYvCpjZR<Br>\n<p>\n<p>\nVersion: 1.0-4<br>\nKNOWN ISSUE: Slo-mo videos uploading doesn't work with Facebook for non-iPhone-5s devices.<br>\nNOTE 1: From many emails, \"Simply\" uploading slo-mo videos using services like Instagram will not work, you need some tricks, even in iPhone 5s. (Use Google for this)<br>\nNOTE 2: iPhone 5s users don't need \"Burst mode\" tweak to be installed at all.<br>\n- Updated description.<br>\n- Installation improved.<br>\n- Some minor changes.<br>\n\nVersion: 1.0-2<br>\n- In order to make this tweak works properly, you have to install \"Burst mode\" tweak in Cydia manually too for non-iPhone-5s devices. (Reason: the Slo-mo and Burst Mode feature shares the localization (The text) together, some of the Slo-mo localization is in Burst Mode's, so you will need this extra tweak) But \"Burst mode\" tweak isn't included as a dependency, to prevent unwanted installation for users with iPhone 5s, because you don't need to install this.<br>\n<br>\n- You have to set the mogul framerate option in settings correctly, the default value is 60 fps, but not all devices support this value, you may have to reduce it to 30 fps in order to fix the camera crashing issue.<br>\n<br>\n- This tweak does work in iPhone 5s but you have to set the mogul framerate to 120 fps after the installation, because the default value is 60 fps to make Slo-mo works in the first time for most devices.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

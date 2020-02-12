@@ -1,0 +1,85 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/gorgone1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/gorgone2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/gorgone3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/gorgone4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/gorgone5.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/gorgone6.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 5, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.6.2\n- Added also the AppList System Applications Choice (as Requested).\n- Changes in Preferences Panel.\n\n\nVersion 1.6.1<br>\n- Added the option to Enable iPad Style Rotation with the Dock at the Bottom.<br>\n- Added the option to Enable Large Scrolling Folders when Rotation is Active (Thanks to my Friend @Squ1dd13 for this). <br>\n- Added Twitter, My Repo and Donations Icons Labels. <br>\n- Small Fixes in Prefs.<br>\n<br>\n<br>\nVersion 1.6<br>\n- Added the AppList Support and Dependence: now you can select the Incompatible Applications to block Medusa Rotation.<br>\n- Added the option to Disable the Rotation on HomeScreen.<br>\n- Added iOS 10 Compatibility to the Rotate the LockScreen's option.<br>\n- Now you can add My Repo on Cydia and Donate Me (thanks so much) with the New Labels in Preferences Panel.<br>\n- Changes in Labels and Descriptions in Prefs.<br>\n- Code improvements (should be quite fine to work also without the Respring, however that's the better way to refresh Prefs).<br>\n!Thanks so much for the Nice and really Precious Help to my Dear Friend and Developer Olivier Crespo (@OlyDJios) about the making of this Update!<br>\n\nVersion 0.0.1-5<br>\n- The SplitView Feature is working again for all Devices after the last Update.<br>\n- A little bit of Fixes in Code, thanks a lot to my dear Friend and Developer @orangebananaspy for it.<br>\n<br>\n<br>\nVersion 0.0.1-4<br>\n- Changed the Activation of the Tweak in Settings.<br>\n- Code Cleaned and Optimized.<br>\n- Hopefully Some Bugs Fixed.<br>\n- Small Modifications in the Preferences.<br>\n\nVersion 0.0.1-3<br>\n- Added the option to Rotate the LockScreen (iOS 9 only).<br>\n- Changed the way to Rotate the HomeScreen (now in iPad Style with the Dock Rotation and fixed the Icons overlapping issue).<br>\n- Added the Extra Section.<br>\n- Optimization of the Code.<br>\n- Small Changes in Settings.<br>\n<br>\n<br>\nVersion 0.0.1-2<br>\n- Added the option to enable/disable the Rotation on the HomeScreen (take enabled both options to have the Rotation still in the Apps).<br>\n- Little Changes in the Preferences Panel.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 3, 4, 5, 6, 7, 8, 9, 10, 11\n\nSystem Info adds a bunch of information about your device to your settings app's 'About' section(Setting > General > About). It also fills other sections of your Settings app. You can set boot-nonce, save APTickets (on-board as well), change device resolution etc as well. The information System Info shows is read directly from the device.\n\nAbout Section\n\n- Application list if you tap the application cell in about view\n- Tap an app in the application list to see detailed info on that app\n- Swipe on Applications cell to copy application list to clipboard\n- Make 'Model' cell copyable\n- Packages cell shows installed cydia/dpkg packages count\n- Tap on Packages cell to cycle through package sections\n- Swipe on Packages cell to copy Cydia/dpkg packages list\n- MLB Serial number\n- Rear camera serial\n- Front camera serial\n- Root partition name and capacity\n- Free memory (live cell)\n- Public IP\n- Gyroscope model\n- Accelerometer model\n- Compass model\n- Pressure sensor model\n- ECID\n- Swipe on ECID cell to save APTicket(SHSH2 file) or submit/convert your on-board APTicket(apticket.der)\n- Device identifier\n- Platform model (deviceClass/hardware platform/boardconfig)\n- Device identifier\n- Regulatory model (\"A\" number)\n- UDID\n- Boot-nonce\n- Swipe Boot-nonce cell to set boot-nonce in nvram\n- Battery capacity (in mAh)\n- Swipe battery capacity cell to show health %\n- Battery Serial\n- Battery cycle count\n- Charger current\n- Charger specifications\n- Uptime\n- CPU names and count\n- CPU temperature (average of available die temperature sensors)\n- SoC name\n- Kernel version\n- iBoot version\n- Wi-Fi module name\n- Wi-Fi firmware version\n- Tap on Wi-Fi firmware version cell to show requested Wi-Fi firmware files (useful if you wish to replace/update Wi-Fi firmware)\n- Baseband chipset\n- BBGCID\n- Scroll all the way down to find the blue text to submit some info for theiphonewiki.\nPlease do this if you have a newer device.\n\nDisplay & Brightness section\n\n- Show current display resolution\n- Show brightness in mnits and µA\n- Tap resolution cell to set resolution (won't glitch on iOS 11)\n- It will show native resolution for reference\n\nSounds section\n\n- Primary audio devices\n- Secondary audio devices\n- Show when a device is active (shows a \"*\" next to its name)\n- Show what activity the device is performing\n\nTouch ID & Passcode section\n\n- Show bio sensor serial number\n- Show sensor ID (revision)\n- Tap on a fingerprint cell to show the date added and number of times you scanned that finger\n\nBattery Section\n\n- Show battery usage graph\n- Show daemons in battery view\n- Short hold and swipe left on a cell to show detailed battery usage breakdown\n- Tap empty area of the graph to see modelling view\n- Show detailed battery info\n- Display adapter name and specs(power, voltage, current) in battery view when plugged in\n- Display tristar model, name etc.\n- Display accessory name, model number, serial number etc.\n- Identify cables uniquely using the serial number. It shows up even if power isn't connected. This can also be used to test cables\n- Check if the device is receiving power and/or refusing to charge using the cells in tristar section\n\nStorage Section\n\n- Add root partition info\n- Show partitions hierarchy\n- Show partition total capacity\n\n\nCommand line tools\n\niofbres - Handles resolution changing. \"iofbres \" to change resolution. \"iofbres r\" to reset resolution from command line, in case your device's video rendering fails at the resolution you set. These changes don't require a reboot\n\nnvnonce - set generator in nvram. \"nvnonce 0xgenerator\" to set generator and \"nvnonce\" to read generator\n\nNotes\n\nSubmitting apticket.der\n\nYou can send your onboard apticket to shsh.host by swiping on ECID cell and tapping the button. The file is then sent to shsh.host. It will convert your der file to an SHSH file and validate it. If validation is successful, it will store the der and SHSH permanently on the server. A copy of the SHSH will be sent back to your device and will be stored with your shsh2 files. These files can be retrieved from shsh.host using the same methods used to retrieve shsh2 files.\n\nSaving SHSH2\n\nYou can save SHSH2 for currently signed versions using system info. Swipe on ECID cell and tap the button to start the process. All the identifiers will be read right from the device and sent to shsh.host. You can only save 1 ticket per sessions (and that's all you need to do).\n\nTo access your shsh2 files later.\n\n- Send /myshsh to @rJailbreakBot()\n- Go to https://shsh.host//\n- Get them from /private/var/mobile/SHSH/ on your device\n\n\n\nDiscord: @ARX8x"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/systeminfo1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/systeminfo2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/systeminfo3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/systeminfo4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 23, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "**General Changes**\n\n- Compatibility for iOS 7, 6, 5, 4 and 3. (iOS 2 compatibility is unknown)\n- Invulnerable (to an extent) to tweaks that modify device identifiers like UDID and ECID\n- iofbres and nvnonce command line tools\n- Live cells that refresh automatically\n\nAbout View\t\n- New cydia packages cell\n- Tap on Packages cell to cycle through cydia sections and the number of packages in that section\n- Swipe packages cell to copy Cydia/dpkg packages list\n- Swipe Applications cell to copy installed apps list (only user apps)\n- Tap Applications cell to view list of all applications (user + system)\n- In the application list view, tap an app's cell to view the application's info\n- In the application view you can check disk usage and quickly jump to its container paths in filza (iFile on old iOS versions)\n- Tap a backgrounding mode in application view to see what it is\n- Main Logic Board serial number\n- Free memory cell (live cell)\n- Charging current is a live cell now\n- Gyroscope, compass etc should now show up on more devices\n- Easily set generator by swiping the Boot-nonce cell (works on iOS 11 as well)\n- Swipe battery capacity to see battery health percentage\n- BBGCID\n- Uptime is now more accurate especially on older iOS. It's also a live cell now\n- Scroll down to the very bottom of the about view to help and contribute to theiphonewiki \n- CPU names are now broken down and the number of cores is also shown\n- CPU temperature (average of available die temperature sensors) for some versions of iOS\n- Wifi module name\n- Tap Wifi firmware version cell to show loaded wifi firmware files\n- Swipe ECID cell to submit your onboard apticket to shsh.host\n- Scroll to the bottom and tap the link to submit some information for theiphonewiki.\n\nDisplay & Brightness section \n\n- Show current display resolution\n- Show brightness in mnits and µA\n- Tap resolution cell to set resolution (won't glitch on iOS 11)\n- It will show native resolution for reference\n\nSounds section \n\n- Primary audio devices \n- Secondary audio devices \n- Show when a device is active (shows a \"*\" next to its name)\n- Show what activity the device is performing \n\nTouch ID & Passcode section \n\n- Show bio sensor serial number \n- Show sensor ID (revision)\n- Tap on a fingerprint cell to show the date added and number of times you scanned that finger\n\nBattery Section\n\n- Show battery usage graph\n- Show daemons in battery view \n- Short hold and swipe left on a cell to show detailed battery usage breakdown \n- Tap empty area of the graph to see modelling view \n- Show detailed battery info\n- Display adapter name and specs(power, voltage, current) in battery view when plugged in\n- Display tristar model, name etc.\n- Display accessory name, model number, serial number etc.\n- Identify cables uniquely using the serial number. It shows up even if power isn't connected. This can also be used to test cables\n- Check if the device is receiving power and/or refusing to charge using the cells in tristar section\n\nStorage Section \n\n- Add root partition info\n- Show partitions hierarchy\n- Show partition total capacity"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

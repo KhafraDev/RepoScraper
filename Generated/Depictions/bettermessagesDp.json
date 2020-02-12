@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10\n\nChange and add a range of features to the iOS 10 Messages App.\n\nSick of the default iOS 10 Messages app? Well this tweak is for. It adds a heaps of features and more features coming every update. If you have any requests let me know via the credits section in the settings pane.\n\nThe screenshots below show the range of features available including\n- Progress Bar with color changer\n- Navigation Bar color\n- Hide various items throughout the app\n- A few emoji options\n- Change the color of the send and plugin buttons\n\nKnown Bug\n\nThe color section turning the toggles on and off can cause your selected colors to be lost. I will have a look at this shortly.\n\nConfigure options from settings"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/bettermessages1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/bettermessages3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/bettermessages2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 17, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Set custom backgrounds for your chats! \n\nChoose a custom background from the settings pane! Make sure to use a high quality image to make your Mesages app look sexy.\n\n\nRemoved some broken features until I fix them.\n\nNew Features:<br>\n<br>\n- Change the color of message balloons and their text!<br>\n- Change the color heaps of the UI through out the Messages app<br>\n- Link to the source code of this tweak in the credits section of the preference pane<br>\n<br>\nBug Fixes:<br>\n<br>\n- Added a toggle to hide the contact photo<br>\n- Everything is disabled by default so go configure in settings once you install<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

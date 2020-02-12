@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Built-in Chinese proxy (using Unblock Youku proxy or other proxy you set) for Netease Music to avoid copyright restriction.\n内置了代理服务器（默认内置unblock youku代理，可自定义），突破网易云音乐的地区版权限制。\n\n1. After you install the tweak, it will use Unblock Youku proxy normally.\n2. If you want to customise the proxy host, just go to the \"settings\" section in the app and change it."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 24, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "1. Fix some bugs."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

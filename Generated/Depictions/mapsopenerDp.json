@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 30, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "• Adds support for maps.apple.com links.\n• Adds support for some new Maps links in iOS 10, including the Messages location sharing \"Directions To Here\" button.\n• Improves support for some Apple Maps links.\n\n\n1.5.5:<br>\n• Fixes various issues causing some links to not be opened.<br>\n<br>\n1.5.6:<br>\n• Fixes an issue causing some apps to freeze.<br>\n\n• Fixes an issue causing some locations to fail to open on iOS 9.<Br>\n• Due to freezing/crashing issues on iOS 9, some logic has been disabled. A proper fix will be coming as soon as possible. More details <a href=\"https://www.reddit.com/r/hbang/comments/3p86eq/mapsopener_154_is_out_with_some_emergency_fixes/\" target=\"_new\">on reddit.</a><br>\n<p>\n• Fixes an issue that causes a crash when injecting a tweak into a 32-bit app (such as Cydia) on iPhone 6s.\n\nFixes a crash when opening Google Maps links.\n\nFixes an issue causing some apps to freeze and Google Maps links to not open on iOS 6.<br>\n<p>\n• Adds support for coordinate-based locations.<Br>\n• Adds support for shortened links (for example, https://goo.gl/maps/XYltH).<Br>\n• Fixes an issue causing some apps, including Messages, to still open the iOS Maps app.<Br>\n<Br>\nDon't forget to have the latest Google Maps app version installed.<Br>\n\n- Improves detection of Apple Maps links.<br>\n- Adds support for opening Google Maps from Siri.<br>\n- Fixes automatically detected address links opening to the current location.<br>\n- Adds improvements to decrease the chance of a future iOS update breaking MapsOpener.<br>\n\n- Support for iOS 7 and Opener’s new API.<br>\n- Improves detection of Google Maps links.<br>\n- Adds support for a new Maps link format.<br>\n\n- Fixed links from Calendar opening Google Maps to the current location<br>\n- Added support for getting directions from Siri<br>\n\n- Fixes an issue causing Maps to not open to the right location on some devices\n\n- MapsOpener should now support all Maps links\n- Fixes a bug that prevents locations opened via contacts or calendar events from going to the specified location<br>\n- Internally, MapsOpener now uses the libopener library<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

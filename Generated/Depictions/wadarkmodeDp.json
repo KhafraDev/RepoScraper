@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10, 11, and 12\n\nWADarkMode will make dark mode for WhatsApp Messenger\n\nI hope you like it :)\n\nConfigure option from inside WhatsApp settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wadarkmode1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wadarkmode2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 27, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "#1.6.1\n\n- You can now switch between the default and custom chat color.\n\n# 1.6<br>\n<br>\n- Add two theme, and you can choose them from the settings<br>\n- Tweak support WhatsApp (2.18.111 to 2.19.21)<br>\n- Fix some issues<br>\n# 1.5<br>\n<br>\n- Fix Crash in last version of WhatsApp 2.18.111<br>\n- Fix some Colors<br>\n\n# v1.4<br>\n- Fix some colors<Br>\n- Support with last version of whatsapp<br>\n# v1.1-1<br>\n- Fix background status<br>\n- Fix text color in reply context<br>\n- Fix color in Stalky tweak<br>\n- Fix some colors inside app<br>\n- Fix the crash if you disable tweak<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

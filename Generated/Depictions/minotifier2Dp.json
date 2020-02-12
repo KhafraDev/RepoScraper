@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/minotifier2-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/minotifier2-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/minotifier2-3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/minotifier2-4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 5, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 2.49",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Restored Activator support\n\nAdded LINE icon<br>\n<br>\n<br>\nPhone call bug fix.<br>\n<br>\n<br>\nAdded iOS 11 support.<br>\nTemporary removed Activator actions, until it's updated to support iOS 11.<br>\n\nAdded an option to display Chinese and Cyrillic letters in notification preview/caller id: Settings->Notification And Alarm->Transform to Latin->Disable.<br>\nBugfixes.<br>\n\nFixed connection issue (for some users) caused by the recent MiBand2 firmware update.<br>\n<br>\nPackage dependency fixes.<br>\n<br>\nBug fixes.<br>\n<br>\nAdded iOS 10 support<br>\nAdded VoIP calls support <br>\n- on FaceTime/Viber/Whatsapp calls band will show caller ID just as for the regular phone call<br>\n- answering/rejecting calls with the button is also supported <br>\nUnfortunately snoozing/dismissing alarms with the button doesn't work on iOS 10 yet<br>\n\n- Fixed some connectivity issues.<br>\n<br>\n- Added CallerID and Notification Preview<br>\n<br>\n<br>\nBugfix<br>\n<br>\nUpdated notification configuration:<br>\n- Now it's more convinient to configure notification alerts<br>\nUpdated Remote Control:<br>\n- Removed music controls<br>\n- Added Activator actions for Single, Double & Triple button press<br>\n- Configurable time to detect number of button presses<br>\nAdded new connection mode:<br>\n- Always except when system DND is active<br>\nAdded vibration patterns:<br>\n- 8 differnet vibration patterns<br>\n- Possible to repeat vibration pattern 1-10 times<br>\nAdded new MiBand icons<br>\n- Skype, Viber, Instagram, Messenger ...<br>\nBugfixes<br>\n- Fixed Alarm icon (not Phone icon anymore)<br>\n- Fixed crash related to missing MiFit application<br>\n- No more need to respring after MiFit update<br>\n- Fixed a small stopwatch bug<br>\n\nAdded stopwatch feature.<br>\nAdded flipswitch for continuous HR measurement.<br>\nBugfixes.<br>\n\nAdded iOS8 support."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

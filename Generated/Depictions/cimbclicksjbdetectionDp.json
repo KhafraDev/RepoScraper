@@ -1,0 +1,37 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8, 9, 10, 11 and 12\narm64e/A12 not yet supported.\n\nBypass jailbreak detection on CIMB Clicks app.\n\nThis tweak supports the latest version of CIMB Clicks Apps VER 6.1.23 and may still be suitable for later versions.\n\nNo congfigure options.\n\nFor the first time, you need to close the apps background and launch it again for it to work.\n\nNo Screenshots for this item."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 23, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

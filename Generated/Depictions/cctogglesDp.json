@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/cctoggles1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 8, 2014",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "v0.2.2\nupgrade Preferences bundle\n\n\nv0.2.1<br>\nfix crash with Preferences<br>\nfix issue about option for Colored Icon<br>\nfix crash on specific iPhone 5s<br>\n\nv0.2-1<Br>\nrewrite Preferences<Br>\nadd colored icon option for AppLauncher and LastApp<br>\n<p>\nv0.2<br>\nimprove compatibility with Auxo 2, MultitaskingGestures, AndroidLock XT<br>\nadd Excepted apps feature for KillAllApps<br>\nadd Unpaged feature<br>\nadd app launching with bypassing passcode lock feature<br>\nfix some minor issues<br>\n\nv0.1-18<br>\nadd double tap gesture in HomeButton<br>\nfix compatibility with Auxo 2<br>\n\nv0.1-15<Br>\nfix flicker when using HomeButton QuickLaunch<br>\n<p>\nv0.1-14<Br>\nfix performance issue<br>\nfix some minor bugs<br>\n<p>\nv0.1-13<br>\nfix \"KeepSlowAnimationFactor\" feature<br>\n<p>\nv0.1-12<br>\nfix issues that HomeButton QuickLaunch is stuck<Br>\nfix QuickLaunches visual issue in specific case<br>\nadd lock sound during lock by LockButton QuickLaunch<br>\nadd \"keep slow animation factor\" feature in InternalSettings<br>\nremove dependency of Flipswitch<br>\nsome minor fix<br>\n\nv0.1-11<br>\nMultitaskingGestures compatibility\n<p>\nv0.1-10<br>\nadd long press gesture at HomeButton QuickLaunch<br>\n<p>\n\nv0.1-9<br>\nfix Preferences app crash on iPad<br>\nfix minor issues<br>\n<p>\nv0.1-8<br>\n- fix minor issues<br>\n<br>\n- loading external AppLauncher/Activator QuickLaunch icons<br>\n<br>\nmake folder in your device<br>\n\"/Library/Application Support/CCToggles/ QuickLaunches/ (APP_BUNDLE_ID|ACTIVATOR_LISTENER_ID)/\"<br>\nand put Icon files<br>\n\"Icon.png\" for non-Retina device<br>\n\"Icon@2x.png\" for Retina device<br>\n<br>\nex) stock Preferences app<br>\nput Icon.png and Icon@2x.png files in <br>\n/Library/Application Support/CCToggles/QuickLaunches/ com.apple.Preferences/<br>\n<br>\nex) Compose Tweet Activator action<br>\n/Library/Application Support/CCToggles/QuickLaunches /libactivator.twitter.compose-tweet/<br>\n<p>\n<p>\nv0.1-7<br>\nadd option for hiding suppressed items in lockscreen<br>\nadd option for scroll bounce<br>\nadd option for starting page<br>\nadd long press gesture for stock toggles<br>\nintroduce LastApp Quicklaunch<br>\nadd Spanish, Chinese (Traditional) locales<br>\nchange landscape scroll direction<br>\nfix some issues<br>\n<p>\nv0.1-6<br>\nfix Activator QuickLaunch issues<br>\nfix minor issues<br>\nadd Italian locale<br>\nadd Chinese (Simplified) locale<br>\n<p>\nv0.1-5<br>\nadd Activator QuickLaunch<br>\nimprove AppLauncher QuickLaunch<br>\n- you can set \"URLScheme\" at each item<br>\nfix some issues<br>\n<br>\nv0.1-4<br>\nfix QuickLaunch disappearing issue in specific device<br>\nfix landscape QuickLaunch issue on iPad<br>\n\nad KillAllApps, ScreenShotter, Siri QuickLaunches<br>\nfix issues about Lockscreen (also passcode locked)<br>\n(as I know there is only one issue with AndroidLock XT)<br>\nfix crash with WiPi<br>\n<p>\nAdd Home button, Lock button QuickLaunch<br>\nAdd PowerOff Toggle<br>\nAdd Lockscreen restriction configuration<br>\nAdd per-page configuration for landscape<br>\nfix Bluetooth toggle status issue on 7.0.4<br>\nfix compatibility issue with WiPi<br>\nChange respring/reboot english text<br>\nfix some minor bugs<br>\n<p>\nadd supports arm64 devices"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

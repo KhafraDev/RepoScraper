@@ -1,0 +1,60 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This pro version has no Ads\n\nFYAHackWhatsApp allows you to:\n\n* GHOST MODE | \"You will be a ghost on WhatsApp you can read messages without anyone noticing it, you will be offline when you are online and even reading the messages will not be read!\"\n\n* RECEIVE MESSAGES VIA EMAIL | \"Receive via Email all text messages received on WhatsApp hidden in the background with details of time, the name of the person who sent the message, the phone number of the person who sent the message is the text of the message! Email is sent out every 15,000 accrued words!\"\n\n* SET PASSWORD | \"Set a Password to Protect Access to the WhatsApp App. The password is encrypted to 256 bits before being saved to the device! Inaccessible to even more experienced eyes! No one will be able to access your WhatsApp except who knows your password!\"\n\n* HIDE TWEAK FROM SETTINGS | \"You can hide the Tweak from the Settings will simply have access to the terminal and launch the following commands obviously logged in as root:\n\n- hidewhz\n- unhidewhz\"\n\n\nTweak will then allow you to read messages received even if you do not use the same cell phone, you will have hidden copies by email, let you be a ghost on WhatsApp to read anything without being online, blocking access to ' Application with a password. They are safe and encrypted and you can even hide it from settings with simple terminal commands! If you use WhatsApp App you can not do without this Tweak."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/fyahackwhatsapp1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/fyahackwhatsapp2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 17, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.49",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

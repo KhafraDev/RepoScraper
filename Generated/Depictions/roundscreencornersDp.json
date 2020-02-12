@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/roundscreencorners1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 21, 2014",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "version:1.1-1\nfix some incompatible.\nnote: Only test on ip5, Not sure compatible with all other tweaks.\nIf you didn't know how go safe mode, Careful.\n解决部分兼容\n有限测试，小白就不要装了。\n\n\nversion:1.0-9<Br>\n1. Round More.<br>\n2. fix some bugs<Br>\n3. Extra Back<br>\n<p>\nversion 1.0-8 :<br>\n1. remove extra.<br>\n2. add BlackList<br>\n3. rounds app switch<br>\n4.optimize code<br>\n\nversion:1.0-7<br>\nfix conflict with clipshot.<br>\nversion 1.0-6<br>\n1. add two option:<br>\na. Disable on Screenshot.<br>\nb. Correct on \"Invert Color\" mod. <br>\n2.add an option to show network bandwidth.<br>\n3.and fix some bugs.<br>\n<p>\nversion 1.0-6<Br>\n1. add two option:<Br>\na. Disable on Screenshot.<Br>\nb. Corerect on \"Invert Color\" mod.<Br>\n2.add an option to show network bandwidth.<Br>\n3.and fix some bugs.<Br>\n\nversion: 1.0-5<Br>\nAdd a slide to set the corner radius.<br>\n<p>\nAdd a option to switch, without respiring.\n<p>\nbug fix:<br>\nThe version1.0-1 only support iphone5 ios7.<br>\nIn this version i think it support all device.such as ip4,4s,5,5s,and iPad.<br>\n^_^ I have only ip5 to test.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

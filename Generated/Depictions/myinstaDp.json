@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible (Tested) with iOS 9.2, 10, 11 and 12 on Instagram Version 88.0.\n\nmyInsta gives you a Lot Various Enhancement options useful for your Privacy and Aesthetic on Instagram.\n\nMore to Come in the Next Updates!\n\nSee Screenshots below.\n\nNo Respring Needed for enabling and disabling the Tweak options.\n\nConfigure options from Settings.\n\nRequested on Twitter.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/myinsta1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/myinsta2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 28, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.1.3\n- Added support for arm64e/A12. Only Tested on iOS 10-12. Older Versions Should Avoid on updating (thanks Jonas for testing).\n\n\nVersion 1.1.2<Br>\n- Added the option to Remove the Time Limit Story Videos View (included NoTimeLimitStoryVideo available on My Repo).<Br>\n<Br>\n<Br>\nVersion 1.1.1<br>\n- Added the option to Disable the Stories Autoplay Videos (based on the DGNYVZ_ Patch).<br>\n- Added the option to Disable the Stories Audio Videos.<br>\n\n\nVersion 1.0.9<br>\n- Added the option to Remove the Stories Names Label.<br>\n- As Requested, Fixed the Empty Field when Removing Stories Cells.<br>\n- Added the Label to Open Instagram with Ease inside Prefs Panel.<br>\nVersion 1.0.8<br>\n- Added iOS 12 and Instagram Last Version 88.0 Compatibility.<br>\n- Extended Direct App V. 75.0 Support.<br>\n- Added the option to Hide the Automatic Opening Keyboard in Comments.<br>\n- Added the option to Hide the Bar Emoji in Direct.<br>\n\nVersion 1.0.7<br>\n- Added the option to Hide the Bar Emoji in Comments (Based on the Flex patch by sinfool, thanks for the help).<br>\n<br>\n<br>\nVersion 1.0.6<br>\n- Fixed Remove Stories Cells option (as Reported via Mail).<Br>\n- Added the option to Hide the Scrolling Indicators inside the App (Based on the Flex patch by KneeGrowJay, thanks for the help).<br>\n\nVersion 1.0.5<br>\n- Added the option to Disable the Live Video Comments (Requested via Mail, thanks sinfool).<br>\n- Added the option to Disable the Live Video Heart Animations (thanks sinfool).<br>\nVersion 1.0.4<br>\n- Added the option to Show the Bar Emoji in Directs (thanks @AboGhzayel).<br>\n<br>\n<br>\nVersion 1.0.3<br>\n- Added the option to Spoof the Likes Viewer Counts.<br>\n- Added the option to Disable the Page Swiping Gestures as Requested (thanks sinfool).<br>\n\nVersion 1.0.2<br>\n- Added the iOS 9.2 and Above Support (thanks so much my Friend @karimouni24 for testing).<br>\n<br>\n<br>\nVersion 1.0.1<br>\n- Added the option to Hide the Profile Pictures.<br>\n- Added the option to Disable the Sponsored Stories.<br>\n- Added the option to Spoof the Story Viewer Counts (Requested on Twitter).<br>\n- Added the option to Disable the Tap On Own Profile Picture.<br>\n- (More Coming Next)!<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

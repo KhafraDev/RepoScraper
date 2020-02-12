@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/spoofcalleridvoicechanger1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/spoofcalleridvoicechanger2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 25, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "At last iOS 11 compatible.\nBest prank call app for spoofing and voice changing during a call.\nPlease note only 64 bit arc is supported\n\n\n\nAccess Improved.<br>\niOS 9 compatibility improved<br>\n\niOS 9 Compatible <br>\n<br>\nUltimate app for prank calls:<br>\nSpoof your caller id.<br>\nChange your voice.<br>\nAdd funny effects to the call.<br>\n\niOS 8.3 Compatible <br>\nBest app for prank calls. Offers caller id spoofing, call voice changing and funny effects injections in real time during the call.<br>\nCompatible with all iOS versions to iPhone only.<br>\n\n-Bug fix<br>\n-Access improved<br>\nYou can now prank call with any iPhone device from any country.<br>\nChange your voice, caller id and add funny sound effects to the call.<br>\n<p>\nIOS 8 Compatible<Br>\nNow better then ever you can prank call your friends by calling with any caller id you like and changing your voice in real time during the call and also add funny sound effects to the call.<Br>\nHAVE FUN :) <br>\n\nCountry detection bug fix\n<p>\nWe have improved the application to provide you with the best app for caller id spoofing and voice changing.\n\nIOS 7 Compatible <br>\nAccess improved<br>\nBug fix<br>\nMore sound effects added<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

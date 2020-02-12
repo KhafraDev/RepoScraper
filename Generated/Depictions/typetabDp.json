@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 13, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "iOS 12 and 13 support\n\nAdded iOS 11 and 12 support<br>\n<br>\nCompatibility with older versions is still maintained\n\nAdded support for iOS 10. <br>\n<br>\niOS 8 and 9 are still supported.<br>\n\nAdded 3D Touch shortcut support\n\nFixed the recently introduced compatibility issues with iOS 8\n<p>\nAdded the keyboard on app launch and resume feature for iOS 9\n\nInitial iOS 9 support\n\nFixes a bug where TypeTab would stop working if you have no favorites in Safari.\n<p>\nDeleting the last open tab now invokes TypeTab<br>\nAdded Canopy support<br>\nImproved stability<br>\n\n1.2 Fixed an issue with the tab overview add tab button<br>\n<p>\n1.1 Type on entering foreground<br>\nYou can now type into the search field immediately after you open safari and when it enters the foreground!<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

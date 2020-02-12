@@ -1,0 +1,93 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 7 - 13\nCompatible with A12, Electra, Chimera, unc0ver, checkra1n\n\nSUPPORT CHAT:- This chat is very active. People will actually respond to your questions.\n\nPowerful audio platform. Successor to EqualizerEverywhere.\n\nSo far, it's basically two things:\n\n- Systemwide parametric equalizer\n- Last.FM alternative\n\nThis equalizer is AMAZING. It's parametric but it also has a graphic mode. It has a ton of filters:\n\n-peaking EQ\n-bandpass\n-lowpass\n-highpass\n-lowshelf\n-highshelf\n-notch\n\nFrequency, gain, and Q-factor are completely configurable. If you have no idea wtf that means, then there is also a \"noob mode\" which is basically exactly like what EqualizerEverywhere was.\n\nIt is also deeply integrated with Activator and Lua scripting, so you can do pretty much whatever you want. It even has a Lua console, which is like cycript but for controlling the audio.\n\nThe \"Last.FM alternative\" part basically just records what you listen to. And optionally scrobble it online. Pretty nifty. You can always turn it off if you want.\n\nIf you want more info, check out the forums at\n\nPS: ALSO I should note that you can have this installed alongside the old EqualizerEverywhere. But there's really no point.\n\nI wonder if anyone actually reads these descriptions to the end."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/eqe2-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/eqe2-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/eqe2-3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/eqe2-4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/eqe2-5.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/eqe2-6.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/eqe2-7.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/eqe2-8.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 2, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "checkra1n support\niOS 13 support\n\n\niOS 12 support<br>\nA12 support<br>\nAdd compressor (beta)<br>\nAdd crossfeed (beta)<br>\nA bunch of other stuff I forgot<br>\n\nFix crashes in apps like YouTube, Deezer, etc<br>\nFix regression in Terminal/SSH interface (\"eqe\" command) which would make it exit if you had any non-gain filters (lowpass, highpass, notch, bandpass)<br>\nAdd ability to set the frequency from simple/graphic mode for non-gain filters (lowpass, highpass, notch, bandpass)<br>\n<br>\n<br>\n- Add g0blin support (iOS 10.3)<br>\n- Add Electra support (iOS 11)<br>\n- Make UI a bit prettier (in parametric mode and in the \"?\" menu)<br>\n- Add warning alert if you cannot connect to mediaserverd<br>\n- Fix conflicts with UnlimApps shared tools<br>\n- Fix SQLite race condition<br>\n\nFix regression in 2.0.7 that would cause mediaserverd to periodically crash.\n\nFix SpringBoard instability. (Turns out it wasn't a memory leak, but a bug with JIT on arm64)\n\n-Fixed issue in iOS 7 where you couldn't edit the app whitelist (for playback history) <br>\n-Reduce RAM usage for Activator/FlipSwitch overlay (SpringBoard) <br>\n-Add a button in the \"?\" menu to kill callservicesd (temporary workaround for phone call silencing issues in iOS 10)<br>\nNew stuff:<br>\n- Minor UI overhaul, change theme from dark gray to blueish-black<br>\n- Distortion indicator<br>\n- Add ability to remove songs from local playback history<br>\n<br>\nBug fixes:<br>\n- Fix a crash in some 3rd party apps<br>\n- Fix intermittent EQE.app crash on launch<br>\n- Fix phone call silencing issues? (I'm 99% sure it's fixed now, tested for 1 week on multiple devices with no issues)<br>\n- Fix Activator overlay memory leak in SpringBoard, which would cause apps to crash immediately on launch after some time<br>\n- Fix it always defaulting to parametric mode, it now remembers which mode you're in. So if you switch to \"simple\" mode, you won't have to always set it back when you go back to the app<br>\n\n-Fix ANOTHER issue where moving the sliders with audio playing in the background would stop the audio (and cause mediaserverd to crash).<br>\n-Fix memory leak with the Activator menu, which would prevent new apps from being launched in SpringBoard after a while.<br>\n-Add ability to import presets from the old version of EqualizerEverywhere.<br>\n-Add a friendly little notice when you have no bands, to help new users out.<br>\n<br>\n<br>\n-Rewrote how the app talks to mediaserverd. This should, in general, make the tweak a lot more stable. For instance, moving the sliders is now much smoother. And this should also fix some bugs where the audio cuts out when changing a slider while music is playing.<br>\n-Fixed an issue where the equalizer would sometimes randomly not apply in iOS 9.<br>\n-Fix preset loading issues for some people<br>\n-Add dedicated flatten/reset button (in the preset folder icon)<br>\n-Add help/diagnostic \"It's not working\" menu (in the ? icon)<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

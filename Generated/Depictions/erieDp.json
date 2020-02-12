@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10 and 11\nRequires iPhone\n\nRequires a device with Taptic Engine (iPhone 6s or later). This tweak is currently not confirmed to work on iOS 9.\n\nInspired by iPhone 7's force-sensitive home button, Erie allows you to add haptic feedback to any hardware button on your device.\nYou can choose from the following supported buttons:\n\n• Home Button\n• Touch ID\n• Volume Up/Down\n• Sleep Button\n\nProminent Haptics fires a different vibration when pushing a button down to create a more realistic feel of..., well... pushing buttons.\nThis feature will allow you to recreate the feeling of pressing the home button on an iPhone 7.\n\nOpen source\n\nNo Screenshots for this item."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 17, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "• Fixed a crash when force-touching icons (and probably other 3D Touch related stuff)\n\n• Ensured iOS 11 compatibility<br>\n• Moved preferences management to Cephei (might break iOS 11 compatibility, but I don't trust my preferences skills anymore)<br>\n• Optimizations to code<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

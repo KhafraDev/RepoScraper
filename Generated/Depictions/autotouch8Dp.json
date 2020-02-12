@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8 to 12\n\nA macro tool for recording and playing back the touch actions.\n\nAutoTouch is used to record and playback your operations in your mobile device, such as iPhone, iPad, iPad Mini, iPod Touch. More often it’s used to run the lua script written beforehand to implement more powerful features. You may use it to play games automatically to gain more score and coins, even use it to simulate human operations to test your program with nobody. You have to jailbreak you device before installing AutoTouch. Jailbreak is easy and you can search from the internet.\n\nThe price is $4.99USD. You will have full functionality and unlimited play time with the paid edition.\nTo buy the license: go to the settings view in the app, there is a \"License\" button, which will validate license and lead to the payment view. It can buy the license with PayPal there."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/autotouch8-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/autotouch8-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/autotouch8-3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/autotouch8-4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 26, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 4.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- dialog is improved, more buttons definition is supported, and it will return flag of the tapped button.\n- Old dialog has been totally redesigned, but the new dialog can cover the old code.\n- dialog has a new parameter orientations to control the orientatios.\n- Added log view, image view, txt file edit supporting to web dashboard.\n- New function for exiting current script execution: exit().\n- New function for getting current script path: currentPath().\n- Bug fix of findImage.\n- Provides a way to fix the conflict with third party Apps like SnapChat, just turn on “Fix App Conflict” in Settings>Options.\n- Improved findImage and findImage method 2 (Look at last parameter of findImage function).\n\n\n- Support A12(iPhone Xs, Xs Max, XR) with Chimera/Sileo<br>\n- Bug fixes of findImage<br>\n- Bug fixes of touching on home screen<br>\n- Added some Lua extension libraries<br>\n- New powerful and stable findImage function comletely replaces the old one. <br>\n- Integrated some powerful Lua extension libraries: LuacURL, LuaSocket, LuaSec, LuaSqlite3, LuaFileSystem;<br>\n- Supports adding Lua extension libraries by userself;<br>\n- New function openURL(urlString);<br>\n\n- Bug fixes and performance improvements.<br>\n<br>\n<br>\n- New Script Store.<br>\n<br>\n<br>\n- New function findImage2, which is used to find a image from the screen no matter what the size, scale, orientation, color is, it accepts png and bmp images as input parameter. It's powerful, intelligent.<br>\n\n- Bug fixes and some improvements.<br>\n<br>\n<br>\n- Upgraded Lua from 5.2 to 5.3.<br>\n- Coordinate system of AutoTouch has totally changed. The old coordinate system was irrespective to orientation, (0,0) was always at the left-top of the device relative to the home button, so much convertion was needed in the scripts. Now the new coordinate system is respective to orientation, (0,0) is always at the left-top of the interface of the active app front most. With this feature, no convertion is needed, left-top of the interface is the left-top, AutoTouch will adjust it automatically for you. For example, a script for clash of clans , should just consider landscape, because no portrait for this game. MEANWHILE, the landscape right and left are the same, so just consider the landscape. So, in this new version, you have no need to consider orientation and covertion any more.<br>\n- Brought a new feature called \"Package\" with which you are able to put serval scripts into one project, it needs a main.lua file as the executing entrance, your can require other modules in main.lua. Package can be encryped and compressed the same as single lua file.<br>\n- New function \"appActivate\" which run a specified app and wait until that app comes to the font most.<br>\n- New Play button on the scripts list view. If you provide appActivate() function in the scripts(just as the recorded scripts do), when you click on the Play button, it will automatically switch to the target app.<br>\n- New function \"toast\", use it like toast(\"message\", delaySeconds) to show message with out UI block.<br>\n\n- Brought Touch Indicator feature to show where it's touched.<br>\n- Use toast instead of alert view to hint status.<br>\n- New modern control panel UI.<br>\n- Huge refactoring.<br>\n- Bug fixes.<br>\n\n- Fixed bug of Activator integration.<br>\n<Br>\n- Supports top to 1000x playing speed.<br>\n- Refactored control panel.<br>\n- New stop() function for stopping playing.<br>\n- dialog function supports orientation specify.<br>\n- Bug fixes.<br>\n<br>\n<Br>\n- Get Activator back.<br>\n- Bug fixes.<br>\n- Supports to iOS 11.3.1<br>\n- Avoid Activator temporarily.<br>\n- Add a HTTP API to run scripts from remote.<Br>\n- Add a Play button on Web Dashboard to run scripts from browser.<br>\n<p>\n- Fit for iOS 9.3.2 ~ iOS 9.3.3\n- All Activator actions are back.<br>\n- New clearDialogValues function.<br>\n- Some other things are improved.<br>\n\n- Refactored image/color finding for better performance.<br>\n- Fixed/redesign Activator settings.<br>\n- Added time scheduler.<br>\n\n- New getColors function.<br>\n- Fixed some bugs.<br>\n<p>\n- Fixed the bug of screenshot/getColor in iPhone5 with iOS9.\n<p>\n- Fixed the bug of crash when loop getting color.<Br>\n- Fixed the bug of coordinate picker.<br>\n<p>\n- Fixed the bug of replaying inaccurately.<br>\n- Fixed the bug of taking screenshot and finding colors for iPhone 6 Plus.<br>\n\n<p>\n- appRun/appKill/appState has been fixed.<br>\n- screenshot/findColor/findColors/findImage have been fixed(except iPhone6Plus)<br>\n<p>\n- Bug causes playing at wrong coordinates on iPad is fixed\n<p>\nv3.5.3: <br>\n    - Integrates \"AutoTouch for iOS 8\" and \"AutoTouch for iOS 9\" to one \"AutoTouch\".<br>\n    - Provides dialog function to show a customized dialog.<br>\n    - Provides getOrientation function<br>\n\n- The coordinate/size system has been changed from iOS point measurement to exact screen pixel measurement(For example: the size of iPhone 6 Plus is used to be 414x736, now it's 1242x2208. The old scripts will be adapted automatically while old SCREEN_RESOLUTION is defined at the top of the scripts. This change influences touchDown/touchMove/touchUp/getColor /findColor/findColors/findImage/screenshot and all related).<br>\n- Functions getColor/findColor/findColors/findImage/screenshot has been refactored to be more accurate and stable.<br>\n- All images produced or used by screenshot/findImage/getColor /findColor/findColors are restricted to BMP file only, the screenshot taked by function screenshot will be saved as BMP file at rootDir of AutoTouch. All screenshots/images used inside AutoTouch should be take with function screenshot only.<br>\n\n- Bugs fixed.\n<p>\n- Fixed the bug causing location faking failed.<br>\n- Fixed the bug causing inputText repeat.<br>\n- Improved the license management.<br>\n\n- Activator trigger losing efficacy is fixed.<br>\n- Fake Location UI support in settings.<br>\n<p>\n- Fixed the bug causing crash after reboot/respring.\n\n<p>\n- New fakeLocation function for faking your geographic position.<br>\n- Fixed playAudio function bug and added times parameter support.<br>\n- New functions about audio: pauseAudio, resumeAudio, stopAudio.<br>\n- Fixed some other bugs.<br>\n\n1. fixed crash when open bug\n<p>\n&bull; new extensions:findColors, findColorsTap, findImageTap, keep, keepFindingColor, keepFindingColors, keepFindingImage, keepFindingColorTap, keepFindingColorsTap, keepFindingImageTap, clipText, inputText, keyDown, keyUp, appState.<br>\n&bull; added region support for findColor, findImage.<br>\n&bull; merged screenshot and screenshotRegion to screenshot with region argument.<br>\n&bull; added color picker, coordinate picker, app identifier picker, key picker as function inserting helper in script editor.<br>\n&bull; added Web Server and WebDAV Server for editing scripts at PC.<br>\n&bull; new layout of UI.<br>\n&bull; added io.popen support.<br>\n\n1. fixed the touch malposition bug on iPhone 6 Plus."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

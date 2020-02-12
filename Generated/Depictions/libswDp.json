@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 5, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "compatibility updates\n\nminor bug fixes\n\nSupport for ISeeStars III\n\n\n\n<p>\nAdded share menu to preferences.\n\niOS 8.4 bug fix\n<p>\nPreference changes\n\nspeed increases\n<p>\niOS <= 8.4 crash fix\n<p>\n3DTouch Gesture Recognizers\n<p>\nupdates for iOS 9.0.x\n\n<p>\n<p>\nbug fixes\n<p>\nSupport for Acapella II 1.0-10\n\nsupport for Acapella II 1.0-7\n\nfix for incompatibility with Acapella I"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

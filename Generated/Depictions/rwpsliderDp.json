@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11 and 12.\n\nTL;DR: Control Center's screen brightness module can now be used as Reduce White Point value slider.\n\nReduce White Point in iOS 11 is a great feature to prevent your eyes from being hurt at night because it comes with a slider from which you can adjust the intensity. However, you will need to open Settings app then navigate to Accessibility then Display Accommodations in order to adjust the value. This is inconvenient. Why can't we adjust it directly from Control Center?\n\nProvided that you have Reduce White Point toggle enabled in Control Center (whether by the stock feature Accessibility Shortcuts or tweaks like XB-CCModules), toggling it will make the default screen brightness module adjust the value of either the actual screen brightness or the white point intensity, accordingly.\n\nSource code available"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/rwpslider1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/rwpslider2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 1, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 0.0.1.1\n- arm64e support"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,81 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "See larger Screenshots below.."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/onlinenotify0.png",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/onlinenotify1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/onlinenotify2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/onlinenotify3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/onlinenotify5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 9, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "v3.0.0\n- Support latest WhatsApp major update 2.19.50\n- You can now download the tweak without any payment but will have to purchase a license or restore your Cydia license from settings to activate its features\n- Re-wrote the settings and updated all the controllers to support Watusi theme section\n- Fixed black contact names on chats list when WhatsApp dark mode is enabled\n- Fixed in-app notifications not showing on XS Max\n- Better right to left languages support\n\n\n<br>\n<br>\nv2.3.22<br>\n- More fixes on WhatsApp 2.18.100<br>\n\nv2.3.20<br>\n- Support latest WhatsApp update 2.18.90<Br>\n- Added option to receive notification when your contact is recording a voice message<br>\nv2.3.19<Br>\n- Fixed settings on WhatsApp 2.18.60 (did not change anything to the app functionality)<Br>\n<Br>\n<Br>\nv2.3.18<br>\n- Support latest WhatsApp update 2.18.51<br>\n\nv2.3.15<br>\n- Added a temporary fix for in-app notifications on iPhone X<br>\n<br>\n<br>\n- Support iOS 11 jailbreak\nv2.3.12<br>\nFixed indicators for group members on latest WhatsApp 2.17.80<Br>\n\nv2.3.11<br>\n- Fixed opening chats from online contacts list on latest WhatsApp update 2.17.61<br>\n\nv2.3.10<br>\n- Support latest WhatsApp update 2.17.51<br>\n<Br>\nv2.3.9<Br>\n- Support latest WhatsApp update 2.17.50<br>\nv2.3.8<br>\n- Fixed tapping an Online Contacts opening a different contact chat<br>\n- Added option to hide offline contacts from the list<br>\n- Added option to show the last seen of offline contacts<br>\n<br>\n<br>\nv2.3.7<br>\n- Fixed Online Contacts alert showing every time the list is opened<br>\n- Fixed crash when selecting an offline contact<br>\n<br>\n<br>\nv2.3.6<br>\n- Support latest WhatsApp update 2.17.40<br>\n- Online Contacts will now only show the contacts you choose and not your whole contact list<br>\n- Fixed Online Contacts row hiding search content on chats list<br>\n\nSupport latest WhatsApp update 2.17.30\n\n- An attempt to fix Adding/Removing WhatsApp bundles from OnlineNotify preferences in device settings.<br>\n- Fixed package empty package version<br>\n- Added Italian translation, thanks to Colusso Aron<br>\n- Added Portuguese/Brazil translation, thanks to Gustavo Espíndola<br>\n- Added Spanish translation, thanks to Javier Fernandez<br>\n\n- Added French translation, thanks to Lionel Beaud\n- Added German translation, thanks to exSSv\n- If you wish to translate the tweak to your language please check <a href=\"https://github.com/FouadRaheb/Localization\" target=\"_new\">here</a>\n<br>\n<Br>\nSupport latest WhatsApp update 2.17.20\n\n- Fixed Online Contacts list on latest WhatsApp 2.17.11<br>\n- Added online indicator to Watusi favorite list<br>\n\n- Support latest WhatsApp update<br>\n\n- Fixed crash inside chats on latest WhatsApp<br>\n<br>\n<br>\nAdded support for latest WhatsApp update 2.17.1\n\nVersion 2.2.3:<br>\n- Fixed a bug that would load WatusiTools on SpringBoard<br>\n\nv2.2.2<Br>\n- Fixed last seen text capital letters<br>\n<p>\nSupport latest WhatsApp update 2.16.7\n\n\n- Moved settings section under profile and added icons to fit new WhatsApp settings<br>\n- Added option to export contact logs<br>\n- Fixed an issue where you had to enable offline notifications in order to receive online notifications<br>\n- Fixed group indicators<br>\n- Removed 'Default iOS Style' inside notifications and keep status bar style<br>\n- Sort tracking list in alphabetical order<br>\n\n<p>\n- Fixed online/offline notifications\n<p>\n- Outside notifications is now much more stable since WhatsApp will now reconnect automatically when closed from background or if internet disconnected<br>\n- Better way in handling online indicators<br>\n- Fixed read messages notifications showing null for group members not in contact list<br>\n- iOS 9 support<br>\n- More bug fixes and improvements<br>\n\nLatest WhatsApp 2.12.7 Compatibility\n\n- Fixed hidden status text when only online indicator enabled.\n<p>\n- Fixed empty cells in Online Contacts list <Br>\n- Fixed favorites list crash on non arm64 devices <Br>\n- Fixed issues subscribing to selected contacts which cause not receiving notifications. <Br>\n- Added duplicated WhatsApp bundle by default <Br>\n- More stability improvements<Br>\n<p>\n- Added option to add a row on top of Chats List where you can access a table of your current online contacts.<br>\n- Fixed favorites crash some users experienced<br>\n\nFixed a crash some users where having\n\n2.0-1<Br>\n- Fixed iOS 7 issues<Br>\n- Fixed Online/Offline notifications for those who were having issues.<Br>\n- Added conflict for tweaks that are causing issues for OnlineNotify<Br>\n- Keep sending me your issues/suggestions, this is the only way to improve the tweak! :-)<Br>\n<p>\n<p>\nOnlineNotify has been re-written from scratch!<Br>\n<Br>\nImprovements:<Br>\n--------------------<Br>\n- The way the tweak track users is now a lot better than before, the notifications are received instantly without any delay.<Br>\n- The preferences are now inside WhatsApp settings page.<Br>\n- You can now add different bundles of WhatsApp from OnlineNotify section in settings App.<Br>\n- You don't need Insomnia tweak anymore, OnlineNotify will now maintain your device wifi connection when outside notifications are enabled<Br>\n- The status bar notifications inside WhatsApp are now colored according to the type of the notification you receive<Br>\n<Br>\nNew features:<Br>\n------------------<Br>\n- Added Online Indicator for users in Chat List.<Br>\n- Receive a notification when a contact reads the messages you sent.<Br>\n- Now you can see your contacts Lastseen and Online from the tracking List.<Br>\n<Br>\nOnlineNotify is now fully translated to Arabic, German and Spanish.<Br>\nIf you love to translate it to your language, <a href=\"http://pastebin.com/nJt3ZtA7\" target=\"_new\">check here</a>\n\nSupports latest WhatsApp update 2.12.3\n\nv 1.3-1<Br>\nFixed null name in notifications.<Br>\n<p>\nv 1.3<br>\n- Support latest WhatsApp version 2.12.2<br>\n- Added new optional thinner notification banner inside WhatsApp (Choose which one you wish to use in settings)<br>\n- Tapping on inside notifications will now open the chat of the specific user<br>\n- Moved OnlineNotify section to the bottom of WhatsApp settings to avoid conflict with other tweaks.<br>\n\n- Added option to save log of contacts notifications<br>\n- Added new section for OnlineNotify in WhatsApp settings where you can check if notifications are enabled (Red/Green indicator), add remove contacts from tacking table, check contacts logs and go directly into OnlineNotify Preferences<br>\n\n1.1-1<br>\n- Fixed Slide menu tracking button not showing for some users<br>\n- Fixed Adding contact to tracking table<br>\n<br>\n1.1<br>\n- Compatibility with latest WhatsApp version 2.11.15<br>\n- Minor bug fixes and improvements<br>\n- Added Lastseen and Online Indicator to Contacts in Group information<br>\n- Added option to receive Typing Indicator for selected contacts only<br>\n- Added option to select which WhatsApp version you wish to run the notifications on (If you have a running duplicate of WhatsApp you can select it and run Online/Offline notifications on it so you don't have to be shown as online on your main WhatsApp. I'm not responsible on how to duplicate WhatsApp, this option is made for those who found a way to run a duplicate)<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

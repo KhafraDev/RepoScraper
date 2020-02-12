@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10, 11 and 12\n\nThis package based \"TapTapFolder\" by @QusicS.\n\nMake the first icon of the folder a folder image.\n\nYou can launch the first application of the folder with 3D touch.\n(For devices without 3D touch, you can use double tap)\n\n- Settings -\n\nReversed Behavior:\nWhen enabled, single tap to open folder while double tap to open the first app.\n\nKeep Folder Preview:\nWhen enabled, folder icons won't be modified. Respring is required for this change to take effect.\n\nDisplay to Folder as Icon:\nWhen enabled, make the first icon of the folder a folder image. Respring is required for this change to take effect.\n\nUse 3D Touch:\nWhen enabled on supported devices, you can use a deep press to trigger the double tap action.\n\nDouble Tap Timeout:\nYou can change the timing when double tap is used.\n(The default is 0.2 seconds)\n\nHide Folders Icons:\nWhen enabled, Delete the icon in the folders on the home screen. Respring is required for this change to take effect.\n\nHide Folders Icons BG view:\nWhen enabled, Delete the blurred portion of the folder icon. Respring is required for this change to take effect.\n\nHide Folders BG view:\nWhen enabled, Delete the blur in the folder.\n\nHide Folders Titles:\nWhen enabled, Hide the title when the folder is open.\n\n4x4 Folders:\nWhen enabled, Set the number of apps in the folder to 4x4 (iPhone and iPod only) Respring is required for this change to take effect.\n\nTap to Close:\nWhen enabled, Close the folder with tap the screen.\n\nHide Icon Tap Shadow:\nWhen enabled, Delete the shadow when tapping the icon.\n\nNo Folder Animations:\nWhen enabled, Eliminate Folders animation.\n\nConfigure options from Settings app."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/primalfolder1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/primalfolder2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/primalfolder3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/primalfolder4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 20, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "v0.0.6\n\nSupport for A12(X) arm64e devices\nAdd: Auto Close Folder\n\niPhone XS Max / XR is not fully supported yet.\n\n\nv0.0.5<br>\nAdded:<br>\n- Hide Folders Icons<Br>\n- Hide Folders Icons BG view<Br>\n- Hide Folders BG view<Br>\n- Hide Folders Titles<Br>\n- 4x4 Folders<Br>\n- Tap to Close<Br>\n- Hide Icon Tap Shadow<Br>\n- No Folder Animations<Br>\n<Br>\nConflicts: betterFourByFourFolders, Folder6Plus<Br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

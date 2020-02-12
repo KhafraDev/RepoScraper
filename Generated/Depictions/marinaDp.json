@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8 to 13\n\nMarina gives you the Chance to Choose How Many Icons you prefer to have into your Dock also adding other Options for its Sight and Behaviour.\n\nSee Screenshots below.\n\nMore Stuff to come!\n\niOS 11 is on Full Compatibility Stage in the Next Works.\n\nConfigure options from Settings.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/marina1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/marina2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/marina3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/marina5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 9, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.1.6\n- Updated the Show Dock Labels option for iOS 13 Compatibility.\n- Updated Related option Label in Prefs.\n\n\nVersion 1.1.4<br>\n- Added the option to Show the Dots in Use only when Active (Featured RealDots Available on My Repo).<br>\n- Added the option to Make the Dots Red (Featured RedDots Available on My Repo).<br>\n\nVersion 1.1.3<Br>\n- Added the option to Square the Dots.<Br>\n<Br>\n<Br>\nVersion 1.1.2<br>\n- Added support for arm64e/A12.<br>\n\nVersion 1.1.1<br>\n- Added the option to Fade the Dock when open/closing the Today View on iOS 11/12 (the option to Show Dock Labels has to be Switched Off).<br>\n\nVersion 1.0.9<br>\n- Added the option to Enable the iPhone X Style Dock on Older Devices (see Patch by sinfool for credits).<br>\n<br>\n<br>\nVersion 1.0.8<br>\n- Added the option to Hide the Floating Dock Background. The option also Enables the Feature (Thanks Patch by M_Dallak).<br>\n<br>\n<br>\nVersion 1.0.7<br>\n- Added iOS 12 Support (Show Dock Labels Feature).<br>\n\nVersion 1.0.6<br>\n- Added some Colors :-) (libcolorpicker Dependency). <br>\n<br>\n- Now you can Custom Select the Colors for the Background of your Dock.<br>\n- Code Improvement.<br>\nVersion 1.0.5<br>\n- Added the option to Enable the Floating Dock Feature (iOS 11).<br>\nVersion 1.0.4<br>\n- Added the option to Extend the Background of the Dock Most likely is on iOS 10 (included My Tweak DockMat on My Repo).<br>\n\nVersion 1.0.3<br>\n- Fixed the Hide Dock Background option not properly working on iOS 11.<br>\n- Raise the Dock Up a Bit when the Show Dock Labels option is enabled.<br>\n- Change in Prefs.<br>\n- Code Improvements.<br>\n\nVersion 1.0.2<Br>\n- Added the option to Show The Labels of the Dock on iOS 11 (Implemented My Tweak DockshowLabels Available on My Repository. Thanks @mcarrales27).<Br>\n<Br>\n<Br>\nVersion 1.0.1<br>\n- Added the iOS 11 Support (as Requested on Twitter by Dom).<br>\n- Changes and Fixes in Code.<br>\n- Changes and Fixes in Preferences Panel and Labels.<br>\n- Improvements.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

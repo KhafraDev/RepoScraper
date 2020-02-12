@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now Free."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/eclipse1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/eclipse2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/eclipse4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/eclipse5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 6, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now Free.\n\n\n\n- Fix Viber crashes<br>\n- Updated for latest Whatsapp<br>\n- Updated for latest snapchat<Br>\n- Removed unnecessary code<Br>\n\n- Support for Tinder<Br>\n- Fixes Whatsapp crashing when random tint color is enabled<br>\n<p>\n- Compatible with Threema<br>\n- Improvements for instagram<br>\n- Safari lag fix<br>\n- Possibly fixed Whatsapp crashing(?)<br>\n\n- Full support for Facebook messenger\n<p>\n- Fixes for Whatsapp (Event Labels, Timestamps)\n<p>\n- Improvements for iPad Music App<br>\n- Important bug fix for Whatsapp 2.11.9 (Latest version)<br>\n- Improved App tinting<br>\n\n- Fixed close button on Safari (iPad)<Br>\n- Fixed Calendar (iPad)<br>\n- BiteSMS Fixes<br>\n- Temporarily unthemed Notes App<br>\n\n- Possibly fixes safari lag<br>\n- Fixes textview bugs<br>\n- Fixes whatsapp toolbar bug on pre-7.1 devices<br>\n- Added ability to screenshot changelogs for free Reddit karma<br>\n<p>\n- Improvements for iPad<br>\n- Improvements for MobileSafari<br>\n- New “Quit All Apps” option<br>\n- Removed nuclear launch codes from source code<br>\n<p>\n- Fix issue where some apps would hang while typing\n<p>\n- Fix TextView coloring bugs<Br>\n- UIAlertView improvements<Br>\n- Added option to disable Eclipse inside SpringBoard <Br>\n- Reduced the amount of complaints/bug reports in my inbox<Br>\n\n- Fixed UIAlertView bugs<Br>\n- Couria compatibility (BiteSMS coming soon)<Br>\n- Fixed dock/control center conflicts<Br>\n- Compatible with Auxo 2<Br>\n- Fixed bug where Eclipse would “accidentally” message your ex<Br>\n<P>\n- Fixed text input on Safari, possibly others<br>\n- Fixed issues with custom hex colors (No more safe mode, black views, etc)<br>\n- Fixed rare bug where iPhone would become self aware and take over your household<br>\n<p>\n<p>\n**For best results, update your device to 7.1.2!**<br>\n<br>\n- Performance improvements<br>\n- 7.0 - 7.1.x compatibility<br>\n- UIAlertViews, Action Sheets, Share sheets now themed<br>\n- Whatsapp fix for 7.1.x<br>\n- Phone App/Contacts fix for 7.1.x<br>\n- AppStore/iTunes App Fixes<br>\n- Fixed Dim Wallpaper feature<br>\n- Music App Fixes<br>\n- Nicer keyboard<br>\n- Whiter text by default<br>\n- Activator + Flipswitch fixes for 7.1.x<br>\n- Statusbar color removed from SpringBoard<br>\n- Bioprotect Compatibility<br>\n\n\n- Fix text bubbles on 7.1+<br>\n- Fix Facebook Messenger crashes<br>\n\n- Activator & Flipswitch fixes<br>\n- Splashscreen replacement fixes<br>\n<p>\n- Improved White Listing<br>\n- Custom HEX Colors (Experimental Settings)<br>\n- Snapchat Support<br>\n- Soundcloud Support<br>\n- Colorflow Support<br>\n- Aria Support<br>\n- Threema Support<br>\n- Initial Uniformity support<br>\n- Tweetbot Improvements<br>\n- Facebook Messenger Improvements<br>\n- Kik improvements<br>\n- BlurredMusicApp improvements<br>\n- Whatsapp Improvements<br>\n\nROLLBACK: Removed Hex Colors for further testing\n<p>\n- Fixed status bar bugs<br>\n- Fixed red text views<br>\n<p>\n- Whiter fonts (Experimental)<br>\n- Reorganized Preference Panel (It’s nicer now!)<Br>\n- Fully compatible with BlurredMusicApp and MessageCustomizer<br>\n- Fixed bugs with SMS app<br>\n- Fixed Calendar bugs<br>\n- Fixed some bugs with BETA themes<br>\n\n- Customized switches based on selected color<br>\n- Fixed folder labels<br>\n- Fixed whitelist bugs<br>\n<p>\n- Fixed Calendar status bar<Br>\n- Small UI tweaks<br>\n<p>\nChanges: Eclipse (1.1.7)<Br>\n<br>\n- Added detail text toggles<br>\n- Added translucent navigation bar options<br>\n- Fixed bugs with “light” themes<br>\n- Fixed bug where tint would appear when disabled<br>\n<p>\nChanges: Eclipse (1.1.6-1)<Br>\n<Br>\n- Calendar support (FINALLY)!<Br>\n- Separate option to select Navigation Bar Colors<Br>\n- Two new themes (beta)<Br>\n- Fixed Alert Views<Br>\n- Fixed small Navigation Bar Bugs<Br>\n- Fixed & Improved Table Cell detail text<Br>\n- Fixed Emergency Call screen<Br>\n\n- Added option to replace startup screens<Br>\n- Fixed conflicts with GBA4iOS, possibly other apps<Br>\n- Compatible with Twitter 1.4.3<br>\n- Fixed a text field issue in Messages/BiteSMS <Br>\n- Fixed Safari reload and reader buttons<br>\n<p>\nChanges: Eclipse (1.1.5)<Br>\n<Br>\n- Renamed and improved “Bumble Bee” theme (Now “Limerick”)<Br>\n- Added beautiful new “Midnight” theme<Br>\n- Fixed Voice Memos crash (and possibly a few others)<Br>\n- Fixed mail selection (for real this time)<Br>\n- Improved memory consumption<Br>\n- Fixed a coding issue where Eclipse would attempt to hook inexistent classes<Br>\n- Rounded the settings icon<Br>\n- Eliminated more complaints by addressing the above bugs<Br>\n\n- Fixed issue where Activator would reset user settings<Br>\n- Fixed clear tableview section headers<br>\n- Fixed white mail selection<br>\n- Support for Twitter App<br>\n\n- New color options<br>\n- Small bug fixes<br>\n\n- Removed Activator requirement\n<p>\n- Fixed broken preferences code\n<p>\n- New configuration options<br>\n- Blacklist Option appropriately renamed “White List”<br>\n- New Icon<br>\n- Fixes AppStore Search<br>\n- Fixes Voicemail Scrolling<br>\n- Compatible with BlurredMusicApp<br>\n- Compatible with Keyboard theming tweaks<br>\n- Activator and Flipswitch Support<br>\n- Fixed StatusBar issues<br>\n- Fixed Droplr crashes<br>\n- Fixed tint color stuck on random mode<br>\n<p>\n- Recalls text fields from the dark side<Br>\n- Many small bug fixes/improvements<br>\n- Music, Phone, SMS, App Store, and Mail fixes<br>\n- Compatible with Message Customiser<br>\n- Kik + Twitter fixes<br>\n- Navigation Bar improvements<br>\n<p>\n- Attempts to fix rare Music App crash<Br>\n- Fixes folder label background color<br>\n- Fixes iMessage bubbles<br>\n<p>\n- iPad Support (Beta)<Br>\n- Improve text colorization (Still a little buggy)<Br>\n- Compatibility with third party tweaks (BiteSMS, Couria, etc.)<Br>\n- Fixed issue where Group iMessages started from the top<Br>\n- Fixed Mail App not darkening properly<Br>\n- Fixed NavBar bug that caused views to move down on some apps (ex. Whatsapp)<Br>\n\n- Fixes phone app crashes\n- fixes on/off toggle\n<p>\n- Fixed Volume Bars being too dark<Br>\n- Fixed oversized sliders<Br>\n- Fixed Music App not darkening properly<Br>\n- Improved “Darken Wallpapers” option<Br>\n- Fixed phone dialer not darkening<Br>\n- Improved label colorization<Br>\n- Fixed Alert View text<Br>\n- Compatible with Instagram<Br>\n<p>\n- Added option to disable Eclipse inside selected applications (Blacklist)"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

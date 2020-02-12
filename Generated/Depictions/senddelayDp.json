@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/senddelay1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 23, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "New:\n- Swipe Up to Send (Swipe up on message or send button while delaying to send immediately.)\n- iPhone X Support\n- iOS 11 Support\n\nFixed:\n- Resolved iOS11/iPhoneX Crash.\n- Fixed issue with delay logic causing messages to be sent immediately when quickly swapping between delay and not.\n\nThanks to all on Reddit who helped test!\n\n\n1.4.2-1:<br>\n-Rolled back a change that cleared message text once sending was done.<br>\n<br>\n1.4.2:<br>\n- Fixed issue causing injection into unwanted apps.<br>\n- Fixed Safari/Chrome not loading correctly.<br>\n- Added support for sending once the back button is pressed.<br>\n- Added support for quick reply sending after closing notification while delaying.<br>\n<br>\n<br>\nSendDelay 1.4-7:<br>\n- Updated for iOS 10.<br>\n- Fixed quick reply delay not functioning.<br>\n- Fixed Send button not changing color when delaying.<br>\n-Added support for Flyer (Send image turns red when delaying and blue when not delaying.)<br>\n-Fixed a few translation issues (thanks to those sending in the fixes.)<br>\n- Cleaned up a couple things from last update.<br>\n<p>\n- Rewrote some of the logic.<br>\n- Fixed the most reported crashes.<Br>\n- Hopefully fixed the 'not sending' issue for some.<Br>\n- Added a couple localizations, please let me know if they are incorrect or if you need some added and I will try to get them in/fixed.<br>\nPlease let me know if you are still having issues. Enjoy!\n\n-Rewrote send method when going back that was causing crashes. [Swipe or Button]<br>\n-Rewrote keyboard check that was causing crashes with 3rd party keyboards still.<br>\n<P>\n-Fixed crash that was introduced in the last version with 3rd party keyboards.<br>\n-Fixed send crash introduced in last version.<br>\n-Fixed issue with double sending.<br>\n<br>\n-Localizations are in the works. Please email for languages that you would want included.<br>\n<P>\n-Now sends when back navigation button is pressed and is being delayed.<Br>\n-Now sends when backgrounding Messages and is being delayed.<Br>\n-Now disables Keyboard while delaying as to not ruin current message with accidental typing.<Br>\n<Br>\nPlease notify me if you have any suggestions/problems!<Br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

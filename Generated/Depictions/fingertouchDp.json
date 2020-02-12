@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10 and 11\n\nThis tweak will let you use your Touch ID sensor as a gesture controller.\n\nCurrent gestures are:\n- Touch\n- Hold\n- Double Touch\n- Triple Touch\n- Touch and Hold\n\nCurrent actions are:\n- Lock\n- Home\n- Switcher\n- Flashlight\n- Screenshot\n- Reachability\n- Switch to last app\n- Siri\n- Rotation lock\n- Control Center\n- Notification Center\n- Close current app\n\nIf your device relocks you are not lifting your finger fast enough. Set an higher wait time or change the Touch action.\n\nIf you are not getting vibrations check you enabled them in your stock Settings -> Sounds.\n\nBioprotect currently breaks this tweak or part of it. You have to choose until this gets fixed.\n\nConfigure in settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/fingertouch1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 8, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "iOS 10.3 & 11 support"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

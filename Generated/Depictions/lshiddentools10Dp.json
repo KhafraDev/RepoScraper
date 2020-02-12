@@ -1,0 +1,85 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible (specifically written) for iOS 10. Tested on iPhones 7 iOS 10.1.1\n\nLSHiddenTools10 gives you smooth and useful options to make hidden, more functional and cuter the Sight and the Behavior of your LockScreen adding these nice Features:\n\n- Hide the StatusBar on LockScreen.\n\n- Hide the Clock and the Date on the LockScreen (the StatusBar still shows itself).\n\n- Hide the Press to Unlock Label.\n\n- Hide the LockPad on the StatusBar.\n\n- Hide (and disable) the Camera Access and Dots.\n\n- Hide (and disable) the Today View Access.\n\n- Hide the Today View Date Text swiping Right.\n\n- Hide the Blur taping on the Search Field of the Spotlight swiping Right.\n\n- Hide the Application Suggestion on the LockScreen.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nConfigure options from Settings.\n\nwould be greatly appreciated!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/lshiddentools10-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/lshiddentools10-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/lshiddentools10-3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/lshiddentools10-5.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/lshiddentools10-6.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/lshiddentools10-7.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 31, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.1.2\n- Added the option to Hide the Date Text on the LockScreen (tip by sinfool).\n- Added the Label to Check Other Tweaks by Me on BigBoss Repo.\n\n\nVersion 1.1.1<br>\n- Added the option to Make Vibrant the Time and Date on LockScreen.<br>\n<br>\n<br>\nVersion 1.1<br>\n- Added the option to Custom Change the Press to unlock Text (Managed the Code of Lockscreen Custom Text iOS10 by @teo155 and integrated it).<br>\n- Code Changes and Prefs improvements.<br>\n- Changes in Preferences Panel.<br>\n\nVersion 1.0.9<br>\n- Added the option to Hide the Press to Unlock try again Label when failure.<br>\n<br>\n<br>\nVersion 1.0.8<br>\n- Added the option to Hide the Timer on the LockScreen.<br>\n- Added the option to Hide the Transitions View of Text% of Charge when charging.<br>\n- Added the option to Show Always the Timer on the LockScreen (when paused, cancelled and over).<br>\n- Added the Additional Features Labels with Changes in Prefs Options.<br>\n\nVersion 1.0.7<br>\n- Added the option to Disable the LockScreen Auto Dimming (tip by prouser).<br>\n- Added Twitter, My Repo and Donations Icons Labels.<br>\n<br>\n<br>\nVersion 1.0.6<br>\n- Added the option to Hide the Today Weather View (tip by sinfool).<Br>\n- Added the option to Align Left Time and Date on LockScreen (tip by sinfool).<br>\n\nVersion 1.0.5<br>\n- Added the option to Hide the Top Separator when scrolling Notifications on LockScreen (tip by sinfool).<br>\n- Now you can add My Repo on Cydia and Donate Me (thanks so much) with the New Labels in Preferences Panel.<br>\n- Changes in Labels Descriptions in Prefs.<br>\n\nVersion 1.0.4<br>\n- Added the option to Hide the Two LockScreen Bottom Dots.<br>\n\nVersion 1.0.3<Br>\n- Added the option to Hide the Camera Icon Dot View (thanks @halston696 for the suggestion about the searching of the correct Class).<Br>\n\nVersion 1.0.2<br>\n- Added the option to Hide the % Charged Text when plugging the Device on Charge (thanks sinfool for the idea).<Br>\n<Br>\n<br>\nVersion 1.0.1<br>\n- Added the option to Hide the Battery Image when plugging the Device on Charge (thanks sinfool for the idea).<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 7, 8, 9, and 10\n\n微信自动抢红包，自动收款专业版\nwechat auto recieve red packets and money transfer, professional version.\n可以设置抢红包/收款的时间间隔，比如（3-5秒）\nable to set timeout rank\n可以设置抢或不抢个人红包\nable to set receive or not receive personal red packets\n可以设置抢或不抢指定群的红包\nable to set receive or not receive red packets from specific group chat\n可以设置抢完红包或者收款后自动回复的内容\nable to set auto reply after receive red packets and money transfer\n可以设置抢完红包或者收款后给自己发送提醒\nable to notify yourself after receive red packets and money transfer\n\nIOS7+, please email me if there are any problems"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/redbag3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/redbag2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/redbag1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 20, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "微信自动抢红包稳定版，自动抢红包自动收款，支持提醒、自动回复、延迟抢包、指定不抢，最新版本优化了延迟抢包的问题\n\n\n新增关键词不抢功能，指定关键字的红包不抢<Br>\n优化抢红包随机时间的逻辑<br>\n自动抢红包，自动收款，自动回复红包/收款<Br>\n设置红包延时，设置个人/群列表不抢红包<Br>\n新增红包提醒功能，修复部分情况不抢红包的bug<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

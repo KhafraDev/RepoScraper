@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 6 - 12\npartial compatibility with iOS 8 - 12 (can change artwork for songs with existing artwork)\n\nCoverArtExplorer is the first app that lets you choose the cover art for albums, artists and songs in the music library on your iPhone, iPad or iPod touch. Simply select the item art you want to change (or select multiple items to change at once) and then select an image from your photo album or choose it from an in-app Google image search. You can even delete artwork you don’t want to have anymore. This app works with music from iTunes match as well as music imported with the popular music importing apps in Cydia (including those using Gremlin like AudioExplorer+), as well as music from iTunes (purchased on-device or synced). It can even change artwork for videos, podcasts and audiobooks. It doesn’t matter if the item already has artwork or never had any artwork.\n\nAs this is an app and not a tweak, it runs without any dependencies and therefore is very stable. It has been tested by diligent beta testers running different devices and iOS versions. The app even works in the iOS Simulator!\n\nAs there is a problem in iOS 7 with Cydia apps showing up in Springboard after install, please restart (not only respring) your device if you can’t find the app after installing. In other words, “have you tried turning it off and on again”?\n\nPlease note that unless the item you’ve changed is going to sync back anyway (for example, with Gremlin), artwork changes do not appear in iTunes (you may also need to adjust some sync settings to stop iTunes from erasing the changes upon syncing, or use selective sync or even turn off music syncing). Also be aware that there are individual images for albums, artists and songs and that you may need to change each individually, or changing one may automatically change the others.\n\nThis app is free to try out. If you like it, please purchase a license. This will also remove the ads in the app"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/coverartexplorer1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/coverartexplorer2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/coverartexplorer3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/coverartexplorer5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 10, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package +&nbsp;Free&nbsp;Trial",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 0.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- partial compatibility with iOS 8 - 12 (can change artwork for songs with existing artwork)\n\n- minor fixes for iOS 9 (wrong artwork displayed, duplicate entries)<br>\n- still only partial support for iOS 8.4 and 9<br>\n- partial fix for iOS 8.4: can change artwork for songs that already have artwork<Br>\n <br>\n- Fix crash on launch from last update<br>\n- App works on iOS 8.3 and lower, not yet 8.4<br>\n\n<p>\n- partial fix for iOS 8.3 (repair listings of songs, albums and artists)\n\n- partial fix for iOS 8 (songs working, artists and albums partially working)\n\n- Add ability to search for cover art from websites other than Google, such as Coverlandia <Br>\n- App is now free for all<Br>\n\nadded ability to select cover art directly from a Google image search"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

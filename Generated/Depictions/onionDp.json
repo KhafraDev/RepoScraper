@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10\n\nCompatible with Noctis, Wormhole, FlipControlCenter, & Polus\n(please read the description if you use one of the above tweaks)\n\nFor optimal use with FlipControlCenter, please enable the Stately theme from your desired theme manager.\n\nFor optimal use with Polus, you must change the settings of Polus toggle backgrounds to \"none\".\n\nThis tweak removes a layer off of the Control Center to give the entire look a nice translucent blur. This tweak is.\n\nConsider donating to me using, it will help me determine if I should add more, cheers"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/onion1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/onion2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/onion3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 7, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Changes made:\n\n-perhaps fixes problems people had, but if the tweak already is working fine for you then you probably don't need to update unless you want to\n\n\nhotfix, should fix crashes on devices below 10.2 (even though this isnt really supposed to work on those earlier devices anyways... )<Br>\n<br>\n<br>\n0.0.3 -> 0.0.4<br>\n<br>\nMasq compatibility<br>\n<br>\n<br>\n0.0.2 -> 0.0.3<br>\n<br>\nBig fixes !! Now it will look proper all the time no matter what tweaks you have :P<br>\n<br>\n-fixed hard to read now playing text<br>\n-Removed the faint button backgrounds properly thanks to @sticktron for telling me how :P<br>\n<br>\nlet me know if anything still is off, hope you enjoy the fix & please send thanks to sticktron as I doubt i wouldve realized how<br>\n<br>\n\nv 0.0.2<br>\n<br>\n-hides button backgrounds a bit when not using Noctis to make it less noticeable<br>\n<br>\nremember to use a transparent button theme if using in conjunction with FlipControlCenter, such as the included 'Stately'<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

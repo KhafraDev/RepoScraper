@@ -1,0 +1,67 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "微信运动步数修改器，可以设置0~98800任意步数，让你溜到没朋友！\n\nWeChat movement step modifier, you can set 0 ~ 98800 arbitrary number of steps!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/mmsport1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/mmsport2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/mmsport3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/mmsport4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "更新到微信最新版7.0.8\n\n微信运动步数修改器，让你溜到没朋友！\n<br>\n<br>\n微信运动步数修改器<br>\n<br>\nWeChatSport Change Steps<br>\n\n优化运动数据准确数。<Br>\n领养一个聊天机器人，拉进微信群调戏小伙伴。<br>\n<Br>\nGet A Cute WeChat Robot.\n\n微信运动步数修改器，让你溜到没朋友！\n\t\t</div>\n\t</fieldset>\n\n\t\n</panel>\n\n\n<panel>\n\t<fieldset style=\"clear:both\">\n\t\t<label>Information</label>\n\t\t<div>\n\t\t<table class=\"information\" cols=\"2\" border=\"0\">\n\t\t<tr>\n\t\t\t<td class=\"key\">Updated</td>\n\t\t\t<td class=\"detail\">September 30, 2019</td>\n\t\t</tr>\n\t\t\n\t\t<tr>\n\t\t\t<td class=\"key\">License</td>\n\t\t\t<td class=\"detail\">Free Package</td>\n\t\t</tr>\n\t\t\n\t\t\t\t\n\t\t</table>\n\t\t</div>\n\t</fieldset>\n\n\n\n\n\n\n\n\n\t<fieldset style=\"clear:both\">\n\t\t<a class=\"button\" href=\"http://apt.thebigboss.org/developer-packages.php?name=%E5%BE%AE%E4%BF%A1%E8%BF%90%E5%8A%A8%EF%BC%88%E6%9C%80%E6%96%B0%E7%89%88%EF%BC%89&uuid=&ua=node-fetch/1.0 (+https://github.com/bitinn/node-fetch)&ip=45.32.4.19&id=45.32.4.19\">More Packages from Developer</a>\n\t</fieldset>\n\n\n\n<!--\n\t<fieldset style=\"clear:both\">\n\t\t<a class=\"button\" href=\"Advertise.php\">Advertise in Cydia</a>\n\t</fieldset>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

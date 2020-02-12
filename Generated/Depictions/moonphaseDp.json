@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 7, 8, 9 and 10\n\nThis tweak shows the current phase of the moon next to the time in the status bar. It's updated every time the clock is updated."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/moonphase0.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/moonphase1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/moonphase2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/moonphase3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 15, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 0.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Easter egg, tap the date/time to find out.\n\n\n- Added a switch to display the real moon in the status bar\n\n- The lock screen moon doesn't dance around anymore\n\n- added a switch to disable the status bar moons\n- added a switch to hide date/time on the lock screen\n- improved quarter moon drawing\n\n\n<br>\n<br>\n- The lock screen moon can now be positioned over the time view<br>\n<br>\n<br>\nExciting new update: lock screen moon with real moon images!<br>\n<br>\nAlso in this update: option to remove the moon from the lock screen status bar<br>\n\n<br>\n<br>\n- More accurate new moon<br>\n<br>\n- Added a slider for horizontal positioning<br>\n- Fixed a bug that affected correct rendering on the lock screen<br>\n<br>\n\n- Added sliders to the settings page to set the lock screen moon size and vertical position<br>\n<Br>\n- The moon can be added to the lock screen now<Br>\n<br>\n- Added a switch to display the moon on the other side of the clock<br>\n<br>\n- Added a settings switch for people in the southern hemisphere"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "See larger Screenshots below."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/whatsappplus1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/whatsappplus2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/whatsappplus3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 19, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "-Added ability to save stories\n\n-Fix error on setting custom theme<br>\n-Fix sharing music<br>\n\n-Fix tap to record<br>\n-Fix share last photo<br>\n-Fix music sharing<br>\n\nversion: 1.6r-45<Br>\nchanges: <br>\n- Compatible with WhatsApp 2.16.2<br>\n\n-Fixed uploading unlimited media<br>\n-Works with WhatsApp 2.12.14<br>\n\n-Due to Parse.com being discontinued by Facebook I have had to re-write my backend services as such this is a major update. If you have purchased ad-removal before please make sure to login again from “++ Settings -> Ad Removal Settings”\n\n-Fixed music sharing\n\n-Ad removal settings are now much more organized and is now only $2.0 :)<Br>\n-More enhancements for WA++ will be coming out at the end of December :)<br>\n\n-Compiled for 32/64 bit on iOS 9\n\n-Fixed crash on 2.12.7\n\nFixxed some issue's for iOS 8.3 users\n<p>\n-Various bug fixes\n<p>\n-Compatible with version 2.12.3\n\nUpdated to work with WhatsApp version 2.11.15\n\n-Added option to remove that annoying camera button from the chat bar<br>\n-For those of you that use the tap to record feature, you can now click on the red mic on the left to cancel the recording.<br\n-Please email me at support@unlimapps.com if you are having issues sharing music.<br>\n<p>\n-Finally fixed music sharing for everyone<br>\n-Fixed a bug that was causing crashing when forwarding media<Br>\n-Added option to donate to remove ads through stripe, thank you all for your support :)<br>\n\n<p>\n-Add missing AppList dependency\n<p>\n-Fixed a bug causing safe mode on iOS7<br>\n-Added ability to disable \"Typing\" indicator<br>\n-Fixed \"Share Music\" on international versions<br>\n<p>\nPlease refer to new depiction above for the major changes\n\n-Separated read receipts from delivery receipts :) so now u can get notifications while still not letting people see if you read their messages\n<p>\n-This update should hopefully fix all of the issues people were having with stealth mode.<Br>\n-Please note that if you disable read receipts you will no longer get notifications from whatsapp about new messages because of the way read receipts need to be handled(they are server side so out of my control) <Br>\n*If you have custom color enabled please make sure to select a color or the app will crash. I am working on a fix for this but for now please select a color.<Br>\n\n<p>\n<p>\n-Fixed a bug that caused the WhatsApp app to crash on launch for some people. <br>\n*If your are still experiencing crashing please try changing the preferences in settings and also add http://beta.unlimapps.com to get the latest beta version of the tweak<br>\n<p>\n-New ownership!<br>\n-Fixed read receipts on iOS 8<br>\n-Got rid of those annoying notifications<br>\n-Unlimited media everywhere<br>\n-Got rid of the update notifications that were causing issues<br>\n-Cloning does not yet work<br>\n-Please close WhatsApp after you change any preferences in Settings<br>\n-More options coming very soon<br>\n\n- Fixed notifications bug<br>\n- Added option to check for WhatsApp+ updates<br>\n- Added ability to clone WhatsApp: Use 2 different numbers simultaneously on the same device<br>\n- Added ability to lock WhatsApp with password<br>\n- Added ability to share any song (Imported with Bridge, iTunes Store, etc...)<br>\n- Removed annoying startup alert<br>\n- Fixed many stability issues<br>\n\n1. Added full compatibility with iOS 6<br>\n<br>\n2. Fixed safe-mode issues<br>\n<br>\n3. You won’t get the annoying alert at launch if you donate any amount<br>\n<br>\n4. Fixed Share Music button not being shown on languages other than \nEnglish<br>\n<br>\n5. Fixed black-screen issues<br>\n<br>\n6. Added support for Couria, Copic.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

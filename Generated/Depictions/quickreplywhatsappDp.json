@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "See larger Screenshots below.."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/quickreplywhatsapp1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/quickreplywhatsapp2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/quickreplywhatsapp3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/quickreplywhatsapp4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "November 11, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.49",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Added support for latest WhatsApp (2.17.71)\n\n\n1. Added support for latest WhatsApp (2.17.4).\n\n1. Added support for iOS 9.3.3<br>\n2. Now improved message delivery with respect to latest WhatsApp (tested on WhatsApp 2.16.7 & 2.16.8).<br>\n3. Most awaiting feature - Now this will download media in messages immediately. In other words, you can see the media (Photos & Videos) items in messages immediately on QR Window.<br>\n\n1. Improved message sending with latest WhatsApp (2.16.1).<br>\n2. Compatibility issues addressed with respect to latest WhatsApp (2.16.1)<br>\n\nWhats New in 1.0.1?<Br>\n=========================<br>\n1. Improved message delivery.<Br>\n2. Fixed few WhatsApp crashes.<br>\n3. New WhatsApp 2.12.12 support.<Br>\n4. Few enhancements and bug fixes.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

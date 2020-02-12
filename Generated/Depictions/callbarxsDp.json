@@ -1,0 +1,90 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "CallBar XS for all iOS 12 and 13 devices!\n\n\n\nPrice: $3.99\n\n(50% discount for CallBar X owners)\n\nAlso available:\n\n\n\n\n- Complete call handling for Telephony and FaceTime audio calls, along with all other CallKit calls including Viber, WhatsApp, Skype etc, completely new UI,  easier to access with instant dismissal with just a left swipe and a whole new and complete dialer interface.\n\n- CallBar re-designs the incoming call view to allow you to use your device while it's ringing or while in a call. Answer, decline or dismiss a call with ease without stopping what you're doing. You can pick up a call and stay where you are while in any application. Even place calls from anywhere by activating the dialer interface with an activation method of your choice.\n\n- Movable view, you can re-position CallBar at the bottom or top of the screen live while in a call.\n\n- Dismiss-able. You can swipe left or top on CallBar to dismiss it, and bring it back at any time by tapping the status bar.\n\n- Top/Bottom appearance option. Choose where CallBar appears from.\n\n- Option to have different styles at lock screen and home screen.\n\n-Choose your own background color, glass effect and opacity for CallBar.\n\n- NEW!!! 10 different styles to customise appearance. Light Glass, Dark Glass, Solid Black or White, curved, Concept X , an iPhone X-like style that's been requested a lot so far and the latest concept, Concept 13, a new Call UI that I promised to add.\n\n- Supports all iPhones on iOS 12.\n- If you owned CallBar X, your older license will be automatically detected and a 50% discount will be applied."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/callbarxs1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/callbarxs2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/callbarxs3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/callbarxs4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/callbarxs5.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/callbarxs6.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 11, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 3.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Fixed an issue with Apple Pay popups disabling lock button presses.\n- Fixed audio control icon glyphs showing up all white when selected.\n- Fixed volume up/down buttons not muting ringer for incoming calls.\n- Added support for FloatingDock in Concept X Zooming mode.\n\n\n- Added iOS 13 support.\n- Added new Concept X theme options with screen zooming.\n- Fixed several issues.\n\n\n- Fixed a crash issue when a second FaceTime call is accepted or declined.<br>\n<br>\n<br>\n- Fixed a Concept13 label layout for video calls issue.<br>\n- Fixed a Concept13 call failed buttons layout.<br>\n<br>\n<br>\n\n- Attempts to fix a random issue where answer/decline buttons don't respond<Br>\n<br>\n<br>\n- Fixes an activation issue<br>\n- Fixed floatingDock appearance while in call.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

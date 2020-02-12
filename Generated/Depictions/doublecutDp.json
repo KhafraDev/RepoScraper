@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 15, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Support iOS 13\n\n- Support iOS 12 and arm64e(A12 devices)\n- Fixed crash when tap keyboard in SafariViewController process.\n<p>\n- Fixed crash preference on iOS 9\n\n- Probably support IM keyboard.<br>\n- Support LongPress type feature.<br>\n- Customizable preference.<br>\n\n- Support third party keyboards via App Store.<Br>\n- Add triple tap option.<Br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/glowbadge0.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/glowbadge1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/glowbadge2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 3, 2014",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "=> Fixed strange bug that rarely caused device to crash.\n=> iOS 8 Compatibility\n\n\n=> Changed 'Random' so it changes the color more often<br>\n=> Added 'Same as app' color option<br>\n=> Added option to enable badges for all apps, only folders, apps in a list, or no apps<br>\n=> Added badge whitelist for when you select 'Apps in list'<br>\n=> Added folder functionality. Switch to enable/disable in settings<br>\n=> Phone & App Store support fixed!<br>\n=> Added white<br>\n=> Added custom strength option<br>\n=> Made preferences look nicer<br>\n=> Better icon by <a href=\"http://mobile.twitter.com/NoCommentOkay\" target=\"_new\">@NoCommentOkay</a><br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

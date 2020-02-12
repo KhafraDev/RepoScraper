@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8.4 - 12.1.2\n\nSex up your badges with icon-based colors that feel so right it can't be wrong!\n\n\n\nColorize your app badges using a variety of colorization algorithms: Fixed Color,,,,(if installed),, or Random Colors\n\nYou can adjust the generated badge color before it is used. This can be handy if, for instance, you don't like that some badges blend in with their icon. Applying one of the adjustment options will help the badge stand out from the icon.\n\n\n\nSet a custom color, use a color provided by the chosen colorization algorithm, or let it be chosen black or white based on badge color brightness (see Brightness Settings below).\n\nYou can adjust the generated text color before it is used. This can be handy if, for instance, you inverted the badge color, and want to invert the text color as well to maintain contrast.\n\n\n\n\nGive your folder badges a fixed color, the color of one of its contained badges (lowest / highest / first / last / random badge), an average color of all contained badges (normal or weighted), or simply use random colors. You can even have the color chosen from the folder icon minigrid as if it were an app icon, according to your app badge color preferences.\n\n\n\nSet a custom color, use the color of the contained badge (if applicable), or let it be chosen black or white based on badge color brightness (see Brightness Settings below).\n\n\n\n\nSome badges are not numeric and act more as alerts, such as the Messages delivery failure \"!\" badge. If desired, you can assign custom colors for these badges so that they stand out.\n\n\n\nYou can grow or shrink your badges to reasonable sizes, and adjust the roundness of the badge corners.\n\n\n\nYou can choose to have borders on your badges, and color them using a fixed color, the color of the badge text, a shaded or tinted version of the badge color, or let it be chosen black or white based on badge color brightness (see Brightness Settings below).\n\nAdditionally, you can choose your preferred border width from a modest selection of values.\n\n\n\nFor badge text colors chosen by brightness, you can choose the color space used for brightness calculations (RGB or CIELAB), and the brightness threshold above which black text is chosen over white text.\n\nIf you prefer to always have white or black text, you can choose to have badge colors darkened or lightened just past your chosen brightness threshold (if necessary), so that your desired text color is chosen.\n\n\n\nYou can choose to use unmasked app icons, so that app badge color algorithms can access pixels that are normally not visible on the screen due to icon masking. This may affect the chosen color for some icons when using certain algorithms.\n\nIf you're enjoying the splashes of color want to see as many badges as possible, you can choose to allow all app icons to display their badges, even if disabled in Notifications.\n\nIf you miss the ability to see badges in the app switcher that was present in earlier versions of iOS, you can now choose to have badges shown on the icons in the app switcher (iOS 9/10).\n\nIf you use ColorBanners, you can choose to have it colorize banners according to your app badge background settings, instead of using its built-in algorithm. This feature requires either ColorBanners or ColorBanners 2 to be installed.\n\nIf you use ColorBanners, you can choose to have it colorize banners according to your app badge background settings, instead of using its built-in algorithm.  This feature requires eitherorto be installed.\n\nIf you have badges that contain emojis, you can opt to colorize them with the badge text color, effectively creating an emoji silhouette. By default, they will be left untouched (including any non-emoji text).\n\n\n\nThe third-party color picker used in this tweak doesn't work well in landscape mode. To work around this, please pick colors in portrait mode.\n\nConfigure options from Settings.\nSource code available"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/colormebaddge1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/colormebaddge2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/colormebaddge3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/colormebaddge4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 2, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "* improved badge drawing\n* rudimentary badge shape settings\n* optional colorization of badges that contain emojis\n* internal improvements and bug fixes\n* reduced code size\n* arm64e (A12) support\n\n\n* properly set text colors for latest version of ColorBanners2 (1.2.2)<br>\n<br>\n<Br>\n* made badge colors consistent when force-touching a folder with 'random badge' folder badges setting<br>\n* update badge colors when an alternate icon is selected within an app<br>\n* full iOS 12 compatibility<br>\n1.0.6:<br>\n* Fixed ColorBanners colorization bug on iOS 10 when app badge background was shaded or tinted<br>\n<br>\n1.0.5:<br>\n* Added option to provide colors for ColorBanners (if installed)<br>\n* Anemone support: app icon theme changes apply to badges immediately<br>\n\n1.0.4:<br>\n* Appcon compatibility update: app icon changes apply to badges immediately<br>\n<br>\n<br>\n1.0.3:<br>\n* Added new app badge algorithm: Chameleon<br>\n* Added Random Colors option for app and folder badges<br>\n* Added app badge color adjustment options<br>\n* Changes are now applied to all badges immediately, no respring required<br>\n<br>\n<br>\n* Added new border color options: shaded or tinted badge color<br>\n* Added option to show badges in app switcher (iOS 9/10)<br>\n* Fixed bug where folders with badge count of 1000+ received special badge colors<br>\n<br>\n<br>\nAdded support for customizable badge borders"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

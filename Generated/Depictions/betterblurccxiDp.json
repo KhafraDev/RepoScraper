@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11.0 till 12.1.2 (Tested on iOS 11.3.1, iOS 11.4.1 and iOS 12.1)\n\nThis tweak makes your Control Center a nice and different look!\n\nWith this tweak, you can add translucent blur to all modules background.\n\nWorks with all tweaks who calls change modules size or add the modules to Control Center.\n\nConfigure options from Settings.\n\nNote: Set the Blur Level from 0.00 - 2.00 if you don’t want to make the slight lag (The slight lag is due to the blur, not a bug!).\n\nIf this package doesn't work or have any issues on your iDevice, feel free to contact me via Twitter.\n\nShow your some love by donation\n\nEnjoy!\n\n\nSee larger Screenshots below."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/betterblurccxi1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/betterblurccxi2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/betterblurccxi3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/betterblurccxi4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 23, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Add iOS 12 Support!\n\nin version 1.2-1 :<br>\n- Add options to Settings app<br>\n- Add Blur Level on Setting's the tweak on the Settings app<br>\n<br>\nin version 1.2-5 :<br>\n- Fixed turning on the tweak when turning off the Enabled button<br>\n<br>\nMore features on the way.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

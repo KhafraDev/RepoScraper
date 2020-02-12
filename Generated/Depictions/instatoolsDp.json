@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 7, 8, 9 and 10\n\nInstaTools makes many things that Instagram unable to do came true. You know you’ve never felt anything like it.\n\n‧ Long press photo to zoom.\n‧ Add \"Save\" & \"Share\" button on action bar.\n‧ Add \"Save\" & \"Share\" button on Instagram Stories.\n‧ Share photos or videos with caption.\n‧ Save high-quality photo or videos.\n‧ Able to save photos or videos to specified album.\n‧ Remove sponsored Ads.\n‧ Show user accounts & name on main feed.\n‧ Covert Post Time to Date.\n‧ Show follow status on profile.\n‧ Long press user profile pic to zoom in & save.\n‧ Long press to save or share media content on DM.\n‧ Long press post caption able to copy and share or translate.\n‧ Switch to classic icon.\n‧ Switch List/Grid Layout.\n‧ Remove Instagram Stories 24 hours limit while selecting media from gallery.\n\nPlease keep looking forward to adding more useful features, and your idea and support are definitely welcome!\n\n‧ 長按照片可進行縮放\n‧ 功能列增加「儲存」、「分享」按鈕\n‧ 限時動態增加「儲存」、「分享」按鈕\n‧ 儲存高品質照片或影片\n‧ 分享圖片或影片與內文\n‧ 儲存圖片或影片到指定的相簿中\n‧ 顯示貼文者的帳號與名稱\n‧ 轉換貼文的時間為日期樣式\n‧ 在使用者主頁顯示追蹤狀態\n‧ 移除廣告\n‧ 長按使用者主頁頭像可進行縮放與儲存\n‧ 在訊息功能中，長按圖片或影片可進行儲存或分享\n‧ 長按貼文內容可進行分享、複製與翻譯\n‧ 切換為傳統圖標\n‧ 長按使用者主頁頭像可進行縮放與儲存\n‧ 切換列表/格欄排列\n‧ 移除限時動態從相簿選取照片時須為24小時內的限制"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/instatools1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/instatools2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/instatools3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/instatools4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 22, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Sorry to keep you all waiting so long. Due to recent heavy workload, update of InstaTools was postponed. So far, the problem of follow status hasn't been fixed yet, so I disabled this function. Except for this, others support the latest Instagram version. Thank you.\n[1.7.9]\n• Support for Instagram v10.26\n\n\n[1.7.8]<br>\n• Support for Instagram v10.19<br>\n\n[1.7.7]<br>\n• Support for Instagram v10.16<br>\n<br>\n<br>\n\t[1.7.6]\n• Hope it can solve the problem that the downloaded picture is blurred. (If it still doesn't work, please reinstall InstaTools & Instagram and try again.)<br>\n• 希望能解決下載圖片後是模糊的問題。（如果還是無效，請重新安裝InstaTools及Instagram）<br>\n<br>\n<br>\n[1.7.5]<Br>\n• Fix bugs on 32bit devices<br>\n<br>\n<br>\n[1.7.2]<br>\n• Support for Instagram v10.14<br>\n\n[1.7.1]<br>\n• Support Instagram v10.13<br>\n<br>\n<br>\n[1.7.0]<br>\n• Add \"Save All\" button on action bar.<br>\n<br>\n<br>\n[1.6.3]<br>\n• Fix the bug which were unable to zoom in by long pressing photo on iOS 10.<br>\n• 解決在iOS 10上，不能長按圖片放大的問題。<br>\n\n[1.6.2]<br>\n• Stability improvements and bug fixes<br>\n<br>\n<br>\n[1.6.1]<br>\n• Support Instagram v10.11<br>\n<br>\n<br>\n[1.6.0]<br>\n• Support Instagram v10.6<br>\n• Fix the problem which occurs refresh when returning after Instagram App enter background.<br>\n\n[1.5.8]<br>\n• Support Instagram v10.4.1<br>\n\n[1.5.7]<br>\n• DM crash fixes<br>\n<br>\n[1.5.6]<br>\n• Support Instagram v10.2<br>\n\n[1.5.4]<br>\n• Support Instagram v10.1\n\n[1.5.3]<Br>\n• Support Instagram v10.0<br>\n<br>\n[1.5.2]<br>\n<br>\nNew Features<br>\n• Grid Layout：Please go to Settings > InstaTools > Display<br>\n• Instagram Stories：Remove Instagram Stories 24 hours limit while selecting media from gallery.<br>\nBug Fixes<br>\n• Direct message crash<br>\n• Main feed crash<br>\n\nNew Features<br>\n• Grid Layout：Please go to Settings > InstaTools > Display<br>\nBug Fixes<br>\n• Direct message crash<br>\n\n- Support Instagram 9.6 (No supporting for previous versions.)<Br>\n- Add \"Save\" and \"Share\" for Instagram Story.<br>\n- Long press user profile pic to zoom in & save.<br>\n\nSorry for keeping all of you waited for so long.<br>\nI wasn’t available to fix the most of disable function due to busy business and just finished fixing the function below:<br>\n1. Support Instagram 9.1 (No supporting for previous versions.)<br>\n2. Add “Share” for Instagram Stories<br>\n3. No solution for Grid layout, remove this function at this moment.<br>\n\n\n[1.4.1]<Br>\n• Add switch to classic icon features (Default disable, Please go to Setting→InstaTools→Display)<br>\n<br>\n[1.4.0]<Br>\n• Support Instagram 8.0 (No support for version before 8.0)<br>\n• Long press post text to open google translator<br>\n• 支援 Instagram 8.0（8.0版之前不再支援）<br>\n• 新增長按貼文內容開啟Google翻譯<br>\n\n• Support Instagram 7.20<br>\n• Stability improvements and bug fixes<br>\n• Switch automatically to the layout,Grid or List, which was used last time when opening Instagram.<br>\n• User Profile picture shows HQ now<br>\n• 支援 Instagram 7.20<Br>\n• 穩定性改進和錯誤修正<br>\n• 開啟Instagram時，自動切換成最後使用的布局<br>\n• 使用者主頁頭像現在可以顯示高畫質了<br>\n<br>\n<br>\nSupport Instagram 7.13<br>\n\n&bull;  Support Instagram 7.9<br>\n&bull;  Stability improvements and bug fixes<br>\n<p>\n&bull; Support for iOS 9\n\n&bull; New setting page which is more friendly<br>\n&bull; Long press post caption able to copy or share<br>\n&bull; Stability improvements and bug fixes<br>\n\n&bull; Added more useful features<br>\n&bull; Support for iOS 7<br>\n&bull; Stability improvements and bug fixes<br>\n\n- Fixed Instagram 7.5 button overlaps issue.<Br>\n- Fixed the error which occurs when downloading videos.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

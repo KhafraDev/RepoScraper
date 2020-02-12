@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11 and 12\n\nA simple tweak to round the thumbnail corners on the YouTube app. The tweak also narrows the thumbnails in the main-view.\n\nAll options can be enabled/disabled from the preference panel.\n\nTested and compiled on an iPhone 6S, iOS 12.1.1, unc0ver v3.2.1.\nYouTube v14.32.8\n\nNot yet compiled for arm64e (until a solution arises to compile on-device).\n\nWant to buy me a drink? (or a car?)... donations greatly appreciated.\n\nDonate:\nEmail: nicksb2013@gmail.com\nReddit: u/NickSB2013.\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/youtuberounded1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/youtuberounded2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 18, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Updated preference bundle naming convention.\niOS 11 and 12 compatible (not arm64e until an on-device method to compile is released)."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

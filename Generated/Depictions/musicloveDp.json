@@ -1,0 +1,81 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10, 11, and 12\n\nAdds a heart indicator for songs you've \"loved\" in Apple Music!\n\nCurrently only supports songs in playlists and album lists.\n\nConfigure options from Settings"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/musiclove1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/musiclove2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/musiclove3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/musiclove4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/musiclove5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 14, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "~ Performance improvements & bug fixes\n\n-------------------\n0.3: New pro features: \n+ Double-tap to like (beta - doesn't yet sync to iCloud)\n+ Show iTunes rating (like i See Stars III)\n\n\nIntroducing MusicLove Pro ($1.99)!<br>\n(Upgrade in Settings)<br>\n<br>\nPro features:<br>\n+ New icon for disliked songs<br>\n+ Color customization for like & dislike icons<br>\n<br>\nComing soon: Like lists, like filtering, and more!<br>\n<br>\n<br>\n~ Bug fix for dark mode tweak compatibility in the \"Up Next\" list<br>\n<br>\n<br>\n~ Fixed a bug with the last update overlapping album art<Br>\n~ Bug fixes on iPad<Br>\n<Br>\n<br>\n\n~ Bug fixes for dark mode tweaks<Br>\n~ Automatic dark mode compatibility<Br>\n<Br>\n<Br>\n+ New module in the Settings app<br>\n~ Bug fixes<br>\n<br>\n** If you use a dark mode tweak like DarkSounds or Noctis, please enable dark mode in settings**<br>\n\n+ Added heart indicator to song in artist list<br>\n<br>\n0.0.2:<br>\n+ Added heart indicator to song in \"All Songs\"<br>\n+ Added heart indicator to song in Artist -> All Songs<br>\n~ Bug fixes<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

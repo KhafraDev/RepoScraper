@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/flashorama1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/flashorama2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 7, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version: 1.6.1\n- Icon fix\n\n\nVersion: 1.6\n- iOS 10 support\n\n\nVersion: 1.5-8<br>\n- iOS 9 support<br>\n\nVersion: 1.5-5<br>\n- Improvement.<br>\n\nVersion: 1.5-4<br>\n- Better code.<br>\n\nVersion: 1.5-3<Br>\n- Updated code.<br>\n<p>\nVersion: 1.5-2<br>\n- Fix some possible bugs.<Br>\n<p>\nVersion: 1.5-1<br>\n- iOS 8 support.<br>\n- Improved codes.<br>\n\nVersion: 1.4-9<br>\n- Compatible with iOS 7.1.x<br>\n\nVersion: 1.4-8<br>\n- More efficient code are used.<br>\n\nVersion: 1.4-7<br>\n- Supported iOS 7<br>\n- 64-bit Library included.<br>\n\nVersion 1.4-6<br>\n- Use PanoMod method to use Torch in Panorama mode. (Better)<br>\n\nVersion 1.4-5<br>\n- Fixed MobileSubstrate filter.<br>\n\nVersion 1.4-4<br>\n- Added armv7s Library, for iPhone 5<br>\n<p>\nVersion 1.4-3<br>\n- Fixed for button not showing, Sorry users!<br>\n<p>\nVersion 1.4-2<br>\n- Better Panorama detection<Br>\n<p>\nVersion 1.4-1<br>\n- Use the Native Flash button now !<Br>\n- \"Auto Off\" function is now integrated with the flash mode \"Auto\", learn more from Settings<br>\n\n- Fixed Photo Flash mode not working.<br>\n- Compatible with InstantCamera\n<p>\nVarious improvement\n<p>\n- Fixed delay when you screen is lock\n<p>\n- Flash button now look better.<br>\n- Removed \"Unknown button\" or the blank Flash Button when enter Panorama mode for more better look.<br>\n- Improved performance.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

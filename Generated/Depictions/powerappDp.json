@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Supports iOS 3.0-iOS 12.1.2+"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/powerapp1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/powerapp2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "March 11, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 4.1.2\n• Bug Fixes\nNOTE: I will be moving PowerApp to the Dynastic Repo for future updates! Please use Google to find it\n\n\n\nSupports iOS 3.0-iOS 12.1.2+\n\nVersion 4.1.1:\n• Added New Property List for Future Updates<br\n• Added Device & App Info to Settings Page\n• Added Setting to Show or Hide Device & App Info\n\n\nVersion 4.1.0:<br>\n• Reverted Changes for iOS 7-9<br>\n• Last Version for iOS 10.x and lower<br>\n• Changed Changelog code for version number coloring<br>\n\nVersion 4.0.1:<br>\n• Fixed Reboot and Shutdown not working first try<br>\n• Detects Substrate/Substitute<br>\nfor correct button labeling<br>\n• Fixed no icon showing<br>\n• Fixed crashing on iOS 9 (hopefully)<br>\n• Fixed Changelog not showing changelog<br>\n<br>\n<br>\n• Proper iOS 9-11.3.1 support<br>\n• Proper Electra/KPPless support<br>\n• Last Version for iOS 10.x and lower (unless\nbugs are found and need to be fixed)<br>\n• New Icons<br>\n• Fixed Startup Code to Better Support\nDifferent/Future iOS Versions<br>\n• Fixed Changelog scrolling to Bottom First<br>\n• PowerApp Now Cleans Up After Itself (Finally!)<br>\n\nVersion 3.0.3:<Br>\n&bull; Bug Fixes<br>\n<p>\nVersion 3.0.2:<br>\n&bull; Xcode also used for iOS 7 (New Binary)<br>\n&bull; Fixed iOS 7 Crashes<br>\n&bull; Added “Lock Device” Button<br>\n&bull; Added “Exit PowerApp” Button<br>\n&bull; Added New Setting<br>\n&bull; Developer Information is in Settings and Changelog<br>\n<P>\nThanks to jmh2002 for the idea of the two new buttons!\n<p>\nVersion 3.0.1:<br>\n&bull; New Binary for iOS 8.0+<br>\n&bull; iOS 9 support (with Multitasking on iPad)<br>\n&bull; Optimized for speed<br>\n&bull; Xcode used for iOS 8.0+<br>\n&bull; Replaced a deprecated function<br>\n&bull; iPad gets landscape mode<br>\nUpdated to support iOS 3.0-iOS 8.2b2<br>\narmv6, armv7, and arm64 architectures<br>\nSupports iPhone 5/S/C<br>\nSupports iPhone 6/+<br>\nStretches to all screens<br>\nChanged Icons, different sets for iOS 7+ and iOS 6.1.5-<br>\nSignificantly smaller package<br>\nAlerts fixed on iOS 7+<br>\n\nNEW in v2.1:<br>\n    Fixed Update Feature!!<br>\n    iOS 7 Style!!<br>\n    Check Updates on Startup switch!!<br>\n    Show alerts switch!!<br>\n    \nNew, Original Background<Br>\nNew, Original Startup Screen<Br>\nNew Nav Bar<Br>\nOptional Warnings<Br>\nSettings Page<Br>\nNew Update Feature<Br>\nChanged Reboot Function<Br>\n<Br>\nWorks on iOS 3.0 - iOS 7+<Br>\n\nNEW: Added uicache to app!!! You can now refresh the SpringBoard using the Refresh SpringBoard option, without a Respring!  Also includes alerts to prevent accidental power actions!"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

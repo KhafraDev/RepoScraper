@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/byefolderview1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/byefolderview2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/byefolderview3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 2, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.1.5\n- Added support for iOS 12 and arm64e/A12.\n\n\nVersion 1.1.4-2<br>\n- Hopefully Last iOS 9.0.2 Issues Fixes.<br>\n- General Improvements.<br>\n<br>\n<br>\nVersion 1.1.4-1<br>\n- Hopefully Fixed the Crashes on iOS 9 for some Users (thanks so much my Friend @karimouni24 for testing Stuff).<br>\n<br>\n<br>\nVersion 1.1.4<br>\n- Added the iOS 11 Support.<br>\n- Changes in Prefs Labels.<br>\n- Code Fixes.<br>\n\nVersion 1.1.3<br>\n- Added the option to Enable Pinch To Close Feature for closing Folders.<br>\n- Added the option to Enable Nested Folders in Folders Feature (included the Relative Option of my other TitleFolderSize Tweak).<br>\n- Now you can Donate Me (thanks) with the New Label in Preferences Panel.<br>\n- Added Twitter, My Repo and Donations Icons Labels.<br>\n- Changes in Labels Description in Prefs.<br>\n\nVersion 1.1.2<br>\n- Added the option to Enable Empty Folders when removing all the Apps inside (thanks sinfool for the tip).<br>\n- Now you can add My Repo on Cydia with the New Label in Preferences Panel.<br>\n- Changes in Labels Description in Prefs.<br>\n\nVersion 0.0.1-18<br>\n- Added the option to enable the Dim Effect when opening a Folder (incorporation of OpenFolderDim on my Personal Repository).<br>\n\nVersion 0.0.1-16<Br>\n- Added the option to enable the View of the StatusBar when opened a Folder (iOS 10 only).<Br>\n- Options in Settings Improved and small Modifications.<Br>\n\n<Br>\n<Br>\nVersion 0.0.1-15<br>\n- Added the option to make Background Folders Black when closed (iOS 10 only).<Br>\n<br>\n<br>\nVersion 0.0.1-14<br>\n- Added the option to hide Blur inside Folders (iOS 10 only).<br>\n<br>\n<br>\nVersion 0.0.1-12<Br>\n- Updated for iOS 10 the option to hide the Folder Background when open (thanks @halston696 for the help).<br>\n<br>\n<br>\nVersion 0.0.1-11<br>\n- Completely redesigned and redefined the Settings Panel of the Tweak.<br>\n\nVersion 0.0.1-10<br>\n- Added the option to hide the Outside Folder View (enabling Transparent Background when the Folders are closed).<br>\n- Some improvements in the Settings Panel.<br>\n- Code Cleanup.<br>\n\nVersion 0.0.1-6<br>\n- Redefined the code: now the effect while opening and closing a Folder is cuter.<br>\n- Added the option to hide the blur of the background inside a Folder.<br>\n- Made a little change inside the Preferences Panel.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

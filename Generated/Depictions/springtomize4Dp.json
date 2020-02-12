@@ -1,0 +1,86 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10\nAlso available,\n\n\n\nSpringtomize 4 is the only tweak you will need to customize your device the way you like it. With more than 100 different options, from the number and the size of icons on the homescreen, to animations, to even the most remote aspect of iOS, you will finally have full control over how your device looks and behaves.\n\n\nWe have worked really hard to deliver you the best user experience, and this is why most of the options in Springtomize 4 no longer require a respring and can be applied in real time. Moreover, for the very few options that do require a respring, Springtomize will show you a beautiful Status Bar notification.\n\n\nProfiles is a groundbreaking new feature for you to experience Springtomize in a much better way than you ever have.\n\nWith Profiles, you can maintain an unlimited amount of different configurations and switch back and forth among them.\nThis for example allows you to keep a \"Clean\" profile, with hidden icon labels and some other minimalistic options, as well as a \"Fun\" profile with dozens of cool animations, custom fonts etc.\n\nYou can add, duplicate and remove profiles with ease in its dedicated section in the Settings.\n\n\nWe have been rewriting Springtomize 4 from scratch with an eye out for iOS 10, which means that it is much faster, more energy efficient and more user friendly.\nIt is powered by a powerful settings engine which is technically superior to any other configuration management tool you may have used before.\n\n\nIf you think that there is something wrong with how Springtomize 4 works, then you will be happy to hear that we have included a Bug Reporting panel. Moreover, if you would like to see a new feature implemented in Springtomize 4, just let us know through the \"Feature Request\" panel from within Settings.\n\n\nWords can describe a lot, but they can't give you the feeling of using Springtomize and they can't make you experience the true power of Profiles, so why don't you give it a try?\n\nGet Springtomize 4 today and start customizing your device, all over again."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/springtomize4-0.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/springtomize4-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/springtomize4-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/springtomize4-3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/springtomize4-4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 10, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 4.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This release marks the first week since the release of Springtomize 4! We would like to thank all the people who have been using it and who got in touch with us during these past few days. Stay tuned for more updates and new features!\n\n\n- Fix lag/scroll issues happening after locking with a Lock Animation enabled\n- Improve scroll animations performances\n\n\n\n\n\n- Fixes Request a Feature emailing bug (you were not able to dismiss the email sheet)\n- Hiding recently updated dots not working\n- Lagging and touch issues\n- Display Seconds in Statusbar\n- Hiding two items in the statusbar only hides the last one\n- Buggy scroll animation in folders\n- Glitch with resized icons\n\n\n\n\n- Change Icon Name Color\n- Disable Live Clock Icon\n- Random Homescreen Scroll Animation\n- Statusbar Time Option to display RAM\n- Date Color in Lockscreen"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

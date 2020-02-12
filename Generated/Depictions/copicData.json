@@ -1,0 +1,56 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 23, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 2.49",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Added support for latest WhatsApp.\n\n\n1. Added support for latest WhatsApp (2.17.20)<br>\n2. Fixed WhatsApp not showing contact images in its contact pickers.<br>\n\n1. Added support for latest WhatsApp (2.16.10)<Br>\n2. Fixed, while choosing a contact to begin a new WhatsApp conversation, Copic is displaying default monograms not actual contact images.<Br>\n3. Fixed, sometimes Copic doesn't show actual WhatsApp contact image though the contact has WhatsApp profile image.<Br>\n4. Fixed, sometimes Copic doesn't show actual WhatsApp group contact images though the group has image.<Br>\n\nWhat's new in 3.4.7?<br>\n==================<br>\n<br>\n1. Added support for latest WhatsApp 2.16.7 and above.<br>\n2. Restricted support till iOS 8.<br>\n\n1. Fixed WhatsApp compatibility issues.<br>\n2. Few improvements around the image drawing.<br>\n\nChange Log 3.4.5<br>\n===================<br>\n1. Support for iOS 9.<br>\n2. Support for iPhone 6s and 6s+.<br>\n3. Support for all WhatsApp versions from 2.12.5 onwards.<br>\n4. Messages app now loads images faster<br>\n4. Few enhancements and other improvements.<br>\n\nChange Log 3.4.4:<br>\n=============================<br>\n1. Now supports 8.4 too.<br>\n2. Fixed crash while viewing license details under settings.<br>\n3. Fixed setting as Facebook and Twitter avatars not working under Messages app settings.<br>\n4. Fixed unable to set My Avatar in Messages app.<br>\n5. Faster image loading in Mail app - now loads images 3X faster in Mail app.<br>\n6. Fixed Messages app not showing group images properly.<br>\n7. Fixed issue that legitimate users cannot share log file.<br>\n8. Fixed WhatsApp compatibility issues on iOs 8.3 and 8.4.<br>\n9. And lots of improvements.<br>\n\nChange Log 3.4.3:<br>\n=========================<br>\n1. Added iOS 8.3 support<br>\n2. Added WhatsApp 2.12.3 support.<br>\n3. Added settings to control monogram images.<br>\n4. Fixed message app crash issues.<br>\n5. Few other enhancements and optimizations.<br>\n\nFixed the following issues:<br>\n<br>\n1. If Messages app keeps in the background, sometimes showing the default images rather than contact images.<br>\n2. Added support for WhatsApp 2.12.1 onwards.<br>\n3. Now support Recents calls of WhatsApp.<br>\n4. Supports Favorites & Recents tweaks.<br>\n5. New settings for Monograms.<br>\n6. System wide support for Addressbook (while selecting contacts images will be shown everywhere on iDevice).<br>\n7. Few optimizations.<br>\n\n1. Fixed Message App random crash.<br>\n2. Image drawing performance improvements in Messages App.<br>\n3. Added group conversation pictures like iPhone 6+.<br>\n4. New WhatsApp 2.11.15 compatibility.<br>\n5. Performance improvements.<br>\n\nNow supports iPhone 6 and 6 Plus. Also Supports iPad Air and Air 2.<br>\n<br>\n1. iOS 8 Support added.<br>\n2. Added support for iPhone 6 & 6 Plus.<br>\n3. Added support for iPad Air and Air 2.<br>\n\nWhats New in 3.3?<br>\n<br>\n1. Support for iOS 7 and iPhone 5S.<br>\n2. Complete new design on Settings.<br>\n3. Supports latest WhatsApp 2.11.8.<br>\n<br>\nNote: If Copic is not working as expected with WhatsApp, turn off and on Copic's WhatsApp settings and respring your iDevice.<br>\n<br>\n\nWhats new in 3.2.1?<br>\n<br>\n1. WhatsApp compatibility issues resolved.<br>\n2. Now supports rounded imaged. If you don't like you can turn off from Copic settings.<br>\n3. Few enhancements and optimizations.<br>\n<br>\nNote: Even Copic supports WhatsApp sometimes, WhatsApp might show an alert \"The plugin is not compatible\". This is normal just ignore it, Copic will do the rest for you.<br>\n\nWhats New in 3.2?<br>\n<br>\n1. Now Copic shows pictures in group chat conversations in Messages app (require iOS 5.0 or above).<br>\n<br>\nIssues Fixed:<br>\n<br>\n1. Copic is not showing Facebook profile images in address book. This issue fixed.<br>\n\n1. iOS 6.X supports.<Br>\n2. iPhone 5 and iPad mini support.<Br>\n3. Missed Call/Message title is not shown on Notification center issue fixed.<Br>\n<Br>\nKnown Issues:<Br>\n1. For very first time Message app crashes few times. We're working on it.<Br>\n\nChange Log:<br>\n<br>\n1. Fixed WhatsApp compatibility error message in Phone app.<br>\n2. Fixed Settings does not show Phone App settings screen.<br>\n3. Fixed image drawing issue with Delete Contact<br>\n\nWhats New In 3.0?<br>\n<br>\n1. Copic now Supports WhatsApp.<br>\n2. Images on Lock Screen for Missed Calls, Messages and Twitter.<br>\n3. Localization is completely removed from 3.0 onwards (i.e. Copic now support only English, sorry).<br>\n4. Completely redesigned Settings screen.<br>\n<br>\nIssues Fixed:<br>\n<br>\n1. Asking for activation daily (for some users) is fixed.<br>\n2. Twitter images are not showing occasionally issue is fixed.<br>\n\n1. Fixed iMessages crashing on new iPad.<br>\n2. Fixed Maps app crashing when \"Recents\" clicked.<br>\n3. Fixed Table scrolling issues in E-Mail table view.<br>\n4. Fixed translation issues in english version<br>\n1. Copic's Message settings issue fixed - Message settings are not appeared in < iOS 5.0.\n1. Compatibility issues with RetinaPad and PhotoAlbums+ was resolved.<br>\n2. More Translations added.<br>\n3. Now Supports Contact Pictures in Mail<br>\nChange Log for 2.0-3<br>\n====================<br>\n1. Fixed iPad with iOS 5.X compatibility issues on device restart.<br>\n2. Fixed Messages, BiteSMS, iReal SMS and Mail app crashes.<br>\n3. Fixed iPad 2 settings hanged issue while changing default avatar.<br>\n4. Added support for iPhone 4S.<br>\n<br>\nNote: Like Copic and want a free copy? Contribute in localizing Copic on your native language and get a free copy. For more information contact us at support@iarrays.com.<br>\n<br>\n<p>\n1. Fixes compatibility issues with WeeSpeed Dial and other notification center plugins.<br>\n2. Fixed Facebook, Twitter and other app crashes<br>\nWhats new in 2.0-1<br>\n====================<br>\n<br>\n1. Notification Center support is added :- Now Copic shows images for Calls, Messages and Twitter on Notification Center.<br>\n<br>\n2. biteSMS support is added :- Don't like biteSMS contact display feature? Want to see the avatars just like Message SMS? Just turn off the bite SMS's contact pic. The rest will be done by Copic. All that you need is to enable the biteSMS plugin from Settings => Copic.<br>\n<br>\nKnow Issues: Copic might have a conflict with iPhone Delivery reports tweak.<br>\n\nv 2.0<br>\n1. iOS 5.0 Compatibility.<br>\n2. Added support for iMessages on iPhone, iPod, iPad and iPad 2.<br>\n<p>\nBug Fixes:<br>\n<br>\n1. Fixed 4.0.X compatibility issues with Favorites.<br>\n2. Fixed a rare RACING condition.<br>\n3. Few code optimization done: i.e. Copic now loads images faster than ever.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

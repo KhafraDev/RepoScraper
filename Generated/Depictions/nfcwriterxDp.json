@@ -1,0 +1,98 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Use your iPhone's NFC Chip to its maximum!\n\nAs pre-seen in\n\n\n\n-most common tag types\n\n-tags\n\n-tags\n\n-tags\n\n-tags\n\n-messages\n\n-almost all types of tags\n\n-of  tags\n\n-with UIDemulation! (ISO-DEP Protocol)\n\n-and save your tags in one place.\n\n-(With App minimized or phone locked)\n\n-based on your tag's contents.\n\n-about your tags like Manufacturer, Tag Type, Serial Number, ATQA, SAK, Memory Size etc.\n\n\n\n-(Credit/Debit Cards, Visa, MasterCard, AMEX, Maestro etc)\n\n-(Passports, ID Cards, Driver Licenses that contain an NFC chip)\n\n-(Even in background)\n\n-\n\n-\n\n\n\nSome notes on the release:\n\n- NFCWriter (and iOS devices in general) will NOT detect low-frequency RFID tags. You can only use this application with High-Frequency NFC tags (13.56MHz).\n\n- While it can read and write most NFC tags, Emulation mode with NDEF message will only work for ISO-DEP and Desfire type tags. For different type of tags, like Mifare, NTAG or other tag types, you can only emulate their UID.\n\n- In NDEF Emulation mode, the emulator accepts also to write NDEF messages to it. This may be useful in applications where you emulate a message, the reader reads it, updates it and reads it back to verify its contents.\n\n- Emulation can emulate the tag's UID and include NDEF messages. It cannot emulate the whole tag's memory or encrypted info, so if you're trying to emulate a security tag, like door-opening tags, it may or may not work depending on the tag's infrastructure and its built-in security.\n\n-can transfer all the tag's data, including it's security contents, to the remote device. So, for example, you could leave your bus card at home (needs a second iPhone) and emulate it with your main iPhone remotely while in the bus. (May require opening ports to your router)\n\n\n- These achievements are beyond just accessing Apple's own NFC frameworks.\nThere has been extensive research and this app manages directly the NFC chip on a driver level.\n\n\n-Supported tag types are ISO 14443, Mifare, ISO 15693, ISO-DEP and more.\n\n-Supported protocols are ISO 14443, ISO-DEP and Mifare.\n\nThis new achievement enables you to use the NFC chip beyond iOS's limitations.\n\nResearch for more Tag types and protocols is constant.\n\nThis is the first time that NFC chip on iPhone is used to this extent.\n\nSupported Devices: iPhone 6S and up.\niOS : 10 to 13\n\nCheck the screenshots and...\nEnjoy!\n\nSee larger Screenshots below.."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nfcwriterx1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nfcwriterx2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nfcwriterx3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nfcwriterx4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nfcwriterx5.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nfcwriterx6.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nfcwriterx7.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nfcwriterx8.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 5, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 3.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Added Mifare Ultralight (Read/Write/Read Memory/Format) support.\n- Fixed an issue with some devices not emulating the correct custom UID.\n- Minor iPhone 6S fixes.\n\n- Fixes scanning issues for ISO-DEP tags in all devices and iOS versions.\n- Improves Mifare read memory, format and erase methods.\n\n\n- Fixed an iPhone XS issue.<br>\n<br>\n- Added iOS 13 support.<br>\n- Added option in settings to enhance support for more devices.<br>\n- Fixed several minor issues.<br>\n\n- Removed updates check to narrow the server load<br>\n<br>\n- Added iOS 12 support\n- Fixes Read Memory, Format Mifare to NDEF and Erase Mifare Memory for some Mifare tag types<br>\n<br>\n- Fixed Apple Pay conflicts with NFCWriter.<br>\n- Added Activator actions upon tag detection.<br>\n- Added Desfire Tag Information<br>\n- Added Read Tag Memory option.<br>\n- Added Format Mifare Tags option.<br>\n- Added Erage Mifare Memory option.<br>\n- Added auto-launch NFCWriter on respring option. (To detect tags in background)<br>\n- Added option to show/hide background mode banners.<br>\n- Fixed full screen UI issue on some devices.<br>\n- Fixed some UI glitches on iPhone SE devices.<br>\n- Fixed some RF Transmission errors.<br>\n- Added launch issues detection.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

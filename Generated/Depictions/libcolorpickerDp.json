@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/libcolorpicker1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/libcolorpicker2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 30, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "– Fixed crash some users experienced.\n\n– Added dark mode for iOS 13.<br>\n– Fixed the weird dimensions related to rotation lock.<br>\n– Rotates view on iPad if using it upside down.<br>\n– Restores the previous key window when dismissing.<br>\n<br>\n<br>\n– iOS 13 support (thanks shepgoba).<br>\n– Center window horizontally on screen.<br>\nv1.6.4<br>\n* Layout changes – it's now easier to hit the knobs. Got rid of all sharp edges.<br>\n* Now detects if a color hex is in the pasteboard when invoking libcolorpicker. If it is, an alert will ask if this value should be used (iOS 8 and above).<br>\n* Fixed a weird memory crash on iOS 10.<br>\n* Fixed a weird initial slider appearance glitch on iOS 7 and iOS 8.<br>\n* Fixed iPad landscape layout.<br>\nv1.6.3-1<br>\n- Fixed the hex button crashing.<br>\n- Fixed the hue not updating when having no saturation.<br>\n- Fixed the hue knob acting in an unpredictable way by restricting how far away touches will affect the knob.<br>\n- Fixed an ARC issue where libcolorpicker in some cases would dismiss right after invoke.<br>\n- Now compiled with both Xcode 9 and 10 to avoid arm64 from not running on iOS 8 and below.<br>\nv1.6.3<br>\n- Official A12 support.<br>\n- Dragging the hue knob is now silky smooth.<br>\n- Several other code improvements.<br>\n\nBug Fixes with the slider\n\nBug Fixes<br>\nBetter Support for iOS 9<br>\n\n- Bug Fixes<br>\n- Simplify libcolorpicker for devs<br>\n\nnew PFColorAlert!<br>\nbug fixes<br>\n\nFixed issue that would cause some apps like Alien Blue to crash due to the same method names (Thanks @fr0st for the help). <br>\n<br>\nFixed an issue where alpha slider was being set to zero when it shouldn't have been.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

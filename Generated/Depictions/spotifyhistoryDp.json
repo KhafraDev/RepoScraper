@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8, 9, 10 and 11.\n\nRequiresfrom AppStore.\n\nView recently played tracks in Spotify.\n\nTested on Spotify 8.4.78.\n\nDetails:\n• It will only save tracks that are played longer than ten seconds.\n• It will not save a repeating track.\n• Swipe left to remove from history.\n• Swipe right to queue.\n• Tap the icon in the top right corner to show options.\n• Export history to a playlist.\n• Erase all history.\n• Choose history size.\n\nSource code available on.\n\nPlease, use the GitHub issue tracker for any problems that might arise."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/spotifyhistory1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/spotifyhistory2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/spotifyhistory3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/spotifyhistory4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "November 11, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Support for latest version of Spotify (currently 8.4.78).\n\nManaged to find context presenting methods higher up in their call stack which results in less code and thus smaller risk of incompatibility later on.\n\n\nNow uses default references to objects instead of hooking their init methods => more future proof support for Spotify versions.\n<br>\n<br>\nSupport for Spotify version 8.4.62.\n\nFixed a crash introduced in 1.3 when deleting items from History.<br>\n<br>\n<br>\n– Support for iOS 11<br>\nTweaks on iOS 11 can not store data outside the sandbox restriction. To get around this without setting up a RocketBootstrap instance, the preferences are now saved within Spotify's data directory for iOS 11 devices. The data will thus be cleared on uninstall of Spotify.<br>\n<br>\n– Support for latest Spotify version\nAs usual, Spotify loves to swap around some method names. This time the context menu and export to playlist functionality became broken.<br>\n<br>\n– Bug fixing<br>\nFixed a bug where it was only possible to export playlist if there was duplicates in History.<br>\nFixed a crash in History settings when scrolling to the bottom on devices with small screens (thanks Gh0stByte for noticing!)\n\n• Figured out the way Spotify creates context menus, less code thus needed.<br>\n• Support for iPad<br>\n• Support Spotify version 8.4.39<br>\n• Fix for setting infinity tracks not resulting in infinity tracks saved.<br>\n• Fixed crash when removing all tracks.<br>\n• Some UI fixes.<br>\n• Added a donation button within settings. Please consider donating to support the continuous development that is required to support new versions of Spotify.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

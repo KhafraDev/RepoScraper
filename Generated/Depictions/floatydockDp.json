@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11, 12 and 13\n\nFloatyDock brings the iPad dock to all devices !\nSimply call it with either a slide from bottom left or right gesture.\nThis also mean that you'll be able to use the Slide Over / Split View features on iPhone.\n\nSpecial feature compared to the stock iPad dock : it allow you to specify the max number of regular icons you want in it, but also the suggested ones and soon the recent ones. You can also specify to not show the dock above keyboard and remove it from the app switcher !\n\nFollow me on Twitter for news about this or other apps ;) Enjoy !"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/floatydock1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/floatydock2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/floatydock3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/floatydock4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 9, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "In v2.0.6\n\n- Fixed crash on iPhone X style device when both Slide Over and « Slide Over And Split View » were enabled at the same time\n- Fixed being unable to exit a landscape app (e.g : games)\n- To show the dock in landscape apps : slide up a first time on the home bar and then slide from the real bottom of your device (where the home bar is usually). This is to prevent any kind of conflict\n\n\nIn v2.0.5:<br>\n<br>\n- Fixed dock appearing with a slide from the side of the screen<br>\n- On X style devices (that have gesture enabled) you can show the dock in apps with a slide from bottom left / right gesture. The slide from Home Indicator gesture will work as usual<br>\n- Fixed unlock being harder to do<br>\n- Fixed dock being harder to trigger in apps (bug introduced in 2.0.2)<br>\n- Fixed dock staying on screen on non X devices on iOS 13<br>\n- Fixed crash due to activating Slide Over and Split View on iPhone X style devices<br>\n- Removed unused code<br>\n- Improved some hooks<br>\n<br>\n<br>\nIn 2.0.2 :<br>\n<br>\n- Fixed dock being randomly dismissed on the home screen<br>\n- Fixed some iOS 12 bugs / crashes<br>\n- Added back custom dock tint color<br>\n- Various optimizations<br>\n\nIn v2.0.1:<br>\n<br>\n- Fixed crash on iOS 11 and 12 due to missing method<br>\n- Fixed crash on iOS 13 due to IconSupport<br>\n- Fixed folder layout becoming weird after installation<br>\n- Fixed crash caused by disabling suggested apps<br>\n- Limited recent and suggested apps count to 3 on iOS 13 to avoid UI glitches (for now)<br>\n<br>\n<br>\nFloatyDock is now fully compatible with iOS 13 and come with great improvements !<br>\n<br>\n- iPhone X style devices can now use Slide Over / Split View !<br>\n- You can now hide the dock in the switcher on iOS 12+<br>\n- Fixed app that are forced to rotate (such as games) by allowing you to blacklist apps that you don't want to be Slide Over / Split View compatible !<br>\n- Fixed crash caused by setting a custom dock tint color (deactivated for now until an iOS 13 compatible libcolorpicker version is released)<br>\n- Fixed activating / deactivating suggested and recent apps on iOS 13<br>\n- Fixed setting custom dock icons count on iOS 13<br>\n- Improved settings handling<br>\n- Some options (such as \"Dock above keyboard\") doesn't require a respring anymore<br>\n\n- Added a setting to not show the dock when the keyboard is active<br>\n- Added dock tint color option<br>\n- Re enabled Slide Over on 5S/SE<br>\n- Added a setting for custom icons vertical padding<br>\n- Fixed gesture location with HomeGesture (devices older than X will present the dock with a gesture from the bottom and the CC with a gesture from the top right while iPhone X will invoke the dock with a gesture from the bottom left or right, the middle staying untouched)<br>\n- Added theoretical support for XR/XS/XS max (still not compatible with Slide Over / Split View)<br>\n- Fix Iconator11 conflicts<br>\n- Compiled with the iOS 12 SDK for arm64e compatibility (A12(x) devices)<br>\n\nChanges in v1.4.1:<br>\n<br>\n- Fixed conflicts with Boxy 3<br>\n- Fixed wrong icons vertical padding in folders<br>\n- code improvements<br>\n<br>\n<br>\nNew in v1.4:<br>\n<br>\n- Fixed icons being moved up with FloatyDock enabled<br>\n- Fixed last row not being fully tappable with FloatyDock enabled<br>\n- Added IconSupport as a dependency for the icons layout to not be reseted accros reboot <br>\n- Fixed forced rotation staying activated even with Slide Over / Split view enabled<br>\n- Split View / Slide Over (and so forced rotation) have been disabled on 5S / SE to avoid crashes due to incompatibility<br>\n\n- Fixed crash at apps opening introduced in the 1.3<br>\n- Code optimization<br>\n<br>\n<br>\n- Added the possibility to specify the max number of recent apps in the dock<br>\n- removed force auto rotation feature as it was buggy and mostly unused<br>\n- removed unused code<br>\n- Code improvement<br>\n\nIn v1.2 :<br>\n<br>\n- Gestures does not conflict anymore on iPhone X : the gesture to make the dock appear on this device is to swipe from the bottom left side of the screen to the top. The rest of the bottom is for original X gestures<br>\n- Split View has been added ! If the option is activated into the settings, you’ll be able to split your screen in two parts to run two apps at the same time (same gesture as for Slide Over but you have to go more to the far border of the screen)<br>\n- You can force rotation in all apps so that Split View does look good, even on smallest devices !’’<br>\n- You can now deactivate the gesture to make the dock appearing in apps from the settings<br>\n- An home button press dismiss the dock if presented in apps, instead of going back to the home screen<br>\nIn v1.1-1 :<br>\n<br>\n- No more safemode crashes on iPhone X, all is working properly (thanks to the beta testers :) )<br>\n- To ensure compatibility with iPhone X, Slide Over feature had to be disabled (only for this device), I’m sorry about this :/<br>\n- To make the dock appearing while in other apps on iPhone X, swipe from the top center of the screen to the bottom (left gesture for Notification Center and right one for Control Center work as before)<br>\n- The bottom center gesture to show the Control Center on devices other than the iPhone X work as normal (the scroll is continuous as stock)<br>\n- Removed a bug that caused iPad users to have suggested apps appearing whereas the corresponding option was disabled in settings<br>\n- Perfected the compatibility with Noctis and other tweaks of this kind<br>\n<br>\nSpecial thanks goes to @rob311apps for his help on getting continuous scrolling animation for control center, and to @CydiaGeek, @_Easy_Z_, @dirtdiesel for having accepted to test the update on their iPhone X :)<br>\n<br>\n<br>\nIn v1.1:<br>\n<br>\n- Fixed safe mode caused while having installed FloatyDock and other tweaks that modify the icons layout (such as betterFiveColumnHomescreen or ReformX)<br>\n- Fix gestures conflict on iPhone X : gesture for showing dock is limited to the left side of the screen<br>\n- It’s no more necessary to deactivate \"Access Within Apps\" in \"Control Centre\" section of the Settings app for Slide Over to be possible :) (Control Center can be activated from the center of the screen)<br>\n- Hopefully fix iPhone X crash ? (Need feedback on this as I don’t own an X)<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

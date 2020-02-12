@@ -1,0 +1,74 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10 through 13 (A12 included),and only iPhone is supported.\n\nSwipe the icon to launch the tools.\n\nFunctions list:\n1.Copy BundleID;\n2.Open app path in Filza;\n3.Open data path in Filza;\n4.Initialize app data;\n5.Clear app cache;\n6.Customize badge;\n7.Clear badge;\n8.Rename the app;\n9.Allow/Disallow System Alert in app;\n10.Allow/Forbid Uninstalling the app;\n11.Allow/Forbid launching the app;\n12.Replace the icon.\n...\n\nIf you wanna test this tweak,please do not forget to add your UDID in the paypal note when you donate.The udid can be copied from Apptools settings.\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/apptools1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/apptools2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 24, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 3.49",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "New features:\n1.Add Forcetouch menu;\n2.Add 'Clear all Badges' menu;\n3.Fix bugs.\n\nChange:\nRemove 'Replace the icon' temporarily(please use Appcon or similar tweak instead).\n\n\nNew feature:Disallow notifications in App(DND mode).<Br>\nWhen the function is enabled and the app is in front,notifications are prevented from showing, but sound is allowed which can remind you.<Br>\n<br>\n<br>\n1.Fix the delay of showing menu on system applications;<br>\n2.Fix the lag of scrolling in the tweak settings;<br>\n3.Update Arabic translation.<br>\n\nNew features:<br>\n1.New option:Display progress hud;<br>\n2.New option:Disable for dock apps;<br>\n3.New trigger mode:3D Forcetouch(tested on 12.4);<br>\n4.New function:Replace the icon.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

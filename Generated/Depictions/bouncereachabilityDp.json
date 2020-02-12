@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8, 9, 10 and 11\n\nBounceReachability gives you Different Custom Bounce and Speed Effects Animations for the Reachability Compatible Devices.\n\nMore Features and Improvements in the Works.\n\nConfigure options from Settings.\n\nSee Screenshots below.\n\nThe Tweak is out of Stage from my Repository with the Custom Speeding Values, Revisited Preferences and More Feature added too.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/bouncereachability1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 16, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.0.3\n- Tested and Working Fine also on iOS 11 (Download Enabled).\n\n\nVersion 1.0.2<br>\n- Added the option to Make Reachability Not Going Out of Time (tip by prouser).<br>\nVersion 1.0.1<br>\n- Added the option to Select the Spring Reachability Effect.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

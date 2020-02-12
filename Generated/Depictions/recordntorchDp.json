@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/recordntorch1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 24, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version: 1.7.9\n- Fix crash on iOS 5\n\n\nVersion: 1.7.8<br>\n- Compatibility fix for iPhone 7 models<br>\n<br>\n<br>\nVersion: 1.7.7<br>\n- Correct device type detection on iOS 10<br>\n\nVersion: 1.7.6<br>\n- iOS 10 support<br>\n\nVersion: 1.7.5<br>\n- Compiled with latest SDK<br>\n\nVersion: 1.7-4<br>\n- Adjust some override in iOS 9<br>\n\nVersion: 1.7-3<br>\n- Fix crash in iOS 8<br>\n<p>\nVersion: 1.7-1<br>\n- iOS 9 support<br>\n\n\nVersion: 1.6-9<br>\n- Fix crash bug in iOS 8.<br>\n\nVersion: 1.6-8<br>\n- Fixed a condition when used with PhotoTorch.<br>\n- Removed unnecessary code.<br>\n<p>\nVersion: 1.6-7<br>\n- (iOS 7, 8) Removed unnecessary code. / Bug in Time-lapse fixed.<br>\n\nVersion: 1.6-6<br>\n- Fixed crash bug in iOS 8.<Br>\n<p>\nVersion: 1.6-5<br>\n- Optimization and improvement.<br>\n\nVersion: 1.6-4<Br>\n- Updated code.<br>\n<p>\nVersion: 1.6-3<br>\n- Initial iOS 8 support.<br>\n\nVersion: 1.6-2<br>\n- Fixed some possible crashing.<br>\n\nVersion: 1.5-5<Br>\n- Bug fixed.<Br>\n<p>\nVersion: 1.5-4<br>\n- Fixed torch toggling bug in iOS 7.1.x<br>\n<p>\nVersion: 1.5-3<br>\n- Fix missing draggable button in iOS 7.1.x<Br>\n\nVersion: 1.5-2<br>\n- Optimization.<br>\n\nVersion: 1.5-1<br>\n- Bring back the Draggable Button option for iOS 7!<Br>\n- Bugs fixed and improvement.<br>\n\nVersion: 1.4-9<br>\n- Fixed top bar UI glitch when start video recording. (iOS 7)<br>\n\nVersion: 1.4-8<br>\n- Fixed time elapsed view disappear bug after video recording. (iOS 7)<br>\n<p>\nVersion: 1.4-6<br>\n- Fixed bug with iOS 7.0.x<br>\n<p>\nVersion: 1.4-5<br>\n- Fixed Top Bar animation glitch.<br>\n- Supported Slo-mo video recording mode in iOS 7.<br>\n<p>\nVersion: 1.4-4<br>\n- Better Top Bar UI when rotating device while recording video. (With CamRotate installed)<br>\n- Flash mode before capture restoring works in iOS 7 now.<br>\n- Bugs fixed and improvement.<br>\n<p>\nVersion: 1.4-3<br>\n- Fixed some bug that causes flash button not showing up in iOS 7<br>\n- 64-bit Library included.<br>\n<p>\nVersion: 1.4-1<br>\n- Supported iOS 7.<br>\n- Fixed button positioning bug.<br>\n- Fixed bug when restoring flash mode.<br>\n- Updated settings.<br>\n\nVersion: 1.3-3<br>\n- Removed unused files.<br>\n- Flash mode before recording video will be restored correctly when finish recording video.<br>\n- Removed alert view when set flash to auto mode, described in Settings instead.<br>\n\nVersion: 1.3-2<br>\n- Supported BiteSMS.<br>\n<p>\nVersion: 1.2-13<br>\n- Supported iMessages app.<br>\n\nVersion 1.2-12<br>\n- Compatible with iOS 5<br>\n- Redesigned icon.<br>\n- Some performance fixed.<br>\n<P>\nVersion 1.2-11<br>\n- Optimization.<br>\n\nVersion 1.2-10<br>\n- Performance improved.<br>\n\nVersion 1.2-9<br>\n- Updated compatibility with Velox.<Br>\n- Now allows Auto mode in flash button to show when recording video with only \"Use Native Button\" enabled.<br>\n<p>\nVersion 1.2-8<br>\n- Button can rotate correctly while recording video with CamRotate 1.0-3+ installed.<br>\n\n<P>\nVersion 1.2-7<br>\n- Included bugs fixed and improvement.<br>\n\nVersion 1.2-6<br>\n- Alert now only displays in rear-facing camera mode.<Br>\n<p>\nVersion 1.2-5<br>\n- Prevent users from setting Torch mode to Auto while recording Video that cause camera to freeze by alerting user.<br>\n<p>\nVersion 1.2-4<br>\n- Fixed the native flash button disappears when capture still image while recording video.<br>\n<p>\nVersion 1.2-3<br>\n- Enable using for native flash button while recording, enable from Settings.<br>\n- Code reduced and optimization.<br>\n\nVersion 1.2-2<br>\n- Code Optimization.<br>\n\nVersion 1.2-1<br>\n- Compatible with Velox.<br>\n- Better code<br>\n\nVersion 1.1-3<br>\n- Refactor code.<br>\n\nVersion 1.1-1<Br>\n- Code optimization.<Br>\n<p>\nVersion 1.0-9<br>\n- More stable.<br>\n\nVersion 1.0-8<br>\n- Code improvement<Br>\n<p>\nVersion 1.0-6<br>\n- Some leak fixed.<br>\n<p>\nVersion 1.0-5<br>\n- Fixed button movement in Portrait Upside-down orientation.<br>\n- Added supported in iMessages and BiteSMS.<br>\n- Button positions now are locked in screen area.<br>\n- Some minor changes and bugs fixed.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

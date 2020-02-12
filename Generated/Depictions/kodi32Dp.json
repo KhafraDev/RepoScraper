@@ -1,0 +1,81 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9 - 13\n\nKodi (formerly XBMC) is a free and open source media player application developed by the XBMC/Kodi Foundation, a non-profit technology consortium. Kodi is available for multiple operating-systems and hardware platforms, featuring a 10-foot user interface for use with televisions and remote controls. It allows users to play and view most videos, music, podcasts, and other digital media files from local and network storage media and the internet."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/kodi1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/kodi2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/kodi3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/kodi4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/kodi5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "November 18, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "In our ongoing mission to bring you the very greatest (and most reliable) media centre software in the world, it's time to let another point release escape into the wild. Usual rules apply: this isn't about features, it's about stability and usability.\nAs usual, you can find a full summary of closed pull requests on GitHub.\n\nInterface<br>\n<br>\nFix Missing text when sorting from inside addon<br>\nClear/save focus-history when leaving window with focus on parent folder item<br>\nPicture slideshow fixes (Estuary)<br>\nSubscribe to controller install events (games)<br>\nFix radio button text length (Estuary)<br>\nFix season/episode formatting for video addons (video)<br>\nDon't consider display mode ids constant (Android)<br>\nPlayback/Display<br>\n<br>\nFix PlayMedia builtin for playlists (.strm) and \"artists\" smart playlists (music)<br>\nFix PlayMedia builtin for smart playlists and playlists (music)<br>\nFFmpeg: Bump to 4.0.4-Leia-18.4<br>\nLoad program from stream property without using streaminfo (video)<br>\nFix initialization of AVD3D11VAContext structure (video, Windows)<br>\nFix TS resume point, related to PR16314 (video)<br>\nFixed memory leak, fixed segfault (video, Linux)<br>\nFix PAPlayer to handle passthrough for TrueHD (audio)<br>\nPVR<br>\n<br>\nFix component dependencies<br>\nPVRRecordings: Prevent concurrent calls to video database<br>\nOther/General fixes<br>\n<br>\nUse first protocol from add-on in add network dialog<br>\nUse exact matching for protocol in file+dir factories<br>\nUse of absolute paths in combination with hosts in URLs<br>\nFix file times for vfs addons<br>\nFix + sign HTTP folder<br>\nCorrections to filesystem CircularCache initialization and termination<br>\nController fixes<br>\nDelete stream details when video info is refreshed<br>\nDo not attempt to further resolve plugin paths for failing entries<br>\nRevert \"fixed: We should always update stream details from player...\"<br>\n<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible (tested) with iOS 8 to 12.\n\nSkinnySettings gives you minimal, useful and smooth options to make better and more functional your Settings Application adding these nice Features:\n\n- No Separators.\n\n- No Cell Icons.\n\n- No Cell Titles.\n\n- No Search Bar.\n\n- Make Grey the Background of the Settings.\n\n- Make Silver with a White Shadow the Bar of the Navigation.\n\n- Make the Settings in FullScreen Mode.\n\n- Hide the Third Applications Section.\n\n- Hide the Badge on the Software Update Section (inside App Badge).\n\n- Disable the Tap on the Software Update Section.\n\n- Disable the Searching on the Software Update Section.\n\nThe options are enabled (visible) inside the Applications/Features of the Settings too.\n\nNo Respring Needed for enabling and disabling the Tweak.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!\n\nConfigure options from Settings.\n\nCredits are on Preferences Panel."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/skinnysettings1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/skinnysettings2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/skinnysettings3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/skinnysettings5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 24, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.3.2\n- Added the option to Enable Transparent Background.\n- Cleanup the Makefiles.\n\n\n\nVersion 1.3.0<br>\n- Added the option to Make Round the Settings Tables (included roundPrefs on My Repository).<br>\n\nVersion 1.2.9<br>\n- Compatible with iOS 12.<br>\n- Added the option to View the IP Address from the Settings (Thanks bro @MTAC8).<br>\n\nVersion 1.2.8<br>\n- Added the option to Hide the Badged Table Cell.<br>\n- Added the option to Hide the Badge on iCloud Features (thanks patch by burntscarr).<br>\n- Added the option to Make Oval the Badged Table Cell.<br>\n-Improvements.<br>\n\nVersion 1.2.7<br>\n- Added the option to Enable the Dark Mode also for the KeyBoard of the Settings.<br>\n<br>\n<br>\nVersion 1.2.6<br>\n- Added the option to Enable the Dark Mode for the Settings (Integration of my Tweak DarkSettings available on my Repository).<br>\n<br>\n!(Happy New Year)!<Br>\n\nVersion 1.2.4<br>\n- Added the option to Extend the Large Navigation Titles on iOS 11 inside the Settings.<br>\n\nVersion 1.2.3<br>\n- Hopefully Last Issues Fixes.<br>\n- General Improvements.<br>\n<br>\n<br>\nVersion 1.2.2<br>\n- Hopefully Fixed the Crashes on iOS 9 for some Users (thanks so much my Friend @karimouni24 for testing Stuff).<br>\nVersion 1.2.1<br>\n- Added the option to Hide the Apple Account Cell (Requested on Twitter).<br>\n<Br>\n<br>\nVersion 1.2.0<br>\n-Now you can Custom Select also the Colors of your Settings Parent Text.<br>\n- Fixed libcolorpicker issue that caused the Settings App crashing on iOS 11.<br>\n- Code Changes, Improvements.<br>\n<br>\n<br>\nVersion 1.1.9<br>\n- Added some Colors :-) (libcolorpicker Dependency). <br>\n<br>\n-Now you can Custom Select the Colors of your Settings Background.<br>\n- Now you can Custom Select the Colors of your Settings Foreground.<br>\n- Now you can Custom Select the Colors of your Settings Separators.<br>\n<br>\n‪(Coming Soon Next: Custom Parent Text Colors)‬.<br>\n<br>\n(Thanks to thazsar).<br>\n\nVersion 1.1.8<br>\n- Added the option to Enable VoLTE for All Carriers (tip by DakutaSuta777).<br>\nVersion 1.1.7<br>\n- Added the option to Hide the SOS Menu (tip by @albyvar25).<Br>\n- Improved the Enable Full Screen View option for iOS 11 and iPhone X.<br>\n\nVersion 1.1.6<br>\n- Added the option to Disable the Bluetooth Unpairing of the Device (tip by rshelver).<br>\n\nVersion 1.1.5<br>\n- Added Full iOS 11 Compatibility.<br>\n- Added the option to Remove the Large Navigation Titles on iOS 11.<br>\n- Fixes in the Preferences Labels Panel.<br>\n- Changes.<br>\n\nVersion 1.1.4<br>\n- Added the option to Hide the Top Separators of the Settings.<br>\n- Added the option to Hide the Bottom Separators of the Settings.<br>\n- Fixes in the Preferences Labels Panel.<br>\n\nVersion 1.1.3<br>\n- Added the option to Fade the Settings Navigation Bar when Scrolling.<br>\n- Optimizations.<br>\n<br>\n<br>\nVersion 1.1.2<br>\n- Added the option to Disable the Settings Switches Touch Feedback.<br>\n- Added the Label to Check Other Tweaks by Me on BigBoss Repo.<br>\n<br>\n<br>\nVersion 1.1.1<br>\n- Added the option to Fade the Settings StatusBar.<br>\nHappy New Year to All of You! :-)<br>\n\nVersion 1.1<br>\n- Added the option to Make Settings bouncing (incorporation of DrunkSettings available on my Repo).<br>\n\nVersion 1.0.9<br>\n- Added the option to Hide Space between the List (tips by panjoel08 and Olivier Crespo).<br>\n\nVersion 1.0.8<br>\n- Added the option to Hide the Top Navigation Labels.<br>\n<br>\n<br>\nVersion 1.0.7<br>\n- Added the option to Hide the Search Bar Border Grey Background.<br>\n- Added the option to Hide the Blur on Navigation Bar.<br>\n- Added the option to Make Graphite White Shadow the Color of Navigation Bar.<br>\n\nVersion 1.0.6<br>\n- Added the option to Hide the Back Text Buttons (tip by panjoel08).<br>\n<br>\n<br>\nVersion 1.0.5<br>\n- Added the option to Make Black the Tap on Cells Settings and Relative Black Fade Effect when going Back (tip by panjoel08).<br>\n- Now you can Donate Me (thanks) with the New Label in Preferences Panel.<br>\n- Added Twitter and My Repo Icons Labels.<br>\n\nVersion 1.0.4<br>\n- Added the option to Remove the Spaces between Cells (Source Code of SettingsList by @Squ1dd13).<br>\n\nVersion 1.0.3<br>\n- Added the option to accept Any Restrictions Passcode in case of Lapse of Memory (thanks windexi for the tip).<br>\n- Now you can add My Repo on Cydia with the New Label in Preferences Panel.<br>\n- Changes in Labels Description in Prefs.<br>\n- Should be working on iOS 7 too (by User Notice via Mail).<br>\n\nVersion 1.0.2<br>\n- Added the option to Enable/Show the Ethernet option (for iOS 10). Thanks @AboGhzayel for the concept.<br>\n<br>\n- Small Changes in the Preferences Panel.<br>\n\n\nVersion 1.0.1<br>\n- Fixed a visual bug incurring when opening and/or installing a Profile in Settings with the Grey Background option enabled (thanks for some Reports on Twitter).<br>\n<br>\n- Small Descriptions Improvements in Settings Panel.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

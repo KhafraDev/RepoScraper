@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "SoundTasker \"Choose cool sound effects for your multitasking!\"\n\nRequested by my good friend Rexcellent123 check him out on Twitter and YouTube!\n\nTired of the same old multitasking app switcher?\nWant something more exciting?\nThen give SoundTasker a try!\n\nDefault Sounds:\n-Skull Kid Laugh (Zelda)\n-Item Received [Zelda (NES)]\n-Super Mario Coin Sound (NES)\n-Bowser Laugh (N64)\n-Boo Laugh (N64)\n-Nintendo Gameboy Advance\n-Microsoft Windows XP Error\n\n-More to come soon and possibly even loading custom effects!\n\nNo screenshots for this item\nConfigure options in the Settings application.\n\nvisit @iKilledAppl3 for support or just to follow"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "October 20, 2016",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "-Added the ability to add custom sounds (Custom sounds go in /Library/Application Support/SoundTasker/Custom and the media type or format is .caf)\n-Added an option for vibration when the home button is double pressed to enter multitasking\n\n\n-Fixed issue with stopping audio playback from music apps and other audio oriented apps.<br>\n-Working on adding where users can add their own sound effects<br>\n<br>\n-Internal modifications to enhance the tweak<br>\n-Smaller tweak size due to optimizations in the sound files<br>\n-Added Windows 95 Error Sound and Windows 7 Logon Sound<br>\n-More to come soon!<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

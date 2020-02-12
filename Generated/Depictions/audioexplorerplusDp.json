@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/audioexplorerplus1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/audioexplorerplus2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/audioexplorerplus3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/audioexplorerplus4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 14, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package +&nbsp;Free&nbsp;Trial",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- fix core data error on iOS 12/13\n\n\n- add compatibility for iOS 11\n\nFix dependencies\nno more 'App May Slow Down Your iPhone' Warning\nFixed problem with where importing wasn't working with JODebox v3\n\n- fix for some problems importing on certain devices\n\n<p>\n- added ability to open music files from within other apps or via Airdrop\n<p>\n- file search in iOS 8 now includes the new data directories of apps\n\n- files view now remembers last viewed directory<Br>\n- potential fix for crashes on importing<br>\n<p>\n- music/ringtone import now working in iOS 8 with JODebox/JOCastle\n\n- audio files without extensions will also be included in searches\n<p>\nupdate requires the file package from Saurik's repo Telesphoreo, which \"guesses the type of a file from contents.\" <a href=\"http://cydia.saurik.com/package/file\" target=\"_new\">details for file</a>)\\\n\n- loading an app to list the audio files it contains has been improved and is now much faster, especially for apps with many files<br>\n- per app information about the amount of audio/visual files each contains<br>\n- the ability to send multiple files via email<br>\n- improved HUD displayed when searching, queuing and importing<br>\n- search and imports can continue in the background longer than the 2-10 minutes in previous versions<br>\n- iOS 7 style tab icons from Glyphish (also in files view now indicating folder or audio file)<br>\n- small icons used for the apps view<br>\n- updated app icons<br>\n\nUpdated for iOS 7 (import using Gremlin)\n\n- double tap opens built-in player (in apps and files views)<br>\n- can now delete audio files in files view (e.g. ringtones added with AudioExplorer+)<br>\n- fixed problem with \"Open Music/Podcasts/Settings app\" not working on some devices (after import)<br>\n- fixed problem of settings not being initialized properly<br>\n- other minor fixes and changes<br>\n\nv1.6.1<br>\n- improved id3 tag retrieval<br>\n- audio file duration displayed in Files tab<br>\n- bugfixes (fixed problems with album artwork using camera roll, landscape mode after playing in built-in player, automatic id3 tag filling)<br>\n<p>\nv1.6<br>\n- ability to set the length of imported ringtones with in-app settings<br>\n- ringtone conversion can now be done while app is in background<br>\n- duration of audio files displayed in Apps and Queue tabs<br>\n- option to open settings/music/podcast apps after importing<br>\n- bugfixes (affected ordering of items in the queue, meta tag retrieval) and minor improvements<br>\n\n- optionally use Gremlin as importing engine where possible (mp3/mp4 files, iPod library, podcasts and ringtones/alert tones) <br>\n- importing to the audiobook library and alert tone collection<br>\n- files view uses emoji to differentiate between folders and audio files<br>\n- files view now starts at /var/mobile rather than just /<br>\n- directory loading in files view done in background<br>\n- various bugfixes (album artwork, track number, partial search)<br>\n\n- ability to add to podcast library<Br>\n- better tag recognition for certain audio files<Br>\n- album artwork for apps uses iTunes Artwork file, if available<Br>\n- fixed potential memory leak in search process<Br>\n- minor bugfixes and UI changes<Br>\n<p>\n- ability to edit music tags (album, title, artist, composer, track number and album artwork) before importing into iPod library<br>\n- partial search also removes apps that are no longer installed<Br>\n- fixed problem of hard-to-click cancel button in the menu for external apps<br>\n\n- ability to edit ringtone names before import (double tap in single-selection mode)<br>\n- adding/deleting from queue is now faster<br>\n(This version requires a new audio file search to be made)<br>\n\n- Switch between multiple/single selection mode with a long tap on an audio file<Br>\n- Ability to refresh files view listings<Br>\n\n- Pull to refresh in the app view can refresh just a single app, so you don’t need to refresh all apps just to get new audio files from one app<Br>\n- Refresh buttons combined to one button with two options (as before, full and partial search).<br>\n\n- Overlay with text that popups when adding items to the queue will be visible longer and have information about the next step<br>\n- Badges on Queue Tab bar indicating the number of items in the queue<br>\n\n- Bugfix for iPad 2 (Open in menu wasn't displayed correctly)<br>\n- New format for about tab with some FAQs<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

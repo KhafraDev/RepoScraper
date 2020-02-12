@@ -1,0 +1,63 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10\nSwitcherCC is not compatible with iPads.\n\nSwitcherCC redesigns your app switcher to bring you more functionality.\n\nNo longer does the app switcher take up the whole screen. SwitcherCC slides it up and scales it down to add a small version of the control center on the bottom.\n\nThe control center has three pages:\n- Controls: Use your settings and quick launch toggles along with the brightness slider! (Supports Polus and FlipCC)\n- Air buttons: The buttons for airplay, airdrop, and night shift. (Supports Noctis)\n- Music: A small version of the control center music page. (Supports Masq)\n\nDevelopers can also create their own pages with our theos template. Contact me via email or twitter if you're interested.\n\nSwitcherCC also has some great customization options along with support for you favorite control center tweaks -- all for free!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/switchercc1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/switchercc2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/switchercc3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/switchercc4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 31, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

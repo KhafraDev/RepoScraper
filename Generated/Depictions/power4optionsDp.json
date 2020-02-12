@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10 and 11.\n\n전원을 끄는 창에서 슬라이더 버튼을 한 번 누를 때마다 기능이 바뀝니다.\n\n*Translate to English from Korean:\nPower4Options lets you tap on the power slider to change 4 functions.\n\nThis tweak can be malfunction if you using unc0ver jailbreak.\nFor the more information, go visit\n\n\niOS 10.3.3 - 11.3.1에서 정상 작동 확인되었으며 아이폰X에서는 작동하지 않습니다.\n따로 설정할 필요없이 바로 적용 가능합니닼\n\nTranslate to English from Korean:\nTested on iOS 10.3.3 - 11.3.1\n*This tweak does not work on iPhone X.\n*No options to configure."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/power4options1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/power4options2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/power4options3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/power4options4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "November 5, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "1. 리스프링할 때마다 밝기가 초기화되는 버그 수정.\n2. iOS 11에서 밀어서 재부팅할 때마다 재부팅되지 않고 리스프링되는 버그 수정.\n3. 전원 메뉴에서 나갔다 들어올 때마다 간헐적으로 슬라이더 버튼을 누를 때마다 순서가 바뀌는 버그수정.\n4. 전원 끄기 기능이 간혹 작동되지 않는 버그 수정.\n+아이폰 X는 여전히 작동 안돼요.ㅠㅜ\n\n\nUnc0ver 탈옥툴 사용시에는 이 트윅이 정상 작동하지 않을 수 있습니다. \n자세한 사항은 \n11\n다음 사이트를 참고하세용!\n\nTranslate to English from Korean\n\n1. Fixed a bug that initialize brightness when your device respring.\n2. Fixed a function that does not work reboot on iOS 11.\n3. Fixed a bug that seldomly change sequence of function when you come in and out from power menu.\n4.Fixed a bug that seldomly does not work power off function.\n+Still does not work on iPhone X. Sorry...\n\n\nThis tweak can be malfunction if you using unc0ver jailbreak.\nFor the more information, go visit"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

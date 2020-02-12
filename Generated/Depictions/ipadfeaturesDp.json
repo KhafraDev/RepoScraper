@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9 and 10\n\nAllows iPad-like rotation in ALL apps, even ones that aren't enabled by default and allows home screen rotation.\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ipadfeatures1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ipadfeatures2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "November 30, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Cleaned up settings and fixed bugs.\n\n\nAdded more settings - thanks to my friend @CydiaGeek for all the help!<Br>\n\n<br>\nFinally added settings!<br>\nCompatible with iOS 9<br>\n\n1.8<br>\nRemoved the awful splitview<br>\n<br>\n<br>\nv1.6<br>\nAdded PiP<br>\n<br>\n<br>\nv1.5<br>\nAdded lock screen rotation.<Br>\n<br>\n<br>\n1.4 Update:<br>\nFixed folder title bug<br>\nEnhanced and new folder style when in landscape<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

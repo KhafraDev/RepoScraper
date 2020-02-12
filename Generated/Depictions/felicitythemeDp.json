@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 7-12\n\nFelicity\nAn intense and happy theme.\n\n“Felicity” means intense happiness and joy ~ and thats exactly what this theme brings to your device.\n\nFelicity comes with over 150 icons that have been designed with great focus and attention to detail. Every icon in this theme has greatly improved the stock design whilst still keeping it familiar. The colour palette that is featured with Felicity is also improving the current design by making all colours and gradients brighter and easier on the eye.\nFelicity is meant to be, and I’m sure you will love it!\n\nAs before mentioned, Felicity comes with 150+ icons and many more well on the way. Felicity supports iOS 7-11 and features iOS 11 styled Cydia, AppStore and iTunes icons for that iOS 11 style! Many more features and icons are coming in future updates so stay tuned!\n\nYou can request icons via my twitter @xandesign_\n\nRequires Anemone."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/felicitytheme1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/felicitytheme2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/felicitytheme3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "March 5, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Made some awesome changes to Contacts,Notes,Measure,Reminders & Videos. \nAlso filled out a bunch of user icon requests!"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

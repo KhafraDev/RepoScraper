@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wipi1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wipi2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wipi3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 29, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Changelog 1.5.1:\n* iOS 10 support (iOS 6 - 10)\n* Visual improvements\n* Checkmark indicates currently connected network\n* New preference panel with options\n\nSpecial thanks to @ichitaso for contributing to WiPi\n\n\nChangelog 1.4:<br>\n--------------------<br>\n- Support for iOS 8<br>\n- Codebase improvements<br>\n\n- CCToggles incompatibility fix\n<p>\nChangelog 1.3<br>\n------------------<br>\n- Compiled for 64 bit / iPhone 5s!<br>\n- Hold on the Control Center WiFi toggle to activate WiPi!<br>\n<p>\nChangelog 1.2<br>\n-------------------<br>\n- Full iOS 7 support, yay!<br>\n- Hold on the FlipSwitch WiFi toggle to open up WiFi. Works for example with FlipControlCenter, Auxo, Ayra, SwitchIcons, ... <br>\n- Bug fixes! No more freezes / crashes!<br>\n\nChangelog 1.1:<br>\n------------------<Br>\n- Removed signal strength limit<br>\n- Fixed bug where HUD did not hide<br>\n- Optimized code<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

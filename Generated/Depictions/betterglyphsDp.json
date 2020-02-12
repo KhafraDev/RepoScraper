@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now Free.\n\n.\n\nSo glyphs themes are great for showing off wallpapers or minimalist setups. Unfortunately, none of them ever seem to theme all of your icons and you end up with 5-10 that are themed with another theme and they stick out in your setup and just look ugly. I made this glyphs theme because I had this problem (especially with games), so I made this theme. I listed Anemone as a dependency because I intend to add a mask in the future, and because everyone uses Anemone now anyways.\n\nI am very fast with icon requests. I have a request form atwhere I take requests. When you request an icon, I get an email. Ill check my email and make the icon.\n\nI also wanted to have extremely fast updates. To do this without spamming the repo owners with updates, I have a package called BetterGlyphs Preview on my repo, http://samgisaninja.yourepo.com where I post requested icons as soon as I finish them. When I feel I have enough icons in the Preview version, Ill submit an update here."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/betterglyphs1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/betterglyphs2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/betterglyphs3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/betterglyphs4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 18, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Adds icons for LastPass, ReProvision, Alarmy, the “unc0ver” jailbreak utility, bitmoji, Apple TestFlight\n\n\nAdds icons for the electra 11.3.1 jailbreak utility, both the vfs and multipath tcp exploits, as well as rollectra, TSS saver, CocoaTop, BBVA Compass banking, simplisafe, and fixed the firebird emulator app icon.<br>\n\nAdds support for iOS 11 Files app, the \"Electra\" jailbreak utility, NonceSet1112, NewTerm 2, Apollo reddit client, CARROT weather, Just Press Record, AR MeasureKit, Textastic Code Editor 6, Xfinity xFi, AutoSleep, Minecraft Story Mode Season 2, Guns of Boom, The Machines AR, HQ Live Trivia, and their dark counterparts\n\nThis item is now Free.<br>\n<br>\nNew (okay really old but finally had time to release) BetterGlyphs Dark icons. This is the last update for the foreseeable future, as I've moved on to development"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

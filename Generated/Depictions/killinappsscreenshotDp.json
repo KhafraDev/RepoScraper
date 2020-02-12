@@ -1,0 +1,85 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9, 10 and 11\n(tested on iPhone 6 and 7 running iOS 9.0.2 and 10.1.1 on Instagram Version 24.0, Spotify 8.4.28, Amazon 9.22, Booking 15.6 and Skyscanner Version 5.31).\n\nKillinAppsScreenshot disables the boring Share Screenshot Feature that appears in some Applications immediately after having taken one.\n\nMore Stuff and Applications in the Works.\n\nJust tell me those you find and/or want to add.\n\nConfigure options from Settings.\n\nNo Respring Needed for enabling and disabling the Tweak.\n\nSee Screenshots below.\n\nIncluded ShyInstaShot and ByeScreenshotShare Tweaks from my Personal Repository.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/killinappsscreenshot1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/killinappsscreenshot2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/killinappsscreenshot3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/killinappsscreenshot4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/killinappsscreenshot5.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/killinappsscreenshot6.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 4, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.0.8\n- Added the option to Always Show the Markup Screen (Edit Mode) Feature on iOS 11 (tip by sinfool).\n\n\nVersion 1.0.7<br>\n- Added the option to Disable the Screenshot Preview And Flash Features on iOS 11.<br>\nVersion 1.0.6<br>\n- Tested and Working Fine also on iOS 11.1.2.<br>\n- Just Added the iOS 11 Compatibility to the Disable Screenshot Feature.<br>\n\nVersion 1.0.5<br>\n- Added the option to Disable the Screenshot Notification on the Instagram Story (tip by NntpsJournal).<br>\n- Added the Label to Email Me in the Preferences Panel.<br>\n- Added the Label to Check the Other Tweaks Made by Me on the BigBoss Repo in the Preferences Panel.<br>\n- Changes in Prefs Labels and Images.<br>\n\nVersion 1.0.4<br>\n- Added the option to Disable the Ability to take Screenshot Everywhere. <br>\n- Changes in Preferences Panel.<br>\n<br>\n<br>\nVersion 1.0.3<br>\n- Added the option to Disable on Jodel Version 3.84 the Feature of the Screenshot sharing (requested on Mail).<br>\n(I'm glad to keep updating the Tweak with the Apps you find/want to add).<br>\n<br>\n<br>\nVersion 1.0.2<Br>\n- Added the option to Disable on Shazam Version 11.4.3 the Feature of the Screenshot sharing (requested on Twitter).<Br>\n<Br>\n<Br>\nVersion 1.0.1<br>\n- Added the option to Disable on Snapchat Version 10.22.2.0 the Feature of the Screenshot sharing (thanks for Suggestion my brother @lorenzo_noide).<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

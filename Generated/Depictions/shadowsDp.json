@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "功能：\n仿QQ快速切账号功能，在微信内一键快速切号，免除来回换号需要输入账号密码的痛苦，类似微信分身功能。\n支持iOS8-10 系统\n微信6.5.20-7.0.5 版本\n用法：\n打开“设置”，“添加账号”，登录账号即可（注意只允许“QQ号/微信号/邮箱号”登录）。\n点击“账号xx”,即可一键切号。\n左滑“账号xx”,即可删除该账号。"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/shadows1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/shadows2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 29, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "兼容微信7.0.5\n\n1.增加切号页面隐藏功能。在“设置”页面，两个手指“放大”开启切号入口，“捏合”隐藏切号入口。(两个手指沿手机屏幕对角线向内或外滑即可)<Br>\n2.增加对当前账号显示打钩标记。<br>\n3.增强稳定性。<br>\n\n兼容微信6.6.7版本\n修复已知问题\n<br>\n<br>\n对微信6.6.2 做了一些优化。\n\n修复切换账号后表情包异常bug。<br>\n<br>\n更新 版本 0.1.0 :<br>\n修复对 微信6.6.0 不能添加账号的 bug。 <br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

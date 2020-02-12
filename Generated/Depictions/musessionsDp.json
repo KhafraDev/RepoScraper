@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Musessions -\n\niOS 7 - 10.2\n\nA system-wide media tracker, built to consolidate your music experience. Built with passion.\n*Does not require Activator\n\n“What was that song I was listening to …?”\nMusessions solves this question, and many more…\n\n..::Unlimited System-Wide History::..\n\nHave you ever said to yourself, “What was that song I was listening to…?”, well here’s your answer! \nSystem wide listening & watching history organized by listening session.\n\nSessions:\nA session is a specific span of time that you were consuming media. This separates the time listening at the gym, from the car ride home from work. Never miss out on a great song ever again!\n\nA new session is started after a short period of no audio activity.\n*Default is 15 minutes\n\nPause Tracking:\n\nAn Activator action is available to pause session tracking for a customizable amount of time, or until manually resumed.\n\nAuto-Delete:\n\nSessions and their album artwork will be automatically deleted after a time of your liking.\n*Default is 14 days\n\n\n..::System. Wide. Bookmarking::..\n\nMark any media for later reference, in any application or the system media player. With the press of a button, bookmarking can be customized to not just mark the song, but automatically do much, much more..\n\nBookmarks aren’t singular. You can bookmark any media more than once, marking the actual elapsed times within the track to view later, or even skip to those points within the song to listen to those moments again.. “Where was that dope song at in this mix?!”\n\n\n..::Music Importing::..\n\nAll your favorites, in one spot, with no hassle.\n\nIf you use more than one music service, wish granted. You no longer need to jump from app to app just to listen to all your favorite songs. You can manually browse your history to import songs or while listening using the activator methods!\n*Apple Music subscription required; or Musessions Importer\n\nPretty Much Instant:\n\nUsing the dedicated ‘Import Now Playing’ activator action or ‘Bookmark Now Playing’ method, Musessions will find the best match within iTunes, and adds that song to your Music app. No matter what app you are listening to; System Wide.\n\nImporter Add-On:\n\nIf you’d like to import songs Apple Music doesn’t have available, or if you don’t have an Apple Music subscription then you may look into\n\n\n..::Automatic Sharing::..\n\nIf you stumble upon a musical gem, don’t be selfish and keep it to yourself– Share it! Using the dedicated activator action or by bookmarking*, you can share the now playing item with a group of friends! Best part is, they don’t need to be jailbroken or even on iOS!\n\nContact List:\n\nYou can specify whether your friend uses Musessions, stock iOS, or Android so that they get a clickable link with your text.\n\nDo Not Disturb:\n\nDon’t worry about waking your friends at 3 am with a late night listening session. You can specify a Do Not Disturb time period where your shares will be queued for later sharing.\n\nOne Tap:\n\nWhen you receive a bookmark from a friend, clicking the link will open within Musessions, save it to the Received tab, and automatically play* the track or queue it up if you’re already listening to something.\n*Only if a stream is available and auto-play is enabled.\n\n\n..::Built-in Media Player::..\n\nYou can start a queue from your bookmarks, received, or even relive a previous session from right within the app; No need to visit the apps separately!\n\n\nCustom UI:\n\nIn app audio player adjusts color scheme based on the now playing artwork.\n\nContext Aware:\n\nWhichever list you start listening from, the tracks listed after will be queued up. Start listening from your bookmarks? All subsequent bookmarks will queue; Shared from a friend? Received will queue.\n**Coming Soon - For now your bookmarks will play after your queued tracks**\n\n\n..::SoundCloud Integration::..\n\nThere are a few exclusive features available for the SoundCloud application, due to my personal affection, and the amazing services it provides. Liking support, Importer support, and sharing support.\n\nMetadata Parsing:\n\nIf you’re a user of SoundCloud, you know what I mean when I say the title/artist strings are a mess. To get a good match, I parse out the gibberish.\n\nImporting:\n\nIf no better import result is found, you can always fall back to the 128kbps stream version. Keep in mind, SoundCloud has a great algorithm that converts the artists high quality source to an mp3.\n\nSharing:\nEven if no iTunes Match is found, the share link will include the SoundCloud ID so your recipient will always be able to hear and/ or import it.\n\n\n..::Activator Actions::..\n\n-Bookmark\n\nBookmarks the now playing media along with enabled features like auto- share, import, and liking.\n\n-Bookmark Previous\n\nBookmarks the last played media along with enabled features like auto- share and import.\n\n-Bookmark Clipboard\n\nBookmarks the media found by parsing the users clipboard for metadata and searching iTunes for a match.\n\n-Silent Bookmark\n\nBookmarks the now playing media without sharing, importing or liking. Simply Bookmark.\n\n-Share Now Playing\n\nShares now playing media with group of contacts.\n\n-Import Now Playing\n\nImports now playing media into Music app with selected options.\n\n-Remove Bookmark\n\nCancels or removes the Bookmarks from the now playing media.\n\n-Remove Last Import\n\nCancels import or download of last bookmarked track.\n\n-Pause Tracking\n\nTemporarily pauses (or resumes) tracking for a custom amount of time or until re-enabled.\n\n-End Session\n\nForce end the current listening session and starts a new session on next playback.\n\n\n**Be aware: This is not an entire feature list!! There are too many to list for now. There will soon be a quickguide posted on my website soon with a link from the app to detail every screen but for now most features should be visible if you look.\n\n…::Musessions Importer (Separate Package)\n\nThisallows those without Apple Music subscription to import tracks into the Music app as if you did! It also adds an interface to view iTunes song results, along with available streams, for manually selecting the version/quality you prefer.\n\nIf multiple iTunes results are found, most likely remixes, you can swipe through them and perform a new search the selected match. This can be a great way to find great remixes and add them to your library as well.\n\n-Apple Music Not Required*\nImport songs into Music app even if it is not available on the iTunes Store. The converted local metadata and artwork will be used automatically.\n\n-All About That Metadata\nUse the converted metadata and artwork, the official metadata used by iTunes, or manually enter the desired track information.\n\n-Free Add-On!\nAlthough Musessions Importer is a separate package, the Importer is free for all Musessions users."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/musessions1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/musessions2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/musessions3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/musessions4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 15, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 3.00",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Fixed:\n- Tracker not loading under certain environments (Rewritten)\n- Completed Imports not saving to 'Imports' tab\n- 'Importer Enabled' is ON by default if MusessionsImporter is installed to be less confusing for the user.\n- App: Crash fixes, sharing bugs, and some misc bugs\n\nIn-Progress:\n- Fixing custom metadata screen\n- Adding tracks imported with 'Apple Music' to the Musessions 'Imports' tab\n- Fixing issues with Auto-Delete\n- InApp media player improvements"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

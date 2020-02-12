@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 16, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "At last iOS 11 compatible.\nBest prank call app for spoofing and voice changing during a call.\nPlease note only 64 bit arc is supported\n\n\nAccess Improved<br>\niOS 9 Adjustments<br>\n\niOS 9 Compatible <br>\n<br>\nVer include:<br>\nSpoof (change) caller id<br>\nVoice changer during a call<br>\nInject funny sound effects to the call<br>\n\niOS 8.4 support.<br>\n<br>\nYou can now change your Caller ID (Spoof) and change your voice (Voice Changer) and add funny sound effect to a call.<br>\nSupport all iPhone devices iOS 4.3-8.4<br>\n\n- Bug fix<br\n- Access improved <Br>\n- Effects added<br>\n<p>\nIOS 8 support<br> \nYou can now change your Caller ID (Spoof) and change your voice (Voice Changer) and add funny sound effect to a call.<br>\nSupport all iPhone devices iOS 4.3-9.x<br>\n\nAccess improved<br>\n\nBug Fix<br>\n\nIOS 7 Compatible<br>\nMore sound effects added<br>\nAccess Improved<br>\n<br>\niPhone Only<br>\n\nFix CallerID not showing correct on IOS 5 and iPhone 4Gs\nIOS 5 support added\n<ul>v 3.2\n<li>Gui Changed,\n<li>Bug fixed\n<li>Access Improved\n</ul>\n<ul>v 3.1\n<li>Access numbers updated\n</ul>\n<ul>v 3.0\n<li>More countries added + access improved on most countries\n</ul>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8 - 12\n\nExtension of the ShutterSound and ScreenShot, Photos app.\n\n[Settings]\nSilent Shutter Sound: By to ON, turn off the shutter sound of the camera and the screen shot.\n\nIf the camera shutter sound does not sound even if the setting is OFF, please reboot the device.\n\nAlso can On / Off by Flipswitch or CCSupport.\n\n[Screen Shot]\nShare Mode: when taking a screen shot, to display the share menu.\n\nTap \"Upload to Imgur\" to copy the URL to the clipboard after uploading.\n\nScreen Shot Flash: when taking a screen shot, flash appears on the screen.\n\nHide Status Bar: Cut out the status bar and shoot a screenshot.\n\nSave the Screen Shot in JPG: Saves in JPG file of the small capacity of the screen shot. In the case of OFF, save the PNG file.\n\n[Photos]\nNo Recently Deleted: By to ON, without taking into Recently Deleted, Delete the files directly.\n(iOS 9 or later is Photos.app only worked.)\n\nConfigure options from Settings app."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/shuttersoundswitch1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/shuttersoundswitch2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/shuttersoundswitch3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/shuttersoundswitch4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 20, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "v1.0.2\n\nCompiled for A12(X) arm64e."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 10, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Updated to support the latest WhatsApp version (10.07.2018).\nAdded support for iOS 11.3.1\n\n\nFixed bug which caused the tweak not to work on some devices.\n<p>\nFixed crash on iOS 7 devices\n<p>\nFixed preferences bundle for 64Bit devices.\n<p>\nUpdated to support the latest version of WhatsApp.<Br>\nAdded option to disable the tweak if needed, done throgh Settings.app<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

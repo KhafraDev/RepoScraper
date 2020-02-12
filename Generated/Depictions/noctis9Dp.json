@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now Free.\n\nCompatible with iOS 9\n\nOn iOS 9? Try\n\nNoctis is a stunning dark mode for iOS 9. Noctis has 3 levels of darkness to choose from, light, medium and dark. You can also add your own custom color tint.\n\nIt affects the following:\n\n1. Control Center\n2. Folders\n3. Dock\n4. 3D touch menus\n5. Volume HUD\n\nIt is work with iPad and iPhone and is compatible with Auto LE, FlipControlCenter and most other control center tweaks.\n\nConfigure Noctis9 via settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/noctis9-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/noctis9-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/noctis9-3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/noctis9-4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 4, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now Free.\n\n\n\nFixed white text on 3D touch menus\n1.8:<Br>\n- Fixes loop issues experienced on some devices.<br>\n- Removes 3D touch menu effect and toggle next to slider.<br>\n- Syncs with Do Not Disturb toggle to toggle Noctis off and on. If flipswitch is not installed.<br>\n- Added FlipSwitch compatible with FlipCC and Polus.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

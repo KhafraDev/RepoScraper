@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "AsteriOS For iPad - the perfect theme for iOS\n\nAsteriOS comes with over 100 carefully detailed icons that provide a much more colourful, clean and simplistic look and feel.\n\nWhen designing this theme, I had 3 goals in mind for each icon: They had to be colourful, clean and detailed. I think I have achieved these goals for this theme.\n\nAsteriOS features a very thought out colour palette and vectors to ensure the gradients and glyphs are instantly recognisable.\n\nTo create a theme of this standard requires a lot of care, creativity, craft and time. I put my greatest effort into every detail of this theme to ensure that you, the user, finds it worthy and enjoys it.\n\nAsteriOS is my greatest work yet and I'm glad you all can try it. For Free.\n\nPlease follow me on Twitter for updates/icon requests.\n\nIf you enjoy this theme, and support my work, please buy me a coffee by donating\n\n'AsteriOS' is named after the hidden rebel base AsteriOS.\n\nRequires Anemone"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/asteriosipadtheme1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "March 29, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Bunch of new and updated icons!\n\n\nSettings app icons is now fully themed!\nNew and improved icons such as : \nAnemone\nWeather\nMaps\nWallet\nNewsstand & Game Center(for iOS 7+)\nAirBnB\nPokemonGo\nFlipboard\nFlex\nPinterest\nLinkedIn\nWallapop \nAnd much more!"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

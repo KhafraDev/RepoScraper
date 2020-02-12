@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8 - 12\n\nPokeGO Team gif Lock Screen animation!\n\nOptions Included:\n- ON/OFF Switch\n- Custom GIF\n- Scale To Fit Screen\n- Transparent BG\n- LockScreen Time\n- Enable HomeScreen (iOS 10 and 11)\n- Transparent Dock (iOS 10 and 11)\n- Custom Gifs Editing (a place to select Custom GIF)\n\n- Portrait only support. (iPad is buggy)\n\nNote: If it is a big size GIF image it will crash\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/pokegolsgif1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/pokegolsgif2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 26, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Support for arm64e\n\n\nv1.0-6<br>\nSupport for Xen HTML home screen on iOS 10 and 11<br>\n\nv1.0-5<br>\nAdded: Enable HomeScreen, Transparent Dock (iOS 10 and 11)<br>\nAdded: Custom Gifs Editing (a place to select Custom GIF)<br>\n<br>\nNote: If it is a big size GIF image it will crash<br>\nv1.0-4<br>\nRemove: Sustain LockScreen option (for iOS 10)<br>\nAdded: LockScreen Time option (for iOS 10)<br>\nv1.0-3<br>\nSupport: iOS 10.1.x<Br>\nAdd: Sustain LockScreen option (for iOS 10)<br>\n\nv1.0-2<br>\nFix: Minor Issue<br>\n<p>\nv1.0-1<br>\nAdded Options<br>\n- ON/OFF Switch<br>\n- Custom GIF<br>\n- Scale To Fit Screen<br>\n- Transparent BG<br>\n- LockScreen Time<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

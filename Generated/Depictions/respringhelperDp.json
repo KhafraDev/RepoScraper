@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8 - 13\n\nRespring Helper is a convenient tool which help you to respring SpringBoard on the jailbroken iPhone. It can also reload App Icons on the home screen when a tweak app is missed on the home screen. Tested on iOS8 ~ iOS12.\n\nThis app also has other helpful features:\n- It shows the information of your iPhone include: WiFi Name, IP/Mac Address, UDID, Device Name, System Language, etc...\n- Is lists all the apps on your iPhone, and the details of each app like Bundle ID, Bundle path, Data Path, etc...\n\n\nRespring重启注销助手，是一款在越狱手机中实现Respring和刷新桌面操作的快捷辅助工具。\n\n其它特点：\n- 显示设备的各类信息，包括：Wifi名称、IP/Mac地址、UDID、系统语言、设备名称等。\n- 查看系统当前所有安装的Apps，并查看每个App的包ID、安装路径、数据路径等信息。"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/respringhelper1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/respringhelper2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/respringhelper3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/respringhelper4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 31, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Fixed a crash bug."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

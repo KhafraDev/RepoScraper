@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10.\n\nLace allows you to control Notification Center and Control Center with ease. It comes with the following features:\n\n\n\nHide Search:\nNot a fan of the new search in iOS 10 and thinking it just takes up space? Hide it and be done with it.\n\nChange While Dragging:\nThe ability to make the current page coincides with the position of your finger. If you start swiping from the left side of the Status Bar and moving your finger to the right, it will change from the Today view to the Notification view.\n\nAutomode:\nYou can choose to display the Notification view if and only if any notifications are present, and otherwise go directly to the Today view.\n\nDefault section:\nChoose to always show the Today view or the Notification view.\n\nChevron Icon:\nOverride the default behavior of the chevron icon by having it show the one pointing upwards, downwards or being a straight line.\n\n\n\nChange While Dragging:\nIf you start swiping from the left side bottom side and moving your finger to the right, it will change from the Toggles page to the Media page. Should theoretically work with more pages, but not tested.\n\nAutomode:\nYou can choose to display the Media page if and only if any media is playing, and otherwise go directly to the Toggles page.\n\nDefault section:\nChoose to always show the Toggles page or the Media page.\n\n\n\nAutomode:\nYou can choose to display the Main page if and only if any notification is present, and otherwise show the Today page.\n\nDefault section:\nChoose to always show the Main page or the Today page.\n\nSource code available."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/lace1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/lace2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 7, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "• Added support for lockscreen\n\n\n• Added support for Control Center.<br>\n• Changed default modes.<br>\n• Settings fixes.<br>\n\nFixed search not showing up in Spotlight if search was disabled in NC.<br>\n\nFixed landscape bug.<br>\n<br>\nFixed date view margin when search was hidden.<br>\n<br>\nIt will now unhide search if tweak is no longer enabled and search previously was hidden.<br>\n\nReworked the code a bit and hopefully fixed the date view floating above screen height when search was hidden for some users.<br>\n<br>\nFor some reason the date view will be lowered 20 points when switching pages followed by scrolling the today view with this version. I'm aware of this but have no more time at the moment to test it further (finals next week).<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

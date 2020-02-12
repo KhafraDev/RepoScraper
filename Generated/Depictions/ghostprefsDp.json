@@ -1,0 +1,85 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ghostprefs1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ghostprefs2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ghostprefs3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ghostprefs4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ghostprefs5.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ghostprefs6.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 17, 2014",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "-iPhone 6 and 6 Plus compatability\n\n**Must change size and transparency sliders for save and open buttons to appear, as default is zero**<br>\n<br>\n-Moved Open and Save buttons to its own category in the presence pane “Snap Buttons (open/save)<br>\n<br>\n-Added option to change size of save/open buttons via a slider<br>\n<br>\n-Added option to change both buttons to any Unicode Character of your choice, if left blank default buttons are used.<br>\n<br>\n-Changed the button shadow color to red to increase click visibility. (ability to pick color in future update)<br>\n<br>\n-Removed broken replay alert feature (as its server sided as far as I can tell)<br>\n<br>\n-Added option to clear badge on exit even if there are un-viewed snaps.<br>\n<br>\n-Add option to close snapchat without marking as read with \"view snaps until quit\" is enabled.<br>\n<br>\n-Added option to adjust button transparency<br>\n\n-Added new feature to keep snaps unopened and viewable until snapchat is closed, works with tap to skip on the feed viewer which didn't work on the other unlimited viewing. (disable open button and never start timer toggles to get normal affect).<Br>\n<Br>\n-Reorganized settings pane (with help from reddit user /u/Codyd51 more from the him http://goo.gl/do8b7O )<Br>\n<Br>\n-Added help section to preference<Br>\n<p>\n<p>\n-Adds extra checks to prevent screenshot alerts. (let me know if still alerting)<br>\n-Added option to disable dancing ghost and some general animations<br>\n-Relocated the ghost icon (raised slightly) <br>\n-Added option to force SnapKidz... (Useful to stop unauthorized snaping and snap viewing. Must log back in to Regain access, If \"never log out\" is enabled just tap the logout button from snapkidz to get back to full snapchat without password.)<br>\n-Fixed Never Logout switch<br>\n-Disabled tap-to-skip to prevent image freeze<br>\n-Increased size of open and save button<br>\n-Other minor improvements<br>\n\n-Added more checks to screenshot alerts.<br>\n-Fixed the crashing problem introduced in the previous update.<br>\n-Added option to disable both tap-to-skip from friends view and snap feed view independently.<br>\n<p>\n<p>\n-Fixed save text and show save button toggles.<br>\n-Fixed snap feed advancing problem<br>\n-Minor other fixes.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

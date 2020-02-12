@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 3, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "• You can now revoke your messages (2.17.1+)\n• Protect your WhatsApp account using Two step verification (2.17.1+)\n\n• Status will be automatically enabled. It works on 2.17.1+.\n• Removed GIF sharing and group invite link features activation, since they are enabled by default now.\n\n\nUnlocked the GIPHY extension for searching quickly GIFs.<br>\nYou can find the \"GIF\" option to open GIPHY in WhatsApp > Chat > Share Photo/Video > GIF (2.16.10).<br>\n\nWAGIFEnabler is now WAEnabler!<br>\n• Unlocked the Group Invite link feature. You can find it in the \"Add group participant\" section (2.16.7+).<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

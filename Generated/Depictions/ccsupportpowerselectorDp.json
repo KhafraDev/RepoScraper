@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11 to 12\n\nPower off / Reboot / ldrestart / safe mode / Respring / uicache / Lock are carried out in ControlCenter, Power off menu and Apps.\n\nWi-Fi IP, Global IP, RAM information can be displayed in the ControlCenter's information section.\n\nConfigure options from Settings app."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ccsupportpowerselector1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ccsupportpowerselector2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ccsupportpowerselector3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ccsupportpowerselector4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 2, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "1.2.1\n\nAdd: sbreload option\nAdd: option to show uptime on CC (Off by default)\nSupport for landscape screen on iPhone in Applications.\n\n\n1.2.0<br>\n<br>\nSupport for landscape screen and Upside Down screen on iPad in Applications.<br>\n<br>\nAdd: dark mode in application<br>\n(It does not work unless tweak is enabled)<br>\n<br>\nAdd: share menu<br>\n<br>\n<br>\n<br>\n1.1-8<br>\nSupport for A12(X) arm64e devices<br>\n\n1.1-4<br>\nDelete: The dependency of Opener<br>\nNote: In jailbreak with Electra, if \"opener\" is installed, it will freeze with \"ldrestart\".<br>\n<br>\n1.1-5<br>\nSupport for unc0ver<br>\nIn jailbreak with unc0ver, \"ldrestart\" can be used even if \"Opener\" is installed.<br>\nKnown issue: \"unc0ver\" will restart with shutdown.<br>\n1.1-3<br>\nAdd: PowerSelector's application<br>\nAdd: Power Slider sections<br>\n- Tap the knob on the power off menu to switch<br>\n<br>\nAdd: New setting menu<br>\n<br>\nDelete: The dependency of CCSupport<br>\n- Please install CCSupport or Silo.<br>\n\n1.1-1<br>\n<br>\nDelete: The dependency of RocketBootStrap<br>\n<br>\n<br>\n1.0-9<br>\n<br>\nAdd: LDRestart<br>\nAdd: Show Global IP<br>\nAdd: Copy Global IP<br>\nAdd: Show / Hide information section<br>\nRocketBootStrap depends to run ldrestart.<br>\n<br>\nSpecial thanks @angelXwind<br>\n\n1.0-8<br>\nFixed a problem not working on the application.<br>\n<br>\n<br>\n1.0-7<br>\nAdded: Settings<br>\nPlease turn on the item you want to use.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

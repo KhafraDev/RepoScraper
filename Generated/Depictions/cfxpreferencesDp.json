@@ -1,0 +1,37 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11 and 12\n\nIt is a lightweight library to load preferences and flush cfprefsd daemon. This package also allows developers to not worry about manually reading from preference files or writing to preference files. This method works for sandboxed and unsandboxed applications.\n\nUtilizing the cfprefsd daemon is beneficial as it caches these preference files so there is an easier load on the device for reading and writing and more importantly this makes it easier for developers to not worry about manually managing their preference files.\n\nIt is an open sourced library and more instructions on how to use it can be found\n\nThis is strictly a developer package. As a standalone package it will not do anything.\n\nNo icons added to the homescreen."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "March 28, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

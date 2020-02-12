@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8, 9 and 10\n\nDid you know that the cellular data usage reported by iOS is inaccurate, and that Apple has been hiding some important details from you?\n\nIf you'd like to know the FULL story behind your mobile data usage, then DetailedCellularUsage is just what you've been looking for!\n_______________________________\n\nCellular data used by Apple's internal system apps and processes is hidden by default...but not with DCU is installed! In addition to fully revealing all cellular data usage details, DCU also enables the ability to manage cell data access to select system apps, processes & daemons - giving you even more control over how your data is used.\n_______________________________\n\nDetailedCellularUsage is compatible with all cellular-capable iPhone's & iPad's running iOS 8.x through 10.2.1 and has been tested on the following versions:\niOS 8.4, 9.0.2, 9.3.3, 9.3.5, 10.1.1 & 10.2, 10.2.1\n\nDCU is enabled by default after installation. You'll find a switch to enable/disable DCU on the default iOS Cellular Data page in the Settings app (at the bottom of the page). Enabling or disabling DCU will automatically trigger the cellular usage report to refresh.\n_______________________________\n\nNo respring is required after installation. Please contact me if you have any questions or need any additional information or support.\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/detailedcellularusage3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/detailedcellularusage4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "November 27, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Added iOS 8 support, added Membrane tweak support and fixed a compatibility issue with iOS 9.0.2."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

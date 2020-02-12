@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatibility: All Devices\niOS 6 - 11\n\nCSources2 is a Cydia Sources Manager that allows full control over your sources.\n\n&bull; Add as many sources as you want.\n&bull; Disable/Enable or delete them.\n&bull; Add notes.\n&bull; Check if Source is active.\n&bull; Package details.\n&bull; Import cydia.list, ????.list file , Web Link.\n&bull; Backup Sources via iTune , iCloud , Manually.\n&bull; Sync between Devices.\n&bull; Auto List feature & More\nFull Docs :\n\nReporting Bugs:\nPlease review all notes and documentation before contacting the developer. Contact Dev via: In-App.\n\nPLEASE NOTE:\nNO support for iOS 7 and below.\nSupport for iOS 7 and below no longer addressed via Developer. CSources2 will work for its basic function of On & Off, all other extras are just features and developer does not have the time to address any issues below iOS 8. Review the CSources2 Blog link above for Possible Crash Fix(s).\nDon't Forget To Backup!!!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/csources2-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/csources2-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/csources2-3.png",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/csources2-4.png",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 15, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "In this version:\n\n*bug fix search On/Off crash when toggling.\n\n\n    iOS 11 Support\n    iPhone 8, 8+, & X Support.\n    iPad 5th gen, Pro & 12.9inch 2nd gen Support.\n    \n\n    Added Features:\n        -Check for Errors.\n        -Dead or Alive.\n        -Partition Info.\n        -User Icons\n        \n    Updated:\n        -Search for Duplicates.\n        -Edit Source.\n        \n    Bugfix's\n        -Import Engine.\n        -Refresh All Engine.\n        -Search Engine.\n        -Sort Engine\n        -UI Engine\n\nReporting Bugs:\nPlease review all notes and documentation before contacting the developer. Contact Dev via: In-App.\n\nPLEASE NOTE:\nNO support for iOS 7 and below.\n Support for iOS 7 and below no longer addressed via Developer. CSources2 will work for its basic function of On & Off, all other extras are just features and developer does not have the time to address any issues below iOS 8. Review the CSources2 Blog link above for Possible Crash Fix(s).\nDon't Forget To Backup!!!\n\n\n\nChinese Localizations.<br>\nAuto Lists update.<br>\nEnhancements / Improvements.<br>\n<br>\n<br>\nMain List can be sorted (beta).<br>\nSupport for repositories in which the Origin &/or Label begins with @ symbol.<br>\nDelete repo bug.<br>\nEnhancements / Improvements.<br>\n<br>\n<br>\niOS 10.2.1 Ready.<br>\niPhone 7, 7+ Support.<br>\nAdd A Source - improvements.<br>\nAuto Lists - Increased max list to 30.<br>\nDeleting a repo bug fix.<br>\nPackage count added to default view.<br>\nSet as : New/Favorite/Dead - bug fix.<br>\nAdditional info added to Info View. (beta)<br>\nFollow last repository (settings).<br>\nSearch= Quick Keyboard.<br>\nRefresh All - bug fixes.<br>\nRefresh All - speed improvements.<br>\nMalformed Line Corrections.<br>\nDuplicate Sources in Cydia via CSources2 source toggled on, now reports that the source is a duplicate and will not update Cydia with that source.<br>\nImport Friend - Ability to choose sources to import.<br>\nInfo View - bug fix. Not able to open.<br>\nAddress install error...<br>\nand a few more....<br>\n\niOS 9.3.3 Ready<Br>\niPad Pro support.<br>\n\n\tiOS 9.0.2 Ready<Br>\n\tPesky critters fix...<br>\n\t\n\t40% faster.<br>\n    Browser now adds repo if repo uses CSources2 url scheme.<br>\n    Browser has been resized.<br>\n    Delete source multi tap fix., no longer crashing app.<br>\n    ForceIt bug fix.<br>\n    Search functions = &on &off &dead &fav &new.<br>\n    Sync Color Schemes<br>\n    Theme ‘able, ie winterboard, in app etc. previous CSources2 settings may be reset.<br>\n    Installed Cydia tweaks now work…. ie activator, custom keyboards, etc.<br>\n\t<br>\n    This is a complete rebuild do to Errors 444, 442, 404, & iCleaner. <br>\n\tColor Scheme missing Switch color: goto App Colors, Choose, Reset.<br>\n\tLoad Color Scheme missing Switch color\": Load- Color Scheme, add color to Switch ???, then save, replace.<br>\n\nAutoLists: All On, Include/Ignore: Marked As Dead<Br>\nEdit Source now displays if something is wrong.<Br>\niPad Air 2 bug.<Br>\nRemoving active source, also removes in Cydia.<Br>\nSearch feature.<Br>\nSettings Page added.<Br>\nSync Devices iOS 7 & up via, AirDrop(beta), or Multiple devices.<Br>\n    \n\n-iOS 8.4.1 Ready.<br>\n    -Backup now saves CSources2 preferences.<br>\n    -Clean page – long press a file to view via, in app if supported, or iFile, ?Filza if supported.<br>\n    -Edit source: Name, Address, via, Select a source, press “Edit”.\n    “Open In” Bug fix.<br>\n    -Refresh All Sources ( beta ).<br>\n    -Restoring now asks if you want to Apply to Cydia.<br>\n    -Send Backups – via Contact.<br>\n    -General Improvements & bugs.<br>\n    \n\nThis version addresses an issue when upgrading CSources2, files were unnecessarily removed.<br>\nA quick fix: if v600.830-0 - 600.840-2 is installed, remove /private/var/lib/dpkg/info /com.dirtybeans.csources2.postrm before upgrading.<br>\n\n<p>\nImport Cydia Re-written, supports improper .list files. Faster importing.<br>\nAutoLists can turn all sources On/Off with a press of a red/green button.<br>\niOS 6 Bugs, not all , but some.<br>\n\nBug Fix, Import Cydia & Import Friends would force a some user to toggle all sources On/Off then back On to correctly enable sources in Cydia.<br>\n<p>\n8.4 Compatibility<br>\nLanguage Support<br>\nImport Friends, whole list, or individually selected. <br>\nFriendsList file web link integration. (Link file must have an extension of .cxpt)<br>\niPad2 iOS 7.0.0-7.0.6 bug fix.<br>\nFull Info <a href=\"http://csources2.wordpress.com/update-history/\" target=\"_new\">here</a>\n\n<br>\nUI Improvements.<br>\nAuto Lists<br>\nImport Friends<br>\nMark Source as New, Favorite, or Dead<br>\nSounds<br>\nNew Source On/Off setting.<br>\niOS 8.3 ready<br>\nBug Fixes<br>\n<br>\n<br>\nPLEASE NOTE:<br>\nDuplicate source errors in Cydia means you have not removed your originally added sources from Cydia in Cydia.<br>\nThis is not a bug or glitch.<br>\nCSources2 is a Cydia Sources Manager App, and not a tweak. To resolve, disable the duplicate sources in CSources2 and Apply.<br>\nOnly after you remove the source(s) from Cydia in Cydia should you enable them, and Apply them.<br>\nDo not remove default stock sources that are the original Cydia Sources.<br>\nDon't Forget To Backup!!!<br>\n\niPad, new install Crash fix. <br>\nSorry for the inconvenience.<br>\n<p>\nImport cydia.list. Located on the info page.<br>\nIncreased add repo address limit, when adding new repo.<br>\nIf adding new repo, and you misspelled, re-attempting now shows the address you attempted.<br>\nTransition fix, for those still on CSources1.<br>\niOS 8.2.0 compatible.<br>\nPrep for iOS 8.3 jailbreak/compatibility.<br>\n<br>\nPLEASE NOTE:<br>\nDuplicate source errors in Cydia means you have not removed your originally added sources from Cydia in Cydia.<br>\nThis is not a bug or glitch.<br>\nCSources2 is a Cydia Sources Manager App, and not a tweak. To resolve, disable the duplicate sources in CSources2 and Apply.<br>\nOnly after you remove the source(s) from Cydia in Cydia should you enable them, and Apply them.<br>\nDo not remove default stock sources that are the original Cydia Sources.<br>\nDon't Forget To Backup!!!<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

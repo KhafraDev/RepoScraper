@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10\nCompatible with iPhone and iPad\n\nLysithea X is a brand new tweak that brings the iOS 11 Lock Screen Media Controls to iOS 10 with even more enhanced features than in the beta of iOS 11. It has an expanded and mini-style view, which you can switch by double tapping on the artwork view image. If you tap once, it will open the now playing application instead - like it does in the control center.\n\nLysithea X brings four styling themes - iOS Default, Custom Tint Color Overlay, Artwork Blur and Artwork Color. These are all available in the settings app!\n\nThis tweak should be compatible with the most of the already existing lock screen tweaks. It supports Lockglyph X, Priority Hub, Noctis and the list is longer!\n\nSee the screenshots for more information...\nHope you like the tweak!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/lysithea1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/lysithea2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/lysithea3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/lysithea4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 3, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 0.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.0.3:\nPartial support for ColorFlow 3. It will color the view like it normally would, however depending on the background color, it will be a small blur as well. The blur will only be visible when the background is dark.\n\n\nVersion 1.0.2:\nSupport for Unify (I've tried version 1.1.3.1 and it works fine!)"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

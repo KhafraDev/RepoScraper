@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8, 9 and 10\n\nFlipswitch to toggle Spotify Offline Mode.\n\nTested on Spotify version 8.4.3.\n\nSource code available\n\nConfigure Flipswitch using Activator"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/flipswitchspotifyofflineswitch1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 21, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Updated because of request. Now supports latest version of Spotify.\n\n\nThis project has now merged into SpotifySwitches to allow adding more switches. SpotifyOfflineSwitch will not receive any more updates.<br>\n<br>\nFixed a bug where flipswitch would not update its current state. If the user now manually the setting, the current state will update. If the app is restarted, the flipswitche will also update.<br>\n<br>\nAdded a popup explaining nasty things if you’re trying to toggle offline mode within the offline settings view.<br>\n<br>\nHuge thanks to Josh Harris (tateu) for explaining how to share .plist settings between sandboxed app and flipswitch.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

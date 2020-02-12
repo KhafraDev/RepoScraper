@@ -1,0 +1,55 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stillcaptureenabler1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version: 1.9.5\n- Fix crash on iOS <= 5\n- iOS 10 support\n\n\nVersion: 1.9-4<Br>\n- Resolved button postion issue in iPad<br>\n<p>\nVersion: 1.9-3<br>\n- iOS 9 support<br>\n\nVersion: 1.9-1<br>\n- Minor fix and improvement.<br>\n\nVersion: 1.8-10<br>\n- Minor changes to code and preferences.<br>\n\nVersion: 1.8-8<br>\n- Support latest version of FrontFlash tweak.<br>\n\nVersion: 1.8-7<br>\n- The still capture button should show up in iPad iOS 7 now.<br>\n- Bring back button opacity option and button scale option to iOS 7.<br>\n- Optimization.<br>\n\nVersion: 1.8-4<br>\n- New option in settings: Lock button position.<br>\n- Code optimization.<br>\n- New icon.<br>\n\nVersion: 1.8-3<br>\n- Confirmed working with iOS 7<br>\n\nVersion: 1.8-2<br>\n- Compatible with iOS 4.<br>\n\nVersion 1.8-1<br>\n- Preparing for iOS 7<br>\n<p>\nVersion 1.7-8<br>\n- Fixed some problem in iOS 5<br>\n\n<p>\nVersion 1.7-6<br>\n- Button now rotate correctly when recording video with CamRotate (Version 1.0-4+) installed.<br>\n<p>\nVersion 1.7-5<Br>\n- Some improvement when creating still capture button.<br>\n- Still capture button can rotate while recording video if use with CamRotate 1.0-3+<br>\n- Workaround for shutter sound when capture still image in iOS 5 in recorded video, by temporary mute volume when capture image.<br>\n\nVersion 1.7-4<Br>\n- Some bug fixed.<br>\n<p>\nVersion 1.7-3<br>\n- Compatibility issue fixed in iOS 5.0.1<br>\n<p>\nVersion 1.7-2<br>\n- Compatible with iOS 5.<Br>\n\nVersion 1.6-5<Br>\n- Performance improved.<br>\n<p>\nVersion 1.6-4<br>\n- typo fixed, recommended update.<Br>\n\n<p>\nVersion 1.6-3<br>\n- Fixed bottom bar is still enabled after still image capture during video recording.<br>\n<p>\nVersion 1.6-2<br>\n- Fixed button doesn't work at first capture.<br>\n\nVersion 1.6-1<br>\n- Still capture button is draggable.<br>\n- Optimized code.<br>\n\nVersion 1.5-9<br>\n- Reduced code and improvement<br>\n<p>\nVersion 1.5-8<br>\n- Use native way to capture still image.\n\n<p>\nVersion 1.5-7<br>\n- Fixed crashing on some iDevices.<br>\n<p>\nVersion 1.5-6<br>\n- Reduced & Improved code.<br>\n<p>\nVersion 1.5-5<br>\n- Added armv7s Library for iPad 4.<br>\n\nVersion 1.5-4<Br>\n- Optimized code.<br>\n<p>\nVersion 1.5-3<Br>\n- Changes in Settings now take effect immediately.<br>\n- Some minor changes.<br>\n\n- Use better method for creating still capture button and to prevent some issue.\n<p>\n- Fixed wrong button positions in iPad.<br>\n- Now Still Capturing while Focusing is more natively, if Camera is focusing, you won't be able to capture still but if you press capture button while focusing, when focus is finished, SC2 will capture image for you automatically.<br>\n<p>\n- Corrected description.<br>\n- Fixed button position in Portrait Mode.<br>\n\n- Use 1 dylib. (Code have been fixed for screen problem)\n<p>\n- Fixed button disappearing when iDevice orientation is locked by using native Camera orientation detection.<br>\n- Increased the maximum value of button scale to 3.0<br>\n- Fixed iPod touch 5G screen problem after reboot.<br>\n- Fixed compatibility with UIImagePickerController, also tweak like Kamera by temporary disable button. (It's useless)<br>\n- Fixed button upside down in Portrait mode.<br>\n- Described about \"Delay\" when user capture still photo while focusing, this is not a tweak bug, but CPU performance issue.<br>\n- Added button linked to GitHub for this tweak in Settings.<br>\n- Updated & fixed description in Settings.<br>\n- Others little bugs fixed and improvement.<br>\n\n- Added ability to set button scale and opacity.<br>\nNote: Button scaling is useful in iPad but doesn't design to work with iPod touch 5G, due to button position that set natively by OS, but opacity adjusting works fine on all iDevices.<br>\n- Updated Descriptions in Settings<br>\n- Removed weired \"nil class argument\" from iOS log.<br>\n- Performace improved from the new better code.<br>\n<p>\n- Fixed bug when users are focusing in Camera<br>\n- Fixed capture button not working after did a focus.<br>\n- More stable code<br>\n\n- Use native still capture button.<br>\n- Better button positions.<br>\n- Code improvement.<br>\n- Fixed bugs<br>\n\nVersion: 1.0-3<br>\nFixed installation bug<br>\n<p>\nAdded preference toggle\n<p>\nAdded supported for:<Br>\n- iPhone 3GS<Br>\n- iPhone 4<Br>\n- iPhone 4S<Br>\n- iPod Touch 4G<Br>\n- 2nd-Generation iPad<Br>\n- 3rd-Generation iPad<Br>\n- 4th-Generation iPad<Br>\n- iPad mini 1G<Br>\n<Br>\nRequires iOS 6.0.0 or higher<Br>\n\t\t</div>\n\t</fieldset>\n\n\t\n</panel>\n\n\n<panel>\n\t<fieldset style=\"clear:both\">\n\t\t<label>Information</label>\n\t\t<div>\n\t\t<table class=\"information\" cols=\"2\" border=\"0\">\n\t\t<tr>\n\t\t\t<td class=\"key\">Updated</td>\n\t\t\t<td class=\"detail\">July 20, 2017</td>\n\t\t</tr>\n\t\t\n\t\t<tr>\n\t\t\t<td class=\"key\">License</td>\n\t\t\t<td class=\"detail\">Free Package</td>\n\t\t</tr>\n\t\t\n\t\t\t\t\n\t\t</table>\n\t\t</div>\n\t</fieldset>\n\n\n\n\n\n\n\n\n\t<fieldset style=\"clear:both\">\n\t\t<a class=\"button\" href=\"http://apt.thebigboss.org/developer-packages.php?name=Still+Capture+Enabler+2&uuid=&ua=node-fetch/1.0 (+https://github.com/bitinn/node-fetch)&ip=45.32.4.19&id=45.32.4.19\">More Packages from Developer</a>\n\t</fieldset>\n\n\n\n<!--\n\t<fieldset style=\"clear:both\">\n\t\t<a class=\"button\" href=\"Advertise.php\">Advertise in Cydia</a>\n\t</fieldset>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

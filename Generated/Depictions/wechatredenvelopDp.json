@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "微信自动抢红包插件，支持打开与关闭，可以设置延迟功能。"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechatredenvelop1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechatredenvelop2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechatredenvelop3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 3, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "* Update for WeChat 7.x version\n\n1. 新增 消息防撤功能<br>\n2. 修复 某些机型设置界面不显示的问题<br>\n<br>\n<br>\n1. 修复不能抢自己红包的问题<br>\n<br>\n<br>\nVersion: 2.0.0<br>\n代码完全重构，界面全新优化。<br>\n<br>\nNew:<br>\n1. 新增防止同时抢多个红包的功能<br>\n2. 增加群聊过滤功能<br>\n\n1. Fix something wrong with 1.2.0 package.\n2. Bug fixs.\n3. Support WeChat 6.5.4 version.\n\n1. Support WeChat v6.5.4.\n2. Bug fixs.\n\n修复 6.5.3 微信版本外挂检测、强制下线问题。"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

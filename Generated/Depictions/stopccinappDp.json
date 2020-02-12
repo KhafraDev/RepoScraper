@@ -1,0 +1,74 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stopccinapp1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stopccinapp2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 6, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 0.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "iOS 12 & arm64e support\n\n\nFixed: Crash on load in certain situations.<br>\nNew: Notification Center can now be set independently of the Control Center.<br>\n\nFixed: Category Blacklist not blocking at all<br>\nUpdated: Category Blacklist with a few categories I missed.<br>\nAdded: Category Blacklist multiple language support. Categories use to only block when English was set as the language. Now every language is supported. Note: Only the currently selected language is shown in the menu.<br>\n\niOS9 support\n\nOptimization.<br>\nFixed: General Bugs, mostly Preferences related.<br>\nFixed: Crash when installing on a fresh install. Devices that restored from backups were not affected.<br>\nNew: Still need to access the CC/NC in a blocked app? The Activator options \"Show Control Center\" & \"Show Notification Center\" now take precedence over StopCCinApp. Perfect for the occasional times you still need access to your switches.<br>\n\n+iOS8 support.\n\nNew: Option to hide the Notification Center\n<p>\nFixed - Applist Dependency<Br>\n7.1.1 Support<br>\n<p>\nUI Facelift. Thanks @Dekesto"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

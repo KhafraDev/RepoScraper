@@ -1,0 +1,89 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10, 11 and 12.\n\nDenyPhotoAlbums gives you visual and useful options to hide in Photos Application the needless Albums like Videos, Selfie, Panoramica, Screenshots and so on).\n\nThe Tweaks also comes with different Additional Features for hiding People, Places, Recently Deleted Albums (porting of NoRecentlyDeleted on my Personal Repository, for iOS 8-9 too) and the Photos Preview.\n\nNo Respring Needed for enabling and disabling the Tweak.\n\nConfigure options from Settings.\n\nCredits in Preferences Panel.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/denyphotoalbums1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/denyphotoalbums2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/denyphotoalbums3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/denyphotoalbums4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/denyphotoalbums5.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/denyphotoalbums6.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/denyphotoalbums7.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "October 4, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.1.5\n- Added the option to Show the StatusBar when Setting Images as Background on View Controller in Photos App (Featured WallswantStatusBar Available on My Repo).\n\n\n\nVersion 1.1.1<br>\n- Fixed the option to Hide iOS 12 Albums.<br>\n- Fixed the option to Hide All but Camera Roll iOS 12.<br>\n\nVersion 1.0.9<br>\n- Added the option to Hide the Albums Titles (included NoAlbumsTitle available on My Repo).<br>\nVersion 1.0.8<br>\n- Support for iOS 12.<br>\n- Added the option to Hide the For You Tab.<br>\n- Added the option to Hide the Search Tab.<br>\n- Added the option to Hide the Tab Bars.<br>\n- Added the option to Disable the Albums Creation.<br>\n\nVersion 1.0.7<br>\n- Added the option to Disable the Media Sharing Actions (Integration of my Tweak NoPhotoShare available on my Repository).<br>\n- Added the option to Disable the Media Edit Operations.<br>\n\nVersion 1.0.6<br>\n- Added the option to Skip the Delete Photos Confirmation (thanks Uni9k).<br>\n\nVersion 1.0.5<br>\n- Added the Full iOS 11 Compatibility. <br>\n- Improvements.<br>\n\nVersion 1.0.4<br>\n- Added the option to Enable the Maximum Zoom Feature on the Photos (tip by XerathteraX).<br>\n\nVersion 1.0.3<br>\n- Added the option to Hide All the Albums but the Camera Roll.<br>\n- Added the option to Enable the FullScreen Feature on the Application Photos.<br>\n- Added the option to Show the StatusBar on Landscape Mode.<br>\n- Added the Label to Check Other Tweaks by Me on BigBoss Repo.<br>\n- Added My Twitter, My Repo and Donations Images Labels. <br>\n- Fixes in the Preferences Labels Panel.<br>\n\nVersion 1.0.2<br>\n- Added the option to Disable the Swipe Up Photos Menu.<br>\n- Now you can Donate Me (thanks so much) with the New Label in Preferences Panel.\nHappy Halloween! :-)<br>\n\nVersion 1.0.1<br>\n- Added the option to Hide My Albums (thanks sinfool for the tip).<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "(Should be) compatible with iOS 9, 10 and 11 (only tested with iOS 11)\nThis does not work on iOS 12 and will not be receiving an update\n\nChanges data type logo from \"LTE\" to \"4G\" in status bar\n\nNo screen shot or options to configure\n\n\nIf you need any support or would like to report a bug could you please kindly email me with the problem you've in counted (Tap the \"Author\" button above then my name) or DM me on Twitter @BLINGSTA69 (Button below)"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 30, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

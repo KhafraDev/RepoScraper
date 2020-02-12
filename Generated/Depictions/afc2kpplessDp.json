@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 7 to 13\n\nWorks on any arm64 device, including those using KPPLess jailbreaks (Electra, Meridian, etc.)\n\nThis is a modified version of saurik's original AFC2 code that downloads and installs an arm64 copy of afcd (required on iOS 11 and above) straight from Apple, and then automatically grants it the necessary `platform-application` entitlement required for functionality on KPPLess jailbreaks (like Electra and Meridian).\n\nAs a result, this package does not illegally redistribute copyrighted Apple binaries.\n\nIn compliance with saurik's original code being licensed under GPLv3, source code has been released above at the GitHub link.\n\nsaurik's original explanation of what AFC2 is can be found below.\n\n-\n\nAFC stands for \"Apple File Conduit\" (or at least so says), and is how computer applications such as iTunes and iPhoto can read and write files from your device over USB.\n\nAFC is \"jailed\" and only allows access to \"media\" (such as photos, music, and data for apps from the App Store).\n\nThis package creates a new service, \"AFC2\", with full filesystem access.\n\nIf you use a USB device management tool, it might need AFC2 to fully work.\n\nHistorically, getting full (not \"jailed\") filesystem access was core to the idea \"this is a jailbreak\". However, due to security concerns, modern \"jailbreaks\" now avoid installing AFC2 by default.\n\nPlease understand that AFC2 is considered by many to be a security hole: you might not want to provide full USB filesystem access.\n\nSome AFC2 setups, in particular many that were installed by default with older jailbreaks (such as evasi0n for iOS 6) set a flag that allows this access to not require a \"trusted\" USB connection :/.\n\nInstalling this package will correct that mistake, and is thereby more secure than the \"stock\" from-jailbreak AFC2 configuration you may be using now.\n\nSource code available\n\nNo Screenshots for this item."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "November 15, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "・ Fixed a code injection bug causing afc2d-arm64 to not take effect until after a reboot or ldrestart was performed.\n\n・ Fixed an edge case where some specific configurations would cause the install process to fail due to supposedly being unable to connect to Apple's servers despite the device having a working Internet connection.\n\n・ Renamed package to better reflect its uses.\n\n\nSupport unc0ver for iOS 12<br>\n<br>\n1.0.2<br>\nFixed an issue that does not work when restarting with iOS 12 unc0ver jailbreak<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

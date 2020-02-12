@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now Free.\n\nCompatible with iOS 7 to 13\n\nSpeak Notification is the ultimate notification and more speak experience.\nWith Speak Notification your device will allow to announce any incoming notification in a fully customized way. You can listen to any received messages, e-mails, facebook posts, game center invitations or even speak out your incoming calls without touching your device.\n\nYou can customize the announce message anyway you want. Create your own message with variables which will be replaced in real-time with the notification title, subtitle, message or app name which caused the notification.\n\nChoose from many speak conditions including:\n-\tOnly when charging\n-\tOnly when music not playing\n-\tWord\n-\tBluetooth only\n-\tWiFi only\n-\tEarphones only\n-\tAt specific time\n-\tAt specific days\n-\tPer app specific\n\nBesides that you can use Extra features like current time speak at a chosen time interval or battery level speak at a chosen battery level interval. You can announce incoming or missed calls and even speak out the last call duration. Additionally it is possible to speak out the currently playing song and TouchID authentication events. Those extra features are also based on the conditions that you choose so it will only speak when you want it!\n\nYou can also configure the speak behavior, like disabling the notification sound when speak out is enabled or the possibility to stop the speaking with a configurable button. You can also force to speak out even when the device is muted or in do not disturb mode.\nIf you are listening to music then the music will automatically pause when the announce starts and resumes after the announce ends.\n\nWorks on all iOS devices with iOS 7.0+. Does NOT require Siri. Banners needs to be enabled for the applications.\nConfigure options from Settings app"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/speaknotification1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/speaknotification2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/speaknotification3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/speaknotification4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "November 16, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Added full iOS13 support\n- Fixed an issue where the speak out would happen during a audio or video call\n\n\n- Removed empty space as separator for Bluetooth device names<br>\n- Removed empty space as separator for WiFi device names<br>\n- Added iOS 11.3.1 support<br>\n- Fixed an issue which might have caused an crash<br>\n- Added full iOS10.3 support<Br>\n- Fixed some minor bugs<br>\n\n- Fixed an issue which might have cause the device to crash after an incoming caller name was spoken<br>\n- Fixed some other small issues<br>\n- Fixed an issue where notifications would be spoken twice<br>\n<br>\n- Fixed custom volume not working on iOS10<br>\n- Fixed “phantom” notification speak out<br>\n- Fixed some small issues<br>\n\n- Fixed an issue where notifications would be read upon respring<br>\n<Br>\n- Fixed some random crashes that might appear on iOS10.2<br>\n<br>\n- Added full iOS10.2 support<br>\n\n- Fixed an issue where the incoming call announce would not work correctly<Br>\n<p>\n- Fixed an issue where the speak time feature would announce the time more than once on trigger<br>\n<Br>\n- Fixed a small bug in the preferences<br>\n<p>\n- Fixed an issue where selecting apps in the “Block when app open” list would also select apps in the “Applications” list<br>\n<p>\n- It is now possible to block the speak out while certain apps are open and active in the foreground<br>\n- Fixed an issue where music playback would stop when the speak out starts even if it was disabled in the preferences<br>\n- Fixed an issue where the Force Speaker option would not work correctly<br>\n- Fixed an issue where the speak out would pause any currently playing videos<br>\n- Fixed many other minor bugs<br>\n\n- Added full iOS9.3.3 support<br>\n- Minor changes in preferences<br>\n\n- Fixed an issue where music playback or podcasts would not resume when the speak out finished.<br>\n- Some minor improvements.<br>\n\n- Removed debug information<br>\n<p>\n- Recompiled to fix potential unknown effects or bugs on iOS7+<br>\n- Added full iOS9.1 support<br>\n\n<p style=\"font-size:small\">\n- It is now possible to set a custom notification message separately for each app<br>\n- The same messages that arrive directly one after other can now be spoken out – needs to be enabled in the speak options<br>\n- It is now possible to choose between Whitelist or Blacklist selected applications for speak out<br>\n- Improved audio routing – it is now possible to force the speak out to play from the device built-in speaker even when headphones or a Bluetooth device is connected<br>\n- Rewrote conditions detection for even better and more accurate speak controlling<br>\n- Improved queued and non-queued speak out to fix some minor issues<br>\n- The ringtone playback will now stop when incoming caller name is enabled and the caller name will be spoken out – works on iOS9 only!<br>\n- Colons will be not spoken out anymore if they are the first character of the message<br>\n- Fixed conflict with minimalHUD which may have caused crashes upon speak out. <br>\n- Fixed an issue where an empty current playing song would be announced when the media player reached the end of a playlist<br>\n- Rearranged preferences<br>\n- Fixed some minor bugs<br>\n</p>\n\n- Fixed issues with Bluetooth mono audio on iOS9\n<p>\n- Added full iOS9 support<br>\n- Optimized package size<br>\n- Fixed some minor bugs<br>\n\n- Added iOS 8.3 support\n<p>\n- Fixed iOS7 support – should fully work on iOS7 now again!\n<p>\n- Fixed an issue with missed call announce<br>\n- Small improvements<br>\n<p>\n<p>\n- Added incoming caller name announce<br>\n- Added missed call speak out <br>\n- Added last call duration speak out<br>\n- Added currently playing song speak out<br>\n- Added speak out on TouchID successful and failed authentication<br>\n- Added new condition – speak only when music not playing<br>\n- Added low battery levels only (20%, 10%, 5%) speak out for battery speak<br>\n- Added speak out possibility when battery is fully charged<br>\n- Added speak out possibility when battery charging starts<br>\n- Added the possibility to set a custom message for time and battery speak out<br>\n- Added the possibility to use the current system volume instead of custom volume<br>\n- You can now choose a behavior when contact name doesn't exist (phone number instead of contact name) – Speak, Don’t speak, Last 4 digits only, Replace with custom text<br>\n- Filters will now apply also to the %%TITLE%% variable<br>\n- Battery speak is no longer depended on the Preferences app<br>\n- Time speak is no longer depended on the MobileTimer app<br>\n- Fixed an issue with the speak only in time range condition<br>\n- Better volume management <br>\n- Better conditions detection<br>\n- Rearranged and improved preferences<br>\n- Many small bug fixes<br>\n\n- Fixed speak out during mute (message would be spoken through call speaker)<br>\n- Fixed flip switch not working properly<br>\n<p>\nSpeak Notification 1.5.0 is the biggest update yet.Changes in this version:<br>\n- Added a time speak possibility every 15, 30 or 60 minutes <br>\n- Added the possibility to speak out the battery level at customizable intervals<br>\n- Added the possibility not to pause music during speak out<br>\n- Added new speak condition – speak only when device is charging<br>\n- Speak out for Reminders is now working<br>\n- You can now cancel a speak out by tapping on the Touch ID<br>\n- URLs will not be spoken out anymore<br>\n- Fixed Speech preferences refresh bug<br>\n- Fixed a small volume issue<br>\n- Reorganized preferences<br>\n- Fixed a serious bug which may cause the tweak to crash upon receiving a notification<br>\n- Fixed many minor bugs<br>\n\n- Added Hebrew language<Br>\n- Small bug fixed<br>\n<p>\n- Fixed Flipswitch bug on iOS8\n<p>\n- Fixed an issue which caused the alarm clock sound not to be played on fire<br>\n- Fixed a small bug<br>\n\n<p>\n- Fixed an issue that prevents preferences change to not refresh on iOS8\n<p>\n- Added iOS 8 Support<br>\n- Fixed a small bug<br>\n\n- Fixed “Only at specific time” condition detection<br>\n- Fixed a small bug<br>\n<p>\n- You can now decide via a switch in the settings if all selected conditions or at least one have to be met in order for the speak out to start<Br>\n- Optimized condition detection<br>\n- Fixed some minor bugs<br>\n\n- Added automatic language detection feature (configure in the settings)<Br>\n- Added a Flipswitch for fast enabling/disabling the tweak<br>\n- Added the possibility to only speak out the e-mail subject (configure in the settings)<br>\n- Fixed some minor bugs<br>\n\n- Fixed an issue where the message would be spoken twice with BiteSMS<br>\n- Fixed some minor bugs<br>\n\n- Added new speak condition to speak out only when the device is connected to a certain WiFi network<br>\n- Added the possibility to set a faster speak rate<br>\n- Added BiteSMS support<br>\n- Added filters which allows you to not speak out messages containing the specified words or phrases<br>\n- You can now choose the Bluetooth devices for which the speak out should start <br>\n- Speak at specific time and weekday conditions can now be used together (just one of them must be met to make the speak start)<br>\n- Fixed an issue where music would not resume after speak out finished<br>\n- Removed Pebble watch detection, this can now be done by entering only the Bluetooth devices that should be spoken out<br>\n- Reorganized preferences<br>\n\n- small Pebble watch fix\n<p>\n- added only on specific weekdays speak condition<Br>\n- added the possibility to speak out notifications even when device muted<Br>\n- added possibility to set bluetooth mono audio (Speak options)to allow speak out over bluetooth on non A2DP devices<Br>\n- added the possibility to start the speak out with a custom delay<Br>\n- fixed some typos in the settings<Br>\n- fixed volume HUD appearing at the end of speak out<Br>\n- fixed an issue where the device would speak when only a PebbleWatch was connected through bluetooth<Br>\n- bluetooth only and earphones only can be used together now<Br>\n- rearranged preferences<Br>\n\n- added the possibility to use system volume for speak out<br>\n- added the possibility to speak when do not disturb is enabled<br>\n- added the possibility to change cancel button - power, volume up, volume down, home<br>\n- fixed an issue where messages with emoji would not be spoken out<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

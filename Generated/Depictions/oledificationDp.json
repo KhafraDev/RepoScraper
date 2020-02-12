@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9 and 10\n\nAdd simple notifications on your lockscreen to simulate an OLED display or to enjoy the simple notification life! (Only shows up when user gets a notification)\n\nCompatible with: 3Edgy5Me and EdgeAlert by Julioverne\n\nPrivacy Options:\n-Hide message contents until user swipes down\n\nAppearance Options:\n-Double Tap to put display to sleep\n-Long Press to go to lockscreen\n-Show/Remove Icon\n-Show/Remove App Name\n-Toggle greyscale for Icon\n-Truncate Long Messages\n\nConfigure settings before using, all settings are enabled by default.\n\n****This works best with auto-brightness enabled or low brightness.****"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/oledification4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/oledification5.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/oledification2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/oledification3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "October 1, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "fixed ios10 call crash\n\nFixed random crashing. <br>\nios9 and ios10 Compatibility <br>\n<br>\nNEW:<br>\n<br>\n-Double Tap to open notification!<br>\n-Swipe Up to turn off screen!<br>\n-LongPress to transition to LockScreen!<br>\n-Swipe Down to reveal message!<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

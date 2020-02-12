@@ -1,0 +1,81 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8, 9 and 10 (tested on iPhone 5S, 6 and 7 running iOS 8.3, 9.0.2 and 10.1.1).\n\ncustomizedNotes gives you visual and functional options to make prettier/smoother/better your Notes adding Custom Features for the the Sight and the Behavior of the Application.\n\nSee Screenshots below.\n\nNo Respring Needed for enabling and disabling the Tweak.\n\nMore Stuff to come!\n\nConfigure options from Settings.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\n\nwould be greatly appreciated!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/customizednotes1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/customizednotes2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/customizednotes3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/customizednotes4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/customizednotes5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 11, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.0.2\n- Added the option to Enable Always Selected Notes Mode.\n- Added the option Enable Trash Mode Folder in Notes.\n\n\nVersion 1.0.1<Br>\n- Added the option to Show Only the Lens in the Background Search Field.<Br>\n- Added the option (on Mail Request) to Enable the Notes Character Counting (thanks to Satbir Tanda for the Code of CharacountForNotes9).<Br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 7 - 10.\n\nThe Universal Thumbs Up/Down for streaming radio. With OneThumb you can assign one Activator gesture to thumbs up (or down) the current song.\n\nSupported Players:\n*Amazon Music With Prime\n*Google Play Music\n*iHeartRadio\n*iTunes Radio\n*Pandora\n*Rhapsody\n*Spotify\n*YouTube Music\n*Deezer"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/onethumb0.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/onethumb1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/onethumb2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 11, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Added: Deezer Support\nFixed: Music App in 10.x\n\n\nSpotify 7.4.0 Support\n\nFixed: Spotify & YouTube Music latest updates causing crashes.<br>\nRemoved: References to unsupported players.<br>\nSpite: /u/redwingblade<br>\n\nUpdated: Amazon Prime Player for latest version.\n\nFix: Pandora when the \"allow Unthumb\" option was enabled.\n\nUpdate: Spotify 5.6 Support<br>\nDiscontinue: Songza and GrooveShark Support (Apps no longer maintained by original developers)<br>\n\nPandora 7.x support.<br>\nRebuilt to fix possibly crashes on 32 bit devices.<br>\n\nCustomize the Status HUD with:<br>\n*Add Album Artwork<br>\n*Add Song Information<br>\n*Blurs<br>\n*Color<br>\n*Shape<br>\n*Animation<br>\n<br>\nNew: Activator action to check the current thumb state<br>\nNew Supported Players:<br>\n*Amazon Music With Prime<br>\n*iHeartRadio<br>\n*YouTube Music<br>\n\nbBug Fix - Preference changes not taking effect until respring on devices < iOS8<Br>\n+ Want to do another Activator event while you thumbs up a song? Now you can. The \"Allow Multiple Activator Assignments\" menu has been set to yes.<br>\n\n<p>\n+ Landscape Mode<br>\n+ Fixed: That thing where you would save a preference but it didn't save right away.<br>\n+ General Bug Fixes<br>\n\n+ iOS8 support.\n\n+Pandora 1.5.1<br>\n+Better Pandora Version Checker<br>\n+BetterPSSLiderTableCell github.com/friggog /BetterPSSliderTableCell<br>\n\n+ Spotify 1.8 Support<br>\nMusic App Notification Bug Fix<br>\nOptimization for all supported players<br>\n\nPandora 5.5.1 Support\n\n* Support for Pandora 5.5<br>\n* Added: More Visuals<br>\n<p>\n* Support for Spotify 1.5<br>\n* Fixed Logic: All Supported Apps. Only allow sending of thumbs events when the app allows it. (Some apps only allow thumbing when in the radio section)<br>\n* Added Thumbs Up onscreen display plus bonus control options. Now you can be sure your Thumbs Up went through and get the song info.<br>\n\nFixed: Suppress original Activator gesture.<br>\nFixed: Spotify - Do nothing when user not listening to the radio. This should clear up some confusion where users were \"thumbing\" a non radio station.<Br>\nChanged: Spotify - Don't allow Thumbs Down if already Thumbs Up (Native app behavior).<br>\nQuenched: Appetite for destruction.<br>\n<p>\nAdded Grooveshark Support<Br>\nNew Option: Allow Unthumps Up back to neutral<Br>\n<p>\nAdded Google Play Music Support\n<p>\nAdded Rhapsody Support\n<p>\nAdded Songza Support"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

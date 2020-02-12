@@ -1,0 +1,74 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/cloaky1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/cloaky2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 15, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.50",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "[Statusbar] Support multiline and font size for iPhone X.\n\nBasic support for iOS 11.\n\nFixed<br>\n- [Shortcuts] Crash when invoke dismiss button force touch shortcut on NotificationCenter.<br>\n- [Preference] ThirdParty Apps could not hide after relaunch.<br>\n<br>\n<br>\nNew<br>\n- Support iOS 10.0-10.2.<br>\n- [Statusbar] \"NW\" special format.<br>\n- [Statusbar] Add \"BTHeadphones\" and \"LiquidDetection\" options.<br>\n<br>\nMod<br>\n- [Menu, Statusbar] dynamic icon loading for preference.<br>\n- [ControlCenter] Remove feature in iOS 10.<br>\n- [NotificationCenter] Remove feature in iOS 10.<br>\n<br>\nFix<br>\n- [Preference] missing icon loading.<br>\n<br>\n- [Preference] iCloud cell add to safelist on iOS 9.1+ to avoid crash when launch Preference.app.<br>\n<p>\n- Fixed fail to load PreferenceBundle on iOS < 9.0.<br>\n<p>\nNew<Br>\n- [All] Support iOS 9.3.<Br>\n- [Activity] Add \"Duplicate\" option.<Br>\n- [Statusbar] \"fd\" and \"FD\" special format.<Br>\n- [Statusbar] Add \"PersonName\" and \"Student\" options.<Br>\n<Br>\nFix<Br>\n- [Statusbar] \"Cellular\" special format.<Br>\n\n- Fixed conflict Shortcuts tweak.<br>\n- Fixed some issue.<br>\n<p>\n- [All] Support iOS 9.<br>\n- [Shortcut] 3D Touch shortcut section.<br>\n- [Statusbar] \"CellerIP\" special format.<br>\n\nMod<br>\n- [Preference] Change locked item switch color.<br>\n- [Preference] Don't indent while reordering.<br>\n<br>\nFix<br>\n- [Statusbar] Typo in document.<br>\n- [Preference] Support iTunesU.<br>\n- Couldn't load preference on iOS 4 and 5.<br>\n\nNew<Br>\n- [Preference] Reorder feature.<Br>\n<Br>\nFix<Br>\n- [Preference] Various fixes.<Br>\n\nNew<br>\n- [Preferences] ThirdParty Apps option.<br>\n<br>\nMod<br>\n- [Preferences] SSH Connect and Bluetooth preferences are added to no-configurable list to avoid crash.<br>\n- [Preferences] Cloaked Prefs icon.<br>\n- Preference icons.<br>\n<br>\nFix<br>\n- [All] Couldn't immediately take effect settings change with iOS 8 cfprefsd.<br>\n- [Preferences] Apple Pay, iBooks and Podcast preferences are not configurable.<br>\n- [Preferences] Fixed iPhone 6 Plus get back preferences when rotated.<br>\n\n- Supported iOS 8.<br>\n- [Statusbar] Added small font/icon size style option.<br>\n- [ControlCenter] Fixed Vertex conflict issue.<br>\n\n- [Preference] Added 'Cloaked Prefs' option.<br>\n- [Preference] Fixed library load order issue.<br>\n\nRemove IPC code for verification\n<p>\n<p>\nFixed feature disabled on apps.\n<p>\nFixed almost apps crash when launch bug.\n\n<p>\n<p>\nFix<br>\n- Category method name conflict.(e.g. Evernote)<br>\n<p>\nFix<Br>\n[Statusbar] global Enabled behavior.<Br>\n[Statusbar] Some settings not load on apps.<Br>\nApp crash issue when launch.<Br>\n<p>\n<p>\n- New<br>\n[NotificationCenter] Newly added.<br>\n- Mod<br>\n[Statusbar] global Enabled option.<br>\n[Statusbar] Date format prefered OS native if not set for Cloaky.<br>\n\nNEW<br>\n- [Preferences] Enabled option.<br>\n<br>\nMOD<br>\n- [Statusbar] PostNotification architecture.<br>\n<p>\n<p>\nNEW<br>\n- [Preference] Group option.<br>\n<br>\nFIX<br>\n- [Menu] detect disabled item.<br>\n\nMod<br>\n-[Activity] remove AppStore's gift option, it can hide as detected item.<br>\n-[Preference] support Carrier and Developer option.<br>\n-[Statusbar] NotCharging option show only iPad.<br>\n<br>\nFix<br>\n-[Activity, Menu] logged item override issue..<br>\n\n- NEW [Preferences] New section!\n<p>\n- NEW [Statusbar] NotCharging option.<br>\n- MOD [Statusbar] Add more format to document.<br>\n- FIX [Activity, Menu] Detected item couldn't dynamic change.<br>\n- FIX [Statusbar] SSID quote issue.<Br>\n<p>\n<p>\n- NEW: [ControlCenter] AirStuff conditioner.<Br>\n- MOD: Internal code for more efficiently.<br>\n<p>\n- NEW: [Statusbar] Remove battery percent option.<br>\n- FIX: [ControlCenter] 'Music app is ready' behavior.<br>\n\n\n- FIX: [Activity] crash if poorly app's activity.<br>\n- FIX: [ControlCenter] iPhone landscape layout.<br>\n<p>\n- NEW: [ControlCenter] MediaControls show while playing option.<br>\n- NEW: [Statusbar] IP2/3/4 special format.<br>\n- NEW: [Statusbar] SSID special format.<br>\n- NEW: [Statusbar] fm special format.<br>\n- MOD: [ControlCenter] Compatible CCLoader addons.<br>\n- MOD: [Statusbar] Ondemand IPAddress/SSID appear.<br>\n- FIX: Improve stability.<br>\n- FIX: Various bug fix.<br>\n<!--\n- NEW: [Statusbar] Volt only battery option for iOS 7.<br>\n- NEW: [Statusbar] Time format document.<br>\n- NEW: [Statusbar, Activity] Reset button.<br>\n- MOD: Ondemand IP Address appear.<br>\n- FIX: Various bug fix.<br>\n<p>\n- NEW: [Statusbar] TimeUpdateInterval option.<Br>\n- NEW: [Statusbar] IP Address macro.<br>\n- NEW: [ControlCenter] Separator option.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

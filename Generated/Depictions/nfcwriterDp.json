@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Supports iOS 10.0 to 10.2\n\n\n\n\n\n\n\nAs pre-seen in\n\n\n\n-most common tag types\n\n-tags\n\n-*with limitations for now\n\n-your tags in one place.\n\n-based on your tag's contents.\n\n-\n\n-about your tags like Manufacturer, Tag Type, Serial Number, ATQA, SAK, Memory Size etc.\n\n-Supported tag types are ISO 14443, Mifare , ISO 15693 , iCode SLIX, all of the NTAG series.\n\n-Supported protocols are ISO 14443 and Mifare.\n\n-currently only allows you to set a custom Serial Number to your device and emulate a tag's serial number, no tag content emulation yet.\n\nThis new achievement enables you to use  the NFC chip.\n\nA professionaltool for IoT experts, NFC researchers, hobbyists and all of you that make good use of NFC technology.\n\nResearch for more Tag types and protocols is constant.\n\nThis isthat NFC chip on iPhone is used to this extent.\n\n\nCheck the screenshots and...\n\n\n\nLimitations:\n- Supported devices are iPhone 6S, iPhone 6S Plus, iPhone SE, iPhone 7, iPhone 7 Plus.\n- iPhone 6 is under testing and not yet supported.\n- iOS 10 only for now, still working on iOS 9 compatibility."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nfcwriter1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nfcwriter2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nfcwriter3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/nfcwriter4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 30, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 3.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Fixed app crashing on launch on some devices.\n- Fixed email field complaining for incorrect format if email had dashes.\n- Fixed Tag Emulation mode not working on some devices.\n- Fixed UI glitches and application window sizes.\n- Fixed UID field being invisible on some devices.\n- Fixed saving records even if the data was empty."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This version of AE+ is now free, not tested on iOS 12.\n\nIf you try it with iOS 12 and it works great, please email RJTweaks@outlook.com so I can update the Tweak’s depiction to say as such.\n\nPlease enjoy..\n\nCompatible with iOS 9, 10 and 11\n\nPRESERVING BATTERYLIFE AND OTHER FEATURES OF AE+\nAE+ isn't all about preserving your BatteryLife! Although this is the main feature...\n\nAE+ is also great for allowing you to have an uninterrupted day at work, or if you want to curb your iDevice usage habits!\n\nYou can set Airplane ON, except 5 minutes each hour, just for emergency etc to receive notifications and VMs, (and know you're saving plenty of battery also!\n\nRemember AE+ including 3 profiles each with a FlipSwitch, the usage is limited by your imagination only! 1 for Work, 1 for Holiday & 1 for Conservation of Battery."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/airplaneenhancerplus1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/airplaneenhancerplus2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/airplaneenhancerplus3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/airplaneenhancerplus4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 11, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now Free.\n\n\nA quick beta update for iOS 9/10/11.<br>\n<br>\nCurrently I have AE+ on my iPhone X, charge my phone when it gets low, but my battery rarely runs out.<br>\n<br>\nLPM during the daytime, AE+ takes over in the nighttime!<br>\n\nFixed the lock bug introduced by iOS 10 update\n\nAE+ now allows scheduling from 1 minute disabled/enabled up to 24 hours disabled/enabled!<br>\n<br>\nAlthough I don't recommend switching ON/OFF Airplane Mode every minute!<br>\n<br>\nWe added all hours back into scheduling after public reqquests, like only wanting to enable Airplane from 2am - 6am<br>\n<br>\nWe still recommend 5/55 or 5/25 disable/enable schedules<br>\n<br>\nCheck r/AirplaneEnhancer for more info.<br>\n\nTidied up scheduling, removed un-needed time allowances.\nOptimised for iOS 9.3.3\n\n<!--\nThanks to; Todd, GaGa, Peter, Veronica, Rob, Josh who helped by finding this small bug.<br>\n<br>\n1.0.1 INTERIM Update [Changelog]:<br>\nFixed schedule bug preventing using more than 100 distinct times.<br>\n- Added 25 minute time interval, (previously 20 or 30, hard to schedule on 1/2 hour or 1 hour with 5 or 10 minute deactivated times!)<br>\n<br>\nAirplane Mode ON for 20 minutes, OFF for 10 minutes is the minimum recommended schedule for AirplaneEnhancerPlus.<br>\n<br>\nGET READY FOR 1.1.0 UPDATE PLANNED TO RELEASE SOON!<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

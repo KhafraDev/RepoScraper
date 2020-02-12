@@ -1,0 +1,37 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This is a developer package that enables the development of Swift apps and tools on iOS devices.\n\nThe code used to build this package can be found\n\nSwift is an open source programming language created by Apple. For legal information, please read the notice located at /var/lib/libswift /<version>/NOTICE.txt\n\nFiles install to:\n/usr/include\n/usr/lib\n/usr/share\n/usr/bin\n\nThis is a developer package; no new icons are added to the homescreen. Tools are accessible from the command-line or remote terminal."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 1, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

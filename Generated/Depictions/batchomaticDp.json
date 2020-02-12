@@ -1,0 +1,81 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Batch install your tweaks, repos, saved .debs, tweak preferences, and hosts file! All at once, online or offline. Can also remove all tweaks/repos, repack an installed tweak to a .deb, and add a respring/uicache button to each package manager. A real time saver!\n\nCompatible with iOS 11.0+. Works with Cydia, Zebra, Sileo, and Installer on unc0ver, checkra1n, Chimera, and unc0ver dark\n\n\n\n\n- It works by creating a custom .deb that contains all of the necessary information. Then you install that .deb and my tweak does the rest\n- Works between package managers, jailbreaks, devices, and iOS versions (provided that your tweaks are compatible)\n- Get your perfect setup back within minutes!\n\nCreating your .deb:\n1. Go to the search tab in Cydia, Zebra, Sileo, or Installer\n2. Tap the Batchomatic icon at the top left (steering wheel) and then tap \"Create .deb\". You choose whether to do online or offline\n3. Done - your custom .deb is at /var/mobile/BatchomaticDebs. Keep it in a safe place like Google Drive\n\nInstalling your .deb in the future:\n1. Install Batchomatic first\n2. Go to the search tab in your package manager\n3. Tap the Batchomatic icon at the top left (steering wheel) and then tap \"Install .deb\"\n4. Choose what you want to be installed\n5. Tap \"Proceed\"\n\nOther features:\n1. Offline mode - saves .debs of your tweaks on their current version so you can install all of them offline and/or preserve their exact version\n2. Editing .deb after creation\n3. Remove all tweaks/repos\n4. Add a respring/uicache button to each package manager\n5. Repack an installed tweak to a .deb by running this terminal command. It will be placed at /var/mobile/BatchomaticDebs. \"bmd deb com.package.identifier”"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/batchomatic1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/batchomatic2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/batchomatic3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/batchomatic4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/batchomatic5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 10, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Fixed Cydia not queuing tweaks\n\n- Switch to an icon for the Batchomatic button\n- Add support for the latest version of Installer\n- Add “Remove all repos” feature\n- UI Improvements\n- Fix dark mode support\n- Fix ugly whitespace in the alerts\n- Bug fixes\n- Code improvements\n\n\nv4.1.1<br>\n- Fixed Zebra crashing when queuing tweaks<br>\n- Fixed Zebra not continuing after adding repos<br>\n<br>\nv4.1<br>\n- Added checkra1n support<br>\n- Added iOS 13 support<br>\n- Improved code<br>\n<br>\n<br>\nv4.0-1<br>\n- New UI<br>\n- Fixed “Unexpected end of file in archive member header”<br>\n- Added checking to ensure .debs are created properly and notifies the user if it still fails for some reason<br>\n- Fixed issues with .debs not being created/installed properly<br>\n- Removed Gawk dependency<br>\n- Added compatibility with the latest version of Sileo<br>\n- Fixed adding repos freezing in Sileo<br>\n- Fixed not queuing tweaks in Sileo because of a problem with BigBoss/Packix/Dynastic<br>\n- Fixed Zebra freezing while adding repos and/or not adding repos at all<br>\n- Faster repo adding in Zebra<br>\n- Faster time for “Install .deb”<br>\n- sbreload for all supported iOS versions<br>\n- Fixed not showing the unfindable tweaks screen<br>\n- On the install screen, grey out the non-applicable switches instead of hiding them<br>\n- Fixed random/ugly whitespace in the popups<br>\n- Fixed lag when tapping “Install .deb” and “Help”<br>\n- Added what iOS version a .deb is created on to the package description of BatchInstall\n- Updated what system tweaks to ignore<br>\n- “batchdeb” is now “bmd deb com.package.name”<br>\n- No more specifying an output path for “bmd deb”. They are automatically saved at /var/mobile/BatchomaticDebs<br>\n- Removed “Convert old .deb” because that was meant to be a temporary transitional measure<br>\n- Removed 32-bit/iOS 10 support (sorry. it didn’t work properly anyway)<br>\n- MAJOR under-the-hood code improvements<br>\n- Updated the v3.0-v.3.2 reddit posts and GitHub with the latest information<br>\n\nv3.2:<br>\n- Added description to “Remove all tweaks”<br>\n- Added Help button that links to the release post<br>\n- Added ability to create a deb of a single tweak via a terminal command<br>\n- Reorganized buttons<br>\n- Now uses sbreload only on iOS 12.0+<br>\n- Fixed “Create .deb” taking forever<br>\n- Fixed not including files/folders that have spaces in their name when creating an offline deb<br>\n- Fixed not installing all tweaks when installing an offline deb<br>\n- Fixed half-installed packages when installing an offline deb<br>\n- Fixed Sileo not showing the Batchomatic button when the system language is not English<br>\n<br>\n<br>\nv3.1:<br>\n- Added ability to immediately share created .debs<br>\n- Added progress messages to Create .deb/Convert .deb/Create offline .deb<br>\n- Added ability to keep Filza, package managers, and Batchomatic itself when using \"Remove all tweaks\" option<br>\n- Now backs up all .list/.sources files<br>\n- Changed naming scheme to specify online vs offline in the filename of batchinstall<br>\n- Fixed trying to install Zebra's/Installer's .deb when using Zebra/Installer, which resulted in a crash<br>\n- Fixed falsely saying \"your .deb is in online mode\" when in fact its not installed at all<br>\n- Stomped on the bug that backed up com.you.batchinstall inside com.you.batchinstall<br>\n- Blew up .DS_Store issues<br>\n- Squashed the bug about not installing saved/offline debs<br>\n- Taught Activator how to back up/restore its settings properly<br>\n- Slaps Cydia when it displays \"Half-installed packages\" while using Batchomatic<br>\n- Slaps Sileo when it doesn't show the Batchomatic button<br>\n- Improved code<br>\n<br>\n<br>\nv3.0.1:<br>\n- Fixed a UI bug<br>\n<br>\n<br>\nv3.0:<br>\n- Complete, total revamp<br>\n- Added support for A12, Chimera, Zebra, Sileo, and Installer<br>\n- Added backing up repos<br>\n- Added backing up saved .debs<br>\n- Added offline mode<br>\n- Added \"Remove all tweaks\" feature<br>\n- Added \"Respring/uicache\" feature<br>\n- Added a proper UI<br>\n- Fixed not backing up hosts file<br>\n- Fixed iCleaner removing all tweaks when \"Remove unused dependencies\" was turned on<br>\n- Made an actual tweak instead of just a terminal script<br>\n- Moved to BigBoss<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

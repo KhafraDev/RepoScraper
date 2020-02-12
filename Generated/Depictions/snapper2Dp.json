@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iPhones on iOS 7, 8, 9, 10, 11 and 12. And iPhone X. iPads are tested on iOS 8.4 and 9.3.3.\n\nSnapper is a tweak that lets you crop a portion of the screen and keep it floating on the screen.\n\n\n\n- Never switching between two apps multiple times to enter a password ever again\n- Comparing stuff on the screen!\n- Instantly censoring an image that you want to share\n- Keep a reference to something while searching in e.g. Safari\n- Great for when you have a hard to spell word snapped that you need to enter somewhere\n- Take a screenshot of a small part of the screen only\n- Zoom unzoomable images\n- Can't copy text in some app? Just snap it and save to camera roll for later\n.. and more!\n\n\n\n- Control the area to crop before snapping!\n- Or don't - snapper has multiple modes\n- Costumizable\n- Use it with Activator, or without!\n- Never lose a snap, the history panel (access via Activator OR the Settings app)\n- Snaps organised by application snapped within\n- Multiple snaps on the screen at the same time\n- Facebook-heads-like interface to close snaps\n- Save to camera roll instantly\n- Sharing built-in\n- Automatically copy snap to clipboard (optional)\n- No DRM!\n- Awesome animations!\n.. and more!\n\n\n\nThis is what people have said about Snapper.\n\n>-&nbsp;feldrok_&nbsp;via&nbsp;reddit\n\n>-&nbsp;gonnabuysomewindows&nbsp;via&nbsp;reddit\n\n>-&nbsp;Fishy62&nbsp;via&nbsp;reddit\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/snapper2-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/snapper2-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/snapper2-3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/snapper2-4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 18, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 2.49",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "1.4.2\nThis version is the last version to be hosted on BigBoss repo. For future updates, please use the Packix repo version. Changes includes removing DRM, adding Packix repo message in settings app, etc.\n\n\n1.4.1 (unreleased)\n- Add French translations\n\n\n\n\n1.4<br>\n- Fixes black image bug on iOS 12.<br>\n- Improved memory management (theoretically crashes should be gone, but please report if they persist)<br>\n- Fix margins in tutorial messages for XS, XS Max and XR<br>\n- Fix bug where cells in History would randomly have a red background<br>\n- Fix bug where snaps in History would have random order<br>\n- Fix bug where 'Open Last Snap' would sometimes open a random snap<br>\n- Fix app/all sorting options in History would not appear<br>\n- Change 'Unknown App' to 'Springboard' in History<br>\n<br>\nHuge thanks to these guys who helped during fixing the iOS 12 issues!<br>\n- /u/wirelessnet2 <br>\n- @oluwasherlock <br>\n- @_austinstarnes <br>\n- Ronald Baldwin<br>\n(I hope I didn't miss anyone..)<br>\n\n\n1.3<br>\n- iOS 11 support<br>\n- iPhone X support<br>\n- Fix CC and NC being accessible while using Snapper<br>\n- Change Snapper to be activated by default<br>\n- Change guidelines to be activated by default<br>\n- Add dismissal of Snapper when pressing sleep button on iOS 10 and 11 (mainly to account for the missing 'home' button on iPhone X)<br>\n- Fix home button not dismissing Snapper on iOS 10<br>\n- Fix a bug where one settings toggle would not properly change in a very specific configuration<br>\n\n1.2.6<br>\n- Fix bug in iOS 10 where snaps would not rotate after changing orientation<br>\n- Add Arabic localisation (ar)<br>\n- Add Chinese localisation (zh-Hans)<br>\n<br>\n<br>\n1.2.5<br>\n- iOS 10 support<br>\nChangelog<br>\n=========<br>\n1.2.4<br>\n- Fix bug where opening a snap from either the “History” or the “Open Last Snap” Activator action did not work until you have taken a snap, after a respring.<br>\n\n1.2.3<Br>\n- Fix more iPad iOS 9 landscape mode issues<Br>\n- Fix some share bugs<Br>\n- Add some share bugs (seriously - just don’t rotate while sharing..)<Br>\n<Br>\n1.2.2<br>\n- Fix iPad iOS 9 landscape mode issues<br>\n<br>\n1.2.1<br>\n- Fix crash when sharing on iPads with iOS 9+<br>\n<p>\n<br>\n1.2<br>\n- Add full iOS 9.3.3 compatibility (home+power button didn’t work from 9.2 and up)<br>\n- Add iPad compatibility<br>\n- Fix crash when taking snap in landscape mode<br>\n- Fix some issues where old snaps would not re-appear after cancelling a snap<br>\n- Add new icons for Activator actions<br>\n- Update to build with iOS 9 SDK instead of 8<br>\n<br>\nThanks to dgoldman for memory management pointers that caused the iPad and landscape crashes.<br>\n\nChangelog<Br>\n=========<Br>\n<Br>\n1.1<Br>\n- Fixed memory issues that sometimes caused crashes<Br>\n- Fixed possibly crash when taking a “0-sized” snap<Br>\n- Fixed keyboard sometimes being un-tappable on iOS 9 when sharing<Br>\n- Increased performance in history view<Br>\n- Remove “unlimited” snap history<Br>\n- Add toggle for logging in the background<Br>\n- Add toggle for disabling animations to increase speed<Br>\n- Add toggle for removing the helpful messages while cropping<Br>\n<Br>\n1.0<Br>\n- Initial release<Br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

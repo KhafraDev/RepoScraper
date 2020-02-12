@@ -1,0 +1,81 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "See larger Screenshots below.."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stalky0.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stalky1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stalky2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stalky3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stalky4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 9, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "v4.0.4\n- Support latest WhatsApp update 2.19.50\n- Fixed profiles directory in disk usage\n- Fixed UDID not found when restoring license on A12 devices\n- Fixed blacklisted contacts list not saving\n\n\nv4.0.0\n- A new licensing system, you can now purchase a new license or restore your Cydia license by logging in into your Watusi account\n- Moved the profile photos location to the app documents directory so they are now organized in folders\n- Stalky will move the pictures to the new location when it's first launched after the update\n- Fetching saved user profile pictures should be much faster now\n- New Export/Import options available under Disk Usage section\n- Updates list and settings tables will now match the theme of the app\n- Fixed popup view controller when 3d touching on an update\n- Fixed the option to disable saving status updates\n- Removed contacts joined/deleted WhatsApp updates because they are not accurate\n- Better right to left language support\n- Better iPhone X compatibility\n- More bug fixes and improvements\n\n\nv3.1.12<br>\n- Support latest WhatsApp 2.18.100<br>\nv3.1.11<br>\n- Support latest WhatsApp update 2.18.90<br>\n\nv3.1.9<br>\n- Support latest WhatsApp update 2.18.51<br>\nv3.1.6<br>\n- Fixed stalky badges not showing on iOS 11<br>\n- Fixed updates table showing random user about changes<br>\n- Fixed update available alert conflict with Watusi<br>\n<br>\nv3.1.5<br>\n- Added a temporary fix for in-app notifications on iPhone X<br>\n<br>\n<br>\n- Fix updates table showing random user picture delete/change<br>\n<br>\n<br>\n- Support iOS 11 jailbreak<br>\n- Fixed some crashes on iPad<br>\nv3.1.2<br>\n- Support latest WhatsApp update 2.18.20<br>\nv3.1.1<br>\nFixed profile pictures toolbar not showing when a contact picture is displayed using Watusi's tap to open picture on latest WhatsApp 2.17.80<br>\n\n- Fixed saving profile and group updates on latest WhatsApp 2.17.71<br>\n- Fixed saving/sharing videos from updates table<br>\n- Support saving text statuses<br>\n- Added option to track when a contact joins WhatsApp or delete his account<br>\n\nv3.0.2<br>\n- Support latest WhatsApp update 2.17.51<br>\n<br><br>\nv3.0<br>\n- Added support for status updates<br>\n- Re-wrote the updates table<br>\n- Added 3D touch support to the updates table<br>\n- Added an icon for each update type<br>\n- Added option to colorize the updates table<br>\n- Added picture date under count label on contact profile picture<br>\n- Added option to enable/disable items from auto add/download<br>\n- Improvements and bug fixes to the images gallery<br>\n- New layout for the Preferences page<br>\n- More changes that I don't even remember<br>\n\nVersion 2.0.15:<br>\n- Fixed Stalky button not showing up on latest WhatsApp update 2.16.18<br>\n- Fixed Stalky button going on top of compose button some times on WhatsApp launch<br>\n<br>\nVersion 2.0.14:<br>\n- Fixed several crashes with latest WhatsApp update on 32bit devices<br>\n- Fixed saved pictures gallery crash when viewing a picture then scrolling and tapping another<br>\n- Pictures gallery will now show the time that your contact changed the picture and not the time it was saved on your device<br>\n\nFixed a bug where WatusiTools would load on SpringBoard\n\nFixed profile picture updates on latest WhatsApp update 2.16.8\n\n- Fixed crash when sharing image from profile picture view\n\nFixed images downloading on latest WhatsApp 2.12.17\n\nSupport latest WhatsApp update 2.12.14\n\nBug fixes and improvements\n\n- Re-wrote most of the update saving code<br>\n- Updates are now saved into a database<br>\n- Updates table should be much more smoothly<br>\n- More Auto-Download options (Wi-Fi, Wi-Fi and Cellular, Never)<br>\n- New gallery for saved pictures that support deleting images<br>\n- Fixed blacklisted contacts showing in updates table<br>\n- Fixed saved pictures/status from contact info view for contact with multiple phone numbers<br>\n- New Contacts Picker table which includes recent chats and will now show all numbers for a single contact<br>\n- Added filter button where you can filter updates to show all/status/picture/group updates<br>\n- Moved delete button is now on settings page<br>\n- Fixed profile picture view not showing the latest saved image of a contact before deleting picture<br>\n- Show Stalky Saved pictures and statuses buttons on group info page<br>\n- Fixed groups empty notifications<br>\n- Added option to check saved pictures for all contacts<br>\n- Fixed deleting profile picture still showing on profile<br>\n- Fixed Stalky header picture not updating when profile picture is changed/deleted<br>\n\nVersion 1.2:<br>\n- Fixed update sorting issue for users with different local date format<br>\n- Fixed group updates not incrementing badge number<br>\n- Fixed badge on iOS 9 changing to square<br>\n- Added option to change notifications sound<br>\n- Added option to disable auto download of images<br>\n- Added option to blacklist a contact and stop receiving its updates<br>\n- Added option to check all saved profile pictures for a contact in WhatsApp Media folder. You can check it from 3 places: 1) From contact profile picture, 2) From contact info page, 3) By tapping or long pressing on update cell.<br>\n- Added option to check all statuses updates for a contact<br>\n<br>\nVersion 1.2.1:<br>\n- Prevent Latest WhatsApp 2.12.10 from deleting a contact saved pictures automatically when its changed/deleted\"<br>\n\n- Lots of improvements to the updates table (more group updates)<br>\n- Added a section for selective updates where you can see only the updates of the selected contacts<br>\n- Added option to receive notifications for all/selected contacts updates<br>\n- More bug fixes and improvements<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

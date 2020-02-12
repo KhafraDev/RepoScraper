@@ -1,0 +1,70 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10\n\nDisplay current weather temperature in the status bar! This tweak will obtain the temperature of the first city in Weather app.\n\nCustomizable time interval for updating temperature value!\n\n*Currently, WeatherStatusBar10 does not pull auto local weather based on your location.\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/weatherstatusbar10-1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 11, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.00",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "1) Display weather condition image in status bar! This tweak will show weather icon for next hour.\n\n2) Support for local city! If you set location service active for Weather app (from Privacy Setting), this tweak will pull your current location and update weather for the city you are in.\n\n3) You can put temperature or weather icon on right/left side of status bar!\n\n4) Add option to show High/Low temperature for current day!\n\n5) You can now choose to show temperature symbol (C or F)!\n\n6) Double tap on temperature in your status bar to force update weather (can be turned off in Settings).\n\n7) Use regular font for temperature."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

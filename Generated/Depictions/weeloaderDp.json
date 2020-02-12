@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 21, 2015",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Improve stability\n\n1.4-3:<br>\n- Fix iOS 5 crashes<br>\n<p>\n1.4:<br>\n- iOS 8 support<br>\n- iOS 7 support<br>\n- Compatibility layer to load iOS 5/6 widgets on iOS 7/8<br>\n\n- Added support for BulletinBoardPlugins (thanks @rpetrich).<br>\n- Added support for the iPad.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

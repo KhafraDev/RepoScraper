@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 30, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Updated for iOS 10\n\nFixed a codesigning issue\n\nFixed crashes with some games.\n\nFixed crashes with some games<br>\n<p>\nUpdated for iOS 9.3.3<br>\n\nUpdated for the newest MobileSubstrate\n\nCompatible with iOS 9\n\nImproved compatibility with some games\n\nFix compatibility with some games.\n\n<P>\niOS 8 compatibility\n\nFixed a sandboxing issue.\n\nMinor bugfixes\n\nFixed some small bugs\n<p>\nNow compatible with CCLoader\n\nAdded support for iOS 7.1\n\nRestored iOS 6 compatibility\n<p>\n64-bit support\n\nAdded support for OpenFeint achievements\n\nRestored compatibility with iOS 4.x\n<p>\nAll apps are now listed in Overachiever's preferences. The previous method used to determine if an app uses Game Center or not wasn't reliable\n<p>\nBugfix: Overachiever wasn't working for games where you didn't unlock at least one achievement by yourself"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

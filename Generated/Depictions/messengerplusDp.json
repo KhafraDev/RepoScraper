@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/messengerplus1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 20, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Now you can send HD Photos just tap on the HD button when you send a pic \nاضافة ميزة ارسال الصور بدقة \nHD\nعند الضغط على الصورة راح تلاحظ كلمة اتش دي بتختار الدقة الي بدك ياها\n\n\nFix issue with Disable Typing + full screen <br>\nاصلاح بعض المشاكل مثل تعطيل ايصالات الكتابة و تفعيل الشاشة الكاملة<br>\n\nAdd Old Layout \nRewrite Messenger Code\nSupport latest update of Messenger\nUpdate Header\n\nBug Fixes<br>\n<br>\nNew option Disable invite to Messenger<br>\n\n<p>\nAdd a new Feature will make your Messages look lovely with some flowers<br>\n<p>\nNew Feature disable is typing <br>\nميزة جديدة تعطيل إيصالات الكتابة <br>\n(:<br>\n<p>\nAdd Option to Disable Read Receipts \nAdd Header\n\nSupport Latest version of FB Messenger \nBug Fixes\n\nDark Keyboard <br>\nDisable Banner invite <br>\nSend Unlimited Photos<br>\nnever inter Background <br>\n\nFullScreen mode\n<p>\nAdd Button Photos Quality <Br>\n& Header<br>\n<p>\nEnable Switch Accounts\n\n-1 update Methods<br>\n-Preferences Bundle<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

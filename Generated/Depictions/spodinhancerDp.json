@@ -1,0 +1,78 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8, 9 and 10\n\nWelcome to Spodihancer!\nAn ultimate suite of Spotify tweaks\n\nSome of the main features of my tweak is the ability to enable Spotify's hidden Drive Mode (only works on version 8.4.18 and below), enabling the \"Radio\" tab on iPhone's and iPod touch's and two new \"Home\" tabs.\n\nThey're just some of the features in my tweak and there will be more features adding in future updates (I've got a few things in store for the next update ;) )\n\n\nI hope you enjoy my first paid tweak and most definitely the biggest tweak I've made so far\n\nIf you need any support or would like to report a bug could you please kindly email me with the problem you've in counted (my email will be in the \"Author\" button above this description) or DM me on Twitter @BLINGSTA69 (theres also a button in with the preferences of my tweak to take you to my Twitter)\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/spodinhancer1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/spodinhancer2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/spodinhancer3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 30, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 0.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "First update for 2018. \nI'd just like to say a big thanks to everyone who purchased my tweak\n\n\nFixes:\nFixed landscape mode actually works now (typo in the code)\nAdded a few goodies :)"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

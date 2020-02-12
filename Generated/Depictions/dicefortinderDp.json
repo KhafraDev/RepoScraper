@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "– iOS 9.x+ Feature enhancements to the popular dating app Tinder. Shake to match quickly with Dice for Tinder.\nSwipe on hundreds of profiles in minutes without once touching the screen.\n\n\n\nWith Dice, you can autoswipe profiles to quickly find out who you matched with. Filter out profiles once you’ve collected matches. Up to 60 profiles/min!\n\n\n\n\nadds features whether you’re on-screen or away.\nOpen Tinder, shake your device, and then tap the home button to continue to use your device like normal. Just leave Tinder in the background.\n\n\n\n\nto start autoswiping\n\n\n\n\nEvery swipe counts! Other apps attempt to like multiple profiles all at once and end up rejected by Tinder. With Dice, you get the speed of liking multiple profiles without the possible rejection from Tinder’s servers. Dice guarantees each swipe is valid and profiles won’t re-appear. Get actual results!\n\n\n- Customize your age filter.\n&nbsp;&nbsp;Once enabled, you can refine your search down to a single age. Example - Before: 21-25. With Dice: 21-21\n\n\n- Prevent Jailbreak Detection\n- Swipe Securely: Block 3rd Party Advertiser Tracking"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/dicefortinder1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/dicefortinder2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/dicefortinder3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/dicefortinder4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 23, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 2.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Performance Improvements for customers.\n\n\nBug fixes and performance improvements<br>\nUpdated compatibility with latest version of Tinder<br>\n\nFixed License Issues<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

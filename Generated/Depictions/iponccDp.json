@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11, 12 and 13\n\nDisplays the IP addresses of your device in the Control Center.\n\nOnly the actual addresses of the device are shown, no requests to the internet are made for resolving any \"public\" IPv4 addresses.\n- IPv4 and IPv6.\n- Cellular, WiFi, VPN (and everything else)\n- Tapping any address copies it to the pasteboard.\n- The data gets refreshed automatically.\n\nAdd the toggle to the Control Center from\nSettings>Control Center>Customize Controls.\n\nYou can choose \"IP addresses\" which is a 3x1 sized module and shows your main addresses, 3D/long-pressing on it reveals IPv6 and all addresses. If your CC doesn't have room for a 3x1 sized module, choose the \"IP button\" (1x1 size), which you need to tap in order to see your IP addresses.\n\nI have not tested this on 5S/SE/iPads, so please report any possible issues to me (ie. I don't know what it looks like on these screen sizes).\n\nblanxd\nSource code available"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/iponcc1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/iponcc2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 26, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "* Fixed a bug which could crash the SpringBoard in some rare circumstances\n\n* Improved the detection of VPN connections.<br>\n* Fixed a bug which, on rare occasions, left the tweak polling for IP changes on the background (if the expanded view of IPonCC was kept on screen while the device auto-locked).<br>\n\n* Added support for A12 devices.\n\n* Fixed compatibility with the newer Cydia Substrate (visual effects really, the main functionality hadn't been affected much).<br>\n* Added icons for the rows in the Control Center.<br>\n\n* Fixed a crash related to Airplane mode and using the 3x1 module.<br>\n<br>\n* 11.0 - 11.3.1 support<br>\n* Fixed a crash when expanding too fast after copying an address from the 3x1 sized module<br>\n* More accurate \"Human Readable\" interface names<br>\n* 11.0 - 11.3.1 support<br>\n* This is the way it was supposed to work in the 1st place: <Br>\n- Adds a separate \"IP Addresses\" item to the list of CC modules, which displays the addresses straight on the CC (3x1 size). 3D/long-touch on the module shows the expanded list with IPv6 addresses.<Br>\n- The \"IP Button\" item in the module list can be used if there's no room for a 3x1 sized item in your CC, need to tap it to see the addresses.<Br>\n- Adds a button in the expanded view for choosing whether to show a regular list or the internal unfiltered address list.<Br>\n\n- 3D-touch now shows everything unfiltered, all interfaces by their BSD names.<br>\n- internal optimizations, CCSupport is now a dependency.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

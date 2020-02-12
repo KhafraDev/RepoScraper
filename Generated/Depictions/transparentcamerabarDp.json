@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/transparentcamerabar1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/transparentcamerabar2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 20, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version: 1.7.6\n- Fix crash on iOS 5\n\n\nVersion: 1.7.5<br>\n- Correct iOS 10 support<br>\n\nVersion: 1.7.3<br>\n- Maximizing camera preview is enabled by default<br>\n\nVersion: 1.7-2<br>\n- Fix preferences loading bug<br>\n<br>\n<br>\nVersion: 1.7-1<br>\n- Revamped preferences page (Cephei)<br>\n\nVersion: 1.1-3<br>\n- Ensure iOS 9 support<br>\n<p>\nVersion: 1.6-10<br>\n- Fix compact bar on iOS 9<br>\n\nVersion: 1.6-5<br>\n- Fix support in iOS <br>\n\nVersion: 1.6-4<Br>\n- iOS 9 support #1<br>\n\n<p>\nVersion: 1.5-10\n- Fix bar opacity not working correctly in iOS 8.\n\n<p>\nVersion: 1.5-9<br>\n- Updated for CamBlur7<br>\n\n<p>\nVersion: 1.5-8<Br>\n- Temporary removed \"Screen photos resolution\" option due to its buggy functionality.<Br>\n<p>\nVersion: 1.5-7<br>\n- Added new option: Screen photos resolution. (Make capture resolution same with screen resolution)<br>\n<p>\nVersion: 1.5-6<br>\n- Fix bottom bar transparence issues with latest CamBlur7 installed.\n\nVersion: 1.5-5<br>\n- Remove \"Compact Bar\" option on iPad, as it won't be compact in vertical bar.<Br>\n\nVersion: 1.5-4<br>\n- Fixed bottom bar not hidden bug in iOS 8.<br>\n\nVersion: 1.5-3<br>\n- Added \"Compact Bar\" option for iOS 7+ (if enabled, the mode dial, or the roll of camera modes at the upside of bottom bar, will be hidden)<br>\n- Refactored settings panel.<br>\n\nVersion: 1.5-2<br>\n- Work with most iOS-default camera picker.<br>\n\nVersion: 1.5-1<br>\n- Now you can hide either camera top bar or bottom bar.<br>\n- Initial iOS 8 support.<br>\n\nVersion: 1.4-12<Br>\n- Bring back \"Full-screen Preview\" option, sorry for this.<br>\n\nVersion: 1.4-11<Br>\n- Work with CamBlur7 version 1.2-2<Br>\n<p>\nVersion: 1.4-10<br>\n- Support latest version of CamBlur7 tweak.<br>\n\nVersion: 1.4-9<br>\n- (iOS 7) Fixed setting bars (with blur applied) opacity doesn't work with the latest version of CamBlur7.<br>\n\nVersion: 1.4-7<br>\n- Fixed rare crashing bug when user activate lockscreen camera. (iOS 7)<br>\n<p>\nVersion: 1.4-6<br>\n- Bugs fixed and improvement. (iOS 7)<br>\n<p>\nVersion: 1.4-5<br>\n- Better compatibility with CamBlur7 tweak, no extra setup needed to make CamBlur7 working properly anymore.<br>\n- Due to the tweak name, this update added support for playing with the camera top bar. (iOS 7)<br>\n- Donate button added. ;P<br>\n\nVersion: 1.4-4<br>\n(Updated for better support with CamBlur7 tweak)<br>\n- Moved the \"Full-screen camera preview\" as a new option.<br>\n\nVersion: 1.4-3<br>\n- Minor hooking improvement.<br>\n<p>\nVersion: 1.4-2<br>\n- 64-bit Library included.<br>\n- Improved installation restriction.<br>\n<p>\nVersion: 1.4-1<br>\n- Supported iOS 7<br>\n\nVersion: 1.3-2<br>\n- Works with BiteSMS.<br>\nNote: \"Compact Button Bar\" is not recommended for 4-inches iDevices.<br>\n\nVersion: 1.3-1<br>\n- iMessages supported is back! (Without Front HDR tweak needed)<br>\n- Compatible with iOS 5, but you will need UI modifying to get the best result, contact me if you want the concept for this)<br>\n- Added option \"Compact Button Bar\"<br>\n\nVersion 1.2-4<br>\n- Code refactored.<br>\n- For some reason, this tweak doesn't work with any apps except iOS Camera app.<br>\n\nVersion 1.2-2<br>\n- Removed the filters so most apps with camera included will be working with TCB.<br>\n<p>\nVersion 1.2-1<br>\n- Unlocked \"Hide Camera Bottom Bar\" for all iDevices, Tested and working only in Camera App and SpringBoard Camera (NOT in Image Picker) in iPhone/iPod.<br>\n- Added armv7s Library, for iPhone 5.<br>\n<p>\nVersion 1.1-8<br>\n- Added MobileSubstrate filter for BiteSMS.<br>\n- Improved TCB icon.<br>\n- Some minor changes<br>\n\n<p>\nTODO: Make TCB supported in iMessage and BiteSMS.<br>\n- Corrected options in Settings.<br>\n- Some bug fixed.<br>\nCompatible with Kamera.\n<p>\n- Fixed opacity not working after the next InstantCamera activation after its first activation.\n<p>\n- Added option to \"Hide\" Bottom Bar, configure from Settings. (Really hide, not transparent & Supported for only 4-inches iDevices)<br>\n- Set start opacity value from 0.0 to 0.017 to prevent not able to use the bar.<br>\n- Compatible with InstantCamera.<br>\n- Corrected descriptions in Settings.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

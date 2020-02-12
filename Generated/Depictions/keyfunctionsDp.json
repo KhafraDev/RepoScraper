@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 3 - 10.2\nUse your keyboard to respring,enter safe mode,hide the keyboard or reboot the device.\n\nCommands :\n.respring : restarts springboard\n.reboot:reboots the device\n.safemode : enters safe mode\n.hide : hides keyboard\n\nNo options to configure.\n\nNo Screenshots for this item."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 4, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "-Only for iOS 8-10.2.1 users : Added option to enable/disable every command.\n\n\n-Only for iOS 8-10.2 users: Added preferences and .hide to hide keyboard.\n\n-Fixed a bug that was making the tweak not to work for some devices<br>\n-Replaced . with & for iOS 7 and lower so now you have to type &respring or &safemode.(reboot is temporarily removed)<br>\n-Added an alert instead of immediate respring,safe mode or reboot<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

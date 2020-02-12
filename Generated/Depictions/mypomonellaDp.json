@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8 to 12\n\nWith Mypomonella you can Set on All the Updates in All the Cydia Packages and Much More.\n\nThe Item (called CydiaPackagesUpDates) is now out from the Stage of My Repository with also the adding of The Preferences Bundles and other Stuff.\n\nAlso Included (integrations) Cydlight, HideCydiaPackages and CydiaFullScreen Tweaks available on my Repository.\n\nMypomonella gives also the chance to have other Extras Useful and Aesthetic options for Cydia.\n\nNo Respring Needed for enabling and disabling the Tweak.\n\nConfigure options from Settings.\n\nSee Screenshots below.\n\nMore Stuff to come!\n\niOS 11 is on Full Compatibility Stage in the Next Works.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/mypomonella1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/mypomonella2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/mypomonella3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/mypomonella4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "October 7, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.0.9\n- Added the option to Show the Confirmations Popup Before Installing and Removing Cydia Packages (Featured ConfirmPackages Available on My Repo).\n\n\nVersion 1.0.8<Br>\n- Working properly on Last Cydia Update too.<br>\n- Added the option to Enable the Cydia Backgrounding.<br>\n- Change in Prefs Switch.<br>\n\n\nVersion 1.0.6<br>\n- Added the option to Disable the Large Titles on Cydia unc0ver.<br>\n- Tested and Checked for Full iOS 12 Compatibility with the Unc0ver Jailbreak.<br>\n<br>\n(The Main First Switch May still Now Work due to Internal Changes in Cydia).<br>\n\nVersion 1.0.5<br>\n- Added the option to Show the Packages As Summarized (See New Screenshot, thanks fvdegrxy patch).<br>\n- Added the option to Bounce Cydia.<br>\n\nVersion 1.0.4-4<br>\n- Added the option to Enable Blue All Keyboard (as Requested).<br>\n<br>\n<br>\nVersion 1.0.4-3<br>\n- Improved the Enable Full Screen View option for iOS 11 and iPhone X.<br>\nVersion 1.0.4-2<br>\n- Added the option to Enable Small Tab Bars.<br>\n- Code Improvements.<br>\n- General Enhancement.<br>\n<br>\n<br>\nVersion 1.0.4<br>\n- Added the option to Disable the Essential Upgrades.<br>\n- Added the option to Disable the Rotation.<br>\n- Added the option to Spoof the iOS Version with the Custom Text Selection.<br>\n<br>\n\nVersion 1.0.3<br>\n- Added the option to Disable the Errors From the Repositories to Refresh Them Faster, e.g. the ones at the moment from the Electra Jailbreak. (Special thanks tip @BrianVS).<br>\n<br>\n<br>\nVersion 1.0.2<br>\n- Added the option to Enable the Blue Keyboard Tints.<br>\n- Added the option to Show All Packages As Commercial (obviously merely Aesthetic).<br>\n- Code Fixes.<br>\n- Improvements.<br>\n\n<br>\n<br>\nVersion 1.0.1<br>\n- Tested and Working Fine also on iOS 11.1.2.<br>\n- Added the option to Enable the Black Keyboard.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

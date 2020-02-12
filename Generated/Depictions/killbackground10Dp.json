@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10 and 11\n\nKillBackground9 users are free.\n\nThis package based \"KillBackground\" by Mr.Mathieu Bolard (mattlawer).\n\nA simple but useful tweak to kill all background apps. Adds special buttons to the AppSwitcher view.\n\nYou can also operate from the Control Center without buttons.\n(Using Flipswitch or CCsupport)\n\n- Option -\n\nAuto Close Switcher: Will close the switcher after execution.\nButton on the left: Will place the button to the left.\nBig Buttons: Will place a large button to the left and right.\n\nKill Music: Music will terminate the application even during playback.\nExclude apps: The selected application can not kill.\n\nUse Legacy button: Use the previous icon.\nHide buttons: It is used when you want to use Flipswitch etc...\n\nButton Height-Width: It will adjust the position of the button.\n(It is not valid in the case of Big Buttons)\n\nURL scheme at the end: If run the button long press, Run the URL scheme at the end.\n(ex. Memory cleaner app)\n\nFlipswitch and CCSupport is not depend. If you want to use, please install.\n\nConfigure options from Settings app."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/killbackground10-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/killbackground10-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/killbackground10-3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/killbackground10-4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 11, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 0.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Support: Meridian Jailbreak\nAdd: it possible to change the position of BigButtons on iOS 11.\nNew Icon design\n\n\nv1.1.1<br>\nFix: Minor Issue<br>\nAdd: Hide AppSwitcher Banner (iOS 11)<br>\nHide Switcher App Suggestion Banner (Such as headphone connection)<br>\nAdd: ControlCenter's long press function (iOS 11)<br>\nExecute URL scheme (Open settings if there is no setting)<br>\n\nv1.1.0<Br>\nSupport: iOS 10 to 11.3.1<Br>\nAdded: ControlCneter toggle<Br>\n(Please install CCSupport)<Br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

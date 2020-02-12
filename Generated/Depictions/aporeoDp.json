@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9, 10, 11 and 12\n\nAporeo is the rebuild of my tweak Wolfram.\n\nWant your iPhone to charge faster? No problem if plug your iPhone with Aporeo installed into a power source it will automatically enable Low Power Mode any your iPhone will charge faster. As soon as you unplug your iPhone Low Power Mode will be disabled.\n\nConfigure options from Settings"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/aporeo1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 19, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Added support for arm64e (A12) devices\nBug fixes\n\n\n-Fixed a bug where Aporeo would turn off Low Power Mode if enabled manually by the user<br>\n- Fixed a bug where Aporeo would not enable Low Power Mode at the custom percentage<br>\n<br>\n<br>\n-Fixed a bug, where Cephei was not installed as a dependency, which would cause an error in loading the PreferenceBundle<br>\n<br>\n<br>\n-Added iOS 12 compatibility<br>\n-Added a feature to enable Low Power Mode at a custom percentage<br>\n-Updated Preference Bundle<br>\nFixed a bug where the iDevice stayed in Low Power Mode even if it was unplugged<br>\n<p>\nFix crashes when using non-confirmation resprings<br>\n<p>\nAdded an icon to the PreferenceBundle<Br>\nAdded the option to disable Low Power Mode as soon as the battery has reached 100%<br>\n\n<br>\nAdded option to stay in Low Power Mode even if the battery has reached 80%.<br>\nBug fixes<br>\n<p>\nFixed a bug with the PreferenceBundle which won't let the tweak work.<br>\n<p>\nFormerly Wolfram, rebuilt"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

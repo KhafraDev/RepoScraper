@@ -1,0 +1,85 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11, 12 and 13\n\nFully Working on the iPhone X, since it was thought and written for it.\n\nSmoothLockX Gives you Smooth and Clean Views to the LockScreen on the iPhone X, providing at the moment Features like:\n\n- Move the LockPad of the iPhone X to the Left of the LockScreen for a Less Intrusive Behavior and Sight.\n\n- Hide the the Clock and Date on the LockScreen.\n\n- Hide The Swipe up to unlock of the iPhone X on the LockScreen.\n\n- Hide the Swipe up to open of the iPhone X on the LockScreen.\n\n- Hide the Home Bottom Bar of the iPhone X on the LockScreen.\n\n- Hide the Flashlight Quick Actions Button of the iPhone X on the LockScreen.\n\n- Hide the Camera Quick Actions Button of the iPhone X on the LockScreen.\n\n- Hide the the LockPad of the iPhone X on the Passcode View.\n\n- Hide the % Charged Text while Charging the Device on the LockScreen.\n\n- Hide the Transition of the Text % of Charge when Charging the Device on the LockScreen.\n\nConfigure options from Settings.\n\nSee Screenshot below.\n\nMore Stuff to come!\n\nTesting thanks to my Brother @lorenzo_noide.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!\n\n\nSee larger Screenshots below.."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/smoothlockx1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/smoothlockx2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/smoothlockx3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/smoothlockx4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/smoothlockx5.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/smoothlockx6.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 28, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.3.7\n- Added the option to Show the Time in the Roman Numerals on iOS 13 Systemwide StatusBar (Thanks @ryannair05 for Tempus Romānum Tweak Code).\n\n\nVersion 1.3.5<br>\n- Updated for iOS 12 and 13 the option to Select Custom Colors for the Time and the Date View of your LockScreen (thanks dude Sirius24).<br>\n- Fixed on iOS 13 the option to Hide the Now Playing View Controls.<br>\n- Fixed on iOS 13 the option to Square the Now Playing Time Controls.<br>\n- Fixed on iOS 13 the option to Hide the Now Playing Time Controls.<br>\n\nVersion 1.3.4<br>\n- Fixed the Show Time on StatusBar option not working on iOS 13.<br>\n<br>\n<br>\nVersion 1.3.3<br>\n- Fixes for some options and Bug.<br>\n- Added the option to Hide the No Older Notifications Text from the Notification Center (Twitter Request).<br>\n- Other Improvements.<br>\n<br>\n<br>\nVersion 1.3.2<br>\n- Updated for iOS 13 Full Compatibility.<br>\n- Home Bottom Bar Tint option is updated for iOS 13 too but still not working due to the need of libcolorpicker being updated for iOS 13 actually.<br>\n\nVersion 1.3.1<br>\n- Added the option to Replace the Battery Icon Label with Plugged in Charge when Connecting the Device to Power Source on LockScreen (Featured PluggedInCharge Available on My Repo).<br>\n\nVersion 1.2.9<br>\n- Added the option to Move Top Left of the Screen the Battery Icon when Charging Plugged.<br>\n<br>\n<br>\nVersion 1.2.8<br>\n- Added the option to Not Move the LockPad to the Left when FaceID Fails (as Requested via Mail).<br>\n\nVersion 1.2.7<br>\n- Added the option to Perform a Short Swipe to Open/Clear LS/NC Notifications (included ShortSwipe Tweak Available on My Repository).<br>\n- Added support for arm64e/A12.<br>\n\nVersion 1.2.6<br>\n- As Requested, Added the option to Select Custom Swipe up to Open Text on LockScreen (thanks sinfool Patch, iOS 12 Tested).<br>\n<br>\n<br>\nVersion 1.2.5<br>\n- Compatible with iOS 12.<br>\n- Added the option to Square the Now Playing Time Controls (Featured SquareMediaControlTime Available on My Repo). <br>\n- Added the option to Hide the Now Playing Time Controls (Featured HideMediaControlTime Available on My Repo). <br>\n- Added the option to Compact and Neat the Date View (Featured LSTinyDate Available on My Repo).<br>\n- Added the option to Hide the Passcode Entry Circles on Lock View.<br>\n- Added the option to Hide the TOP Swipe up to unlock and open Label on iOS 12.<br>\n\nVersion 1.2.4<br>\n- Added the option to Color the Battery based on the Wallpaper Tint on Charge on the LockScreen.<br>\n- Added the option to Select Custom Colors for the Time and the Date View on the LockScreen (thanks FLEXORGEMPIRE patch for help).<br>\n<br>\n<br>\nVersion 1.2.3<br>\n- Added the option to Move up the Date View above the Time on the LockScreen (Integration of my Tweak LSUpDateView available on my Repository).<br>\n<br>\n!(Enjoy your holidays)!<Br>\nVersion 1.2.2<br>\n- Added the option to Disable the SOS Call Automatic Countdown.<br>\n- Added the option to Enable the LockScreen Rotation.<br>\n<br>\n<br>\nVersion 1.2.1<br>\n- Added the option to Make Blur the LockScreen and Notification Center Statusbar (thanks sinfool).<br>\nVersion 1.2.0<br>\n- Added the option to Make Transparent the Background of the Quick Actions Buttons (thanks @Prouser95 Patch).\n\nVersion 1.1.9<Br>\n- Added the option to Add Seconds to the LockScreen Clock (thanks @kaitouiet for FastForwardTime).<Br>\n<Br>\n\n<Br>\nVersion 1.1.8<Br>\n- Added the option to Align Right the Time and Date.<Br>\n- Added the option to Disable the Dismissing of the Quick Reply Feature when taping outside the Notification (included My Tweak ByeTouchCancelReply Available on My Repository).<Br>\n- Added the option to Disable the Control Center Access.<Br>\n\nVersion 1.1.7<br>\n- Fixed the Issue conflict option with the Hiding the Control Center Grabber.<br>\n- Label Prefs Change.<br>\n<br>\n<br>\nVersion 1.1.6<br>\n- Added some Colors :-) (libcolorpicker Dependency). <br>\n<br>\n-Now you can Custom Select the Colors for the Home Bottom Bar of your LockScreen (thanks prouser).<br>\n- Added the option to Remove the Fade on Device Locking (thanks sinfool).<br>\n- Added the option to Remove the Fade on Device Waking (thanks sinfool).<br>\n- Fixed the Weird Space Up the Preferences Header.<br>\n- Code Changes, Improvements.<br>\n<br>\n<br>\nVersion 1.1.5<br>\n- Added the option to Hide the Small Under Line on the Top Right on the LockScreen (as Requested on Twitter).<br>\n\nVersion 1.1.4<br>\n- Added the option to Hide the Timer on the LockScreen.<br>\n- Added the option to Disable the Auto Dimming on the LockScreen (tip by prouser).<br>\n\nVersion 1.1.3<br>\n- Added the option to Square and Highlight the Quick Actions Buttons.<br>\n- Added some colors in the Preferences Panel :)<br>\n- Changes in Labels Images of Preferences Panel.<br>\n<br>\n<br>\nVersion 1.1.2<br>\n- Added the option to Disable the Widgets Selection on LockScreen and Notification Center (tip by sinfool).<br>\n\nVersion 1.1.1<br>\n- Added the option to Show Always the Timer on LockScreen.<br>\n- Added the option to Make the Today and Widgets Default View (tip by prouser).<br>\n- Added the option to Disable the Icons Fly Animation on UnLocking (tip by sinfool).<br>\n- Added the option to Disable the Recents Notifications on Swiping Up (tip by sinfool).<br>\n- Added the option to Hide the Today Date Text.<br>\n\nVersion 1.1<br>\n- Added the option to Make Small the Time and Swipe Up Labels.<br>\n- Added the option to Align Left the Time and Date.<br>\n<br>\n<br>\nVersion 1.0.9<br>\n- Added the option to Disable the Invoke Today View Gesture.<br>\n- Added the option to Show the Time on StatusBar (as Requested).<br>\n\n<br>\n<br>\nVersion 1.0.8<br>\n- Added the option to Show the Control Center Teach Icon on the Top Right in the LockScreen.<br>\n<br>\n<br>\nVersion 1.0.7<br>\n- Added the option to Make Black the Passcode View on the LockScreen (Ported my Tweak BlackPasscodeView on my Repository).<br>\n<br>\n<br>\nVersion 1.0.6<br>\n- Added the option to Hide the Now Playing View Controls from the LockScreen (Feature ported from my Tweak NoMusicLabel).<br>\n<br>\n<br>\nVersion 1.0.5<br>\n- Added the option to Disable Flashlight Quick Actions Button.<br>\n- Added the option to Disable Camera Quick Actions Button.<br>\n<br>\n<br>\nVersion 1.0.4<br>\n- Added the option to Hide the LockPad on LockScreen (as Requested).<br>\n- Added the option to Make Vibrant the Clock and Date.<br>\n\nVersion 1.0.3<br>\n- Hopefully Fixed Preferences Issues reported by some Users.<br>\n<br>\n<br>\nVersion 1.0.2<br>\n- Added the option to Disable the Invoke Camera Left Gesture. (Requested on Twitter).<br>\n- Code Prefs Improvements.<br>\n<br>\n<br>\nVersion 1.0.1<br>\n- Added the Preferences Bundle Panel with the Main Switch to Enable all the options and Every Toggles to Select Each One. (Requested on Twitter).<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

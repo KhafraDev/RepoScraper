@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "See larger Screenshots below"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/phoneplusplus1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/phoneplusplus2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/phoneplusplus3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/phoneplusplus9-5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 26, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 4.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Urgent fixes\n\nfixes couple of bugs where the settings are now stored correctly\n\nWhat's New:-<br>\n<br>\n1- Phone++ now compatible with iOS 9 and iOS 10<br>\n2- Introduce Avatar in Contacts just like in Copic<br>\n3- Introduce HUDIndex in Contacts for quick index jumps in the contacts and other apps.<br>\n<br>\n4- Re-implemented and re-designed settings into a more categorized way.<br>\n<br>\nMore updates to Come<br>\n\nAdding support to LinkedIn - Visit LinkedIn User Profile directly from the Phone App.<br>\n<br>\n<p>\nFix a minor bug when changing the theme.<br>\n<p>\n<p>\nPhone++ v2.0.0 has been re-engineered from the ground up to support iOS 9. <br>\n<br>\nPhone++ v2.0.0 containst a powerful engine that can be easily configured from the settings panel which has been re-designed to accommodate for a lot more configurations.<br>\n<br>\nintroduced a long swipe gesture for right and left directions. Easily configure the action of each long swipe to either make a call or message a contact. The color of each long swipe can also be easily configured.<br>\n<br>\nThere will be more functionalities coming up.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

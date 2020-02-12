@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This is mainly useful for the users of a russian social network VK.\n\nVKHelper aims to help clean up the news feed of the app, including the following\n\n+ Remove VK ads\n+ Remove posts promoted by VK\n+ Remove posts by communities which are labeled as ads\n+ Remove the suggested friends news feed block\n+ Remove posts labeled as those \"you may find interesting\" by VK\n+ Remove the story camera left swipe gesture\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/vkhelper1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/vkhelper2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/vkhelper3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 14, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "* Now works on VK app clones and mods as well (edited filter plist)\n* Fixed filtering logic in the new engine that caused comments or other entities to disappear\n\n\n+ Fix bug where list views (e.g. Video list) would suddenly stop working when Community Adblock is enabled<br>\n+ New render filtering engine that allows to flexibly filter any kind of ads and posts, just need the GUI coded, so coming soon...<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

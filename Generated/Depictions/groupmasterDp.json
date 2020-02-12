@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 7, 8, 9, and 10\n\nWechat chat group helper helps you to manager your chat group微信群聊助手是一款可以帮助管理群聊的软件，群主或者群主制定的成员在群了中发送“踢 @某人”这样的指令即可把某个成员踢出群聊，从而无需在众多成员列表中找到该成员。\n另外有新成员加入群聊时也可以自动回复指定内容。"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/groupmaster1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/groupmaster2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/groupmaster31.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "November 8, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "微信达人V2.1\n-----------------------\n新增消息防撤回功能（需要在微信达人中打开设置才能生效）\n\n群管@踢人 进群欢迎语\n\n\n1.新增微信群聊提醒所有人功能notify all group members\n2.新增一键清理未读消息功能clean all unread messages\n3.细节优化some optimization"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,86 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "**Now streamlined for iOS11, removing the battery theming to prevent crash**\n\n**Now with over 1,300 apps themed. This is the last update on Bigboss - please follow me on Twitter @jammytea2 to purchase and for further updates**\nThis theme is free to purchasers of the main Stencil theme\n\nComplementing the main Stencil theme for all you monochrome glyph fans, Stencil Mono offers four variants of the same icon set - all black, all white, full icons or glyphs.\n\nIt features 1,100+ icons (see the changelog for the latest total), share sheet, settings, UI spinners and status bar, badges and page dots.\n\nUnthemed icons stick out a mile, so I'm happy to take icon requests. Everything I add to Stencil will be added to Stencil Mono too, and vice versa. Tweet meor use the.\n\nUpcoming:\n• Full ios11 theming for a couple of newly added elements\n• Control center\n• More icons!\n\nFollow me on Twitter () for access to my public Dropbox, where you can download extra parts of the theme for ios9 and 10, plus a few other random bits"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stencilmonotheme1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stencilmonotheme2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stencilmonotheme3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stencilmonotheme4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stencilmonotheme5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 17, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 3.49",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Now 1,300+ themed icons.\n\n\n**Now streamlined for iOS11, removing the battery theming to prevent crash**<br>\n*800+ apps themed, 4 theme variants, loads of extra stuff!*<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

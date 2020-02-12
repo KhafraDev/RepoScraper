@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11, 12 and 13\n\nRequires CCSupport\n\nCCModules is a tweak that adds third party app modules and utility modules to the iOS control center.\n\nMore control center modules for iOS 11/12/13. The modules support 3D Touch quick actions. There are 100+ modules.\n\nNote that the modules will only display if you have the app."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ccmodules1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ccmodules2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 2, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "New in v1.5-1: Fix for Tiny Volume and Silent Mode modules causing issues.\n\n\nNew in v1.5: Full iOS 13 support, added Books and Shortcuts modules, and minor bug fixes.\n\n\nNew in CCModules v1.4-2:<br>\n• arm64e/A12 compatibility, CCModules should now also be future proofed <br>\n• Low Power Mode module for iPads<br>\n• Minor module fixes<br>\n\nNew in v1.3-1 <br>\n- Fixed the Tiny Volume and Tiny Brightness version display names.<br>\n<br>\n<br>\nNew in CCModules v1.3<br>\n- Changed Clock and iCleaner icons, fixed Discord module, and fixed the iOS 11.0 - 11.1.2 safe mode occurring. Note that in this version, the ID for Tiny Volume and Tiny Brightness has been changed, please add them again in Settings according to your iOS version.<br>\n\nNew in CCModules v1.2-14 -<br>\nFixed the Tiny Brightness and Tiny Volume modules. Also added Balance My Checkbook, SiriusXM, and SwiftKey modules. <br>\n<br>\nScreenshot, Reduce White Point, WiFi, and Bluetooth modules will be added as soon as I get theos working again.\n• Added Lock Device, Google Link, App Store Search, and magicApp modules. The Google Link module launches google.com from Safari when pressed. A few icon changes were made as well; one being the Location Services module is now blue.<br>\n• Added a Google Authenticator module<br>\n• Fixed a random respring issue<br>\n<br>\n<br>\n\n• Added Reboot, Safe Mode, Google Translate, and Swarm modules.<br>\n<br>\n<br>\n• Added Google, Google Assistant, KKBox, LINE, NewTerm 2, PayPal, Private Browser, Shazam, Time2, Viber, and Location Services modules. Keep the module requests coming!\n\n• Added Tiny AirPlay module<Br>\n<Br>\n<Br>\nNew in CCModules v1.2-6: 1Password module is fixed.<br>\n<br>\n<br>\nNew in CCModules v1.2-5: Silo is no longer supported; CCSupport is required. Minor bug fixes."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

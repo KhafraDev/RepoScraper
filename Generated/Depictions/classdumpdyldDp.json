@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "November 11, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Fixes for iOS 13 support\n\n- Fixed an issue preventing most app binaries from being dumped.<br>\n- Added cycript module:<br>\n@import net.limneos.classdumpdyld <br>\n\n- Fixed a parsing issue where templates or function definitions inside structs or unions could not be parsed.\n<p>\n- Added dumpBundleForClass function to use from within cycript. classdump-dyld can now find and dump any library/image loaded in the process.<br>\n- Fixed dumpClass (in-cycript function) to correctly find and dump classes in images other than the main bundle's.<br>\n- Fixed dumpBundle (in-cycript function) to correctly work after dumpClass was issued before it.<br>\n<p>\n- Major update: Added cycript integration. <br>\nYou can now dlopen /usr/lib/libclassdumpdyld.dylib in cycript after injecting any application,<br>\nand dlsym the dumpClass and dumpBundle functions.<br>\n<br>\nMore info at <a href=\"https://github.com/limneos/classdump-dyld\" target=\"_new\">Github</a><br>\n<br>\n- Fixed an MH_MAGIC_64 identification issue.<br>\n<p>\n- Added option to dump only one defined class from within an image.<br>\n- Fixed some iOS9 classes causing crashes.<Br>\n- Github code has been updated<br>\n\n- Fixed an issue that might cause a hang when dumping iOS9 ModelIO framework.\n\n- Changed the default option to not create original directory structure of the dumped image path. Use -b to create. <Br>\n- Added a few classes that fail to initialize outside of their original environment in the exception list.<Br>\n\n<p>\n- Fixed a directory write issue when injecting sandboxed executables\n<p>\n- All executables are now injected using libclassdumpdyld.dylib unless specified differently with -e option.<br>\n- Now you can dump all executables, including daemons and other tools.<br>\n- Improved library's memory handling. Now you can dump huge executables/applications.<br>\n- Switched from returning bool to BOOL for types \"B\". <br>\n- Fixed some type errors in protocols<br>\n- Added -a options to include Applications directory in recursive dumps<br>\n<p>\n- Fixed a crash when dumping SpringBoard on iOS <7.x\n<p>\n- Updated with iOS 8 support<br>\n- Added libclassdumpdyld.dylib for injecting 64bit executables<br>\n- Now classdump-dyld dumps 64bit executables<br>\n- Fixed error where properties had different types than methods<br>\n- Fixed some type encoding mistakes<br>\n- Added -D option for debugging/troubleshooting<br>\n- Fixed some crashes when dumping particular classes<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

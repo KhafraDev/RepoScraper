@@ -1,0 +1,59 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Supports iOS 10.0 to 12.4\n\n\n\nin Settings, where you can set your iPhone as a HomeKit Remote Hub and control HomeKit remotelythe need of an Apple TV Gen 4, an iPad with iOS 10 or a HomePod.\n\nUse an older iPhone at Home as a HomeKit server (Remote Hub) so that you can control your Home accessories when you are away from home.\n\nJust like in the stock iPad case, the iPhone must always be connected to power and joined in your  WiFi for this to work.\n\n\nIf you enable the setting, it is stored permanently. If you are in non-jailbroken state with this option left enabled when you were jailbroken ,HomeKit may not work at all and you won't find the switch to turn it off in Settings. Make sure you disable this option if you wish to work in a non-jailbroken state, or especiallyyou remove the tweak. If you suddenly can't access your devices and you don't know why, check if you are non-jailbroken and if you forgot the switch on, while jailbroken. Just jailbreak and turn the switch off. You have been warned.\n\n\n\nNo icons or settings are added. Just the \"Home\" stock option in settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/homekithub1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/homekithub2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/homekithub3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 23, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

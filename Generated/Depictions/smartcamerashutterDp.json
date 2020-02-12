@@ -1,0 +1,81 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9, 10, 11 and 12\n\nSmartCameraShutter gives you visual options to make better and more functional your Camera Application adding these nice Features:\n\n- Disable the Swipe to Swipe modes in the Shutter Buttons.\n\n- Disable Sound in the Shutter Photo Button.\n\n- Enable the Camera Shutter Buttons always on Adaptive Background (in the inner Circles).\n\n- Enable the Camera Shutter Buttons Smaller (this option combined with the Adaptive Background will hide the Shutter Buttons).\n\nNo Respring Needed for enabling and disabling the Tweak.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nConfigure options from Settings.\n\nCredits are on Preferences Panel."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/smartcamerashutter1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/smartcamerashutter2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/smartcamerashutter33.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/smartcamerashutter3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/smartcamerashutter4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 31, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.1.5\n- Added support for arm64e/A12.\n\n\nVersion 1.1.4<br>\n- Added the option to Make Red the Camera Shutter Button Ring View for iOS 11/12 (included redCameraShutter on My Repo).<br>\n- Added the option to Enable the Depth Effects on Unsupported Device for iOS 11/12.<br>\n- Added iOS 12 Compatibility to Hide the Live Photo Button option.<br>\n\nVersion 1.1.3<br>\n- Added iOS 12 Support.<br>\n- Added the option to Disable the Haptics Feedback when Photos Shuttering.<br>\n- Added the option to Disable the Haptics Feedback when Swiping Camera Modes.<br>\n- Added the option to Enable the Horizontal Top Bar Orientation on Landscape Mode.<br>\n- Changes in Prefs Labels.<br>\n\nVersion 1.1.2<br>\n- Added the option to Enable the Zoom Camera Feature like on iPhone 7 Plus or Higher (included My Tweak Zoomer on My Repo).<br>\n\nVersion 1.1.1<br>\n- Added the option to Enable the Portrait Lighting Effects on the iPhone 7+ (iOS 11).<br>\nVersion 1.1<br>\n- Added the option to Disable the Portrait Lighting Effects (iOS 11).<br>\nVersion 1.0.9<br>\n- Added the option to Enable the Transparent (as Requested) and Vertical UI Layout Style.<br>\n<br>\n<br>\nVersion 1.0.8<br>\n- Added the option to Hide the Thumbnail Image Preview (idea by poopoo).<br>\n- Code Cleanup.<br>\n<br>\n<br>\nVersion 1.0.7<br>\n- Added the Full iOS 11 Compatibility. <br>\n- Extended the Feature to Enable the Border to the Live Photos Badge option.<br>\n- Added the Label to Donate Me (thanks a lot) in the Preferences Panel.<br>\n- Added the Label to Check My Other Tweaks on BigBoss Repository in the Preferences Panel.<br>\n- Changes in Prefs Labels.<br>\n- Code Cleanup.<br>\n\nVersion 1.0.6<br>\n- Added the option to Enable iPhone UI layout Style for iPads (tip by sinfool).<br>\n<br>\n<br>\nVersion 1.0.5<br>\n- Added the option to Disable Music and Audio from stopping when recording a Video.<br>\n<br>\n<br>\nVersion 1.0.4<br>\n- Added the option to Enable the Live Photos Images Badge.<br>\n- Added the option to Disable the Burst Mode. <br>\n- Added the option to Disable the Front Camera.<br>\n\nVersion 1.0.3<br>\n- Added the option to Enable the Horizontal Layout on Landscape Mode (thanks prouser for the tip).<br>\n- Added the option to Enable the Transparent Top and Bottom Bars (thanks prouser for the tip).<br>\n- Now you can add My Repo on Cydia with the New Label in Preferences Panel.<br>\n- Changes in Labels Description in Prefs.<br>\n\nVersion 1.0.2<br>\n- Added the option to Enable the Grid Lines on All Camera Modes (thanks sinfool for the idea).<Br>\n\nVersion 1.0.1<br>\n- Added the option to Hide the Live Photo Button (thanks coconutjoe for his patch).<br>\n- Small Change in Prefs.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

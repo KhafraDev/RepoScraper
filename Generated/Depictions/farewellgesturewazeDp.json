@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8, 9, 10 and 11.\n\nFarewellGestureWaze just disables the Edge Sideways Swipe Gesture in Waze Application and More!\n\nThe Menu can be invoked the same by tapping the Search Button Lens in the Bottom-Left of the Application Screen.\n\nThe Tweak works with the Actual Latest Version of the Waze Application (Version 4.34).\n\n\nIt’s now out from the Stage of My Repository.\n\nThe Preferences Bundles will be added really soon!\n\nMore Works and Stuff are in Planning!\n\nTip by sinfool.\n\nConfigure options from Settings.\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/farewellgesturewaze1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/farewellgesturewaze2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 12, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.0.7\n- Added the option to Disable the Ads in App (thanks tip by sinfool).\n- Added the option to Enable the Auto Dismiss Mode (thanks tip by sinfool).\n\n\nVersion 1.0.6<br>\n- Added the option to Center the Landscape View (tip by sinfool).<br>\n<br>\n<br>\nVersion 1.0.5<br>\n- Tested and Now Fully Working on iOS 11. <br>\n- Added the option to Disable The Rotation of the Application.<br>\n- Improvements.<br>\nVersion 1.0.4<br>\n- Added the option to Disable the Bottom Menu Search Buttons.<br>\n- Added the option to Disable the Bottom Bar Driving Message.<br>\n- Added the option to Enable the Bottom Bar NightMode.<br>\n<br>\n<br>\nVersion 1.0.3<br>\n- Added the option to Disable the Speedometer Feature.<br>\n- Added the Label to Check Other Tweaks by Me on BigBoss Repo.<br>\n<br>\n<br>\nVersion 1.0.2<br>\n- Added the option to Disable the Reports Button Touch FeedBack.<br>\n<br>\n\n<br>\nVersion 1.0.1<br>\n- Added Simple Preferences Bundle.<br>\n- Added the option to Hide the Reports Button.<br>\n- Added the option to Hide Search Field On the Map.<br>\n- Added the option to Hide the Searching NetWork Banner.<br>\n- Added the option to Hide the StatusBar in App. <br>\n- (More Next in Progress).<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

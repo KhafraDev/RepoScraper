@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "A dynamic library which provides FLEX classes. This can be dlopen()'d by other tweaks which might wish to replace FLEXible or FLEXing.\n\nFLEX (Flipboard Explorer) is a set of in-app debugging and exploration tools for iOS development. Check it out\n\nThe version of the package corresponds to the version of FLEX it was built with.\n\nThis is the only official FLEX package; I maintain FLEX as well as these tweaks.\n\nThis is a developer library.\n\nNo icons added to the homescreen."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 28, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Add `-subviews` and `-superview` @properties to `UIView`\n- Keep search bar active between screens\n- Fixed a bug where FLEX stuff would go behind springboard icons\n\n\n- Fix various iOS 13 bugs<br>\n- Add search bar to the database view<br>\n- Swipe to delete keychain items<br>\n- Fix \"Copy/Copy Address\" callouts not appearing on iOS 13<br>\n- Fix a bug with the \"class carousel\" not working properly<br>\n- Fix root view controller global not working<br>\n- Fix crash in keychain viewer when viewing NSData<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

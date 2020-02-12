@@ -1,0 +1,86 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "The way how Apple should have done this for you, but don't worry we have got you.\n\nCompatible with iOS 12.0 and above for all eSim and dual sim phones (iPhone XS, XS Max and XR).\n\nPlease install RocketBootstrap 1.0.7 latest beta from https://rpetri.ch/repo\n\nChoose eSim/Dual Sim while calling or texting!\n\neSim+ allows you to choose eSim or Dual Sim while making a call or sending a text to your family, friends or others. Its intuitive way of choosing sim makes your dialling call experience or sending a text is so elegant and you wonder why Apple has not done this way!\n\n\nSimplest way of choosing a (e)Sim while making an outgoing call or sending a text!\n\nHas experimental feature that allows you to sent a text message from an iMessage conversation (just hold the send button for while to see the confirmation alert)."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/esimplus1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/esimplus2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/esimplus3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/esimplus4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/esimplus5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "October 7, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 2.49",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "1. Fixed crash in iOS 12.4\n2. Fixed Control Center crash when empty space is selected under the last sim."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

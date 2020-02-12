@@ -1,0 +1,67 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 12\n\nBatteryPercent12 - a lightweight tweak to show you the percentage without getting rid of the battery icon!\n\n- Uses built-in code from iOS 12, so it’s very lightweight.\n- 2 options to colorize the battery (and the percentage) based on current percentage.\n- The ability to hide the stock percentage (applies to both CC percentage, and iPad statusbar percentage).\n- An option to set a custom color for the percentage, the body and the pin of the icon!\n- An option to turn the body color to green when charging (also an option to hide the indicator, since it interferes with the percentage)\n- An option to disable it in springboard.\n- An option to disable the low power mode color (shows the stock LPMcorange tint when disabled).\n- Works on white and dark backgrounds (also there’s an option to optimize it even more for white backgrounds)\n\nRequires a modern statusbar (such as the iPhone X and the iPad statusbar, for older devices use it with a tweak like StatusBarXS from my repo: https://dpkg9510.github.io/\n\n\nSee larger Screenshots below.."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/batterypercent12-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/batterypercent12-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/batterypercent12-3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/batterypercent12-4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/batterypercent12-5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 11, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

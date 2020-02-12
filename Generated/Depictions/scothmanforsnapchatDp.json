@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Add features to the Snap application\n\n***Supports iOS 11 & 10 version only***\n\n*Save Snaps Stories\n*Always keep Snaps\n*Show Timer Stories\n*Save Chats\n*Upload Photo & Video of Gallery\n*Incognito in Watching Stories\n*Disable Screenshot\n*Disable Discovery\n*Change your Location\n*Groups of Friends\n*Custom Filters\n*Image Editor\n*50 sec Video Recording\n*Long Tap to Record Videos\n*Save from within groups\n*Save to Custom Album\n*Read the chat without the knowledge of others\n*Disable writing for the other party\n*Add new line when writing\n*Add new line when writing\n*Disable a loops in stories\n*Add a passcode to protect the application\n\nOther features will be added soon\n\n# To translate the package please go to the link\n\n\nThen send the translation to the email :\nzy7@hotmail.com\n\nBy Othman Alomiry\n\n===============\nأضافة مميز على تطبيق سناب شات\n\n\n*حفظ Snap الستوري\n*بقاء Snap في الخاص وحفظها\n*أظهار عداد الوقت في الستوري\n*حفظ المحادثات تلقائي\n*رفع صور و فيديو من البوم الكاميرا\n*التخفي عند مشاهدة الستوري\n*التخفي عند تصوير الشاشة\n*اخفاء الدسكفري\n*تفعيل تغير الموقع\n*أضافة فلاتر مخصصة\n*أضافة ميزة تخصيص مجموعات\n*تحرير وتعديل الصور\n*ضغطة واحده لتصوير الفيديو\n*تصوير فيديو لمدة 50ثانية\n*تخصيص ألبوم لحفظ الوسائط\n*حفظ الوسائط من المجموعات\n*أخفاء الظهور وقراءة المحادثة\n*تعطيل يكتب الآن..لطرف الآخر\n* أضافة سطر جديد عند الكتابة\n*تعطيل تكرار عرض سنابة\n*أضافة رقم سري لحماية التطبيق\n\nسيتم أضافة مميزات أخرى قريباً\n\nعثمان العميري"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/scothmanforsnapchat1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/scothmanforsnapchat2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/scothmanforsnapchat3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/scothmanforsnapchat4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 16, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "New:\n*Fix the problem of cutting part of the video when lifting some media\n*Supports new update Snapchat\nجديد:\n*اصلاح مشكلة قص جزء من الفيديو عند رفع بعض الوسائط\n*يدعم التحديث الجديد سناب شات\n\n\nNew:<br>\n*Fix the problem of cutting part of the video when lifting some media\nجديد:<br>\nاصلاح مشكلة قص جزء من الفيديو عند رفع بعض الوسائط<br>\n<br>\n<br>\nNew:<br>\n*Fix problem ( Could not refresh ) In the stories - Electra<br>\n*Fix the problem of cutting part of the video when lifting some media<br>\nجديد:<br>\nاصلاح مشكلة لا يمكن تحديث القصص مع جلبريك Electra<br>\nاصلاح مشكلة قص جزء من الفيديو عند رفع بعض الوسائط<br>\n\nNew:<br>\n✔Fix location changes in filters<br>\n✔Fix clicking on the eye icon in private stories<br>\n✔Updates for new version<br>\nجديد:<br>\n‏✔اصلاح تغيير الموقع في الفلاتر<br>\n‏✔اصلاح النقر على ايقونة العين في القصص الخاصة<br>\n‏✔تحديثات لنسخة الجديدة<br>\n\nNew:<br>\n✔Fix the feature of deleting ads from stories<br>\n✔Fix video zoom problem when uploading in iPhone X<br>\n✔Fix the problem of sudden exit when editing images or video in (Memories)<br>\n✔Repair some application - related issues<br>\n✔Supports the latest update from the Snapchat application<br>\n<br>\nجديد:<br>\n‏✔اصلاح ميزة حذف الاعلانات من الستوري<br>\n‏✔اصلاح تكيبر الفيديو عند الرفع في الايفون اكس<br>\n‏✔ اصلاح مشكلة عند التعديل على صورة من الذكريات<br>\n‏✔تعديلات بسيطة واصلاحات لبعض المشاكل الآخرى<br>\n‏✔تدعم آخر تحديث من تطبيق Snapchat<br>\n\nNew:<br>\nSupport for the new update for SnapChat<br>\n<br>\nجديد:<br>\nدعم التحديث الجديد لتطبيق سناب شات<br>\n\nNew:<br>\n*Fixes to support new update for Snapchat<br>\n<br>\nجديد:<br>\n*اصلاحات لدعم التحديث الجديد لـ <br>\n\nNew:<br>\n*Fixes to support new update for Snapchat<br>\n*Support iPad full screen<br>\n<br>\nجديد:<br>\n*اصلاحات لدعم التحديث الجديد لـ Snapchat<br>\n*دعم الايباد ملء الشاشة<br>\n\nNew:<br>\nFixes to be compatible with the new update for Snapchat application<br>\n<br>\nجديد:<br>\nاصلاحات لكي يتوافق مع التحديث الجديد لتطبيق سناب شات<br>\n\nNew :<br>\nFixes some errors<br>\n<br>\nجديد:<br>\nأصلاحات بعض الأخطاء<br>\n\nNew :<br>\nFixes some errors<br>\n<br>\nجديد:<br>\nأصلاحات بعض الأخطاء<br>\n<br>\n<br>\nNew:<br>\n* Fix the problem when the video is continuously pressed<br>\n*Location filters and special filters fixes<br>\n<br>\nجديد:<br>\n* إصلاح المشكلة عند الضغط المستمر في تسجيل الفيديو<br>\n*اصلاحات فلاتر الموقع الجغرافي والفلاتر الخاصة<br>\n\n<br>\nNew:<br>\n* Fix the problem when the video is continuously pressed<br>\n*Location filters and special filters fixes<br>\n<br>\nجديد:<br>\n* إصلاح المشكلة عند الضغط المستمر في تسجيل الفيديو<br>\n*اصلاحات فلاتر الموقع الجغرافي والفلاتر الخاصة<br>\n\nNew:<br>\n*Fixes with the new update of the application<br>\n\nNew:<br>\n*Fix with filters<br>\n*Fixes with the new update of the application<br>\n<br>\nجديد:<br>\n*اصلاحات متعلقة بالفلاتر<br>\n*اصلاحات لتحديث التطبيق الجديد<br>\n\nNew:<br>\nNew update fixes<br>\n<br>\nجديد<br>\nاصلاحات خاصة بالتحديث الجديد<br>\n<br>\n\nNew:<br>\nAdd features<br>\nChange icons and menus<br>\nNew update fixes<br>\n<br>\nجديد<br>\nاضافة مميزات<br>\nتغيير الايقوانات والقوائم<br>\nاصلاحات خاصة بالتحديث الجديد<br>\n\n<br>\nNew:<br>\n*Activate High Quality Image Upload<br>\n<br>\nجديد:<Br>\nتفعيل رفع الصوره بجودة عالية<br>\n\nNew:<br>\n*Activate video recording 6 consecutive snaps for some accounts where this feature is not available<br>\n*Add a passcode to protect the application<br>\n*Add the Groups icon on the Home screen<br>\nFixes some problems with the new Snapchat update<br>\n<br>\nالجديد:<br>\n*تفعيل تسجيل 6 سنابات متتالية لبعض الحسابات التي لا تتوفر فيه هذه الميزة<br>\n*أضافة رقم سري لحماية التطبيق<br>\n*اضافة ايقونة المجموعات على الشاشة الرئيسية<br>\nأصلاحات متعلقة بالتحديث الجديد لتطبيق سناب شات<br>\n\nNew:<br>\n*Added Feature Select part of the image when choosing from camera albums<br>\n*Fix video upload problem<br>\n<br>\nجديد:<br>\n*أضافة ميزة تحديد جزء من الصورة عند الاختيار من البوم الكاميرا<br>\n*أصلاح مشكلة رفع الفيديو<br>\n<br>\nإصلاحات بعض المميزات<br>\n\n\nNew:<br>\n*Change your place in the map Your friends will see you in the location you have chosen from the site change service<br>\n*Save from the map<br>\nFixes some features<br>\n<br>\nجديد:<br>\n*الحفظ من الخريطة<br>\n*تغير مكانك داخل الخريطة سوف يرونك أصدقائك في المكان الذي أخترته أنت من خدمة تغيير المواقع<br>\nإصلاحات بعض المميزات<br>\n\nNew:<br>\n*Save from the map<br>\nFixes some features<br>\n<br>\nجديد:<br>\n*الحفظ من الخريطة<br>\nإصلاحات بعض المميزات<br>\n<br>\n<br>\nNew:<br>\n*Save from the map<br>\nFixes some features<br>\n<br>\nجديد:<br>\n*الحفظ من الخريطة<br>\nإصلاحات بعض المميزات<br>\n<br>\n<br>\n\nNew:<br>\n*Disable a loops in stories<br>\n<br>\nFixes some features<br>\n<br>\nجديد:<br>\n*تعطيل تكرار عرض سنابة<br>\n<br>\nإصلاحات بعض المميزات<br>\n\nNew:<br>\n*Fixes for Read the chat without the knowledge of others ( You can read chat without the knowledge of others and also you can reply without problems )<br>\n*Disable writing for the other party<br>\n*Add new line when writing<br>\n<br>\nFixes for the latest update of the application<br>\n<br>\nجديد:<br>\n*أصلاحات أخفاء الظهور وقراءة المحادثة - تستطيع قراءة الدردشة دون علم الآخرين وأيضاً يمكنك الرد بدون مشاكل <br>\n*تعطيل يكتب الآن..لطرف الآخر<br>\n*أضافة سطر جديد عند الكتابة<br>\n<br>\nأصلاحات لآخر تحديث من التطبيق<br>\n\nNew:<br>\n* Read the chat without the knowledge of others<br>\n* Disable writing for the other party<br>\n<br>\nFixes for the latest update of the application<br>\n<br>\nجديد:<br>\n*قراءة المحادثات دون علم الطرف الآخر<br>\n*تعطيل يكتب الآن..لطرف الآخر<br>\n<br>\nأصلاحات لآخر تحديث من التطبيق<br>\n\nNew :<br>\n#Show Timer Stories<br>\n#Change the location in the Geofence<br>\n#Fixes for new update v10.9.0<br>\n<br>\nجديد:<br>\n#أظهار عداد الوقت في الستوري<br>\n#تغيير الموقع في السور الجغرافي<br>\n#أصلاحات متعلقة بتحديث التطبيق v10.9.<br>\n\nNew :<br>\n#Show Timer Stories<br>\n#Change the location in the Geofence<br>\n#Fixes for new update v10.9.0<br>\n<br>\nجديد:<br>\n#أظهار عداد الوقت في الستوري<br>\n#تغيير الموقع في السور الجغرافي<br>\n#أصلاحات متعلقة بتحديث التطبيق v10.9.0<br>\n\nNew:<br>\n# Adding (groups of friends) .. You can now create a group and send without selection every time<br>\n# Add the special filters icon and change the location on the home screen for easy access<br>\n# Fix when watching the storied in stealth mode scrolls that have been seen down to see you have seen them before<br>\n# Working with Snapchat v10.8.0<br>\n# Support duplicate versions<br>\n# Support for 32bit devices<br>\n# Fixes (Change Location)<br>\n# Fixes Save Celebrity Stories<br>\n<br>\nجديد:<br>\n# أضافة ميزة تخصيص مجموعات لأرسال سنابه خاصة بدل من التحديد كل مره<br>\n# وضع أختصارات الفلاتر الخاصة & تغيير الموقع على الشاشة الرئيسية لسهولة الوصول إليها<br>\n# اصلاح عند مشاهدة الستوري في وضع التخفي تنتقل السنابه المشاهدة إلي أسفل لمعرفة أنك قد شاهدتها سابقاً<br>\n# التوافق مع اصدار Snapchats v10.8.0<br>\n# دعم النسخ المكرره<br>\n# دعم لأجهز 32bit<br>\n# أصلاحات : تغيير الموقع <br>\n# اصلاحات في حفظ استوري المشاهير<br>\n<br>\n\n<br>\nNew:<br>\n# Adding (groups of friends) .. You can now create a group and send without selection every time<br>\n# Add the special filters icon and change the location on the home screen for easy access<br>\n# Fix when watching the storied in stealth mode scrolls that have been seen down to see you have seen them before<br>\n# Working with Snapchat v10.8.0<br>\n# Support duplicate versions<br>\n# Support for 32bit devices<br>\n# Fixes (Change Location)<br>\n<br>\nجديد:<br>\n# أضافة ميزة تخصيص مجموعات لأرسال سنابه خاصة بدل من التحديد كل مره<br>\n# وضع أختصارات الفلاتر الخاصة & تغيير الموقع على الشاشة الرئيسية لسهولة الوصول إليها<br>\n# اصلاح عند مشاهدة الستوري في وضع التخفي تنتقل السنابه المشاهدة إلي أسفل لمعرفة أنك قد شاهدتها سابقاً<br>\n# التوافق مع اصدار Snapchats v10.8.0<br>\n# دعم النسخ المكرره<br>\n# دعم لأجهز 32bit<br>\n# أصلاحات : تغيير الموقع<br>\nNew:<br>\n*50 sec Video Recording<br>\n*Long Tap to Record Videos<br>\n*Save from within groups<br>\n*Save to Custom Album<br>\n*Order the best listings<br>\n*No Confirmation Alert<br>\n* Added files language: Turkish - French - German - Spanish - Portuguese Brazil<br>\nجديد:<br>\n*ضغطة واحده لتصوير الفيديو<br>\n*تصوير فيديو لمدة 50ثانية<br>\n*تخصيص ألبوم لحفظ الوسائط<br>\n*تعطيل تنبيه الحفظ<br>\n*حفظ الوسائط من المجموعات<br>\n*ترتيب القوائم بشكل أفضل<br>\n*أضافة ملفات اللغة : التركية - الفرنسية - المانية - الاسبانية - البرتغالية برازيل<br>\n\nNew:<br>\n*Image Editor<br>\n<br>\nجديد:<br>\n*تحرير وتعديل الصور<br>\n<br>\n<br>\nNew: <br>\nFixes to work on the new update application<br>\nجديد:<br>\nاصلاحات لكي يعمل على التحديث الجديد لتطبيق<br>\n<br>\n<br>\nNew: <br>\nFixing in the Change Your Location Lists<br>\nجديد:<br>\nأصلاح في قوائم تغيير الموقع<br>\n<br>\n<br>\nNew: <br>\n*Custom Filters<br>\n*Select Location Map<br>\nجديد:<br>\n*أضافة فلاتر مخصصة<br>\n*أختيار موقع من الخريطة<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

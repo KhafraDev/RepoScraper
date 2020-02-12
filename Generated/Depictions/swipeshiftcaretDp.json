@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/swipeshiftcaret0.gif",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 15, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Support iOS 13\n\n- Optimize for iOS 9.\n\n- Support WebKit based view(e.g. Safari).\n\n- Support for iOS 8<br>\n- Fix crash on markedTextRange unsupported text component.<br>\n- Remove MoveCaretWithHorizontalScroll option, it became the default.<br>\n- Refine icons.<br>\n- Support IME candidate string update.<br>\n\n- Fixed text deletion issue during Korean syllable composing on iOS 7. thx @devbug0\n\n- Add \"PreventSwipeLoupe\" option.\n<p>\n- Support arm64 devices\n<p>\n- Support iOS 7.\n\n- Add MoveWithHorizonScrollMode.\n\n- Fix for un-editable webView.\n\n- All feature available on all iOS version.<Br>\n- Fix edge position handling<Br>\n- Fix crash on some apps.<Br>\n\n- Add V.Scroll Lock and Move option<Br>\n- Remove CaretMagnifier option<br>\n\n* don't prevent other gesture.<br>\n* V.Scroll Lock option<br>\n\n- Add CaretMagnifier option.<br>\n- Modify preference\n- Fix reveal issue of vertical scroll (thanks Henry Wang)\n<p>\n- iOS 4 compatible<br>\n- Adjust faster by swipe speed<br>\n- Add support 123, ABC, ☆123 and あいう key for selection feature<br>\n- Re-fix SMS part issue\n<p>\n- Add Faster by swipe speed option<br>\n- Re-fix SMS part and reveal issue\n<p>\n- Add auto popup menu feature.<br>\n- Fix reveal issue.<br>\n- Don't affect if start from vertical scroll.<Br>\n- Improve stability.<Br>\n\n<p>\n- Add PreferenceLoader dependency\n<p>\n- Add Continual Move feature.<br>\n- Add preference.<br>\n- Fix SMS part issue.<br>\n- Remove Activator action with dependency<br>\n\nHotFix: crash issue\n<p>\nFix: SMS sending crash<br>\nFix: Rotate behavior issue<Br>\nNew: Add support Activator for gesture unavailable view( e.g. SMS )<br>\nfix crash issue\n<p>\nVarious fix for right to left writing direction langs\n<p>\nFix keyboard observer handling"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

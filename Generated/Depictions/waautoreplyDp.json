@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now Free.\n\nCompatible with iOS 8, 9 and 10\nAlso available,\n\nFeatures:\n1.Auto Reply for WhatsApp Messages.\n2.Supports Reply even if WhatsApp in Background.\n3.Supports Reply from LockScreen.\n4.Supports Reply even if WhatsApp killed by system.\n\nConfigure options from WhatsApp."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/waautoreply1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/waautoreply2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/waautoreply3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/waautoreply4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 26, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "fix autoreply when whatsapp shut down\n\n\nUpdate For WhatsApp 2.17.40+ \nIf you are using WhatsApp lower version,do not update WAAutoReply to version 1.3\n\n\nThis item is now Free.<br>\n<br>\n1.Add \"Enable Private Reply\" <br>\nIf you don't want auto reply your private chat,set it off,default is on.<br>\n<br>\n<br>\n1.Add Enable Group Reply Set<br>\nIf you do not want auto reply in chat group,keep Enable Group Reply is off.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

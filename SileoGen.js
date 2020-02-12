@@ -15,34 +15,38 @@
 
 /**
  * Util functions for RepoScraper
+ * Doesn't work, something weird with how SileoGen is exported.
  */
 const SileoGen = {}; 
 
 Object.defineProperties(SileoGen, {
     'version': {
-        writable: false,
-        value: 2.0
+        enumerable: true,
+        get: () => '2.0'
     },
     'screenshotSizes': {
-        writable: false,
-        value: [
-                { width: 320, height: 480, cornerRadius: 16 },    // iPhone 4/4S
-                { width: 320, height: 568, cornerRadius: 16 },    // iPhone 5/5S/SE
-                { width: 375, height: 667, cornerRadius: 16 },    // iPhone 6/6S/7/8
-                { width: 414, height: 736, cornerRadius: 16 },    // iPhone 6+/6S+/7+/8+
-                { width: 375, height: 812, cornerRadius: 25 },    // iPhone X/XS
-                { width: 414, height: 896, cornerRadius: 25 }     // iPhone XR/XS Max
+        enumerable: true,
+        get: () => [
+            { width: 320, height: 480, cornerRadius: 16 },    // iPhone 4/4S
+            { width: 320, height: 568, cornerRadius: 16 },    // iPhone 5/5S/SE
+            { width: 375, height: 667, cornerRadius: 16 },    // iPhone 6/6S/7/8
+            { width: 414, height: 736, cornerRadius: 16 },    // iPhone 6+/6S+/7+/8+
+            { width: 375, height: 812, cornerRadius: 25 },    // iPhone X/XS
+            { width: 414, height: 896, cornerRadius: 25 }     // iPhone XR/XS Max
         ]
     },
     'mostCommonSize': {
-        writable: false,
-        value: {
-            width: 414,
-	        height: 736,
-	        cornerRadius: 16
+        enumerable: true,
+        get: () => {
+            return { 
+                width: 414,
+                height: 736,
+                cornerRadius: 16
+            }
         }
     },
     'generateHeader': {
+        enumerable: true,
         value: text => {
             return {
                 class: 'DepictionHeaderView',
@@ -51,6 +55,7 @@ Object.defineProperties(SileoGen, {
         }
     },
     'generateSubheader': {
+        enumerable: true,
         value: text => {
             return {
                 class: 'DepictionSubheaderView',
@@ -59,6 +64,7 @@ Object.defineProperties(SileoGen, {
         }
     },
     'generateLabel': {
+        enumerable: true,
         value: (text, fontSize, fontWeight, textColor) => {
             return {
                 class: 'DepictionLabelView',
@@ -70,16 +76,21 @@ Object.defineProperties(SileoGen, {
         }
     },
     'generateSeparator': {
-        value: {
-            class: 'DepictionSeparatorView'
+        enumerable: true,
+        get: () => {
+            return  {
+                class: 'DepictionSeparatorView'
+            }
         }
     },
     'trimSeparator': {
+        enumerable: true,
         value: (array) => {
             return array instanceof Array && array[array.length - 1].class === 'DepictionSeparatorView' ? array.pop() : array;
         }
     },
     'generateTableText': {
+        enumerable: true,
         value: (title, text) => {
             return {
                 class: 'DepictionTableTextView',
@@ -89,6 +100,7 @@ Object.defineProperties(SileoGen, {
         }
     },
     'generateTableButton': {
+        enumerable: true,
         value: (title, action) => {
             return {
                 'class': 'DepictionTableButtonView',
@@ -98,12 +110,16 @@ Object.defineProperties(SileoGen, {
         }
     },
     'generateStackView': {
-        value: {
-            class: 'DepictionStackView',
-            views: Array(0)
+        enumerable: true,
+        get: () => { 
+            return {
+                class: 'DepictionStackView',
+                views: Array(0)
+            }
         }
     },
     'generateAutostackView': {
+        enumerable: true,
         value: horizontalSpacing => {
             return {
                 'class': 'DepictionAutoStackView',
@@ -113,6 +129,7 @@ Object.defineProperties(SileoGen, {
         }
     },
     'generateMarkdown': {
+        enumerable: true,
         value: html => {
             return {
                 class: 'DepictionMarkdownView',
@@ -121,6 +138,7 @@ Object.defineProperties(SileoGen, {
         }
     },
     'generateImage': {
+        enumerable: true,
         value: (url, width, height) => {
             return {
                 'class': 'DepictionImageView',
@@ -132,6 +150,7 @@ Object.defineProperties(SileoGen, {
         }
     },
     'generateScreenshot': {
+        enumerable: true,
         value: (url, accessibilityText) => {
             return {
                 'url': absoluteURL(url),
@@ -140,6 +159,7 @@ Object.defineProperties(SileoGen, {
         }
     },
     'generateScreenshots': {
+        enumerable: true,
         value: (width, height, cornerRadius) => {
             return {
                 'class': 'DepictionScreenshotsView',

@@ -1,0 +1,51 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Configure options from Settings.No Screenshots for this item."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 13, 2016",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "v2.2-3\n- few UI changes (overall cleaner look)\n- added option to animate the presentation of HUD \n- removed respring button (no need to respring/reboot to apply changes anymore)\n\nv2.1-8\n- minor HUD duration optimisation\n\nv2.1-7\n- text fixes\n- added Twitter button\n- minor fixes\n- added credits\n- added donation button\n- cleaned up a little \n- added respring button\n- fixed a bug that wouldn't apply changes\n- added instructions and troubleshoot instructions\n\n\nv2.0<Br>\n- cleaner look<br>\n- added option to hide ringer/volume HUD completely <br>\n- removed custom settings and implemented a slider for more control over HUD duration <br>\n\n- Added quicker HUD duration options\n<p>\n- Cleaned settings, looks neater\n<p>\n- Added custom HUD duration options"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

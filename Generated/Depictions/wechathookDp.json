@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "WeChatHook-微信辅助功能\n朋友圈一键转发\n自动抢红包(可延迟和自动回复)\n自动接受转账(带语音提醒和自动回复)\n自定义运动步数\n自定义地理位置\n自定义微信资料地区\n好友和群消息过滤\n消息防撤回\n非群主@所有人\n自动接受加好友请求\n关键词自动接受加好友请求\n在微信中使用Safari浏览器\n\n-下个版本预告\n关键词加群\n自动回复消息"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechathook1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechathook2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechathook3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechathook4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 15, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "修复转账bug\n新增消息清理\n\n\n修复置顶好友消息不预览问题<br>\n修复给好友转账不显示<br>\n修复朋友圈转发时假死问题<br>\n还优化一波东西。。。<br>\n-国庆中秋快乐-<br>\n增加转发朋友圈时屏蔽消息来源者<br>\n修改步数设置为最小和最大之间随机<br>\n(每天只会读取一次，所以不用担心会乱)<br>\n修复选择过滤列表点确定或取消闪退问题,修复消息不提醒的问题<br>\n修复分词功能打开以后重启微信自动关闭<br>\n---提示----<br>\n所有需要编辑的功能设置好内容以后需要按完成键保存！且内容不能为空!<br>\n<br>\n<br>\n\n修复几个闪退Bug<br>\n建议使用6.5.16版本的微信<br>\n<br>\n<br>\n优化弹幕卡顿问题，屏蔽了免打扰的群和公众号消息，处于好友聊天页面时不提示此好友的弹幕消息<Br>\n优化网络状态不佳时转发朋友圈闪退问题<Br>\n消息防撤回的提示改到了撤回的那条消息下面<Br>\n优化ios9以下系统使用safari浏览器闪退<Br>\n优化每天随机步数算法，保证两天不会出现一样的步数<Br>\n新增：删除聊天时保留聊天记录<Br>\n新增:屏蔽输入状态(对方看不到输入状态)<Br>\n<Br>\n<Br>\n修复了一些闪退的Bug<br>\n修复向好友转账会自动回复的问题<br>\n消息预览模式改成弹幕<br>\n新增防越狱检测（开启指纹支付）<br>\n微信运动步数支持设置多条，每天随机读取其中一条<br>\n<br>\n<br>\n-修复自定义地理位置BUG<br>\n-支持抢个人红包<br>\n-抢红包和转账以后自动回复可设置多条随机回复<br>\n设置方法，每条消息之间使用@分割<br>\n-新增一键转发开关<br>\n-新增个人消息自动回复<br>\n-新增消息预览，点击预览消息提示框可直接切换到聊天页面<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

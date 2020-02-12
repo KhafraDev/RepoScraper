@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/camerashy1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/camerashy2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 14, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "3.0 Changelog\n\n-Now compatible with Siri app suggestions\n\n-No longer shows the glyph when pulling past the Today view\n\n-Optimised codebase\n\nThanks for using this tweak, check me out on twitter @candoizo to see more of my tweaks :)\n\n\n2.0.1 -> 2.0.2<br>\n<br>\n-landscape support<br>\n-slightly smarter<br>\n<br>\nthanks for installing<br>\n\n2.0.1 -removes old files (smaller size)<br>\n<br>\n1.0.2-1 -> 2.0 changes: Tweak has been completely rewritten, includes<br>\n<br>\n-Respring is NOT needed when changing preferences<br>\n-New preference page<br>\n-initial ColorFlow3 compatibility<br>\n-Useless features removed<br>\n-Auto-adjusts in accordance with light/dark backgrounds<br>\n-Many under-the-hood optimizations<br>\n-New icon<br>\n<br>\nmany hours of hard work went into this update, and many more are still to come, consider supporting me if you enjoy this tweak & hope to see future improvements<br>\n\n1.0.2-1 changelog<br>\n<br>\n-This hotfix brings proper spacing to users who use tweaks that disable their Today view, please report any other issues noticed.<br>\n<br>\n*************************************************<br>\nA cheat code has been added, but it's not listed anywhere? You have to be a star and find the power to discover it yourself!<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

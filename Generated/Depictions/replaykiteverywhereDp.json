@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9 - 12.\n\nTested on iPhone SE (iOS 9.3.2), iPod 6 (iOS 10.2) and iPhone 8 (iOS 12.1.2)\n\n\nRecord any app's screen with/without microphone commentary, using system ReplayKit framework, at native resolution and 60fps.\n\nStart the recording by assigning a gesture in Activator.\n\n\nReplayKit will always record the sound from app, as the record confirmation only asks if you want to enable addition microphone commentary.\n\n\nIf the preview didn't pop up, you can always find the recordings in directory /var/mobile/Library/ReplayKit\n\nThis tweak is open sourced\n\nConfigure Activator from Settings.\n\n\n兼容iOS 9 & 10\n\n已在 iPhone SE (iOS 9.3.2) 及 iPod 6 (iOS 10.2) 上进行过测试\n\n感谢@幻光 在iOS10上协助测试\n\n\n利用系统ReplayKit框架，以原生分辨率和60fps随时录制任何app的屏幕\n\n通过Activator设置一个手势来开始录制\n\n\n如果录制预览没有正常显示，你可以在 /var/mobile/Library/ReplayKit 目录中找到录制的视频\n\n这个插件是开源的！\n\n在设置中配置插件选项\n\n\nConfigure options from Settings.\n\nIf you find the tweak helpful please consider"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/replaykiteverywhere1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/replaykiteverywhere2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/replaykiteverywhere3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "March 29, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "fix some problem caused by touch indicator\n\n<br>\nCompatible with iOS 12\nv1.6<br>\n- Touch indicator with fade out animation<br>\n- Fixed auto save not working on iOS 10<br>\n- Fixed compatibility with some games/apps<br>\n<br>\n<br>\nv1.5<br>\n- Added new touch indicator feature, defaults as showing during record. Can be set to hidden or always show even not recording (Only inside an app)<br>\n- Added a fix for continuous \"Failed to start record\" error<br>\n\nv1.4<br>\n- Added option to skip permission granting<br>\n- Added option to automatic save to camera roll after finish<br>\n- Dynamic update Activator listener name<br>\n- Moved init method to reduce blames<br>\n<br>\n- 添加选项跳过权限确认<br>\n- 添加选项自动保存至相册<br>\n- 动态更新Activator动作名<br>\n- 改进插件初始化<br>\nv1.3<br>\n- Added global microphone enable control for tweak, for those who never record microphone (like me)<br>\n- Added temporary files size info, and a quick link to check'em in iFile. Also corrected my misunderstand in explaination field<br>\n- Should be more reliable now<br>\n\nv1.2 Quality update! <br>\n1. We have a setting page now<br>\n2. With that setting page, we can now control the record quality, up to 15mbps video. Find detail in the settings! <br>\n3. Speaking of quality, I've fixed the issue which ReplayKit is putting two copy of left channel into semi-stereo output. Now record with true stereo music! (Hey Apple! Why would you do this to us)<br>\n<br>\n<br>\n1. Thrown away libobjcipc, now compatible with iOS 10<br>\n2. Added Chinese localization. (If you'd like to contribute for more language, please fork and fire a pull request on github, any improvement is welcomed!)<br>\n3. Added banner notification for record start and failure<br>\n4. Improved code for more stability, no more crash or stuck (I think?)<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

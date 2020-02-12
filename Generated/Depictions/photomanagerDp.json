@@ -1,0 +1,78 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9, 10 and 11\n\nIs your camera roll a mess? Do you hate using the photos app? Take back control of your photos with PhotoManager.\n\nFeatures:\n- Choose to move or copy photos out of the camera roll into albums\n- Protect albums with Touch ID or password (activated by long press or in edit menu)\n- Hide protected albums from other apps\n- Save photos directly to an album from the camera\n- Hide/show locked albums with a quick gesture\n- Individually hide stock albums including recently deleted\n- Change the number of grid columns\n- Customise the tab bar\n\nNotes:\n- PhotoManager does not modify any system files and will not apply in non-jailbroken mode.\n- It utilises Apple's inbuilt hidden photos folder. It is recommend to unhide any photos before installing this tweak\n- Syncing will move all album photos out of the camera roll. You can toggle which albums this affects in settings\n\nOptions configurable in settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/photomanager1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/photomanager2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/photomanager3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 23, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- iOS 11 support (Requires Rocketbootstrap)\n- Added ability to hide individual folders in apps (including photos app)\n- Added feature to automatically return to main album list if exiting photos app whilst in a locked album\n- Added haptic feedback for locking albums on supported devices\n- Added option to save image directly to an album from share sheet\n- Reorganised the preferences pane\n- Fixed multiple UI and functional bugs\n- Removed custom columns (due to incompatability across devices)\n\n\n1.1.1<br>\n- Fixed inability to turn off camera album picker<br>\n- Fixed camera album picker remembering an album when it shouldn't<br>\n- Fixed tab bar intermittently reappearing if only one tab showing <br>\n- Fixed toggling stock albums in WhatsApp<br>\n<br>\n<br>\n1.1.0 changes<br>\n- Initial iOS 9 support (custom columns not supported)<br>\n- Removed loophole for moving locked album photos back into camera roll without authorisation <br>\n- Added options to increase maximum zoom and show live photo indicators <br>\n- Fixed camera roll thumbnail showing photos that were moved out of camera roll<br>\n<br>\n<br>\n1.0.3<br>\n- Fix screenshots not showing in other apps<br>\n- Option to allow reordering of stock albums<br>\n<br>\n<br>\n1.0.2 fixes<br>\n- Fixed bug with cropping or rotating photos<br>\n- Fixed albums not showing in some apps such as Dropbox and OneDrive<br>\n- Attempt to fix layout issues<br>\n- Added option to disable custom column layouts<br>\n- Fixed photos not moving properly between custom albums<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

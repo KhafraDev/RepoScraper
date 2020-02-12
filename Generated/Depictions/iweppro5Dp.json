@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 5 to 13\n\niWepPRO WiFi exploit application for pentesting. iOS11 and Electra Jailbreak support.\n\n@iwazowski: Follow me on Twitter for last news about #iWepPRO.\n\niOS WEP/WPA password search application for wireless networks and routers. iWep PRO is an application for the iPhone, iPad and iPod touch that allow users check if their routers are exposed to some vulnerabilities.\n\niWep PRO provides tools and methods to check if your router is exposed to key calculation. Supported routers are detected automatically. So, just select one supported network and wait until iWep PRO finds, or not, your WEP/WPA key.\n\nBefore purchasing you can see if your router is exposed to commonest vulnerabilities. If your router is exposed, then you can choose purchase a license to exploit your router and see how easy is get access to it, or surf the web.\n\nOnce you have done the donation to get your license, you will not no pay anymore times, any other updates will be for free.\n\nYou can get your code following the links in the app, web or blog. Developer's Page link below.\n\nDonations and payments will be done only through paypal.\n\nSUPPORTED NETWORKS\n\n• WLAN_XX\n• WLAN_XXXX\n• JAZZTEL_XXXX\n• WLANXXXXXX\n• WiFiXXXXXX\n• YACOMXXXXXX\n• SpeedTouchXXXXXX\n• ThomsonXXXXXX\n• BTHomeHub-XXXX\n• INFINITUMXXXX (No 2Wire Router)\n• INFINITUMXXXXXX\n• EircomXXXX XXXX\n• Bbox-XXXXXX\n• DmaxXXXXXX\n• Orange-XXXXXX\n• Dlink-XXXXXX\n• CytaXXXXXX\n• TN_private_XXXXXX\n• BigPondXXXXXX\n• 02wirelessXXXXXX\n• Alice-XXXXXXXX\n• SKYXXXXX (V.1 Routers)\n• BlinkXXXXXX\n• ZTE_XXXX\n• MAXCOMXXXX\n• Belkin.XXXX\n• Belkin_XXXX\n• belkin.xxxx\n• Belkin.xxx\n• KT\n• KT_WLAN\n• HellowD\n• Hellowireless\n• SO070VOIP\n• Tbroadnet\n• KWI-B2200T\n• KWI-2200\n• myLGnet\n• myLG070\n• SK\n• tobis\n• PTCL-BB\n• PTCL-WiFi-BB\n• WIND_4G_XXX\n• WIND_4G_LTE_XXX\n• WIND_4G_LTE_XXXX\n• Primus-XXXX\n• Totalplay-XXXX\n• Huawei-HG8245-XXXX\n• PLDTHOMEDSL\n• UPCXXXXXXX\n• TG1672GXX-5G\n• DG1670AXX-5G\n\nWe are working to add more routers in the next versions."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/iweppro5-1.png",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/iweppro5-2.png",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/iweppro5-3.png",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "November 11, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Checkra1n Jailbreak support update.\n\nFix size errors for small screens (iPhone 4 and iPhone 5) If you are not getting errors with screen resolutions, you can skip this update.<Br>\n<Br>\n<Br>\nWe are fixing some bugs for some users with problems. So, if you are not getting any problem, you can skip this update.<Br>\n<Br>\nFixed bug for old devices, if you are not getting any error with the app, you can skip this update.<Br>\n\nAdded more routers:<br>\n· UPCXXXXXXX<br>\n· TG1672GXX-5G<br>\n· DG1670AXX-5G<br>\n\nFixing table headers and footers for some iOS versions and iPhone models. Please, send feedback to Twitter at @iwazowski<Br>\n<Br>\n<Br>\niOS11 support.<Br>\nElectra Jailbreak support.<Br>\nWe are working to fix all possible bugs and errors, so feel free to send us anything wrong you find.<Br>\n\nIf the app crashes you may need to install libLocation in order to fix it. You can find it in Cydia.<br>\nNew Germany supported routers added.<br>\nNew USA routers added.<br>\nMinor bugs fixes.<br>\n<br>\nAdded some USA network exploits\nRemoved offline dictionaries. Dictionaries are not needed anymore. All the calculation is done online.\n\nAdded PLDTHOMEDSL exploit<br>\nicon bug fix<Br>\n<br>\nAdded Totally-XXXX and Huawei-HG8245-XXXX exploits.\n\nAdded new Exploits for:<br>\n<br>\nWIND_4G_XXX<br>\nWIND_4G_LTE_XXX<br>\nWIND_4G_LTE_XXXX<br>\nPrimus-XXXX<br>\n<br>\nMore coming next week<br>\n\nFixed app validation due SSL certifications changes in iOS 9.\n<p>\niOS 9 Support\n\niOS 8.3 Jailbreak support<br>\nAdded some fixes<br>\n\nBug fixes\n\nFixed Belkin routers<br>\nAdded PTCL-BB<br>\n\nAdded PTCL-BB support\nAdded PTCL-WiFi-BB support\n\nStatistics fix<br>\nMinor bug fixes<br>\nStability improvements<br>\n\nPasswords Calculation fixes\n<p>\nMinor bug fixes<br>\nAdded Statistics<br>\n\nFixed Alice-XXXXXXXX networks bug.<br>\nFixed WLANXXXXXX networks bug.<Br>\nFixed SKYXXXXX networks bug.<br>\n<p>\n<p>\nFixed Dictionaries advise error.<Br>\nAdded Belkin routers support.<br>\n<p>\nAdded Korean Networks:<Br>\n&bull; KT<Br>\n&bull; KT_WLAN<Br>\n&bull; HellowD<Br>\n&bull; Hellowireless<Br>\n&bull; SO070VOIP<Br>\n&bull; Tbroadnet<Br>\n&bull; KWI-B2200T<Br>\n&bull; KWI-2200<Br>\n&bull; myLGnet<Br>\n&bull; myLG070<Br>\n&bull; SK<Br>\n&bull; tobis<Br>\n<p>\nFixed Alice Networks\n<p>\niOS 8 supoprt<br>\niPhone 6 and 6+ support<br>\nMajor bug fixes<br>\n\nStability improvements<Br>\nAdded routers ZTE_XXXX<br>\nAdded routers MAXCOM_XXXX<br>\nNew UI<br>\n\n- Improved stability<Br>\n- Added installed dictionaries view<br>\n\nDictionaries fix\n<p>\niOS 7 UI improvements<br>\niOS 7 support<br>\narm64 devices support<br>\n\n- Server address change.<br>\n- Minor bug fixes\n\n- Added validation help and tips<br>\n- iPad support fix<br>\n- Minor bug fixes<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

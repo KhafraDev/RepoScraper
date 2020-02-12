@@ -1,0 +1,78 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Note: FlixEnhancer for Netflix has been rebranded to FlixRatings for Netflix. Additionally, this package is changing repositories for new purchases. If you already have purchased FlixRatings, you can continue to use this version as it will continue to receive updates. More details can be found at.\n\nCompatible with iOS 8, 9, 10, 11,, 12 and 13 and all devices that can run Netflix 9.x.x, 10.x.x, 11.x.x, and 12.x.x.\n\nThis tweak will only work with titles that are presented in English. For best compatibility please set your Netflix profile language to English.\n\n\nFlixRatings is a tweak which presents the user with an \"enhanced rating\" from a popular online website that provides user and critic reviews for various filmography directly within the Netflix application for iOS. When available, this additional rating is seamlessly shown underneath the title of the summary page for any given movie or TV show. By tapping on the rating, Safari will navigate to the originating website which has more information about the rating. Version 2 of this tweak features a complete rewrite of the logic used for matching a title to a rating, resulting in a much higher success rate of finding the correct enhanced rating.\n\n\nThe rating is shown by either a percentage and/or meter, accompanied by an appropriate emoji. The ability to enabled or disable the rating percentage and/or meter can be configured directly within the settings inside the Netflix application.\n\nA \"star\" emoji is given out only to films (i.e. it will not be shown for TV shows). This type of emoji is given out to films which have:\n1. Maintained a steady score of 75% or higher\n2. At least 5 reviews from top critics\n3. More than 80 total reviews (for wide-release films)\n4. More than 40 total reviews (for limited-release films)\nA standard \"smile\" emoji indicates that at least 60% of the reviews are positive (also known as \"Fresh\" status).\nFinally, a \"poop\" emoji is shown when less than 60% of reviews are positive (also known as \"Rotten\" status).\n\nIf an enhanced rating cannot be found or determined for a specific title, a message will be displayed letting you know that the rating is not available. Please note that by enabling this feature, a small amount of additional data will be used.\n\n\nA legacy feature from FlixEnhancer has been retained: forward skip. At some point with the release of Netflix 10.x.x, the developers of Netflix revamped the in-app video player to include a forward skip button natively. That being said, the forward skip feature of this tweak is still functional when using the cast feature since Netflix does not yet provide a way to do that natively. Additionally, the forward skip feature of the tweak is available for older versions of the app which can be useful if you're stuck on a legacy version of iOS. Therefore, the Forward Skip feature is still included and can be configured in the settings. By enabling the forward skip option, a new button will be shown when playing a video within the native player of legacy versions of the application as well as on the casting bar of all Netflix versions. The skip time can be changed on the fly by tapping and holding on this new button, giving you the option to select between 10 and 60 seconds. The forward skip option can be toggled and configured from within the Netflix settings.\n\nDisclaimer: this tweak was designed to work with Netflix versions that are specified above in the tweak description. I will do my best to promptly test and update the tweak for any changes that Netflix makes in the future. However, if Netflix decides to completely redesign their application, I cannot guarantee that the tweak will be updated.\n\nEmoji art supplied by."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/flixenhancer1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/flixenhancer3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/flixenhancer4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "November 30, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 0.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Fix an issue with the settings menu not displaying correctly on some devices.\n\n\nAdds iOS 13 and checkra1n compatibility.\n\n\nFixed an error where enhanced ratings were failing to download.<br>\nCleaned up the animations of displaying the enhanced rating.<br>\nImproved the matching algorithm for better reliability finding enhanced ratings.<br>\nThere is now a more detailed response given whenever a rating cannot be found, there is no score yet for the title, or there was a network error.<br>\n\nImproved the reliability of finding an enhanced rating match.<br>\nConfirmed compatibility with Netflix 11.48.2.<br>\n<br>\n<br>\nComplete rewrite of the code that retrieves enhanced ratings for improved reliability<br>\nFixed bugs with the enhanced ratings being fetched multiple times per title<br>\nUpdated for iOS 11 and iOS 12 compatibility<br>\nRebrand the tweak to \"FlixRatings for Netflix\" (please see note about repository change for future purchases)<br>\n\nFix for German translations not loading properly.<br>\n<br>\n<br>\nUpdated to support Netflix 10.2.0.<br>\nAdded German translation (thanks @Karate_Creeper).<br>\n<br>\n<br>\nUpdated to fully support Netflix 10.x.x.<Br>\nMinor changes to support iOS 10.3.3 and iOS 11.<Br>\nFixed layout issues on iPad.<Br>\nRemoved the \"Chromecast Preferred Audio\" feature due to it being broken for several Netflix releases and the lack of use by users of the tweak.<Br>\n\nChanged the tracking color of the Enhanced Rating progress view to better match the aesthetic of the latest versions of Netflix.\n\nPrice drop to $0.99!<br>\nAdded Portuguese (Brazil) translations (thanks starglad)<br>\n\nFixed settings not displaying properly for non-English users.<br>\n<br>\nAdded support for Netflix 9.19.0\n\nAdded support to forward skip titles that have been downloaded for offline playback.<br>\nNo longer will attempt to request Enhanced Ratings when the application is offline.<br>\n\nFixed compatibility for 32-bit devices.\n\nFix for Enhanced Ratings causing a few particular titles to crash the Netflix application.<br>\n<br>\n<br>\nFix for the retrieval of Enhanced Ratings.<Br>\nUpdated the algorithm for how the Enhanced Ratings are processed meaning it should now support more titles.<br>\n\nFix the Chromecast forward skip button from being overlapped by the title text.\n\nUpdated for full iOS 10 compatibility.<br>\nTranslations added for Arabic and Spanish. If you would like to see FlixEnhancer in your language, please contact me for translation help.<br>\n\nFix for a change made that broke the Enhanced Ratings feature."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

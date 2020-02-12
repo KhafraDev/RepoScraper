@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8 to 13\n\nA tweak auto start/close VPN for app list, support iOS8/iOS9, no ads.\nYou can select apps from \"Setting\"-\"SmartVPN\", when you open app of list, VPN will auto start connect. Of course you need config VPN before this.When you close all app of list,VPN will auto close.\n\n首先需要在设置中配置好VPN。在打开特定应用时能够自动连接VPN，应用列表可以在“设置”-“SmartVPN”中选择。 当打开应用列表中的某个应用时，VPN自动开始连接；当列表中的所有应用都关闭时，会关闭VPN。\n\nConfigure options from Settings.\n\nDonate:\nIf you like, you can support me\n\n\n捐赠：\n如果你觉得好用，可以请我喝可乐，支付宝收款码地址："
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/smartvpn1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 14, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "1.Remove the annoying donation popup, there will be no more donations pop or ads in the future.\n2.Tested and passed on:\niPhone6s plus(12.4)\niPhone 8 (13.1.2)\n3.If it doesn't work, check your vpn config, then check plugin dependencies\n\n\nAdd support for iOS 10，Now it support iOS 8~10.<br>\nAll my friends, I'm sorry for waiting. I haven't had iOS10 device before, Now I test in iOS 10, it work fine.<br>\nThe next month I will test on the iOS 11 device and make sure it works.<br>\n<br>\nDonate:<br>\nIf you like, you can support me <a href=\"https://qr.alipay.com/FKX00359P1DUFRREXXMD44?t=1530235532204\" target=\"_new\">through AliPay</a><br>\n<br>\n<br>\n更新支持iOS 10，iOS 11未测试，理论上可以使用。<br>\n抱歉这么久没更新，主要是没有相关设备。<br>\n<br>\n捐赠：<br>\n如果你觉得好用，可以请我喝可乐，支付宝收款码地址：<a href=\"https://qr.alipay.com/FKX00359P1DUFRREXXMD44?t=1530235532204\" target=\"_new\">through AliPay</a><br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

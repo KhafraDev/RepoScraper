@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8 - 12\nRequires iPhone\n\nFlashAlert is a tweak that uses iPhone LED and/or screen flash to notify you when a notification is received or if you have active notifications.\n\nThe tweak lets you configure the following settings for each application:\n- Flash source: LED, screen, LED & screen\n- LED Flash pattern (10 different patterns)\n- Number of LED flashes (1-10)\n- LED flash intensity (Low, Medium, High)\n- Screen flash color and number of flashes\n\nNOTE: Due to HW limitations, low flash intensity is still pretty intense.\n\nAlso, it is possible to set and configure repeated alerts if you miss a notification.\n\nAnother cool feature is a blinker that will blink periodically (configurable) if you have unread notifications.\n\nConfigure options from Settings.\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/flashalert1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/flashalert2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/flashalert3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/flashalert4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "March 31, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Added iOS 12 support.\n\n\nIncreased number of repeats to 20.<br>\nAdded an option to repeat notification sound.<br>\nAdded default setting for all applications.<br>\n<br>\n<br>\nAdded iOS10 support.\n\nBugfix - flashing didn't stop after manual notification removal from the lockscreen.\n\nAdded support for iOS8.<br>\n\n<p>\nAdded screen flash support. It’s possible to have the following flash configuration per app:<br>\n- Disabled<br>\n- LED Flash<br>\n- Screen Flash<br>\n- Screen & LED Flash<br>\n<br>\nScreen flash can be configured to have a different color and number of flashes per app.<br>\n<br>\nAlso, tweak settings are improved a bit. It’s much easier to distinguish enabled apps from disabled ones.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

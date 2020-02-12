@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/cocoatop1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/cocoatop2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/cocoatop3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/cocoatop4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "June 17, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "2.0.1: In this version:\n- Filtering by any column;\n- Easier column management;\n- Fiddling with iOS 10 (please give feedback).\n\n\n2.0.0-309: In this version:<br>\n- Fixed RAM usage, now shows free memory;<br>\n- Modules page revamped;<br>\n- Kernel extensions are listed for kernel task;<br>\n- Optimized Ports and Files pages;<br>\n- Indication of linked pipes & sockets.<br>\n<p>\n1.0.0-204: In this version:<br>\n- Mach ports page added;<br>\n- Changing values are highlighed;<br>\n- Real thread names are shown;<br>\n- Lots of small improvements;<br>\n- Fixed icon.<br>\n\n1.0.0-6: At last, an update! In this version:<br>\n- New icon, finally!<br>\n- Per-process network statistics;<br>\n- Process summary page;<br>\n- Real-time threads & dispatch queues page;<br>\n- Added verbose descriptions about each data column;<br>\n- Added a quick guide;<br>\n- The Story is updated ;)<br>\n\n1.0.0-5: CocoaTop is becoming a professional tool. In this version:<br>\n- Per-process dynamic libraries view;<br>\n- Support for iOS5 (for the iPad 1 people);<br>\n- Real-time disk usage statistics (iOS 7+);<br>\n- New column presets!<br>\n\n1.0.0-4: This is a MEGA release! Featuring:<br>\n- Open files/sockets view;<br>\n- iOS 7 style, iOS 6 still supported;<br>\n- Fullscreen mode (two-finger tap);<br>\n- Table footer with summary;<br>\n- Column presets;<br>\n- New info in columns.<br>\n\nIn this version you can kill processes.\n<p>\nThis version supports wide iPhone 5 and 6 screens."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/byebadges1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/byebadges2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 4, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.1.0\n- Tested and working fine till iOS 13 too.\n- Added the option to Choose in Which Applications Hiding the Badges (AppList Dependence).\n- Changes/Fixes in Code (Totally Rewritten).\n- Changes/Fixes in Preferences Panel and New Images.\n\nThanks so much for this update to my dear friend and nice Dev Olivier Crespo (@OlyDJios) without him this could not have happened.\n\nHappy New Year to All of You!\n\n\nVersion 1.0.7<br>\n- Added the option to Hide the Updates Badge in App Store (tip by @cyber_smith1).<br>\n- Now you can add My Repo on Cydia and Donate Me (thanks so much) with the New Labels in Preferences Panel.<br>\n- Changes in Labels and Descriptions in Prefs.<br>\n- Small Fixes.<br>\nVersion 0.0.1-67<br>\n- Added the option to make all the Badges Dark.<br>\n- UI Modifications and Changes in the Settings Panel.<br>\n- Added the Extras Section in the Settings Panel.<br>\n- Optimized the Code.<br>\n<br>\n<br>\nVersion 0.0.1-66<br>\n- Code Fixes.<br>\n<br>\nVersion 0.0.1-65<br>\n- Completely redesigned and redefined the Settings Panel of the Tweak.<br>\n- Optimized the Code and the Preferences.<br>\n\nVersion 0.0.1-55<Br>\n- Added the option to hide only the view of Badges outside the Folders.<br>\n- Made changes inside the Preferences Panel.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "微信消息助手 群发突破200上限 自动语音转文字 语音转发 消息转群发 快速回复引用加@ 群消息类型过滤 支持全局设置和会话设置 番茄出品,\n\nwechat message assistant， support English\n\n\nSee larger Screenshots below.."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wxmessageassistant1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wxmessageassistant2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wxmessageassistant3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wxmessageassistant4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 26, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "支持微信7.0+\n如过是微信旧版本请不要升级\n\n\n新增自动接受群邀请功能<br>\nadd function auto accept group invitation<br>\n\n修复bug #+@设置不生效<br>\nbugfix (#+@)<br>\n1.增加【+1】功能 长按消息复制到输入框<br>\n2.增加朋友圈按关键字屏蔽 反微商必备<br>\n3.增加自己朋友圈长按❤️修改赞的个数，晒图，蹭活动神器<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

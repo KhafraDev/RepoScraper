@@ -1,0 +1,70 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/locationchangerx1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 11, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 2.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Fix the bug in iOS 11\n\n\nOptimization for \"Auto Move\"<Br>\n<br>\n<p>\nAdd Coordinate search: type \"#:latitude,longitude\" in search field and click search button(example:[#:-33.88066224,151.21230845])<br>\n<br>\nAdd Auto Move<Br>\nIt can change your location by the Base Coordinate automatically.<br>\nThat can help you play Pokemon GO at home and help you \"hatch Eggs\" at home, in anywhere.<br>\nAlso you can change the speed of the move.<br>\n\noptimization for CCQuick Toggle status\n\nFix the bug for iOS8\n<p>\nOptimization for iOS9<br>\nAdd ShortcutItem(3D Touch)<br>\n\n\nsome optimization\n\nAdd Mine Location Button"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

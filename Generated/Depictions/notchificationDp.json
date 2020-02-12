@@ -1,0 +1,74 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11 and 12\n\nReceive beautiful animations with your notifications! Purchase for $2.00 (via PayPal) through the tweaks settings page.\n\nSpecifically designed for the iPhone X but compatible with all devices. The main animation is a particle/bubble animation which fades in and floats up and around the notch on the iPhone X.\n\nThere are also a number of responsive animations (including some edge style animations) which change based on notification's icon colors.\n\nBlackout mode will make it so that you only see the animation on the lockscreen. Tapping the screen, or pressing the home button will wake up the device from the animated state.\n\nThe loop function will loop the animation on the screen until you press home, tap the animation, or the phone goes to sleep.\n\nIndividual toggles to enable on the lock screen and home screen.\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/notchification1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/notchification2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 1, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 2",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Fixed respring loops\nFixed safemode crashes\n\n\nFixed some apps not triggering animations\nAdded raise-to-wake for blackout\n\n\nFixed stuck animations<br>\nFixed lockscreen dim bug<br>\nCode Optimizations<br>\n<br>\n<br>\niOS 12 Support"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

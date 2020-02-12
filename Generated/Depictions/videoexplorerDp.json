@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 6, 7, 8, 9, 10 and 11"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/videoexplorer1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/videoexplorer2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/videoexplorer3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/videoexplorer4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 2, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- remove magic file check for iOS 11 (fixes crash when \"file\" package is installed)\n\n- fixed bug where \"Import\" button wasn't enabled<Br>\n<Br>\n- add compatibility for iOS 11\n- no more 'App May Slow Down Your iPhone' Warning\n\nFixed problem with where importing wasn't working with JODebox v3\n\n- add ability to import video from other apps or via Airdrop<br>\n- fix crash on startup in iOS 9<br>\n- fix some issues with importing in iOS 9<br>\n\n- fixes for iOS 8 (using JODebox/JOCastle instead of Gremlin)\n\n- fixes for problems with iPad\n- show error message about Gremlin on iOS 8\n- App is now free for all\n\n- video files without extensions will also be included in searches\n<p>\n<p>\nupdate requires the file package from Saurik's repo Telesphoreo, which \"guesses the type of a file from contents.\" <a href=\"http://cydia.saurik.com/package/file\" target=\"_new\">details for file</a>)\\\n\n- loading an app to list the video files it contains has been improved and is now much faster, especially for apps with many files<Br>\n- per app information about the amount of video files each contains<Br>\n- the ability to send multiple files via email<Br>\n- improved HUD displayed when searching, queuing and importing<Br>\n- search and imports can continue in the background longer than the 2-10 minutes in previous versions<Br>\n- iOS 7 style tab icons from Glyphish (also in files view now indicating folder or audio/visual file)<Br>\n- small icons used for the apps view<Br>\n- updated app icons<Br>\n\n\nSupport for iOS 7 (import using Gremlin)<br>\nBackwards compatibility for previous iOS versions<br>\nother various improvements<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

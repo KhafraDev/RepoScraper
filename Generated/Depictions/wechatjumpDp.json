@@ -1,0 +1,63 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "功能：\n微信跳一跳小助手。轻松就能上几百分。\n用法：\n进入跳一跳页面，点击“...”按钮。 设置完跳转系数，完成后，上滑设置框即可缩回。\n点击“...”按钮，点击开启辅助，在红色线范围内，从起始位置到下个坐标位置，手动滑动小人即可自动跳转。\n点击“关闭辅助”即可关闭助手\n\n点击“...”按钮，点击开启辅助，在红色线范围内，从小人位置滑动手指到下一个方块上。松开手指，即可自动跳转。\n\n注意：本插件原理是根据手滑直线距离确定按压时间，如果跳跃距离不合适，请自行把握设置跳跃系数。如果插件不起效果，请重新尝试安装，确认安装成功。"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechatjump1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechatjump2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechatjump3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/wechatjump4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 22, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

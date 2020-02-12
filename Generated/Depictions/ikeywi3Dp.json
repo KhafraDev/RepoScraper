@@ -1,0 +1,78 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ikeywi3-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ikeywi3-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/ikeywi3-3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "July 15, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Fix Chinese Stroke and Korean 10keys layout bugs.\nAdd Japanese localization\n\n\nFix a bug that the extra row shows in wrong place on iOS 11.\n\nBasic support for iOS 11 & iPhone X\n\nFix a bug that key display would be black if the user remove custom key settings.\nAdd Hebrew language for settings.<br>\nFix some graphic issues for settings.<br>\nRemove armv7s arch.<br>\n\nSupport for iOS 10\n\nAdd Turkish translation.\n\nCompatible with iOS 9.2~9.3\n\nSupport 32-bit applications on iOS 9<br>\nFix layout of Zhuyin Dynamic and Thai keyboard on iOS 9<br>\n<p>\nAdd ar.lproj<br>\nFix wrong display string in settings<br>\n<p>\nCompile with segalign\n<p>\nSupport iOS 9\n\nFix arrow keys in Chinese Pinyin and Japanese Romaji keyboard\n\nFix applist dependency\n<p>\nChange Applist style\n<p>\nFix crashes in Baidu map.<br>\nAdd an option to disable iKeywi in specific apps.<br>\n<p>\nPreferences bundle German translation\n<P>\n\nFix arrow keys\n<p>\nFix ZhuyinDynamic\n<p>\nFix Hebrew on iPhone 6\n<P>\nFix HWR (handwriting) layout\n<p>\nFix emoji (again)\n<P>\nFix duplicated emoji bug."
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

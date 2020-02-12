@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/notracking1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 23, 2015",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Added missing filter plist. This addressed a problem with the tweak being loaded into all processes by mistake - now it will only load into UIKit processes. (repo maintainer)\n\nI made a typo, wouldn't let users on iOS 7.0.x install the tweak - should be fixed now.\n<p>\n<p>\nMassive update!<Br>\n<Br>\nRevamped Settings page!<Br>\n<Br>\nMore apps - Twitter, Instagram, Facebook and Facebook Messenger with WhatsApp, Waze, Viber and Skype partially supported!<Br>\n<Br>\nMore options! You now have the ability to choose what the app tracks and what it doesn't. All changes require a respring.<Br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

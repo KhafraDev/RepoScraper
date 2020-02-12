@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9 and 10\n\nSet a default mail client which will be used to compose emails instead of apple's Mail app.\n\nCurrently Supported Mail Clients: Inbox, Gmail, Spark, Outlook, Airmail, and Yahoo Mail.\n\nConfigure Options from Settings\n\nPlease, considerto the author to support the development of future tweaks."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/mailclientdefault10-1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 21, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Resolve issue with preferences for some users after installing the tweak for the first time\n\nChoose apps which should use the standard Apple Mail app i.e. Blacklist\n\n\n(03/29/2017) Add support for Yahoo mail client<br>\n<br>\n(03/25/2017) Prevent Cydia from opening Compose View 2 times<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "App Hider can hide your Apps from SpringBoard like the Apps are disappeared from your iPhone. So you can hide the Apps which you don't want to let others know. Hiding the Cydia, just like your iOS device is not jailbroken. Hiding the Facebook, Instagram, Twitter to protect your privacy.\n\nApp Hider能够隐藏(屏蔽)你的应用，使得他人不知道你所安装的应用，从而保护你的隐私。"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/apphider1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/apphider2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/apphider3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "February 9, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Fixed a bug on iOS 13.\n\n\n- Fixed some bugs on Dark Mode.<br>\n<br>\n- Optimize for iOS 13.\n\n- Fixed the hidden apps' notifications are not responsive.<br>\n- Fixed a crash bug.<br>\n- Fixed a crash bug on Settings app.<br>\n<br>\n- Hide the hidden app on the list of Settings.\n- Remove launch menu from Settings. Spotlight code is the only way to launch App Hider while it's hidden.<br>\n- If spotlight code was not set and App Hider is hidden, the default spotlight code is '888999'.<br>\n- Hide the push notifications from hidden apps.<br>\n<br>\n<br>\n- Improve the compatibility with iOS7&iOS8.<br>\n- Fixed a crash bug.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

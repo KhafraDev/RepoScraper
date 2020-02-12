@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/btstack1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "November 28, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "-Fixed a connection problem in BTstack GPS\n\n\n<p>\n-Fix bug in handling of \"Force Off\" from Settings<br>\n<p>\n- Fixed race condition in BTstack startup\n<p>\n- Fix a connection problem for incoming connections<br>\n- Simpler Preferences UI<br>\n\nFix more connection problems\n\nSupport for ARM64 devices\n\nProvide symlinks to match older version<br>\nFixes compatibility with gpSPhone<br>\n\nFixes hard-coded Bluetooth Address (regression)\n\nFix accidentally broken Settings on iOS 3 and 4\nFix for iOS 6\n\n* FASTER: 3 mbps communication speed to Bluetooth Module on newer devices with iOS 4+ (was 930 kbps)<br>\n* Better Logging<br>\n* Logging enabled in Settings.app<br>\n* Log output added to packet log in /tmp/hci_dump.pklg<br>\n* Bug fixes: <br>\n* Prevent stalling when BTstack was open in Settings.app<br>\n* Don't close RFCOMM channel of other apps<br>\n* Don't trash link & remote device db on SIGINT<br>\n* More: see <a href=\"http://code.google.com/p/btstack/source/list\" target=\"_new\">BTstack on Googlecode</a><br>\n* Supports low-power mode during device sleep<br>\n* New RFCOMM & L2CAP state machines<br>\n* Less bugs<br>\n<ul>v 0.3-1170\n<li>Added BTstack Settings: Allows to switch between Off, Apple's Bluetooth and BTstack off\n</ul>\n<ul>v 0.3-434\n<li>developer API additions\n</ul>\n<ul>v 0.2-1045\n<li>Retina icons!\n<li>limit size of /tmp/hci_dump.pklg to 1000 packets (max 1 MB)\n<li>set SpringBoard icon after respring if active\n<li>power handling: handle power changes in all states, receive and handle power notifications, keep track of individual clients\n<li>automate scan enable management: hci_set_discoverable(bool) sets inquiry scan, page scan is always active\n<li>fixed bugs in cocoa run loop implementation\n<li>removed link key and name caching from BTstackManager, honor BTSTACK_EVENT_ REMOTE_NAME_CACHED\n</ul>\n<ul>v 0.2-975\n<li>Fix for regression bug in 0.2-899 that prevented automatic disabling of Apple Bluetooth stack, less crashes\n<li>Startup: send kill signal to BlueTool and BTServer, if necessary\n<li>Connection setup: don't close baseband during authentication\n<li>Remote Device DB: automatic link key handling in BTdaemon, provide cached remote names during inquiry\n<li>SDP: use 1000 bytes MTU, fix partial responses, fix an incompatibility with Windows native statck\n<li>Cocoa run_loop: added timeouts, include in libBTstack.dylib build\n</ul>\n\n<ul>v 0.2-899\n<li>less bugs/crashes\n<li>faster: 920 kbps UART speed (was: 230 kbps) \n<li>bigger: internal packet buffers are 1021 bytes for 3-DH5 packets\n<li>better: \n<li>sets Bluetooth device name to hostname\n<li>automatic ACL flowcontrol to prevent Bluetooth controller overflow\n<li>optional L2CAP credit-based flow control\n<li>MTU for L2CAP channels and services\n</ul>\n<ul>v 0.2-757\n<li>New SDP Server\n<li>Fixes to L2CAP protocol\n<li>Might work on iOS 4.0 ;)\n</ul>\n<ul>v 0.1-585\n<li>fix incoming l2cap connections\n<li>fix crash of daemon on app exit\n<li>allow for master/slave role change. \n</ul>\n<ul>v 0.1-642\n<li>BTstack can disable Apple BT on iPad, too.\n<li>Made Apple BT work after using BTstack\n<li>Supports L2CAP Information Request Signaling Command\n<li>Increase BT communication speed from 115200 to 230400\n</ul>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

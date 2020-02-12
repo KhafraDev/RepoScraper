@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9 and 10\n\nA YouTube enhancer.\nConfigure in the Settings app.\n\nRespring!\n\nFeedback and donations are appreciated! :D"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/bluebear4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/bluebear5.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "September 23, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "+ Switches are much more organized now!\n+ Added 4 more switches in User Interface\n\n\n+ Added description for certain switches!\n(Just tap on the switch label).\n+ Under-the-hood upgrades.\n\n* Stay tuned for update 3.0. (It's going to be great!)\nBear with me while I learn.\n\n\nMinor update<br>\n<br>\n+ Internal Fixes<br>\n+ Pop Up is Now Optional<br>\n+ Added 1 More Support Link<br>\n+ Fresh Icons<br>\n<br>\n<br>\n+ Requires iOS 9+<br>\n+ Added more switches!<br>\n+ Cleaner labels<br>\n<br>\n- Removed iOS 8 support<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

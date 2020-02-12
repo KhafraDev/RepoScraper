@@ -1,0 +1,77 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "This item is now Free.\n\nCompatible with iOS 9, 10, 11 and 12"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/iconizer1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/iconizer2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/iconizer3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/iconizer4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "May 4, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Added A12 devices support\n\n\n- Fixed compatibility issues with Harbor<br>\n- Fixed a shadow glitch<br>\n- Fixed an issue with Appcon\n\n- Fixed an issue where resized and rotated icons would return to their default size when launching an app<br>\n- Fixed an issue where resized and rotated icons would return to their default size when aborting an app launch<br>\n- Icon images in the App Switcher, Notification Center, Lockscreen, Spotlight search and Banners will now also be customized <br>\n- It is now possible to manually input value for slider in the app preferences by doing a long press on the desired slider<br>\n\n- Fixed compatibility issues with other tweaks<br>\n- Fixed a small issue<br>\n<br>\n- Fixed an issue that might have caused an crash on iOS9<br>\n<br>\n- Added full iOS10.2 support,<br>\n- Fixed some small bug in preferences<br>\n\n- Fixed a conflict with Manila tweak which may have caused a crash.<br>\n<br>\n- Fixed a small crash that could occasionally happen on respring<br>\n<br>\n- Fixed an issue where the calendar icon would not update when the date changes<br>\n\n- Fixed some small bugs that might have caused crashes<br>\n- Improved preferences<br>\n\n- Fixed a compatibility issue with FolderEnhancer where the folder icon border would not match the folder icon when the corner radius was specified in FolderEnhancer<br>\n<p>\n- Shadows can now be added to the icon<br>\n- Added new variations for automatic color (only dark colors, only bright colors)<br>\n- It is now possible to add border to folder icons<br>\n- Webclips (website bookmarks on springboard) can now also be customized<br>\n- It is now possible to hide or colorize the folder icon blur background<br>\n- It is now possible to hide or colorize the folder blur background when a folder is open<br>\n- Folders can now be customized with a PerApp profile<br>\n- Fixed wrong opacity when opening or closing an app while icon alpha was not 100%<br>\n- The scale and rotation will now be correct when opening an app<br>\n- Fixed an issue where the icon image would disappear when installing or updating apps<br>\n- Fixed an issue that might have cause a crash when rotating the device<br>\n- Fixed an issue where the selected icon or background for the preview would not be saved<br>\n- Fixed a small animation preview bug in the preferences<br>\n\n- Fixed compatibility issues with Auxo Legacy<br>\n- Fixed a crash that could occur when the folder background or mini icons in folders were removed<br>\n- Fixed icon label not reverting to default on folders when disabling the tweak without a respring<br>\n- Fixed some small bugs in preferences<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

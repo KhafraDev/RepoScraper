@@ -1,0 +1,37 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9 - 10\n\nAlso see: Allows the usage of all music app during resprings.\n\nThis tweak allows you to continue to listen to your Apple Music during resprings. This means that when you respring your device you can continue jaming out to the music as your music will not be interrupted.\n\nThis version of the tweak will only work with Apple Music. For other apps, see.\n\nKnown issue is using some streaming services you might witness a small pausing during resprings. This issue includes Beats One radio.\n\nThis tweak does NOT fix issues of apps interrupting your music, this does NOT allow you to use CCRecorder during resprings, this does NOT allow you to take video and listen to music at the same time."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 14, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [],
+			"tabname": "Changes"
+		}
+	]
+}

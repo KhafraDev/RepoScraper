@@ -1,0 +1,69 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 11 and 13\n\nWith SpringAnimations you can Set Nice SpringBoard Animations Effects.\n\nThe Item Includes (integrations) RightToLeftOpenApp and LeaveAppMakeBounce Tweaks available on my Repository.\n\nConfigure options from Settings.\n\nSee Screenshots below.\n\nMore Stuff to come!\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, enjoy it, thanks! :)\n\nwould be greatly appreciated!"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/springanimations1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/springanimations2.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "January 13, 2020",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Version 1.0.8\n- Updated to be Compatible on iOS 13.\n- Updated the Description of the control File.\n\n\nVersion 1.0.7<br>\n- Added support for arm64e/A12 (thanks Jonas for testing).<br>\n\nVersion 1.0.6<br>\n- Added iOS 12 Compatibility (Not arm64e yet).<br>\n- Added the option Make Red The Background of the Switcher and Give Red Freeze Frame Effect when opening/Leaving the Applications/Switcher.<br>\n\nVersion 1.0.5<br>\n- Added the option to Make White The Background of the Switcher and Give a White Freeze Frame Effect when opening and Leaving the Applications/Switcher.<br>\nVersion 1.0.4<br>\n- Added the option to Disable the Parallax Effects on the System Wide (Requested on Twitter by @san3ar). This option is in beta at the moment.<br>\n<br>\n<br>\nVersion 1.0.3<br>\n- Added the option to Hide The Blur on the Background of the Switcher (thanks @SASxL3GITGLITCH).<br>\n- Added some colors in the Preferences Panel :)<br>\n- Changes in Prefs.<br>\n\nVersion 1.0.2<Br>\n- Added the option to Make the Smooth Wave Spinning Effects when opening/Leaving the Applications/Switcher.<br>\n- Improvements.<br>\n\nVersion 1.0.1<br>\n- Added the option to Make Dark The Background of the Switcher and Give Round Effect when opening/Leaving the Applications/Switcher (Implemented My Tweak DarkSwitcher11 Available on My Repository).<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

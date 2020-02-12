@@ -1,0 +1,85 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8 to 12.4\n\nAdaptiveColorAlerts is my new Tweak that gives you the visual option to color all the Alerts based on the Wallpaper's Tint.\n\nBanners, Advises and Alerts will be fully fitted everywhere by the Background's Color in use.\n\nNo Respring Needed for enabling and disabling the Tweak.\n\nTesters: Lorenzo Noide (la Capra), SunnyTM and KSK. Thanks so much Guys!\n\nFeel free to contact me via Mail or via Twitter @CydiaGeek, i hope you like it, thanks! :)\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/adaptivecoloralerts1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/adaptivecoloralerts2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/adaptivecoloralerts3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/adaptivecoloralerts4.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/adaptivecoloralerts5.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/adaptivecoloralerts6.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "October 25, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Added Support Compatibility till iOS 12.4 and arm64e/A12 Devices.\n- Changes Prefs Labels Descriptions.\n\n\nVersion 1.4-3<br>\n- Added the option to Make the Borders of the Alerts Square.<br>\n\nVersion 1.4-2<br>\n- Fixed the Crashes on iOS 9 for some Users.<br>\n<br>\n<br>\nVersion 1.4-1<br>\n- Fixed UIView Glitch occurred on last update.<br>\n<br>\n<br>\nVersion 1.4<br>\n- Added the Full Support till iOS 11.3.1.<br>\n- Added the option to Remove the Alert Popup on Beta Firmwares. Tested on iOS 11.3 beta 6 (Implemented My Tweak ByeBetaAlert Available on My Repository).<br>\n- Changes in the Preferences Panel.<br>\n- General Improvements.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

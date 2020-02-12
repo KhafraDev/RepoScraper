@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 8, 9 and 10\nTry the Lite\n\nGetting tired of the old power down menu?\nNeed more functionality but like the look of most LG smartphones' power down menu?\n\nMiss the old iOS 7.0.x power down slider?\nBut also want the ability to respring, reboot, or enter safe mode?\n\nWell your request is now fulfilled! with StyloPowerDown you can now do all those things!\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stylopowerdown1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stylopowerdown2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stylopowerdown3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/stylopowerdown4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 20, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.00",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "-Fixed Airplane mode not working when the text is hidden from the buttons.\n-Fixed auto dismiss timer for Airplane mode.\n\n-Airplane mode toggle now actually toggles and auto dismisses! No more settings app launch!\n-Now works on the lock screen without having to unlock your device first.\n\n\n<br>\n- Fixed Safe mode issues on iOS 8 - 9 when airplane mode button was tapped.<Br>\n-Added back old way of toggling airplane mode since the last update didn't work (launches the settings app)<br>\n-Added device locked detection which tells the user to unlock to use the airplane mode function (added this because users said it would do nothing while locked).<br>\n\n-Added iOS 8 - 8.4 support! (all iPhones 5 and newer and iPod touch 5/6)<br>\n-Added iOS 9 - 9.3.3 support! (all iPhones 5 and newer and iPod touch 5/6)<br>\n-Airplane mode toggle no longer goes to settings!<br>\n\n-Fixed Alignment issues with the iOS 7.0.x power down slider on iPhone 6/6s/7 and the Plus models.<Br>\n-Added an option blur the background of the iOS 7.0.x power down menu.<Br>\n-Thanks to @FIixys (Twitter) for testing the tweak on his iPhone 6+ and @coolstarorg for the Upscale idea :P<Br>\n-LG power down menu alignment getting fixed soon! it's better than it was on the plus models but not by too much<Br>\n<Br>\n<Br>\n-Fixed the slide to power off for iOS 7.0.x <br>\n-Added more options.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

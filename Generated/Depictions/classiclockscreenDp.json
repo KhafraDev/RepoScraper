@@ -1,0 +1,82 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": ""
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/classiclockscreen1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/classiclockscreen2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/classiclockscreen3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/classiclockscreen4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 9, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "1. Rewritten based on Ventana\n2. Add iOS 10 Support\n3. Fix passcode entry issues on iPad\n4. Performance optimizations\n5. Fix Siri display issues on iOS 7 - 9\n\n\n1. Fix installation issues on iPads running iOS 9<br>\n<p>\n1. Fix random crash from notifications on iOS 9.3.3<br>\n2. Add full iOS 9.3.3 support<br>\n\nFix installation errors for some users on iOS versions older than 9.\n<p>\n1. Added support for iOS 9<br>\n2. Removed Classic Passcode view for all devices<br>\n3. Fixes Classic Mode on iPhone 6, 6+, 6s, and 6s+<br>\n\n1. Fixes crash when sliding notifications on iOS 8.3 and 8.4<br>\n2. Adds support for Atom<br>\n3. Adds support for JellyLock Unified<br>\n4. Fixes a bug with passcode handling in classic mode<br>\n\nFix time : font weirdness if seconds is enabled in modern mode.\n<p>\n1. Modern Mode is now enabled by default. Switch it off in settings if you want Classic Mode.<br>\n2. Fixes Lock Screen Camera on iOS 8<br>\n3. Fixes Classic Notification Background on iOS 8<br>\n\n<p>\n1. Fix issues where ClassicLockScreen would crash on certain lock screen wallpaper settings in modern mode\n<p>\nFix iPad slider regression on previous update(s)\n\n<P>\nFix some issues with Classic mode on iPhone 6 & 6+. (Still have to figure out the classic keypad issue though)\n<p>\nAdd LockGlyph Support.\n<p>\nAdds BerryC8 compatibility.\n\nAdd depedency for asset acquisition.\n\n1. Fix Crash on iOS 8<br>\n2. Rewrite Media Controls to work on iOS 8<br>\n3. Fix Notifications on iOS 8<br>\n4. Add support for iPhone 6<br>\n5. Note: Camera Grabber support on iOS 8 will be coming soon.<br>\n\nFIx a crash that some users experienced.\n<p>\n<p>\n1. Modern Mode! Get the best of both iOS 6 and iOS 7 with this modernized classic lock screen!<br>\n2. Add iPad support<br>\n3. Add support for Stride 2<br>\n4. Add support for AndroidLock XT<br>\n5. Add support for Forecast<br>\n6. Fix Media Control Bugs<br>\n7. Fix Touch ID Issues<br>\n8. Fix Wallpaper Scaling Bugs<br>\n9. Fix Camera Grabber<br>\n10. Fix a whole bunch of tweak conflicts<br>\n11. Fix Gesture issue on iOS 7.1.x.<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

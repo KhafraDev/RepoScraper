@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 9 and 10\nTested on iOS 9.3.3 and 10.2\n\nRequiresfrom AppStore.\n\n\n\nUse TouchID for Swedish BankID app. Simply because you don’t want anyone to be able to see your code when you type it using the numpad buttons.\n\nNo options to configure. Your code is stored in your Keychain first time you enter your code.\n\nThe developer of this tweak takes no responsibility if someone chops of your finger when robbing you.\n\nSource code available on\n\nBig thanks to Elijah Frederickson (mlnlover11) for his open source tweak TouchIDEverywhere. You find it on his repo."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/banktouch1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 19, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "iOS 10 support"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

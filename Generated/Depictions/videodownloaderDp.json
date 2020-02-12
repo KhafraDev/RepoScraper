@@ -1,0 +1,73 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "网页视频下载器，是一款能够在线高速缓存下载播放网络视频的工具应用。\n\n应用特性；\n- 输入视频网站地址，浏览网页。\n- 自动检测视频播放状态。\n- 自动提示是否需要缓存视频。\n- 视频管理功能。\n- 更多功能等你建议。"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/videodownloader1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/videodownloader2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/videodownloader3.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "December 30, 2019",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- 兼容iOS 13.\n\n- 修复视频可能无法下载的问题。<br>\n- 修复数据读取失败的问题<br>\n- 修正一个iOS12下的崩溃问题。<Br>\n<br>\n- 兼容A12设备。\n\n- 性能优化。<br>\n<br>\n- 适配iOS12.\n- 优化加载性能。\n- 添加分享功能。<br>\n- 适配iOS11的问题。<br>\n- Bugfix.<br>\n<br>\n- 修复兼容性问题。<br>\n- 下载性能优化。<br>\n- Support Scanning Qrcode to open web page.<br>\n<br>\n- 支持扫描二维码打开网页。<br>\n- fixed a crash issue on iOS11.<br>\n<br>\n- 修复iOS11可能崩溃的问题。<br>\n- 性能优化。<br>\n- 问题修复。<br>\n- 修复可能崩溃的问题。\n\n- 问题修复。<br>\n- 性能优化。<br>\n- 修正部分文案错误。<Br>\n- 完善用户体验。<Br>\n<Br>\n<Br>\n- 问题修复。<br>\n- 支持检查新版本。<br>\n\n- 修正可能崩溃的问题。<br>\n- 提高兼容性。<br>\n<br>\n<br>\n- 减小安装包大小。<br>\n- 可查看视频详情。<br>\n- 性能优化。<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

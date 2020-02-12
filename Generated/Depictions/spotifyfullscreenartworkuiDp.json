@@ -1,0 +1,65 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Compatible with iOS 10\n\nMakes the Spotify artwork fullscreen.\n\nConfigure options from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/spotifyfullscreenartworkui1.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "August 13, 2017",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "- Add a restart Spotify button in the settings pane\n- Compatibility with latest Spotify release (Thanks to Justin Dixon for pointing it out)\n\n\nYou spoke, I listened!<br>\n- Now includes preferences section in the Settings app so you can choose exactly which elements are hidden.<br>\n<br>\n<br>\nPer user requests, these items have been removed from the now playing view for a cleaner look.<br>\n<br>\n- \"Now Playing From...\" at the top center<br>\n- Next up queue button at the top right<br>\n- \"Devices available\" at the bottom center<br>\n<br>\nKeep the feedback/requests coming! Bug fixes are still planned.<br>\n\nFixes:<br>\n- Full Mitsuha compatibility<br>\n<br>\nKnown Bugs (will be fixed):<br>\n- Initial artwork sizing incorrect (before hitting play)<br>\n- Partial ColorFlow 3 compatibility<br>\n- iPad sizing issues<br>\n<br>\n<br>\nShoutout to /u/Gh0stByte for helping with code<br>\n<br>\nFixes:<br>\n- Fixed artwork aspect ratio on certain devices<br>\n- Fix to enable partial Mitsuha compatibility<br>\n<br>\nKnown Bugs (will be fixed):<br>\n- Initial artwork sizing incorrect (before hitting play)<br>\n- Mitsuha causes artwork to shift up<br>\n- Partial Colorflow 3 compatibility<br>\n- iPad sizing issues<br>\n<br>\nFuture Features:<br>\n- iPad compatibility <br>\n- Drag artwork down to exit now playing view<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}

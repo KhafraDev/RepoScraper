@@ -1,0 +1,86 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.7",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Requires iOS 10\n\nGive your music some color! ColorFlow 3 colors the music UI to match the currently playing song’s album artwork.\n\nIt works in the stock Music app, the Spotify app, and on the Lock Screen.\n\nColorFlow 3 has been rewritten since ColorFlow 2 to now support the new iOS 10 Lock Screen and the new stock Music app.\n\nColorFlow 3 supports all iOS 10, including iPhones, iPads, and iPods.\n\n(Tested on Spotify v8.0.0)\n\nConfigure ColorFlow 3 from Settings."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 8,
+					"itemSize": "{160, 160}",
+					"screenshots": [
+						{
+							"url": "https://zippy.gfycat.com/CreepyPlayfulCapeghostfrog.gif",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/colorflow3-1.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/colorflow3-2.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/colorflow3-3.jpg",
+							"accessibilityText": ""
+						},
+						{
+							"url": "https://moreinfo.thebigboss.org/moreinfo/colorflow3-4.jpg",
+							"accessibilityText": ""
+						}
+					]
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "March 27, 2018",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Commercial&nbsp;Package",
+					"title": "License"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "$ 1.99",
+					"title": "Suggested Price"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				}
+			],
+			"tabname": "Description"
+		},
+		{
+			"class": "DepictionStackView",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "What's New",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "• Fix crash with iOS 10.3 Music.app\n\n• Improved Flash support<br>\n<br>\n• Improved Spotify support\n• Improved Lock Screen status bar coloring<Br>\n• Improved HotDog and Acapella 3 support<br>"
+				}
+			],
+			"tabname": "Changes"
+		}
+	]
+}
