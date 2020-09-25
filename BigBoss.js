@@ -45,7 +45,8 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
 
     // information (price, updated)
     const info = body.getElementsWithTag('table')
-        .filter(t => t.className() === 'information')[0]
+        .filter(t => t.className() === 'information')
+        .shift();
         
     for(let i = 0; i <= info.getElementsWithClassName('key').length - 1; i++) {
         const key = info.getElementsWithClassName('key')[i].text();

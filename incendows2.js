@@ -37,12 +37,14 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
 
 	// changelog
 	const changelogURL = body.getElementsWithTag('a')
-		.filter(a => a.text().includes('Changelog'))[0];
+		.filter(a => a.text().includes('Changelog'))
+		.shift();
 
 	if(changelogURL && changelogURL.attr('href')) {
 		downloadPage(absoluteURL(changelogURL.attr('href')), 'CLHead', 'CLBody');
 
-		CLBody.getElementsWithTag('section')[0]
+		CLBody.getElementsWithTag('section')
+			.shift()
 			.children()
 			.map(c => {
 				if(c.tag() === 'h2') {
